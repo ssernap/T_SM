@@ -14,98 +14,51 @@ Library {
     $PropName		    "BdWindowsInfo"
     $ObjectID		    1
     $ClassName		    "Simulink.BDWindowsInfo"
-    Array {
-      Type		      "Simulink.WindowInfo"
-      Dimension		      2
+    Object {
+      $PropName		      "WindowsInfo"
+      $ObjectID		      2
+      $ClassName	      "Simulink.WindowInfo"
+      IsActive		      [1]
+      Location		      [-143.0, 31.0, 816.0, 539.0]
       Object {
-	$ObjectID		2
-	IsActive		[0]
-	Location		[-143.0, 31.0, 816.0, 539.0]
-	Object {
-	  $PropName		  "ModelBrowserInfo"
-	  $ObjectID		  3
-	  $ClassName		  "Simulink.ModelBrowserInfo"
-	  Visible		  [0]
-	  DockPosition		  "Left"
-	  Width			  [50]
-	  Height		  [50]
-	  Filter		  [9]
-	}
-	Object {
-	  $PropName		  "ExplorerBarInfo"
-	  $ObjectID		  4
-	  $ClassName		  "Simulink.ExplorerBarInfo"
-	  Visible		  [1]
-	}
-	Array {
-	  Type			  "Simulink.EditorInfo"
-	  Dimension		  2
-	  Object {
-	    $ObjectID		    5
-	    IsActive		    [1]
-	    ViewObjType		    "SimulinkTopLevel"
-	    LoadSaveID		    "0"
-	    Extents		    [766.0, 369.0]
-	    ZoomFactor		    [1.0]
-	    Offset		    [-78.587503731250763, 0.0]
-	  }
-	  Object {
-	    $ObjectID		    6
-	    IsActive		    [0]
-	    ViewObjType		    "SimulinkSubsys"
-	    LoadSaveID		    "4"
-	    Extents		    [766.0, 369.0]
-	    ZoomFactor		    [1.0]
-	    Offset		    [0.0, 0.0]
-	  }
-	  PropName		  "EditorsInfo"
-	}
+	$PropName		"ModelBrowserInfo"
+	$ObjectID		3
+	$ClassName		"Simulink.ModelBrowserInfo"
+	Visible			[0]
+	DockPosition		"Left"
+	Width			[50]
+	Height			[50]
+	Filter			[9]
       }
       Object {
-	$ObjectID		7
-	IsActive		[1]
-	Location		[536.0, 44.0, 816.0, 539.0]
-	Object {
-	  $PropName		  "ModelBrowserInfo"
-	  $ObjectID		  8
-	  $ClassName		  "Simulink.ModelBrowserInfo"
-	  Visible		  [0]
-	  DockPosition		  "Left"
-	  Width			  [50]
-	  Height		  [50]
-	  Filter		  [9]
-	}
-	Object {
-	  $PropName		  "ExplorerBarInfo"
-	  $ObjectID		  9
-	  $ClassName		  "Simulink.ExplorerBarInfo"
-	  Visible		  [1]
-	}
-	Array {
-	  Type			  "Simulink.EditorInfo"
-	  Dimension		  2
-	  Object {
-	    $ObjectID		    10
-	    IsActive		    [1]
-	    ViewObjType		    "SimulinkTopLevel"
-	    LoadSaveID		    "0"
-	    Extents		    [766.0, 369.0]
-	    ZoomFactor		    [1.0]
-	    Offset		    [0.0, 0.0]
-	  }
-	  Object {
-	    $ObjectID		    11
-	    IsActive		    [0]
-	    ViewObjType		    "SimulinkSubsys"
-	    LoadSaveID		    "11"
-	    Extents		    [766.0, 369.0]
-	    ZoomFactor		    [1.0]
-	    Offset		    [-5.0, 0.0]
-	  }
-	  PropName		  "EditorsInfo"
-	}
+	$PropName		"ExplorerBarInfo"
+	$ObjectID		4
+	$ClassName		"Simulink.ExplorerBarInfo"
+	Visible			[1]
       }
-      PropName		      "WindowsInfo"
+      Array {
+	Type			"Simulink.EditorInfo"
+	Dimension		2
+	Object {
+	  $ObjectID		  5
+	  IsActive		  [1]
+	  ViewObjType		  "SimulinkTopLevel"
+	  LoadSaveID		  "0"
+	  Extents		  [766.0, 369.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-78.587503731250763, 0.0]
+	}
+	Object {
+	  $ObjectID		  6
+	  IsActive		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "4"
+	  Extents		  [766.0, 369.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [0.0, 0.0]
+	}
+	PropName		"EditorsInfo"
+      }
     }
   }
   Created		  "Mon Mar 21 08:51:01 2016"
@@ -114,9 +67,9 @@ Library {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "Sebastian"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Mon Mar 21 11:25:58 2016"
-  RTWModifiedTimeStamp	  380460353
-  ModelVersionFormat	  "1.%<AutoIncrement:4>"
+  LastModifiedDate	  "Mon Mar 21 08:59:40 2016"
+  RTWModifiedTimeStamp	  380454655
+  ModelVersionFormat	  "1.%<AutoIncrement:2>"
   ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -193,13 +146,13 @@ Library {
     Type		    "Handle"
     Dimension		    1
     Simulink.ConfigSet {
-      $ObjectID		      12
+      $ObjectID		      7
       Version		      "1.14.2"
       Array {
 	Type			"Handle"
 	Dimension		9
 	Simulink.SolverCC {
-	  $ObjectID		  13
+	  $ObjectID		  8
 	  Version		  "1.14.2"
 	  StartTime		  "0.0"
 	  StopTime		  "10.0"
@@ -234,7 +187,7 @@ Library {
 	  InsertRTBMode		  "Whenever possible"
 	}
 	Simulink.DataIOCC {
-	  $ObjectID		  14
+	  $ObjectID		  9
 	  Version		  "1.14.2"
 	  Decimation		  "1"
 	  ExternalInput		  "[t, u]"
@@ -267,7 +220,7 @@ Library {
 	  Refine		  "1"
 	}
 	Simulink.OptimizationCC {
-	  $ObjectID		  15
+	  $ObjectID		  10
 	  Version		  "1.14.2"
 	  Array {
 	    Type		    "Cell"
@@ -327,7 +280,7 @@ Library {
 	  ParallelExecutionInRapidAccelerator on
 	}
 	Simulink.DebuggingCC {
-	  $ObjectID		  16
+	  $ObjectID		  11
 	  Version		  "1.14.2"
 	  RTPrefix		  "error"
 	  ConsistencyChecking	  "none"
@@ -417,7 +370,7 @@ Library {
 	  SFTransitionActionBeforeConditionDiag	"warning"
 	}
 	Simulink.HardwareCC {
-	  $ObjectID		  17
+	  $ObjectID		  12
 	  Version		  "1.14.2"
 	  ProdBitPerChar	  8
 	  ProdBitPerShort	  16
@@ -458,7 +411,7 @@ Library {
 	  ProdEqTarget		  on
 	}
 	Simulink.ModelReferenceCC {
-	  $ObjectID		  18
+	  $ObjectID		  13
 	  Version		  "1.14.2"
 	  UpdateModelReferenceTargets "IfOutOfDateOrStructuralChange"
 	  CheckModelReferenceTargetMessage "error"
@@ -473,7 +426,7 @@ Library {
 	  SupportModelReferenceSimTargetCustomCode off
 	}
 	Simulink.SFSimCC {
-	  $ObjectID		  19
+	  $ObjectID		  14
 	  Version		  "1.14.2"
 	  SFSimEnableDebug	  on
 	  SFSimOverflowDetection  on
@@ -489,7 +442,7 @@ Library {
 	}
 	Simulink.RTWCC {
 	  $BackupClass		  "Simulink.RTWCC"
-	  $ObjectID		  20
+	  $ObjectID		  15
 	  Version		  "1.14.2"
 	  Array {
 	    Type		    "Cell"
@@ -576,7 +529,7 @@ Library {
 	    Type		    "Handle"
 	    Dimension		    2
 	    Simulink.CodeAppCC {
-	      $ObjectID		      21
+	      $ObjectID		      16
 	      Version		      "1.14.2"
 	      Array {
 		Type			"Cell"
@@ -647,7 +600,7 @@ Library {
 	    }
 	    Simulink.GRTTargetCC {
 	      $BackupClass	      "Simulink.TargetCC"
-	      $ObjectID		      22
+	      $ObjectID		      17
 	      Version		      "1.14.2"
 	      Array {
 		Type			"Cell"
@@ -731,7 +684,7 @@ Library {
 	  }
 	}
 	hdlcoderui.hdlcc {
-	  $ObjectID		  23
+	  $ObjectID		  18
 	  Version		  "1.14.2"
 	  Description		  "HDL Coder custom configuration component"
 	  Name			  "HDL Coder"
@@ -840,7 +793,7 @@ Library {
   }
   System {
     Name		    "Fricciones"
-    Location		    [536, 44, 1352, 583]
+    Location		    [-143, 31, 673, 570]
     Open		    on
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200
@@ -854,7 +807,7 @@ Library {
     ShowPageBoundaries	    off
     ZoomFactor		    "100"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "21"
+    SIDHighWatermark	    "17"
     Block {
       BlockType		      SubSystem
       Name		      "Friccion \nCoulomb\nEsf"
@@ -865,11 +818,11 @@ Library {
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		24
+	$ObjectID		19
 	$ClassName		"Simulink.Mask"
 	Object {
 	  $PropName		  "Parameters"
-	  $ObjectID		  25
+	  $ObjectID		  20
 	  $ClassName		  "Simulink.MaskParameter"
 	  Type			  "edit"
 	  Name			  "Friccion"
@@ -880,7 +833,7 @@ Library {
       System {
 	Name			"Friccion \nCoulomb\nEsf"
 	Location		[536, 44, 1352, 583]
-	Open			on
+	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -956,72 +909,6 @@ Library {
 	  gain_unit		  "1"
 	}
 	Block {
-	  BlockType		  Reference
-	  Name			  "PS Saturation"
-	  SID			  "19"
-	  Ports			  [0, 0, 0, 0, 0, 1, 1]
-	  Position		  [85, 115, 115, 145]
-	  ZOrder		  18
-	  BlockMirror		  on
-	  LibraryVersion	  "8.31"
-	  SourceBlock		  "fl_lib/Physical Signals/Nonlinear Operators/PS Saturation"
-	  SourceType		  "PS Saturation"
-	  SourceFile		  "foundation.physical_signal.nonlinear.saturation"
-	  ComponentPath		  "foundation.physical_signal.nonlinear.saturation"
-	  ComponentVariants	  "foundation.physical_signal.nonlinear.saturation"
-	  ComponentVariantNames	  "saturation"
-	  ClassName		  "saturation"
-	  SchemaVersion		  "1"
-	  upper_limit		  "0.1"
-	  upper_limit_unit	  "1"
-	  lower_limit		  "- 0.1"
-	  lower_limit_unit	  "1"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "PS Saturation1"
-	  SID			  "20"
-	  Ports			  [0, 0, 0, 0, 0, 1, 1]
-	  Position		  [95, 175, 125, 205]
-	  ZOrder		  19
-	  BlockMirror		  on
-	  LibraryVersion	  "8.31"
-	  SourceBlock		  "fl_lib/Physical Signals/Nonlinear Operators/PS Saturation"
-	  SourceType		  "PS Saturation"
-	  SourceFile		  "foundation.physical_signal.nonlinear.saturation"
-	  ComponentPath		  "foundation.physical_signal.nonlinear.saturation"
-	  ComponentVariants	  "foundation.physical_signal.nonlinear.saturation"
-	  ComponentVariantNames	  "saturation"
-	  ClassName		  "saturation"
-	  SchemaVersion		  "1"
-	  upper_limit		  "0.1"
-	  upper_limit_unit	  "1"
-	  lower_limit		  "- 0.1"
-	  lower_limit_unit	  "1"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "PS Saturation2"
-	  SID			  "21"
-	  Ports			  [0, 0, 0, 0, 0, 1, 1]
-	  Position		  [100, 50, 130, 80]
-	  ZOrder		  20
-	  BlockMirror		  on
-	  LibraryVersion	  "8.31"
-	  SourceBlock		  "fl_lib/Physical Signals/Nonlinear Operators/PS Saturation"
-	  SourceType		  "PS Saturation"
-	  SourceFile		  "foundation.physical_signal.nonlinear.saturation"
-	  ComponentPath		  "foundation.physical_signal.nonlinear.saturation"
-	  ComponentVariants	  "foundation.physical_signal.nonlinear.saturation"
-	  ComponentVariantNames	  "saturation"
-	  ClassName		  "saturation"
-	  SchemaVersion		  "1"
-	  upper_limit		  "0.1"
-	  upper_limit_unit	  "1"
-	  lower_limit		  "- 0.1"
-	  lower_limit_unit	  "1"
-	}
-	Block {
 	  BlockType		  PMIOPort
 	  Name			  "t1"
 	  SID			  "12"
@@ -1085,6 +972,15 @@ Library {
 	}
 	Line {
 	  LineType		  "Connection"
+	  ZOrder		  14
+	  SrcBlock		  "PS Gain"
+	  SrcPort		  RConn1
+	  Points		  [-84, 0]
+	  DstBlock		  "t1"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
 	  ZOrder		  19
 	  SrcBlock		  "PS Gain2"
 	  SrcPort		  LConn1
@@ -1102,62 +998,27 @@ Library {
 	}
 	Line {
 	  LineType		  "Connection"
-	  ZOrder		  17
+	  ZOrder		  16
 	  SrcBlock		  "PS Gain1"
-	  SrcPort		  LConn1
-	  DstBlock		  "w2"
+	  SrcPort		  RConn1
+	  Points		  [-126, 0]
+	  DstBlock		  "t2"
 	  DstPort		  RConn1
 	}
 	Line {
 	  LineType		  "Connection"
-	  ZOrder		  20
+	  ZOrder		  18
 	  SrcBlock		  "PS Gain2"
-	  SrcPort		  RConn1
-	  DstBlock		  "PS Saturation1"
-	  DstPort		  LConn1
-	}
-	Line {
-	  LineType		  "Connection"
-	  ZOrder		  21
-	  SrcBlock		  "PS Saturation1"
 	  SrcPort		  RConn1
 	  DstBlock		  "t3"
 	  DstPort		  RConn1
 	}
 	Line {
 	  LineType		  "Connection"
-	  ZOrder		  22
+	  ZOrder		  17
 	  SrcBlock		  "PS Gain1"
-	  SrcPort		  RConn1
-	  Points		  [-10, 0; 0, -15]
-	  DstBlock		  "PS Saturation"
-	  DstPort		  LConn1
-	}
-	Line {
-	  LineType		  "Connection"
-	  ZOrder		  23
-	  SrcBlock		  "PS Saturation"
-	  SrcPort		  RConn1
-	  Points		  [-46, 0]
-	  DstBlock		  "t2"
-	  DstPort		  RConn1
-	}
-	Line {
-	  LineType		  "Connection"
-	  ZOrder		  24
-	  SrcBlock		  "PS Gain"
-	  SrcPort		  RConn1
-	  Points		  [0, -40]
-	  DstBlock		  "PS Saturation2"
-	  DstPort		  LConn1
-	}
-	Line {
-	  LineType		  "Connection"
-	  ZOrder		  25
-	  SrcBlock		  "PS Saturation2"
-	  SrcPort		  RConn1
-	  Points		  [-19, 0]
-	  DstBlock		  "t1"
+	  SrcPort		  LConn1
+	  DstBlock		  "w2"
 	  DstPort		  RConn1
 	}
       }
@@ -1172,11 +1033,11 @@ Library {
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		26
+	$ObjectID		21
 	$ClassName		"Simulink.Mask"
 	Object {
 	  $PropName		  "Parameters"
-	  $ObjectID		  27
+	  $ObjectID		  22
 	  $ClassName		  "Simulink.MaskParameter"
 	  Type			  "edit"
 	  Name			  "Friccion"
@@ -1297,7 +1158,7 @@ Library {
 	}
 	Line {
 	  LineType		  "Connection"
-	  ZOrder		  13
+	  ZOrder		  8
 	  SrcBlock		  "PS Subtract"
 	  SrcPort		  RConn1
 	  Points		  [66, 0]
