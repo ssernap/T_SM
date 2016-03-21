@@ -14,98 +14,39 @@ Library {
     $PropName		    "BdWindowsInfo"
     $ObjectID		    1
     $ClassName		    "Simulink.BDWindowsInfo"
-    Array {
-      Type		      "Simulink.WindowInfo"
-      Dimension		      2
+    Object {
+      $PropName		      "WindowsInfo"
+      $ObjectID		      2
+      $ClassName	      "Simulink.WindowInfo"
+      IsActive		      [1]
+      Location		      [-8.0, -8.0, 1382.0, 754.0]
       Object {
-	$ObjectID		2
-	IsActive		[0]
-	Location		[-143.0, 31.0, 816.0, 539.0]
-	Object {
-	  $PropName		  "ModelBrowserInfo"
-	  $ObjectID		  3
-	  $ClassName		  "Simulink.ModelBrowserInfo"
-	  Visible		  [0]
-	  DockPosition		  "Left"
-	  Width			  [50]
-	  Height		  [50]
-	  Filter		  [9]
-	}
-	Object {
-	  $PropName		  "ExplorerBarInfo"
-	  $ObjectID		  4
-	  $ClassName		  "Simulink.ExplorerBarInfo"
-	  Visible		  [1]
-	}
-	Array {
-	  Type			  "Simulink.EditorInfo"
-	  Dimension		  2
-	  Object {
-	    $ObjectID		    5
-	    IsActive		    [1]
-	    ViewObjType		    "SimulinkTopLevel"
-	    LoadSaveID		    "0"
-	    Extents		    [766.0, 369.0]
-	    ZoomFactor		    [1.0]
-	    Offset		    [-78.587503731250763, 0.0]
-	  }
-	  Object {
-	    $ObjectID		    6
-	    IsActive		    [0]
-	    ViewObjType		    "SimulinkSubsys"
-	    LoadSaveID		    "4"
-	    Extents		    [766.0, 369.0]
-	    ZoomFactor		    [1.0]
-	    Offset		    [0.0, 0.0]
-	  }
-	  PropName		  "EditorsInfo"
-	}
+	$PropName		"ModelBrowserInfo"
+	$ObjectID		3
+	$ClassName		"Simulink.ModelBrowserInfo"
+	Visible			[0]
+	DockPosition		"Left"
+	Width			[50]
+	Height			[50]
+	Filter			[9]
       }
       Object {
-	$ObjectID		7
+	$PropName		"ExplorerBarInfo"
+	$ObjectID		4
+	$ClassName		"Simulink.ExplorerBarInfo"
+	Visible			[1]
+      }
+      Object {
+	$PropName		"EditorsInfo"
+	$ObjectID		5
+	$ClassName		"Simulink.EditorInfo"
 	IsActive		[1]
-	Location		[536.0, 44.0, 816.0, 539.0]
-	Object {
-	  $PropName		  "ModelBrowserInfo"
-	  $ObjectID		  8
-	  $ClassName		  "Simulink.ModelBrowserInfo"
-	  Visible		  [0]
-	  DockPosition		  "Left"
-	  Width			  [50]
-	  Height		  [50]
-	  Filter		  [9]
-	}
-	Object {
-	  $PropName		  "ExplorerBarInfo"
-	  $ObjectID		  9
-	  $ClassName		  "Simulink.ExplorerBarInfo"
-	  Visible		  [1]
-	}
-	Array {
-	  Type			  "Simulink.EditorInfo"
-	  Dimension		  2
-	  Object {
-	    $ObjectID		    10
-	    IsActive		    [1]
-	    ViewObjType		    "SimulinkTopLevel"
-	    LoadSaveID		    "0"
-	    Extents		    [766.0, 369.0]
-	    ZoomFactor		    [1.0]
-	    Offset		    [0.0, 0.0]
-	  }
-	  Object {
-	    $ObjectID		    11
-	    IsActive		    [0]
-	    ViewObjType		    "SimulinkSubsys"
-	    LoadSaveID		    "11"
-	    Extents		    [766.0, 369.0]
-	    ZoomFactor		    [1.0]
-	    Offset		    [-5.0, 0.0]
-	  }
-	  PropName		  "EditorsInfo"
-	}
+	ViewObjType		"SimulinkTopLevel"
+	LoadSaveID		"0"
+	Extents			[1332.0, 587.0]
+	ZoomFactor		[2.4148936170212765]
+	Offset			[6.89427312775328, 114.20264317180617]
       }
-      PropName		      "WindowsInfo"
     }
   }
   Created		  "Mon Mar 21 08:51:01 2016"
@@ -114,9 +55,9 @@ Library {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "Sebastian"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Mon Mar 21 11:25:58 2016"
-  RTWModifiedTimeStamp	  380460353
-  ModelVersionFormat	  "1.%<AutoIncrement:4>"
+  LastModifiedDate	  "Mon Mar 21 16:13:17 2016"
+  RTWModifiedTimeStamp	  380471047
+  ModelVersionFormat	  "1.%<AutoIncrement:7>"
   ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -193,13 +134,13 @@ Library {
     Type		    "Handle"
     Dimension		    1
     Simulink.ConfigSet {
-      $ObjectID		      12
+      $ObjectID		      6
       Version		      "1.14.2"
       Array {
 	Type			"Handle"
 	Dimension		9
 	Simulink.SolverCC {
-	  $ObjectID		  13
+	  $ObjectID		  7
 	  Version		  "1.14.2"
 	  StartTime		  "0.0"
 	  StopTime		  "10.0"
@@ -234,7 +175,7 @@ Library {
 	  InsertRTBMode		  "Whenever possible"
 	}
 	Simulink.DataIOCC {
-	  $ObjectID		  14
+	  $ObjectID		  8
 	  Version		  "1.14.2"
 	  Decimation		  "1"
 	  ExternalInput		  "[t, u]"
@@ -267,7 +208,7 @@ Library {
 	  Refine		  "1"
 	}
 	Simulink.OptimizationCC {
-	  $ObjectID		  15
+	  $ObjectID		  9
 	  Version		  "1.14.2"
 	  Array {
 	    Type		    "Cell"
@@ -327,7 +268,7 @@ Library {
 	  ParallelExecutionInRapidAccelerator on
 	}
 	Simulink.DebuggingCC {
-	  $ObjectID		  16
+	  $ObjectID		  10
 	  Version		  "1.14.2"
 	  RTPrefix		  "error"
 	  ConsistencyChecking	  "none"
@@ -417,7 +358,7 @@ Library {
 	  SFTransitionActionBeforeConditionDiag	"warning"
 	}
 	Simulink.HardwareCC {
-	  $ObjectID		  17
+	  $ObjectID		  11
 	  Version		  "1.14.2"
 	  ProdBitPerChar	  8
 	  ProdBitPerShort	  16
@@ -458,7 +399,7 @@ Library {
 	  ProdEqTarget		  on
 	}
 	Simulink.ModelReferenceCC {
-	  $ObjectID		  18
+	  $ObjectID		  12
 	  Version		  "1.14.2"
 	  UpdateModelReferenceTargets "IfOutOfDateOrStructuralChange"
 	  CheckModelReferenceTargetMessage "error"
@@ -473,7 +414,7 @@ Library {
 	  SupportModelReferenceSimTargetCustomCode off
 	}
 	Simulink.SFSimCC {
-	  $ObjectID		  19
+	  $ObjectID		  13
 	  Version		  "1.14.2"
 	  SFSimEnableDebug	  on
 	  SFSimOverflowDetection  on
@@ -489,7 +430,7 @@ Library {
 	}
 	Simulink.RTWCC {
 	  $BackupClass		  "Simulink.RTWCC"
-	  $ObjectID		  20
+	  $ObjectID		  14
 	  Version		  "1.14.2"
 	  Array {
 	    Type		    "Cell"
@@ -576,7 +517,7 @@ Library {
 	    Type		    "Handle"
 	    Dimension		    2
 	    Simulink.CodeAppCC {
-	      $ObjectID		      21
+	      $ObjectID		      15
 	      Version		      "1.14.2"
 	      Array {
 		Type			"Cell"
@@ -647,7 +588,7 @@ Library {
 	    }
 	    Simulink.GRTTargetCC {
 	      $BackupClass	      "Simulink.TargetCC"
-	      $ObjectID		      22
+	      $ObjectID		      16
 	      Version		      "1.14.2"
 	      Array {
 		Type			"Cell"
@@ -731,7 +672,7 @@ Library {
 	  }
 	}
 	hdlcoderui.hdlcc {
-	  $ObjectID		  23
+	  $ObjectID		  17
 	  Version		  "1.14.2"
 	  Description		  "HDL Coder custom configuration component"
 	  Name			  "HDL Coder"
@@ -807,6 +748,24 @@ Library {
       BlockType		      PMIOPort
     }
     Block {
+      BlockType		      Scope
+      ModelBased	      off
+      TickLabels	      "OneTimeTick"
+      ZoomMode		      "on"
+      Grid		      "on"
+      TimeRange		      "auto"
+      YMin		      "-5"
+      YMax		      "5"
+      SaveToWorkspace	      off
+      SaveName		      "ScopeData"
+      DataFormat	      "Array"
+      LimitDataPoints	      on
+      MaxDataPoints	      "5000"
+      Decimation	      "1"
+      SampleInput	      off
+      SampleTime	      "-1"
+    }
+    Block {
       BlockType		      SubSystem
       ShowPortLabels	      "FromPortIcon"
       Permissions	      "ReadWrite"
@@ -840,7 +799,7 @@ Library {
   }
   System {
     Name		    "Fricciones"
-    Location		    [536, 44, 1352, 583]
+    Location		    [-8, -8, 1374, 746]
     Open		    on
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200
@@ -852,24 +811,24 @@ Library {
     TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "100"
+    ZoomFactor		    "241"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "21"
+    SIDHighWatermark	    "66"
     Block {
       BlockType		      SubSystem
       Name		      "Friccion \nCoulomb\nEsf"
       SID		      "11"
       Ports		      [0, 0, 0, 0, 0, 3, 3]
-      Position		      [215, 124, 255, 166]
+      Position		      [295, 124, 335, 166]
       ZOrder		      12
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		24
+	$ObjectID		18
 	$ClassName		"Simulink.Mask"
 	Object {
 	  $PropName		  "Parameters"
-	  $ObjectID		  25
+	  $ObjectID		  19
 	  $ClassName		  "Simulink.MaskParameter"
 	  Type			  "edit"
 	  Name			  "Friccion"
@@ -880,7 +839,7 @@ Library {
       System {
 	Name			"Friccion \nCoulomb\nEsf"
 	Location		[536, 44, 1352, 583]
-	Open			on
+	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -1167,16 +1126,16 @@ Library {
       Name		      "Friccion \nCoulomb\nR"
       SID		      "4"
       Ports		      [0, 0, 0, 0, 0, 1, 2]
-      Position		      [75, 120, 115, 160]
+      Position		      [150, 120, 190, 160]
       ZOrder		      8
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		26
+	$ObjectID		20
 	$ClassName		"Simulink.Mask"
 	Object {
 	  $PropName		  "Parameters"
-	  $ObjectID		  27
+	  $ObjectID		  21
 	  $ClassName		  "Simulink.MaskParameter"
 	  Type			  "edit"
 	  Name			  "Friccion"
@@ -1186,8 +1145,8 @@ Library {
       }
       System {
 	Name			"Friccion \nCoulomb\nR"
-	Location		[536, 44, 1352, 583]
-	Open			on
+	Location		[-1784, -245, -584, 407]
+	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -1305,6 +1264,1101 @@ Library {
 	  DstPort		  RConn1
 	}
       }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "Friccion \nSM-SS\nEsf"
+      SID		      "43"
+      Ports		      [0, 0, 0, 0, 0, 3, 3]
+      Position		      [305, 244, 345, 286]
+      ZOrder		      233
+      RequestExecContextInheritance off
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		22
+	$ClassName		"Simulink.Mask"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  4
+	  Object {
+	    $ObjectID		    23
+	    Type		    "edit"
+	    Name		    "BFT"
+	    Prompt		    "Breakaway friction torque (N*m)"
+	    Value		    "0.2"
+	  }
+	  Object {
+	    $ObjectID		    24
+	    Type		    "edit"
+	    Name		    "CFT"
+	    Prompt		    "Coulomb friction torque (N*m)"
+	    Value		    "0.15"
+	  }
+	  Object {
+	    $ObjectID		    25
+	    Type		    "edit"
+	    Name		    "VFc"
+	    Prompt		    "Viscous friction coeff (N*m/(rad/s))"
+	    Value		    "0.001"
+	  }
+	  Object {
+	    $ObjectID		    26
+	    Type		    "edit"
+	    Name		    "Tac"
+	    Prompt		    "Transition approximation coeff (s/rad)"
+	    Value		    "5"
+	  }
+	  PropName		  "Parameters"
+	}
+	Array {
+	  Type			  "Simulink.dialog.Group"
+	  Dimension		  2
+	  Object {
+	    $ObjectID		    27
+	    Prompt		    "%<MaskType>"
+	    Object {
+	      $PropName		      "DialogControls"
+	      $ObjectID		      28
+	      $ClassName	      "Simulink.dialog.Text"
+	      Prompt		      "%<MaskDescription>"
+	      Name		      "DescTextVar"
+	    }
+	    Name		    "DescGroupVar"
+	  }
+	  Object {
+	    $ObjectID		    29
+	    Prompt		    "Friction"
+	    Array {
+	      Type		      "Simulink.dialog.parameter.Edit"
+	      Dimension		      4
+	      Object {
+		$ObjectID		30
+		Name			"BFT"
+	      }
+	      Object {
+		$ObjectID		31
+		Name			"CFT"
+	      }
+	      Object {
+		$ObjectID		32
+		Name			"VFc"
+	      }
+	      Object {
+		$ObjectID		33
+		Name			"Tac"
+	      }
+	      PropName		      "DialogControls"
+	    }
+	    Name		    "ParameterGroupVar"
+	  }
+	  PropName		  "DialogControls"
+	}
+      }
+      System {
+	Name			"Friccion \nSM-SS\nEsf"
+	Location		[-1784, -245, -584, 407]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"50"
+	Block {
+	  BlockType		  Reference
+	  Name			  "Mechanical\nRotational Reference"
+	  SID			  "23"
+	  Ports			  [0, 0, 0, 0, 0, 1]
+	  Position		  [195, 815, 215, 835]
+	  ZOrder		  216
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  ShowName		  off
+	  LibraryVersion	  "8.31"
+	  FontName		  "Arial"
+	  SourceBlock		  "fl_lib/Mechanical/Rotational Elements/Mechanical\nRotational Reference"
+	  SourceType		  "Mechanical\nRotational Reference"
+	  SourceFile		  "foundation.mechanical.rotational.reference"
+	  ComponentPath		  "foundation.mechanical.rotational.reference"
+	  ComponentVariants	  "foundation.mechanical.rotational.reference"
+	  ComponentVariantNames	  "reference"
+	  ClassName		  "reference_rot"
+	  SchemaVersion		  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Mechanical\nRotational Reference1"
+	  SID			  "24"
+	  Ports			  [0, 0, 0, 0, 0, 1]
+	  Position		  [195, 660, 215, 680]
+	  ZOrder		  219
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  ShowName		  off
+	  LibraryVersion	  "8.31"
+	  FontName		  "Arial"
+	  SourceBlock		  "fl_lib/Mechanical/Rotational Elements/Mechanical\nRotational Reference"
+	  SourceType		  "Mechanical\nRotational Reference"
+	  SourceFile		  "foundation.mechanical.rotational.reference"
+	  ComponentPath		  "foundation.mechanical.rotational.reference"
+	  ComponentVariants	  "foundation.mechanical.rotational.reference"
+	  ComponentVariantNames	  "reference"
+	  ClassName		  "reference_rot"
+	  SchemaVersion		  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Mechanical\nRotational Reference2"
+	  SID			  "25"
+	  Ports			  [0, 0, 0, 0, 0, 1]
+	  Position		  [177, 490, 193, 510]
+	  ZOrder		  222
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  ShowName		  off
+	  LibraryVersion	  "8.31"
+	  FontName		  "Arial"
+	  SourceBlock		  "fl_lib/Mechanical/Rotational Elements/Mechanical\nRotational Reference"
+	  SourceType		  "Mechanical\nRotational Reference"
+	  SourceFile		  "foundation.mechanical.rotational.reference"
+	  ComponentPath		  "foundation.mechanical.rotational.reference"
+	  ComponentVariants	  "foundation.mechanical.rotational.reference"
+	  ComponentVariantNames	  "reference"
+	  ClassName		  "reference_rot"
+	  SchemaVersion		  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "PS-Simulink\nConverter"
+	  SID			  "26"
+	  Ports			  [0, 1, 0, 0, 0, 1]
+	  Position		  [360, 340, 390, 370]
+	  ZOrder		  224
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "nesl_utility/PS-Simulink\nConverter"
+	  SourceType		  "PS-Simulink\nConverter"
+	  ContentPreviewEnabled	  off
+	  PhysicalDomain	  "network_engine_domain"
+	  SubClassName		  "ps_output"
+	  LeftPortType		  "input"
+	  RightPortType		  "output"
+	  PseudoPeriodic	  off
+	  Frequencies		  "[]"
+	  Unit			  "rad/s"
+	  AffineConversion	  off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "PS-Simulink\nConverter1"
+	  SID			  "27"
+	  Ports			  [0, 1, 0, 0, 0, 1]
+	  Position		  [375, 535, 405, 565]
+	  ZOrder		  226
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "nesl_utility/PS-Simulink\nConverter"
+	  SourceType		  "PS-Simulink\nConverter"
+	  ContentPreviewEnabled	  off
+	  PhysicalDomain	  "network_engine_domain"
+	  SubClassName		  "ps_output"
+	  LeftPortType		  "input"
+	  RightPortType		  "output"
+	  PseudoPeriodic	  off
+	  Frequencies		  "[]"
+	  Unit			  "rad/s"
+	  AffineConversion	  off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "PS-Simulink\nConverter2"
+	  SID			  "28"
+	  Ports			  [0, 1, 0, 0, 0, 1]
+	  Position		  [460, 655, 490, 685]
+	  ZOrder		  228
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "nesl_utility/PS-Simulink\nConverter"
+	  SourceType		  "PS-Simulink\nConverter"
+	  ContentPreviewEnabled	  off
+	  PhysicalDomain	  "network_engine_domain"
+	  SubClassName		  "ps_output"
+	  LeftPortType		  "input"
+	  RightPortType		  "output"
+	  PseudoPeriodic	  off
+	  Frequencies		  "[]"
+	  Unit			  "rad/s"
+	  AffineConversion	  off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Rotational\nSimscape Intf"
+	  SID			  "30"
+	  Ports			  [0, 0, 0, 0, 0, 2, 2]
+	  Position		  [250, 709, 285, 751]
+	  ZOrder		  215
+	  BlockMirror		  on
+	  LibraryVersion	  "1.5"
+	  FontName		  "Arial"
+	  FontSize		  12
+	  SourceBlock		  "MS2G_SS_Intf_Lib/Rotational\nSimscape Intf"
+	  SourceType		  "SubSystem"
+	  ContentPreviewEnabled	  off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Rotational\nSimscape Intf1"
+	  SID			  "31"
+	  Ports			  [0, 0, 0, 0, 0, 2, 2]
+	  Position		  [265, 579, 300, 621]
+	  ZOrder		  218
+	  BlockMirror		  on
+	  LibraryVersion	  "1.5"
+	  FontName		  "Arial"
+	  FontSize		  12
+	  SourceBlock		  "MS2G_SS_Intf_Lib/Rotational\nSimscape Intf"
+	  SourceType		  "SubSystem"
+	  ContentPreviewEnabled	  off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Rotational\nSimscape Intf2"
+	  SID			  "32"
+	  Ports			  [0, 0, 0, 0, 0, 2, 2]
+	  Position		  [250, 389, 285, 431]
+	  ZOrder		  221
+	  BlockMirror		  on
+	  LibraryVersion	  "1.5"
+	  FontName		  "Arial"
+	  FontSize		  12
+	  SourceBlock		  "MS2G_SS_Intf_Lib/Rotational\nSimscape Intf"
+	  SourceType		  "SubSystem"
+	  ContentPreviewEnabled	  off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Rotational Friction"
+	  SID			  "33"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [245, 785, 285, 825]
+	  ZOrder		  214
+	  BlockMirror		  on
+	  LibraryVersion	  "8.31"
+	  SourceBlock		  "fl_lib/Mechanical/Rotational Elements/Rotational Friction"
+	  SourceType		  "Rotational Friction"
+	  SourceFile		  "foundation.mechanical.rotational.friction"
+	  ComponentPath		  "foundation.mechanical.rotational.friction"
+	  ComponentVariants	  "foundation.mechanical.rotational.friction"
+	  ComponentVariantNames	  "friction"
+	  ClassName		  "friction"
+	  SchemaVersion		  "1"
+	  brkwy_trq		  "BFT"
+	  brkwy_trq_unit	  "N*m"
+	  Col_trq		  "CFT"
+	  Col_trq_unit		  "N*m"
+	  visc_coef		  "VFc"
+	  visc_coef_unit	  "N*m/(rad/s)"
+	  trans_coef		  "Tac"
+	  trans_coef_unit	  "s/rad"
+	  vel_thr		  "1e-4"
+	  vel_thr_unit		  "rad/s"
+	  w_specify		  on
+	  w_priority		  "High"
+	  w			  "0"
+	  w_unit		  "rad/s"
+	  t_specify		  on
+	  t_priority		  "High"
+	  t			  "0"
+	  t_unit		  "N*m"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Rotational Friction1"
+	  SID			  "34"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [260, 640, 300, 680]
+	  ZOrder		  217
+	  BlockMirror		  on
+	  LibraryVersion	  "8.31"
+	  SourceBlock		  "fl_lib/Mechanical/Rotational Elements/Rotational Friction"
+	  SourceType		  "Rotational Friction"
+	  SourceFile		  "foundation.mechanical.rotational.friction"
+	  ComponentPath		  "foundation.mechanical.rotational.friction"
+	  ComponentVariants	  "foundation.mechanical.rotational.friction"
+	  ComponentVariantNames	  "friction"
+	  ClassName		  "friction"
+	  SchemaVersion		  "1"
+	  brkwy_trq		  "BFT"
+	  brkwy_trq_unit	  "N*m"
+	  Col_trq		  "CFT"
+	  Col_trq_unit		  "N*m"
+	  visc_coef		  "VFc"
+	  visc_coef_unit	  "N*m/(rad/s)"
+	  trans_coef		  "Tac"
+	  trans_coef_unit	  "s/rad"
+	  vel_thr		  "1e-4"
+	  vel_thr_unit		  "rad/s"
+	  w_specify		  on
+	  w_priority		  "High"
+	  w			  "0"
+	  w_unit		  "rad/s"
+	  t_specify		  on
+	  t_priority		  "High"
+	  t			  "0"
+	  t_unit		  "N*m"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Rotational Friction2"
+	  SID			  "35"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [250, 480, 290, 520]
+	  ZOrder		  220
+	  BlockMirror		  on
+	  LibraryVersion	  "8.31"
+	  SourceBlock		  "fl_lib/Mechanical/Rotational Elements/Rotational Friction"
+	  SourceType		  "Rotational Friction"
+	  SourceFile		  "foundation.mechanical.rotational.friction"
+	  ComponentPath		  "foundation.mechanical.rotational.friction"
+	  ComponentVariants	  "foundation.mechanical.rotational.friction"
+	  ComponentVariantNames	  "friction"
+	  ClassName		  "friction"
+	  SchemaVersion		  "1"
+	  brkwy_trq		  "BFT"
+	  brkwy_trq_unit	  "N*m"
+	  Col_trq		  "CFT"
+	  Col_trq_unit		  "N*m"
+	  visc_coef		  "VFc"
+	  visc_coef_unit	  "N*m/(rad/s)"
+	  trans_coef		  "Tac"
+	  trans_coef_unit	  "s/rad"
+	  vel_thr		  "1e-4"
+	  vel_thr_unit		  "rad/s"
+	  w_specify		  on
+	  w_priority		  "High"
+	  w			  "0"
+	  w_unit		  "rad/s"
+	  t_specify		  on
+	  t_priority		  "High"
+	  t			  "0"
+	  t_unit		  "N*m"
+	}
+	Block {
+	  BlockType		  Scope
+	  Name			  "Scope"
+	  SID			  "36"
+	  Ports			  [1]
+	  Position		  [430, 344, 460, 376]
+	  ZOrder		  223
+	  Floating		  off
+	  Location		  [188, 365, 512, 604]
+	  Open			  off
+	  NumInputPorts		  "1"
+	  List {
+	    ListType		    AxesTitles
+	    axes1		    "%<SignalLabel>"
+	  }
+	  List {
+	    ListType		    ScopeGraphics
+	    FigureColor		    "[0.5 0.5 0.5]"
+	    AxesColor		    "[0 0 0]"
+	    AxesTickColor	    "[1 1 1]"
+	    LineColors		    "[1 1 0;1 0 1;0 1 1;1 0 0;0 1 0;0 0 1]"
+	    LineStyles		    "-|-|-|-|-|-"
+	    LineWidths		    "[0.5 0.5 0.5 0.5 0.5 0.5]"
+	    MarkerStyles	    "none|none|none|none|none|none"
+	  }
+	  ShowLegends		  off
+	  YMin			  "1.26939e-05"
+	  YMax			  "1.26939e-05"
+	}
+	Block {
+	  BlockType		  Scope
+	  Name			  "Scope1"
+	  SID			  "37"
+	  Ports			  [1]
+	  Position		  [480, 534, 510, 566]
+	  ZOrder		  225
+	  Floating		  off
+	  Location		  [1, 49, 1361, 737]
+	  Open			  off
+	  NumInputPorts		  "1"
+	  List {
+	    ListType		    AxesTitles
+	    axes1		    "%<SignalLabel>"
+	  }
+	  List {
+	    ListType		    ScopeGraphics
+	    FigureColor		    "[0.5 0.5 0.5]"
+	    AxesColor		    "[0 0 0]"
+	    AxesTickColor	    "[1 1 1]"
+	    LineColors		    "[1 1 0;1 0 1;0 1 1;1 0 0;0 1 0;0 0 1]"
+	    LineStyles		    "-|-|-|-|-|-"
+	    LineWidths		    "[0.5 0.5 0.5 0.5 0.5 0.5]"
+	    MarkerStyles	    "none|none|none|none|none|none"
+	  }
+	  ShowLegends		  off
+	  YMin			  "-0.063"
+	  YMax			  "-0.0525"
+	  SaveName		  "ScopeData1"
+	}
+	Block {
+	  BlockType		  Scope
+	  Name			  "Scope2"
+	  SID			  "38"
+	  Ports			  [1]
+	  Position		  [530, 659, 560, 691]
+	  ZOrder		  227
+	  Floating		  off
+	  Location		  [188, 365, 512, 604]
+	  Open			  off
+	  NumInputPorts		  "1"
+	  List {
+	    ListType		    AxesTitles
+	    axes1		    "%<SignalLabel>"
+	  }
+	  List {
+	    ListType		    ScopeGraphics
+	    FigureColor		    "[0.5 0.5 0.5]"
+	    AxesColor		    "[0 0 0]"
+	    AxesTickColor	    "[1 1 1]"
+	    LineColors		    "[1 1 0;1 0 1;0 1 1;1 0 0;0 1 0;0 0 1]"
+	    LineStyles		    "-|-|-|-|-|-"
+	    LineWidths		    "[0.5 0.5 0.5 0.5 0.5 0.5]"
+	    MarkerStyles	    "none|none|none|none|none|none"
+	  }
+	  ShowLegends		  off
+	  YMin			  "1.26939e-05"
+	  YMax			  "1.26939e-05"
+	  SaveName		  "ScopeData2"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "t3"
+	  SID			  "45"
+	  Position		  [115, 713, 145, 727]
+	  ZOrder		  232
+	  Port			  "1"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "w3"
+	  SID			  "46"
+	  Position		  [490, 713, 520, 727]
+	  ZOrder		  233
+	  BlockMirror		  on
+	  Port			  "2"
+	  Side			  "Right"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "t2"
+	  SID			  "47"
+	  Position		  [125, 583, 155, 597]
+	  ZOrder		  234
+	  Port			  "3"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "w2"
+	  SID			  "48"
+	  Position		  [420, 578, 450, 592]
+	  ZOrder		  235
+	  BlockMirror		  on
+	  Port			  "4"
+	  Side			  "Right"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "t1"
+	  SID			  "49"
+	  Position		  [135, 393, 165, 407]
+	  ZOrder		  236
+	  Port			  "5"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "w1"
+	  SID			  "50"
+	  Position		  [370, 393, 400, 407]
+	  ZOrder		  237
+	  BlockMirror		  on
+	  Port			  "6"
+	  Side			  "Right"
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  190
+	  SrcBlock		  "Rotational Friction"
+	  SrcPort		  RConn1
+	  Points		  [-10, 0; 0, -20]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [0, -45]
+	    DstBlock		    "Rotational\nSimscape Intf"
+	    DstPort		    RConn2
+	  }
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Mechanical\nRotational Reference"
+	    SrcPort		    LConn1
+	    Points		    [0, -15; 15, 0]
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  17
+	  SrcBlock		  "Rotational Friction1"
+	  SrcPort		  LConn1
+	  Points		  [19, 0; 0, -50]
+	  DstBlock		  "Rotational\nSimscape Intf1"
+	  DstPort		  LConn2
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  213
+	  SrcBlock		  "Rotational\nSimscape Intf2"
+	  SrcPort		  LConn1
+	  Points		  [27, 0]
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "PS-Simulink\nConverter"
+	    SrcPort		    LConn1
+	    Points		    [-18, 0; 0, 45]
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "w1"
+	    DstPort		    RConn1
+	  }
+	}
+	Line {
+	  ZOrder		  27
+	  SrcBlock		  "PS-Simulink\nConverter1"
+	  SrcPort		  1
+	  DstBlock		  "Scope1"
+	  DstPort		  1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  196
+	  SrcBlock		  "Rotational\nSimscape Intf1"
+	  SrcPort		  LConn1
+	  Points		  [37, 0; 0, -5]
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "PS-Simulink\nConverter1"
+	    SrcPort		    LConn1
+	    Points		    [-8, 0; 0, 35]
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "w2"
+	    DstPort		    RConn1
+	  }
+	}
+	Line {
+	  ZOrder		  25
+	  SrcBlock		  "PS-Simulink\nConverter"
+	  SrcPort		  1
+	  Points		  [15, 0; 0, 5]
+	  DstBlock		  "Scope"
+	  DstPort		  1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  193
+	  SrcBlock		  "Rotational Friction2"
+	  SrcPort		  RConn1
+	  Points		  [-18, 0; 0, -36]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [0, -44]
+	    DstBlock		    "Rotational\nSimscape Intf2"
+	    DstPort		    RConn2
+	  }
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Mechanical\nRotational Reference2"
+	    SrcPort		    LConn1
+	    Points		    [0, -11; 32, 0]
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  212
+	  SrcBlock		  "Rotational\nSimscape Intf2"
+	  SrcPort		  RConn1
+	  DstBlock		  "t1"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  15
+	  SrcBlock		  "Rotational Friction"
+	  SrcPort		  LConn1
+	  Points		  [15, 0; 0, -65]
+	  DstBlock		  "Rotational\nSimscape Intf"
+	  DstPort		  LConn2
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  209
+	  SrcBlock		  "w3"
+	  SrcPort		  RConn1
+	  Points		  [-68, 0]
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "PS-Simulink\nConverter2"
+	    SrcPort		    LConn1
+	    Points		    [-38, 0; 0, 50]
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "Rotational\nSimscape Intf"
+	    DstPort		    LConn1
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  204
+	  SrcBlock		  "Rotational\nSimscape Intf1"
+	  SrcPort		  RConn2
+	  Points		  [-18, 0; 0, 8]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [0, 42]
+	    DstBlock		    "Rotational Friction1"
+	    DstPort		    RConn1
+	  }
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Mechanical\nRotational Reference1"
+	    SrcPort		    LConn1
+	    Points		    [0, -27; 27, 0]
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  208
+	  SrcBlock		  "Rotational\nSimscape Intf"
+	  SrcPort		  RConn1
+	  DstBlock		  "t3"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  20
+	  SrcBlock		  "Rotational\nSimscape Intf2"
+	  SrcPort		  LConn2
+	  Points		  [19, 0; 0, 80]
+	  DstBlock		  "Rotational Friction2"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  210
+	  SrcBlock		  "Rotational\nSimscape Intf1"
+	  SrcPort		  RConn1
+	  DstBlock		  "t2"
+	  DstPort		  RConn1
+	}
+	Line {
+	  ZOrder		  24
+	  SrcBlock		  "PS-Simulink\nConverter2"
+	  SrcPort		  1
+	  Points		  [15, 0; 0, 5]
+	  DstBlock		  "Scope2"
+	  DstPort		  1
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "Friccion \nSM-SS\nR"
+      SID		      "60"
+      Ports		      [0, 0, 0, 0, 0, 1, 2]
+      Position		      [150, 239, 185, 281]
+      ZOrder		      243
+      RequestExecContextInheritance off
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		34
+	$ClassName		"Simulink.Mask"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  4
+	  Object {
+	    $ObjectID		    35
+	    Type		    "edit"
+	    Name		    "BFT"
+	    Prompt		    "Breakaway friction torque (N*m)"
+	    Value		    "0.2"
+	  }
+	  Object {
+	    $ObjectID		    36
+	    Type		    "edit"
+	    Name		    "CFT"
+	    Prompt		    "Coulomb friction torque (N*m)"
+	    Value		    "0.15"
+	  }
+	  Object {
+	    $ObjectID		    37
+	    Type		    "edit"
+	    Name		    "VFc"
+	    Prompt		    "Viscous friction coeff (N*m/(rad/s))"
+	    Value		    "0.001"
+	  }
+	  Object {
+	    $ObjectID		    38
+	    Type		    "edit"
+	    Name		    "Tac"
+	    Prompt		    "Transition approximation coeff (s/rad)"
+	    Value		    "5"
+	  }
+	  PropName		  "Parameters"
+	}
+	Array {
+	  Type			  "Simulink.dialog.Group"
+	  Dimension		  2
+	  Object {
+	    $ObjectID		    39
+	    Prompt		    "%<MaskType>"
+	    Object {
+	      $PropName		      "DialogControls"
+	      $ObjectID		      40
+	      $ClassName	      "Simulink.dialog.Text"
+	      Prompt		      "%<MaskDescription>"
+	      Name		      "DescTextVar"
+	    }
+	    Name		    "DescGroupVar"
+	  }
+	  Object {
+	    $ObjectID		    41
+	    Prompt		    "Friction"
+	    Array {
+	      Type		      "Simulink.dialog.parameter.Edit"
+	      Dimension		      4
+	      Object {
+		$ObjectID		42
+		PromptLocation		"left"
+		Name			"BFT"
+	      }
+	      Object {
+		$ObjectID		43
+		PromptLocation		"left"
+		Name			"CFT"
+	      }
+	      Object {
+		$ObjectID		44
+		PromptLocation		"left"
+		Name			"VFc"
+	      }
+	      Object {
+		$ObjectID		45
+		PromptLocation		"left"
+		Name			"Tac"
+	      }
+	      PropName		      "DialogControls"
+	    }
+	    Name		    "ParameterGroupVar"
+	  }
+	  PropName		  "DialogControls"
+	}
+      }
+      System {
+	Name			"Friccion \nSM-SS\nR"
+	Location		[-1784, -245, -584, 407]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Reference
+	  Name			  "Mechanical\nRotational Reference"
+	  SID			  "52"
+	  Ports			  [0, 0, 0, 0, 0, 1]
+	  Position		  [115, 185, 135, 205]
+	  ZOrder		  237
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  ShowName		  off
+	  LibraryVersion	  "8.31"
+	  FontName		  "Arial"
+	  SourceBlock		  "fl_lib/Mechanical/Rotational Elements/Mechanical\nRotational Reference"
+	  SourceType		  "Mechanical\nRotational Reference"
+	  SourceFile		  "foundation.mechanical.rotational.reference"
+	  ComponentPath		  "foundation.mechanical.rotational.reference"
+	  ComponentVariants	  "foundation.mechanical.rotational.reference"
+	  ComponentVariantNames	  "reference"
+	  ClassName		  "reference_rot"
+	  SchemaVersion		  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "PS Subtract"
+	  SID			  "59"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [155, 22, 175, 53]
+	  ZOrder		  242
+	  LibraryVersion	  "8.31"
+	  SourceBlock		  "fl_lib/Physical Signals/Functions/PS Subtract"
+	  SourceType		  "PS Subtract"
+	  SourceFile		  "foundation.physical_signal.functions.subtract"
+	  ComponentPath		  "foundation.physical_signal.functions.subtract"
+	  ComponentVariants	  "foundation.physical_signal.functions.subtract"
+	  ComponentVariantNames	  "subtract"
+	  ClassName		  "subtract"
+	  SchemaVersion		  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "PS-Simulink\nConverter2"
+	  SID			  "53"
+	  Ports			  [0, 1, 0, 0, 0, 1]
+	  Position		  [380, 25, 410, 55]
+	  ZOrder		  239
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "nesl_utility/PS-Simulink\nConverter"
+	  SourceType		  "PS-Simulink\nConverter"
+	  ContentPreviewEnabled	  off
+	  PhysicalDomain	  "network_engine_domain"
+	  SubClassName		  "ps_output"
+	  LeftPortType		  "input"
+	  RightPortType		  "output"
+	  PseudoPeriodic	  off
+	  Frequencies		  "[]"
+	  Unit			  "rad/s"
+	  AffineConversion	  off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Rotational\nSimscape Intf"
+	  SID			  "54"
+	  Ports			  [0, 0, 0, 0, 0, 2, 2]
+	  Position		  [170, 79, 205, 121]
+	  ZOrder		  236
+	  BlockMirror		  on
+	  LibraryVersion	  "1.5"
+	  FontName		  "Arial"
+	  FontSize		  12
+	  SourceBlock		  "MS2G_SS_Intf_Lib/Rotational\nSimscape Intf"
+	  SourceType		  "SubSystem"
+	  ContentPreviewEnabled	  off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Rotational Friction"
+	  SID			  "55"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [165, 155, 205, 195]
+	  ZOrder		  235
+	  BlockMirror		  on
+	  LibraryVersion	  "8.31"
+	  SourceBlock		  "fl_lib/Mechanical/Rotational Elements/Rotational Friction"
+	  SourceType		  "Rotational Friction"
+	  SourceFile		  "foundation.mechanical.rotational.friction"
+	  ComponentPath		  "foundation.mechanical.rotational.friction"
+	  ComponentVariants	  "foundation.mechanical.rotational.friction"
+	  ComponentVariantNames	  "friction"
+	  ClassName		  "friction"
+	  SchemaVersion		  "1"
+	  brkwy_trq		  "BFT"
+	  brkwy_trq_unit	  "N*m"
+	  Col_trq		  "CFT"
+	  Col_trq_unit		  "N*m"
+	  visc_coef		  "VFc"
+	  visc_coef_unit	  "N*m/(rad/s)"
+	  trans_coef		  "Tac"
+	  trans_coef_unit	  "s/rad"
+	  vel_thr		  "1e-4"
+	  vel_thr_unit		  "rad/s"
+	  w_specify		  on
+	  w_priority		  "High"
+	  w			  "0"
+	  w_unit		  "rad/s"
+	  t_specify		  on
+	  t_priority		  "High"
+	  t			  "0"
+	  t_unit		  "N*m"
+	}
+	Block {
+	  BlockType		  Scope
+	  Name			  "Scope2"
+	  SID			  "56"
+	  Ports			  [1]
+	  Position		  [450, 29, 480, 61]
+	  ZOrder		  238
+	  Floating		  off
+	  Location		  [188, 365, 512, 604]
+	  Open			  off
+	  NumInputPorts		  "1"
+	  List {
+	    ListType		    AxesTitles
+	    axes1		    "%<SignalLabel>"
+	  }
+	  List {
+	    ListType		    ScopeGraphics
+	    FigureColor		    "[0.5 0.5 0.5]"
+	    AxesColor		    "[0 0 0]"
+	    AxesTickColor	    "[1 1 1]"
+	    LineColors		    "[1 1 0;1 0 1;0 1 1;1 0 0;0 1 0;0 0 1]"
+	    LineStyles		    "-|-|-|-|-|-"
+	    LineWidths		    "[0.5 0.5 0.5 0.5 0.5 0.5]"
+	    MarkerStyles	    "none|none|none|none|none|none"
+	  }
+	  ShowLegends		  off
+	  YMin			  "1.26939e-05"
+	  YMax			  "1.26939e-05"
+	  SaveName		  "ScopeData3"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "t"
+	  SID			  "61"
+	  Position		  [19, 23, 49, 37]
+	  ZOrder		  243
+	  Port			  "1"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "T"
+	  SID			  "62"
+	  Position		  [226, 33, 256, 47]
+	  ZOrder		  244
+	  BlockMirror		  on
+	  Port			  "2"
+	  Side			  "Right"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "w"
+	  SID			  "63"
+	  Position		  [426, 83, 456, 97]
+	  ZOrder		  245
+	  BlockMirror		  on
+	  Port			  "3"
+	  Side			  "Right"
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  215
+	  SrcBlock		  "Rotational Friction"
+	  SrcPort		  RConn1
+	  Points		  [-10, 0; 0, -20]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [0, -45]
+	    DstBlock		    "Rotational\nSimscape Intf"
+	    DstPort		    RConn2
+	  }
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Mechanical\nRotational Reference"
+	    SrcPort		    LConn1
+	    Points		    [0, -15; 15, 0]
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  219
+	  Points		  [327, 90; -107, 0]
+	  DstBlock		  "Rotational\nSimscape Intf"
+	  DstPort		  LConn1
+	  Branch {
+	    ConnectType		    "SRC_DEST"
+	    SrcBlock		    "w"
+	    SrcPort		    RConn1
+	    Points		    [-84, 0]
+	  }
+	  Branch {
+	    ConnectType		    "SRC_DEST"
+	    SrcBlock		    "PS-Simulink\nConverter2"
+	    SrcPort		    LConn1
+	    Points		    [-38, 0; 0, 50]
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  36
+	  SrcBlock		  "Rotational\nSimscape Intf"
+	  SrcPort		  RConn1
+	  Points		  [-26, 0; 0, -45]
+	  DstBlock		  "PS Subtract"
+	  DstPort		  LConn2
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  35
+	  SrcBlock		  "Rotational Friction"
+	  SrcPort		  LConn1
+	  Points		  [15, 0; 0, -65]
+	  DstBlock		  "Rotational\nSimscape Intf"
+	  DstPort		  LConn2
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  222
+	  SrcBlock		  "T"
+	  SrcPort		  RConn1
+	  DstBlock		  "PS Subtract"
+	  DstPort		  RConn1
+	}
+	Line {
+	  ZOrder		  37
+	  SrcBlock		  "PS-Simulink\nConverter2"
+	  SrcPort		  1
+	  Points		  [15, 0; 0, 5]
+	  DstBlock		  "Scope2"
+	  DstPort		  1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  221
+	  SrcBlock		  "PS Subtract"
+	  SrcPort		  LConn1
+	  DstBlock		  "t"
+	  DstPort		  RConn1
+	}
+      }
+    }
+    Annotation {
+      SID		      "65"
+      Name		      "Friccion usando \nunion SimScape\nSimMechanic"
+      Position		      [18, 242, 99, 283]
+      InternalMargins	      [0, 0, 0, 0]
+      FixedHeight	      off
+      FixedWidth	      off
+      HorizontalAlignment     "left"
+      VerticalAlignment	      "top"
+    }
+    Annotation {
+      SID		      "64"
+      Name		      "Friccion usando \nsolo un ps-gain"
+      Position		      [19, 139, 98, 167]
+      InternalMargins	      [0, 0, 0, 0]
+      FixedHeight	      off
+      FixedWidth	      off
+      HorizontalAlignment     "left"
+      VerticalAlignment	      "top"
     }
   }
 }
