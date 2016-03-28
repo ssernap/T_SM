@@ -1,0 +1,565 @@
+ Ensayos_Friccion_sfun
+
+ Timestamp is 56f83c3b (Sun Mar 27 15:02:03 2016)
+
+ Preferred load address is 0000000180000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000e3f0H .text                   CODE
+ 0001:0000e3f0 00000092H .text$x                 CODE
+ 0002:00000000 00000438H .idata$5                DATA
+ 0002:00000438 00000008H .CRT$XCA                DATA
+ 0002:00000440 00000008H .CRT$XCZ                DATA
+ 0002:00000448 00000008H .CRT$XIA                DATA
+ 0002:00000450 00000008H .CRT$XIAA               DATA
+ 0002:00000458 00000008H .CRT$XIZ                DATA
+ 0002:00000460 000006a4H .rdata                  DATA
+ 0002:00000b08 00000008H .rtc$IAA                DATA
+ 0002:00000b10 00000008H .rtc$IZZ                DATA
+ 0002:00000b18 00000008H .rtc$TAA                DATA
+ 0002:00000b20 00000008H .rtc$TZZ                DATA
+ 0002:00000b28 000006a0H .xdata                  DATA
+ 0002:000011c8 0000008cH .idata$2                DATA
+ 0002:00001254 00000014H .idata$3                DATA
+ 0002:00001268 00000438H .idata$4                DATA
+ 0002:000016a0 00000b92H .idata$6                DATA
+ 0002:00002240 0000005bH .edata                  DATA
+ 0003:00000000 000034d8H .data                   DATA
+ 0003:000034e0 000006b0H .bss                    DATA
+ 0004:00000000 000007d4H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   0000000000000000     <absolute>
+ 0000:00000000       __ImageBase                0000000180000000     <linker-defined>
+ 0001:00000000       Ensayos_Friccion_initializer 0000000180001000 f   Ensayos_Friccion_sfun.obj
+ 0001:00000010       Ensayos_Friccion_terminator 0000000180001010 f   Ensayos_Friccion_sfun.obj
+ 0001:00000020       sf_Ensayos_Friccion_method_dispatcher 0000000180001020 f   Ensayos_Friccion_sfun.obj
+ 0001:00000040       sf_Ensayos_Friccion_process_check_sum_call 0000000180001040 f   Ensayos_Friccion_sfun.obj
+ 0001:00000440       sf_Ensayos_Friccion_autoinheritance_info 0000000180001440 f   Ensayos_Friccion_sfun.obj
+ 0001:00000560       sf_Ensayos_Friccion_get_eml_resolved_functions_info 0000000180001560 f   Ensayos_Friccion_sfun.obj
+ 0001:00000640       sf_Ensayos_Friccion_third_party_uses_info 0000000180001640 f   Ensayos_Friccion_sfun.obj
+ 0001:00000760       sf_Ensayos_Friccion_updateBuildInfo_args_info 0000000180001760 f   Ensayos_Friccion_sfun.obj
+ 0001:00000880       Ensayos_Friccion_debug_initialize 0000000180001880 f   Ensayos_Friccion_sfun.obj
+ 0001:00000900       Ensayos_Friccion_register_exported_symbols 0000000180001900 f   Ensayos_Friccion_sfun.obj
+ 0001:00000910       load_Ensayos_Friccion_optimization_info 0000000180001910 f   Ensayos_Friccion_sfun.obj
+ 0001:00000960       unload_Ensayos_Friccion_optimization_info 0000000180001960 f   Ensayos_Friccion_sfun.obj
+ 0001:00000990       sf_process_check_sum_call  0000000180001990 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00000a00       sf_process_autoinheritance_call 0000000180001a00 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00000c40       sf_process_get_third_party_uses_info_call 0000000180001c40 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00000e80       sf_process_get_updateBuildInfo_args_info_call 0000000180001e80 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:000010c0       sf_process_get_eml_resolved_functions_info_call 00000001800020c0 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:000012b0       sf_mex_unlock_call         00000001800022b0 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00001360       sf_machine_global_initializer_called 0000000180002360 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00001390       sf_machine_global_method_dispatcher 0000000180002390 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00001430       sf_machine_global_terminator 0000000180002430 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00001480       sf_register_machine_exported_symbols 0000000180002480 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:000014b0       callCustomFcn              00000001800024b0 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:000014c0       sf_machine_global_initializer 00000001800024c0 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00001550       mdlGetSimState             0000000180002550 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:000015d0       mdlSetSimState             00000001800025d0 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00001610       _ssSetStateAbsTol          0000000180002610 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:000016f0       _ssGetAbsTol               00000001800026f0 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00001760       _ssSetInputPortMatrixDimensions 0000000180002760 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00001870       _ssSetOutputPortMatrixDimensions 0000000180002870 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00001980       _ssSetInputPortVectorDimension 0000000180002980 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00001a50       _ssSetOutputPortVectorDimension 0000000180002a50 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00001b20       ssIsRunTimeParamTunable    0000000180002b20 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00001b90       ssGetSFuncBlockHandle      0000000180002b90 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00001c00       _ssGetCurrentInputPortWidth 0000000180002c00 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00001d20       _ssGetCurrentOutputPortWidth 0000000180002d20 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00001e40       _ssGetCallSystemNumFcnCallDestinations 0000000180002e40 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00001eb0       ssWarning                  0000000180002eb0 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00001fc0       ssGetIsZeroCrossControlDisabled 0000000180002fc0 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00002030       ssSetIsInputPortUsedForContZcSignal 0000000180003030 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:000020a0       ssSetZcSignalIsZcElementDisc 00000001800030a0 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00002150       ssSetZcSignalName          0000000180003150 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:000021c0       ssSetZcSignalWidth         00000001800031c0 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00002230       ssSetZcSignalZcEventType   0000000180003230 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:000022a0       ssSetZcSignalType          00000001800032a0 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00002310       ssSetZcSignalZcTol         0000000180003310 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00002380       ssSetZcSignalNeedsEventNotification 0000000180003380 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:000023f0       ssCreateAndAddZcSignalInfo 00000001800033f0 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00002460       ssCloneAndAddZcSignalInfo  0000000180003460 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:000024d0       ssGetNumZcSignals          00000001800034d0 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00002540       ssGetZcSignalVector        0000000180003540 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:000025b0       ssGetZcSignalZcEvents      00000001800035b0 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00002620       ssGetZcSignalName          0000000180003620 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00002690       ssGetZcSignalWidth         0000000180003690 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00002700       ssGetZcSignalZcEventType   0000000180003700 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00002770       ssGetZcSignalType          0000000180003770 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:000027e0       ssGetZcSignalZcTol         00000001800037e0 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00002860       ssGetZcSignalNeedsEventNotification 0000000180003860 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:000028d0       ssGetZcSignalIsZcElementDisc 00000001800038d0 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00002970       ssGetIsInputPortElementContinuous 0000000180003970 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00002a10       _ssGetInputPortSignalPtrsFcn 0000000180003a10 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00002cd0       _ssGetInputPortSignalFcn   0000000180003cd0 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00002ef0       _ssSetInputPortDirectFeedThroughFcn 0000000180003ef0 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00003050       _ssSetInputPortReusableFcn 0000000180004050 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00003140       _ssSetOutputPortReusableFcn 0000000180004140 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00003220       ssGetDTypeIdFromMxArray    0000000180004220 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00003340       ssWriteRTWStr              0000000180004340 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:000033a0       ssWriteRTWMxVectParam      00000001800043a0 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00003400       ssWriteRTWMx2dMatParam     0000000180004400 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00003480       ssWriteRTWNameValuePair    0000000180004480 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00003970       ssWriteRTWParameters       0000000180004970 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00003f70       ssWriteRTWParamSettings    0000000180004f70 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00004640       ssWriteRTWWorkVect         0000000180005640 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00004b40       mexFunction                0000000180005b40 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00006fc0       ProcessMexSfunctionEveryCall 0000000180007fc0 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00007142       sf_debug_set_machine_data_thresholds 0000000180008142 f   sf_runtime:sf_runtime.dll
+ 0001:00007148       sf_debug_set_machine_event_thresholds 0000000180008148 f   sf_runtime:sf_runtime.dll
+ 0001:0000714e       sf_debug_initialize_machine 000000018000814e f   sf_runtime:sf_runtime.dll
+ 0001:00007154       sf_load_rtw_optimization_info 0000000180008154 f   sf_runtime:sf_runtime.dll
+ 0001:0000715a       sf_debug_terminate         000000018000815a f   sf_runtime:sf_runtime.dll
+ 0001:00007160       sf_debug_create_debug_instance_struct 0000000180008160 f   sf_runtime:sf_runtime.dll
+ 0001:00007166       sim_mode_is_rtw_gen        0000000180008166 f   sf_runtime:sf_runtime.dll
+ 0001:0000716c       sf_debug_api               000000018000816c f   sf_runtime:sf_runtime.dll
+ 0001:00007172       callMdlMethodAndReportError 0000000180008172 f   sf_runtime:sf_runtime.dll
+ 0001:00007178       call_sf_machine_global_method_dispatcher 0000000180008178 f   sf_runtime:sf_runtime.dll
+ 0001:0000717e       sf_clear_error_manager_info 000000018000817e f   sf_runtime:sf_runtime.dll
+ 0001:00007184       sf_mex_error_direct_call   0000000180008184 f   sf_runtime:sf_runtime.dll
+ 0001:0000718a       mxGetScalar                000000018000818a f   libmx:libmx.dll
+ 0001:00007190       mxGetPr                    0000000180008190 f   libmx:libmx.dll
+ 0001:00007196       mxCreateDoubleMatrix_730   0000000180008196 f   libmx:libmx.dll
+ 0001:0000719c       mxGetString_730            000000018000819c f   libmx:libmx.dll
+ 0001:000071a2       mxIsChar                   00000001800081a2 f   libmx:libmx.dll
+ 0001:000071a8       mxDestroyArray             00000001800081a8 f   libmx:libmx.dll
+ 0001:000071ae       mxCreateString             00000001800081ae f   libmx:libmx.dll
+ 0001:000071b4       mxGetClassID               00000001800081b4 f   libmx:libmx.dll
+ 0001:000071ba       mxIsNumeric                00000001800081ba f   libmx:libmx.dll
+ 0001:000071c0       mxIsComplex                00000001800081c0 f   libmx:libmx.dll
+ 0001:000071c6       mxGetN                     00000001800081c6 f   libmx:libmx.dll
+ 0001:000071cc       mxGetM                     00000001800081cc f   libmx:libmx.dll
+ 0001:000071d2       mxCalloc                   00000001800081d2 f   libmx:libmx.dll
+ 0001:000071d8       mexMakeArrayPersistent     00000001800081d8 f   libmex:libmex.dll
+ 0001:000071de       mexUnlock                  00000001800081de f   libmex:libmex.dll
+ 0001:000071e4       mexIsLocked                00000001800081e4 f   libmex:libmex.dll
+ 0001:000071ea       mexWarnMsgTxt              00000001800081ea f   libmex:libmex.dll
+ 0001:000071f0       mexCallMATLAB              00000001800081f0 f   libmex:libmex.dll
+ 0001:000071f6       mexErrMsgTxt               00000001800081f6 f   libmex:libmex.dll
+ 0001:000071fc       mexLock                    00000001800081fc f   libmex:libmex.dll
+ 0001:00007210       Fricciones_initializer     0000000180008210 f   Fricciones_sfun:Fricciones_sfun.obj
+ 0001:00007220       Fricciones_terminator      0000000180008220 f   Fricciones_sfun:Fricciones_sfun.obj
+ 0001:00007230       sf_Fricciones_method_dispatcher 0000000180008230 f   Fricciones_sfun:Fricciones_sfun.obj
+ 0001:00007280       sf_Fricciones_process_check_sum_call 0000000180008280 f   Fricciones_sfun:Fricciones_sfun.obj
+ 0001:00007550       sf_Fricciones_autoinheritance_info 0000000180008550 f   Fricciones_sfun:Fricciones_sfun.obj
+ 0001:000076c0       sf_Fricciones_get_eml_resolved_functions_info 00000001800086c0 f   Fricciones_sfun:Fricciones_sfun.obj
+ 0001:000077f0       sf_Fricciones_third_party_uses_info 00000001800087f0 f   Fricciones_sfun:Fricciones_sfun.obj
+ 0001:00007940       sf_Fricciones_updateBuildInfo_args_info 0000000180008940 f   Fricciones_sfun:Fricciones_sfun.obj
+ 0001:00007a90       Fricciones_debug_initialize 0000000180008a90 f   Fricciones_sfun:Fricciones_sfun.obj
+ 0001:00007b20       Fricciones_register_exported_symbols 0000000180008b20 f   Fricciones_sfun:Fricciones_sfun.obj
+ 0001:00007b30       load_Fricciones_optimization_info 0000000180008b30 f   Fricciones_sfun:Fricciones_sfun.obj
+ 0001:00007b80       unload_Fricciones_optimization_info 0000000180008b80 f   Fricciones_sfun:Fricciones_sfun.obj
+ 0001:00007bb0       sf_c2_Fricciones_get_eml_resolved_functions_info 0000000180008bb0 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000b040       sf_c2_Fricciones_get_check_sum 000000018000c040 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000b0c0       sf_c2_Fricciones_get_autoinheritance_info 000000018000c0c0 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000b4e0       sf_c2_Fricciones_third_party_uses_info 000000018000c4e0 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000b510       sf_c2_Fricciones_updateBuildInfo_args_info 000000018000c510 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000b540       sf_internal_get_sim_state_c2_Fricciones 000000018000c540 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000b8a0       sf_internal_set_sim_state_c2_Fricciones 000000018000c8a0 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000bc90       c2_Fricciones_method_dispatcher 000000018000cc90 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000d87c       __GSHandlerCheckCommon     000000018000e87c f   MSVCRT:gshandler.obj
+ 0001:0000d8e0       __GSHandlerCheck           000000018000e8e0 f   MSVCRT:gshandler.obj
+ 0001:0000d8fe       strcmp                     000000018000e8fe f   MSVCRT:MSVCR100.dll
+ 0001:0000d920       __security_check_cookie    000000018000e920 f   MSVCRT:amdsecgs.obj
+ 0001:0000d940       free                       000000018000e940 f   MSVCRT:MSVCR100.dll
+ 0001:0000d946       sprintf                    000000018000e946 f   MSVCRT:MSVCR100.dll
+ 0001:0000d94c       malloc                     000000018000e94c f   MSVCRT:MSVCR100.dll
+ 0001:0000d952       strlen                     000000018000e952 f   MSVCRT:MSVCR100.dll
+ 0001:0000d958       strcat                     000000018000e958 f   MSVCRT:MSVCR100.dll
+ 0001:0000d95e       memcpy                     000000018000e95e f   MSVCRT:MSVCR100.dll
+ 0001:0000d964       NtCurrentTeb               000000018000e964 f i MSVCRT:crtdll.obj
+ 0001:0000d9d0       _CRT_INIT                  000000018000e9d0 f   MSVCRT:crtdll.obj
+ 0001:0000dd68       _DllMainCRTStartup         000000018000ed68 f   MSVCRT:crtdll.obj
+ 0001:0000dda6       memset                     000000018000eda6 f   MSVCRT:MSVCR100.dll
+ 0001:0000ddac       __report_gsfailure         000000018000edac f   MSVCRT:gs_report.obj
+ 0001:0000def8       __clean_type_info_names    000000018000eef8 f   MSVCRT:tncleanup.obj
+ 0001:0000df04       _onexit                    000000018000ef04 f   MSVCRT:atonexit.obj
+ 0001:0000dfb4       atexit                     000000018000efb4 f   MSVCRT:atonexit.obj
+ 0001:0000dfcc       _RTC_Initialize            000000018000efcc f   MSVCRT:_initsect_.obj
+ 0001:0000e004       _RTC_Terminate             000000018000f004 f   MSVCRT:_initsect_.obj
+ 0001:0000e03c       _malloc_crt                000000018000f03c f   MSVCRT:MSVCR100.dll
+ 0001:0000e050       _ValidateImageBase         000000018000f050 f   MSVCRT:pesect.obj
+ 0001:0000e080       _FindPESection             000000018000f080 f   MSVCRT:pesect.obj
+ 0001:0000e0d0       _IsNonwritableInCurrentImage 000000018000f0d0 f   MSVCRT:pesect.obj
+ 0001:0000e112       _initterm                  000000018000f112 f   MSVCRT:MSVCR100.dll
+ 0001:0000e118       _initterm_e                000000018000f118 f   MSVCRT:MSVCR100.dll
+ 0001:0000e11e       _encoded_null              000000018000f11e f   MSVCRT:MSVCR100.dll
+ 0001:0000e124       _amsg_exit                 000000018000f124 f   MSVCRT:MSVCR100.dll
+ 0001:0000e12a       __C_specific_handler       000000018000f12a f   MSVCRT:MSVCR100.dll
+ 0001:0000e130       __CppXcptFilter            000000018000f130 f   MSVCRT:MSVCR100.dll
+ 0001:0000e138       DllMain                    000000018000f138 f   MSVCRT:dllmain.obj
+ 0001:0000e15c       __security_init_cookie     000000018000f15c f   MSVCRT:gs_support.obj
+ 0001:0000e210       __crt_debugger_hook        000000018000f210 f   MSVCRT:MSVCR100.dll
+ 0001:0000e216       __clean_type_info_names_internal 000000018000f216 f   MSVCRT:MSVCR100.dll
+ 0001:0000e21c       _unlock                    000000018000f21c f   MSVCRT:MSVCR100.dll
+ 0001:0000e222       __dllonexit                000000018000f222 f   MSVCRT:MSVCR100.dll
+ 0001:0000e228       _lock                      000000018000f228 f   MSVCRT:MSVCR100.dll
+ 0001:0000e22e       EncodePointer              000000018000f22e f   kernel32:KERNEL32.dll
+ 0001:0000e234       DecodePointer              000000018000f234 f   kernel32:KERNEL32.dll
+ 0001:0000e23a       Sleep                      000000018000f23a f   kernel32:KERNEL32.dll
+ 0001:0000e240       TerminateProcess           000000018000f240 f   kernel32:KERNEL32.dll
+ 0001:0000e246       GetCurrentProcess          000000018000f246 f   kernel32:KERNEL32.dll
+ 0001:0000e24c       UnhandledExceptionFilter   000000018000f24c f   kernel32:KERNEL32.dll
+ 0001:0000e252       SetUnhandledExceptionFilter 000000018000f252 f   kernel32:KERNEL32.dll
+ 0001:0000e258       IsDebuggerPresent          000000018000f258 f   kernel32:KERNEL32.dll
+ 0001:0000e25e       RtlVirtualUnwind           000000018000f25e f   kernel32:KERNEL32.dll
+ 0001:0000e264       RtlLookupFunctionEntry     000000018000f264 f   kernel32:KERNEL32.dll
+ 0001:0000e26a       RtlCaptureContext          000000018000f26a f   kernel32:KERNEL32.dll
+ 0001:0000e270       DisableThreadLibraryCalls  000000018000f270 f   kernel32:KERNEL32.dll
+ 0001:0000e276       QueryPerformanceCounter    000000018000f276 f   kernel32:KERNEL32.dll
+ 0001:0000e27c       GetTickCount               000000018000f27c f   kernel32:KERNEL32.dll
+ 0001:0000e282       GetCurrentThreadId         000000018000f282 f   kernel32:KERNEL32.dll
+ 0001:0000e288       GetCurrentProcessId        000000018000f288 f   kernel32:KERNEL32.dll
+ 0001:0000e28e       GetSystemTimeAsFileTime    000000018000f28e f   kernel32:KERNEL32.dll
+ 0001:0000e294       sf_mex_emlrtNameCapturePostProcessR2012a 000000018000f294 f   sf_runtime:sf_runtime.dll
+ 0001:0000e29a       sf_mex_assign              000000018000f29a f   sf_runtime:sf_runtime.dll
+ 0001:0000e2a0       sf_mex_createstruct        000000018000f2a0 f   sf_runtime:sf_runtime.dll
+ 0001:0000e2a6       sf_mex_destroy             000000018000f2a6 f   sf_runtime:sf_runtime.dll
+ 0001:0000e2ac       sf_mex_duplicatearraysafe  000000018000f2ac f   sf_runtime:sf_runtime.dll
+ 0001:0000e2b2       sf_mex_createcellmatrix    000000018000f2b2 f   sf_runtime:sf_runtime.dll
+ 0001:0000e2b8       sf_mex_addfield            000000018000f2b8 f   sf_runtime:sf_runtime.dll
+ 0001:0000e2be       sf_mex_create              000000018000f2be f   sf_runtime:sf_runtime.dll
+ 0001:0000e2c4       sf_mex_error_message       000000018000f2c4 f   sf_runtime:sf_runtime.dll
+ 0001:0000e2ca       sf_mex_call_matlab         000000018000f2ca f   sf_runtime:sf_runtime.dll
+ 0001:0000e2d0       sf_mex_setcell             000000018000f2d0 f   sf_runtime:sf_runtime.dll
+ 0001:0000e2d6       sf_mex_decode_encoded_mx_struct_array 000000018000f2d6 f   sf_runtime:sf_runtime.dll
+ 0001:0000e2dc       sf_mex_getcell             000000018000f2dc f   sf_runtime:sf_runtime.dll
+ 0001:0000e2e2       sf_mex_dup                 000000018000f2e2 f   sf_runtime:sf_runtime.dll
+ 0001:0000e2e8       sf_mex_import              000000018000f2e8 f   sf_runtime:sf_runtime.dll
+ 0001:0000e2ee       sf_set_rtw_dwork_info      000000018000f2ee f   sf_runtime:sf_runtime.dll
+ 0001:0000e2f4       sf_mark_chart_reusable_outputs 000000018000f2f4 f   sf_runtime:sf_runtime.dll
+ 0001:0000e2fa       sf_mark_chart_expressionable_inputs 000000018000f2fa f   sf_runtime:sf_runtime.dll
+ 0001:0000e300       sf_update_buildInfo        000000018000f300 f   sf_runtime:sf_runtime.dll
+ 0001:0000e306       sf_rtw_info_uint_prop      000000018000f306 f   sf_runtime:sf_runtime.dll
+ 0001:0000e30c       sf_is_chart_inlinable      000000018000f30c f   sf_runtime:sf_runtime.dll
+ 0001:0000e312       sim_mode_is_external       000000018000f312 f   sf_runtime:sf_runtime.dll
+ 0001:0000e318       sf_debug_reset_current_state_configuration 000000018000f318 f   sf_runtime:sf_runtime.dll
+ 0001:0000e31e       sf_debug_set_instance_data_value_ptr 000000018000f31e f   sf_runtime:sf_runtime.dll
+ 0001:0000e324       sf_debug_set_chart_data_compiled_props 000000018000f324 f   sf_runtime:sf_runtime.dll
+ 0001:0000e32a       cv_eml_init_fcn            000000018000f32a f   sf_runtime:sf_runtime.dll
+ 0001:0000e330       cv_eml_init_script         000000018000f330 f   sf_runtime:sf_runtime.dll
+ 0001:0000e336       sf_debug_cv_init_trans     000000018000f336 f   sf_runtime:sf_runtime.dll
+ 0001:0000e33c       sf_debug_cv_init_state     000000018000f33c f   sf_runtime:sf_runtime.dll
+ 0001:0000e342       sf_debug_cv_init_chart     000000018000f342 f   sf_runtime:sf_runtime.dll
+ 0001:0000e348       sf_debug_set_chart_decomposition 000000018000f348 f   sf_runtime:sf_runtime.dll
+ 0001:0000e34e       sf_debug_set_chart_substate_count 000000018000f34e f   sf_runtime:sf_runtime.dll
+ 0001:0000e354       sf_debug_set_chart_state_info 000000018000f354 f   sf_runtime:sf_runtime.dll
+ 0001:0000e35a       sf_debug_set_chart_data_props 000000018000f35a f   sf_runtime:sf_runtime.dll
+ 0001:0000e360       sf_debug_set_chart_event_thresholds 000000018000f360 f   sf_runtime:sf_runtime.dll
+ 0001:0000e366       sf_debug_set_chart_disable_implicit_casting 000000018000f366 f   sf_runtime:sf_runtime.dll
+ 0001:0000e36c       sf_debug_initialize_chart  000000018000f36c f   sf_runtime:sf_runtime.dll
+ 0001:0000e372       sf_get_time                000000018000f372 f   sf_runtime:sf_runtime.dll
+ 0001:0000e378       sf_debug_check_for_state_inconsistency 000000018000f378 f   sf_runtime:sf_runtime.dll
+ 0001:0000e37e       sf_debug_symbol_scope_pop  000000018000f37e f   sf_runtime:sf_runtime.dll
+ 0001:0000e384       eml_debug_line_call        000000018000f384 f   sf_runtime:sf_runtime.dll
+ 0001:0000e38a       cv_eml_eval                000000018000f38a f   sf_runtime:sf_runtime.dll
+ 0001:0000e390       sf_debug_symbol_scope_add_eml 000000018000f390 f   sf_runtime:sf_runtime.dll
+ 0001:0000e396       sf_debug_symbol_scope_add_eml_importable 000000018000f396 f   sf_runtime:sf_runtime.dll
+ 0001:0000e39c       sf_debug_symbol_scope_push_eml 000000018000f39c f   sf_runtime:sf_runtime.dll
+ 0001:0000e3a2       sf_debug_data_range_wrapper 000000018000f3a2 f   sf_runtime:sf_runtime.dll
+ 0001:0000e3a8       sf_debug_call              000000018000f3a8 f   sf_runtime:sf_runtime.dll
+ 0001:0000e3ae       sf_debug_symbol_scope_push 000000018000f3ae f   sf_runtime:sf_runtime.dll
+ 0001:0000e3b4       sf_mex_call_debug          000000018000f3b4 f   sf_runtime:sf_runtime.dll
+ 0001:0000e3ba       sf_clear_rtw_identifier    000000018000f3ba f   sf_runtime:sf_runtime.dll
+ 0001:0000e3c0       mxDuplicateArray           000000018000f3c0 f   libmx:libmx.dll
+ 0001:0000e3c6       mxCreateDoubleScalar       000000018000f3c6 f   libmx:libmx.dll
+ 0001:0000e3cc       mxSetField_730             000000018000f3cc f   libmx:libmx.dll
+ 0001:0000e3d2       mxCreateStructMatrix_730   000000018000f3d2 f   libmx:libmx.dll
+ 0001:0000e3d8       mxCreateCellMatrix_730     000000018000f3d8 f   libmx:libmx.dll
+ 0001:0000e3de       utMalloc                   000000018000f3de f   libut:libut.dll
+ 0001:0000e3e4       utFree                     000000018000f3e4 f   libut:libut.dll
+ 0001:0000e3ea       muDoubleScalarPower        000000018000f3ea f   libmwmathutil:libmwmathutil.dll
+ 0002:00000000       __imp_RtlCaptureContext    0000000180010000     kernel32:KERNEL32.dll
+ 0002:00000008       __imp_DecodePointer        0000000180010008     kernel32:KERNEL32.dll
+ 0002:00000010       __imp_GetSystemTimeAsFileTime 0000000180010010     kernel32:KERNEL32.dll
+ 0002:00000018       __imp_GetCurrentProcessId  0000000180010018     kernel32:KERNEL32.dll
+ 0002:00000020       __imp_GetCurrentThreadId   0000000180010020     kernel32:KERNEL32.dll
+ 0002:00000028       __imp_GetTickCount         0000000180010028     kernel32:KERNEL32.dll
+ 0002:00000030       __imp_QueryPerformanceCounter 0000000180010030     kernel32:KERNEL32.dll
+ 0002:00000038       __imp_DisableThreadLibraryCalls 0000000180010038     kernel32:KERNEL32.dll
+ 0002:00000040       __imp_Sleep                0000000180010040     kernel32:KERNEL32.dll
+ 0002:00000048       __imp_RtlLookupFunctionEntry 0000000180010048     kernel32:KERNEL32.dll
+ 0002:00000050       __imp_RtlVirtualUnwind     0000000180010050     kernel32:KERNEL32.dll
+ 0002:00000058       __imp_IsDebuggerPresent    0000000180010058     kernel32:KERNEL32.dll
+ 0002:00000060       __imp_SetUnhandledExceptionFilter 0000000180010060     kernel32:KERNEL32.dll
+ 0002:00000068       __imp_UnhandledExceptionFilter 0000000180010068     kernel32:KERNEL32.dll
+ 0002:00000070       __imp_GetCurrentProcess    0000000180010070     kernel32:KERNEL32.dll
+ 0002:00000078       __imp_TerminateProcess     0000000180010078     kernel32:KERNEL32.dll
+ 0002:00000080       __imp_EncodePointer        0000000180010080     kernel32:KERNEL32.dll
+ 0002:00000088       \177KERNEL32_NULL_THUNK_DATA 0000000180010088     kernel32:KERNEL32.dll
+ 0002:00000090       __imp___C_specific_handler 0000000180010090     MSVCRT:MSVCR100.dll
+ 0002:00000098       __imp__amsg_exit           0000000180010098     MSVCRT:MSVCR100.dll
+ 0002:000000a0       __imp__onexit              00000001800100a0     MSVCRT:MSVCR100.dll
+ 0002:000000a8       __imp__lock                00000001800100a8     MSVCRT:MSVCR100.dll
+ 0002:000000b0       __imp___dllonexit          00000001800100b0     MSVCRT:MSVCR100.dll
+ 0002:000000b8       __imp__unlock              00000001800100b8     MSVCRT:MSVCR100.dll
+ 0002:000000c0       __imp___clean_type_info_names_internal 00000001800100c0     MSVCRT:MSVCR100.dll
+ 0002:000000c8       __imp___crt_debugger_hook  00000001800100c8     MSVCRT:MSVCR100.dll
+ 0002:000000d0       __imp__encoded_null        00000001800100d0     MSVCRT:MSVCR100.dll
+ 0002:000000d8       __imp__initterm_e          00000001800100d8     MSVCRT:MSVCR100.dll
+ 0002:000000e0       __imp__initterm            00000001800100e0     MSVCRT:MSVCR100.dll
+ 0002:000000e8       __imp__malloc_crt          00000001800100e8     MSVCRT:MSVCR100.dll
+ 0002:000000f0       __imp_memset               00000001800100f0     MSVCRT:MSVCR100.dll
+ 0002:000000f8       __imp_memcpy               00000001800100f8     MSVCRT:MSVCR100.dll
+ 0002:00000100       __imp_strcat               0000000180010100     MSVCRT:MSVCR100.dll
+ 0002:00000108       __imp_strlen               0000000180010108     MSVCRT:MSVCR100.dll
+ 0002:00000110       __imp_strcmp               0000000180010110     MSVCRT:MSVCR100.dll
+ 0002:00000118       __imp_free                 0000000180010118     MSVCRT:MSVCR100.dll
+ 0002:00000120       __imp_sprintf              0000000180010120     MSVCRT:MSVCR100.dll
+ 0002:00000128       __imp_malloc               0000000180010128     MSVCRT:MSVCR100.dll
+ 0002:00000130       __imp___CppXcptFilter      0000000180010130     MSVCRT:MSVCR100.dll
+ 0002:00000138       \177MSVCR100_NULL_THUNK_DATA 0000000180010138     MSVCRT:MSVCR100.dll
+ 0002:00000140       __imp_mexLock              0000000180010140     libmex:libmex.dll
+ 0002:00000148       __imp_mexErrMsgTxt         0000000180010148     libmex:libmex.dll
+ 0002:00000150       __imp_mexCallMATLAB        0000000180010150     libmex:libmex.dll
+ 0002:00000158       __imp_mexWarnMsgTxt        0000000180010158     libmex:libmex.dll
+ 0002:00000160       __imp_mexIsLocked          0000000180010160     libmex:libmex.dll
+ 0002:00000168       __imp_mexUnlock            0000000180010168     libmex:libmex.dll
+ 0002:00000170       __imp_mexMakeArrayPersistent 0000000180010170     libmex:libmex.dll
+ 0002:00000178       \177libmex_NULL_THUNK_DATA 0000000180010178     libmex:libmex.dll
+ 0002:00000180       __imp_muDoubleScalarPower  0000000180010180     libmwmathutil:libmwmathutil.dll
+ 0002:00000188       \177libmwmathutil_NULL_THUNK_DATA 0000000180010188     libmwmathutil:libmwmathutil.dll
+ 0002:00000190       __imp_mxCalloc             0000000180010190     libmx:libmx.dll
+ 0002:00000198       __imp_mxGetM               0000000180010198     libmx:libmx.dll
+ 0002:000001a0       __imp_mxGetN               00000001800101a0     libmx:libmx.dll
+ 0002:000001a8       __imp_mxIsComplex          00000001800101a8     libmx:libmx.dll
+ 0002:000001b0       __imp_mxIsNumeric          00000001800101b0     libmx:libmx.dll
+ 0002:000001b8       __imp_mxGetClassID         00000001800101b8     libmx:libmx.dll
+ 0002:000001c0       __imp_mxCreateString       00000001800101c0     libmx:libmx.dll
+ 0002:000001c8       __imp_mxDestroyArray       00000001800101c8     libmx:libmx.dll
+ 0002:000001d0       __imp_mxIsChar             00000001800101d0     libmx:libmx.dll
+ 0002:000001d8       __imp_mxGetString_730      00000001800101d8     libmx:libmx.dll
+ 0002:000001e0       __imp_mxCreateDoubleMatrix_730 00000001800101e0     libmx:libmx.dll
+ 0002:000001e8       __imp_mxGetPr              00000001800101e8     libmx:libmx.dll
+ 0002:000001f0       __imp_mxGetScalar          00000001800101f0     libmx:libmx.dll
+ 0002:000001f8       __imp_mxCreateDoubleScalar 00000001800101f8     libmx:libmx.dll
+ 0002:00000200       __imp_mxSetField_730       0000000180010200     libmx:libmx.dll
+ 0002:00000208       __imp_mxCreateCellMatrix_730 0000000180010208     libmx:libmx.dll
+ 0002:00000210       __imp_mxCreateStructMatrix_730 0000000180010210     libmx:libmx.dll
+ 0002:00000218       __imp_mxDuplicateArray     0000000180010218     libmx:libmx.dll
+ 0002:00000220       \177libmx_NULL_THUNK_DATA  0000000180010220     libmx:libmx.dll
+ 0002:00000228       __imp_utFree               0000000180010228     libut:libut.dll
+ 0002:00000230       __imp_utMalloc             0000000180010230     libut:libut.dll
+ 0002:00000238       \177libut_NULL_THUNK_DATA  0000000180010238     libut:libut.dll
+ 0002:00000240       __imp_sf_debug_terminate   0000000180010240     sf_runtime:sf_runtime.dll
+ 0002:00000248       __imp_sf_load_rtw_optimization_info 0000000180010248     sf_runtime:sf_runtime.dll
+ 0002:00000250       __imp_sf_debug_initialize_machine 0000000180010250     sf_runtime:sf_runtime.dll
+ 0002:00000258       __imp_sf_mex_emlrtNameCapturePostProcessR2012a 0000000180010258     sf_runtime:sf_runtime.dll
+ 0002:00000260       __imp_sf_mex_assign        0000000180010260     sf_runtime:sf_runtime.dll
+ 0002:00000268       __imp_sf_mex_createstruct  0000000180010268     sf_runtime:sf_runtime.dll
+ 0002:00000270       __imp_sf_mex_destroy       0000000180010270     sf_runtime:sf_runtime.dll
+ 0002:00000278       __imp_sf_mex_duplicatearraysafe 0000000180010278     sf_runtime:sf_runtime.dll
+ 0002:00000280       __imp_sf_mex_createcellmatrix 0000000180010280     sf_runtime:sf_runtime.dll
+ 0002:00000288       __imp_sf_mex_addfield      0000000180010288     sf_runtime:sf_runtime.dll
+ 0002:00000290       __imp_sf_mex_create        0000000180010290     sf_runtime:sf_runtime.dll
+ 0002:00000298       __imp_sf_mex_error_message 0000000180010298     sf_runtime:sf_runtime.dll
+ 0002:000002a0       __imp_sf_mex_call_matlab   00000001800102a0     sf_runtime:sf_runtime.dll
+ 0002:000002a8       __imp_sf_mex_setcell       00000001800102a8     sf_runtime:sf_runtime.dll
+ 0002:000002b0       __imp_sf_mex_decode_encoded_mx_struct_array 00000001800102b0     sf_runtime:sf_runtime.dll
+ 0002:000002b8       __imp_sf_mex_getcell       00000001800102b8     sf_runtime:sf_runtime.dll
+ 0002:000002c0       __imp_sf_mex_dup           00000001800102c0     sf_runtime:sf_runtime.dll
+ 0002:000002c8       __imp_sf_mex_import        00000001800102c8     sf_runtime:sf_runtime.dll
+ 0002:000002d0       __imp_sf_set_rtw_dwork_info 00000001800102d0     sf_runtime:sf_runtime.dll
+ 0002:000002d8       __imp_sf_debug_create_debug_instance_struct 00000001800102d8     sf_runtime:sf_runtime.dll
+ 0002:000002e0       __imp_sf_mark_chart_expressionable_inputs 00000001800102e0     sf_runtime:sf_runtime.dll
+ 0002:000002e8       __imp_sf_update_buildInfo  00000001800102e8     sf_runtime:sf_runtime.dll
+ 0002:000002f0       __imp_sf_rtw_info_uint_prop 00000001800102f0     sf_runtime:sf_runtime.dll
+ 0002:000002f8       __imp_sf_is_chart_inlinable 00000001800102f8     sf_runtime:sf_runtime.dll
+ 0002:00000300       __imp_sim_mode_is_external 0000000180010300     sf_runtime:sf_runtime.dll
+ 0002:00000308       __imp_sf_debug_reset_current_state_configuration 0000000180010308     sf_runtime:sf_runtime.dll
+ 0002:00000310       __imp_sf_debug_set_instance_data_value_ptr 0000000180010310     sf_runtime:sf_runtime.dll
+ 0002:00000318       __imp_sf_debug_set_chart_data_compiled_props 0000000180010318     sf_runtime:sf_runtime.dll
+ 0002:00000320       __imp_cv_eml_init_fcn      0000000180010320     sf_runtime:sf_runtime.dll
+ 0002:00000328       __imp_cv_eml_init_script   0000000180010328     sf_runtime:sf_runtime.dll
+ 0002:00000330       __imp_sf_debug_cv_init_trans 0000000180010330     sf_runtime:sf_runtime.dll
+ 0002:00000338       __imp_sf_debug_cv_init_state 0000000180010338     sf_runtime:sf_runtime.dll
+ 0002:00000340       __imp_sf_debug_cv_init_chart 0000000180010340     sf_runtime:sf_runtime.dll
+ 0002:00000348       __imp_sf_debug_set_chart_decomposition 0000000180010348     sf_runtime:sf_runtime.dll
+ 0002:00000350       __imp_sf_debug_set_chart_substate_count 0000000180010350     sf_runtime:sf_runtime.dll
+ 0002:00000358       __imp_sf_debug_set_chart_state_info 0000000180010358     sf_runtime:sf_runtime.dll
+ 0002:00000360       __imp_sf_debug_set_chart_data_props 0000000180010360     sf_runtime:sf_runtime.dll
+ 0002:00000368       __imp_sf_debug_set_chart_event_thresholds 0000000180010368     sf_runtime:sf_runtime.dll
+ 0002:00000370       __imp_sf_debug_set_chart_disable_implicit_casting 0000000180010370     sf_runtime:sf_runtime.dll
+ 0002:00000378       __imp_sf_debug_initialize_chart 0000000180010378     sf_runtime:sf_runtime.dll
+ 0002:00000380       __imp_sf_get_time          0000000180010380     sf_runtime:sf_runtime.dll
+ 0002:00000388       __imp_sf_debug_check_for_state_inconsistency 0000000180010388     sf_runtime:sf_runtime.dll
+ 0002:00000390       __imp_sf_debug_symbol_scope_pop 0000000180010390     sf_runtime:sf_runtime.dll
+ 0002:00000398       __imp_eml_debug_line_call  0000000180010398     sf_runtime:sf_runtime.dll
+ 0002:000003a0       __imp_cv_eml_eval          00000001800103a0     sf_runtime:sf_runtime.dll
+ 0002:000003a8       __imp_sf_debug_symbol_scope_add_eml 00000001800103a8     sf_runtime:sf_runtime.dll
+ 0002:000003b0       __imp_sf_debug_symbol_scope_add_eml_importable 00000001800103b0     sf_runtime:sf_runtime.dll
+ 0002:000003b8       __imp_sf_debug_symbol_scope_push_eml 00000001800103b8     sf_runtime:sf_runtime.dll
+ 0002:000003c0       __imp_sf_debug_data_range_wrapper 00000001800103c0     sf_runtime:sf_runtime.dll
+ 0002:000003c8       __imp_sf_debug_call        00000001800103c8     sf_runtime:sf_runtime.dll
+ 0002:000003d0       __imp_sf_debug_symbol_scope_push 00000001800103d0     sf_runtime:sf_runtime.dll
+ 0002:000003d8       __imp_sf_mex_call_debug    00000001800103d8     sf_runtime:sf_runtime.dll
+ 0002:000003e0       __imp_sf_clear_rtw_identifier 00000001800103e0     sf_runtime:sf_runtime.dll
+ 0002:000003e8       __imp_sim_mode_is_rtw_gen  00000001800103e8     sf_runtime:sf_runtime.dll
+ 0002:000003f0       __imp_sf_debug_api         00000001800103f0     sf_runtime:sf_runtime.dll
+ 0002:000003f8       __imp_callMdlMethodAndReportError 00000001800103f8     sf_runtime:sf_runtime.dll
+ 0002:00000400       __imp_call_sf_machine_global_method_dispatcher 0000000180010400     sf_runtime:sf_runtime.dll
+ 0002:00000408       __imp_sf_clear_error_manager_info 0000000180010408     sf_runtime:sf_runtime.dll
+ 0002:00000410       __imp_sf_mex_error_direct_call 0000000180010410     sf_runtime:sf_runtime.dll
+ 0002:00000418       __imp_sf_mark_chart_reusable_outputs 0000000180010418     sf_runtime:sf_runtime.dll
+ 0002:00000420       __imp_sf_debug_set_machine_event_thresholds 0000000180010420     sf_runtime:sf_runtime.dll
+ 0002:00000428       __imp_sf_debug_set_machine_data_thresholds 0000000180010428     sf_runtime:sf_runtime.dll
+ 0002:00000430       \177sf_runtime_NULL_THUNK_DATA 0000000180010430     sf_runtime:sf_runtime.dll
+ 0002:00000438       __xc_a                     0000000180010438     MSVCRT:cinitexe.obj
+ 0002:00000440       __xc_z                     0000000180010440     MSVCRT:cinitexe.obj
+ 0002:00000448       __xi_a                     0000000180010448     MSVCRT:cinitexe.obj
+ 0002:00000458       __xi_z                     0000000180010458     MSVCRT:cinitexe.obj
+ 0002:00000460       __real@41e2685dbd600000    0000000180010460     Ensayos_Friccion_sfun.obj
+ 0002:00000468       __real@41e9f1d7d4800000    0000000180010468     Ensayos_Friccion_sfun.obj
+ 0002:00000470       __real@41eb116430c00000    0000000180010470     Ensayos_Friccion_sfun.obj
+ 0002:00000478       __real@41d4004ba7800000    0000000180010478     Ensayos_Friccion_sfun.obj
+ 0002:00000480       __real@41c900e78a000000    0000000180010480     Ensayos_Friccion_sfun.obj
+ 0002:00000488       __real@41eda5398c800000    0000000180010488     Ensayos_Friccion_sfun.obj
+ 0002:00000490       __real@41edcf5b43c00000    0000000180010490     Ensayos_Friccion_sfun.obj
+ 0002:00000498       __real@41e695dff8600000    0000000180010498     Ensayos_Friccion_sfun.obj
+ 0002:000004a0       __real@41eadbf27d200000    00000001800104a0     Ensayos_Friccion_sfun.obj
+ 0002:000004a8       __real@41e03e40fd200000    00000001800104a8     Ensayos_Friccion_sfun.obj
+ 0002:000004b0       __real@41e2fade59e00000    00000001800104b0     Ensayos_Friccion_sfun.obj
+ 0002:000004b8       __real@41e2d87900200000    00000001800104b8     Ensayos_Friccion_sfun.obj
+ 0002:000004c0       __real@41e9fcc600200000    00000001800104c0     Ensayos_Friccion_sfun.obj
+ 0002:000004c8       __real@41eb5e5b12200000    00000001800104c8     Ensayos_Friccion_sfun.obj
+ 0002:000004d0       __real@41ecc255d4a00000    00000001800104d0     Ensayos_Friccion_sfun.obj
+ 0002:000004d8       __real@41ded8e3af800000    00000001800104d8     Ensayos_Friccion_sfun.obj
+ 0002:000004e0       DYNAMIC_DIMENSION_DEF      00000001800104e0     Ensayos_Friccion_sfun_registry.obj
+ 0002:00000500       _ssBadLevel2InputAccessMsg 0000000180010500     Ensayos_Friccion_sfun_registry.obj
+ 0002:00000690       _ssBadLevel2DirectFeedMsg  0000000180010690     Ensayos_Friccion_sfun_registry.obj
+ 0002:000007d0       _ssBadLevel2DirectFeedSolutionMsg 00000001800107d0     Ensayos_Friccion_sfun_registry.obj
+ 0002:00000840       _ssBadLevel2ZeroDirectFeedMsg 0000000180010840     Ensayos_Friccion_sfun_registry.obj
+ 0002:00000980       _ssBadLevel2ZeroDirectFeedMsg2 0000000180010980     Ensayos_Friccion_sfun_registry.obj
+ 0002:00000a68       __real@0000000000000000    0000000180010a68     Ensayos_Friccion_sfun_registry.obj
+ 0002:00000a70       __real@bff0000000000000    0000000180010a70     Ensayos_Friccion_sfun_registry.obj
+ 0002:00000a78       __real@41602cbca0000000    0000000180010a78     Ensayos_Friccion_sfun_registry.obj
+ 0002:00000a80       __real@41cd8b20ec000000    0000000180010a80     Fricciones_sfun:Fricciones_sfun.obj
+ 0002:00000a88       __real@41e51bcbf0800000    0000000180010a88     Fricciones_sfun:Fricciones_sfun.obj
+ 0002:00000a90       __real@41bb51be8a000000    0000000180010a90     Fricciones_sfun:Fricciones_sfun.obj
+ 0002:00000a98       __real@41e58d41f6a00000    0000000180010a98     Fricciones_sfun:Fricciones_sfun.obj
+ 0002:00000aa0       __real@419a814360000000    0000000180010aa0     Fricciones_sfun:c2_Fricciones.obj
+ 0002:00000aa8       __real@41da91a301800000    0000000180010aa8     Fricciones_sfun:c2_Fricciones.obj
+ 0002:00000ab0       __real@41b3ac8532000000    0000000180010ab0     Fricciones_sfun:c2_Fricciones.obj
+ 0002:00000ab8       __real@41e541dcb1400000    0000000180010ab8     Fricciones_sfun:c2_Fricciones.obj
+ 0002:00000ac0       __real@4024000000000000    0000000180010ac0     Fricciones_sfun:c2_Fricciones.obj
+ 0002:00000ac8       __real@3ff0000000000000    0000000180010ac8     Fricciones_sfun:c2_Fricciones.obj
+ 0002:00000ad0       __real@3fd5555555555555    0000000180010ad0     Fricciones_sfun:c2_Fricciones.obj
+ 0002:00000ad8       _pRawDllMain               0000000180010ad8     MSVCRT:crtdll.obj
+ 0002:00000ad8       _pDefaultRawDllMain        0000000180010ad8     MSVCRT:crtdll.obj
+ 0002:00000af0       ?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB 0000000180010af0     MSVCRT:tncleanup.obj
+ 0002:00000af4       ?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB 0000000180010af4     MSVCRT:tncleanup.obj
+ 0002:00000af8       ?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB 0000000180010af8     MSVCRT:tncleanup.obj
+ 0002:00000afc       ?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB 0000000180010afc     MSVCRT:tncleanup.obj
+ 0002:00000b00       ?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB 0000000180010b00     MSVCRT:tncleanup.obj
+ 0002:00000b08       __rtc_iaa                  0000000180010b08     MSVCRT:_initsect_.obj
+ 0002:00000b10       __rtc_izz                  0000000180010b10     MSVCRT:_initsect_.obj
+ 0002:00000b18       __rtc_taa                  0000000180010b18     MSVCRT:_initsect_.obj
+ 0002:00000b20       __rtc_tzz                  0000000180010b20     MSVCRT:_initsect_.obj
+ 0002:000011c8       __IMPORT_DESCRIPTOR_sf_runtime 00000001800111c8     sf_runtime:sf_runtime.dll
+ 0002:000011dc       __IMPORT_DESCRIPTOR_libmx  00000001800111dc     libmx:libmx.dll
+ 0002:000011f0       __IMPORT_DESCRIPTOR_libmex 00000001800111f0     libmex:libmex.dll
+ 0002:00001204       __IMPORT_DESCRIPTOR_MSVCR100 0000000180011204     MSVCRT:MSVCR100.dll
+ 0002:00001218       __IMPORT_DESCRIPTOR_KERNEL32 0000000180011218     kernel32:KERNEL32.dll
+ 0002:0000122c       __IMPORT_DESCRIPTOR_libut  000000018001122c     libut:libut.dll
+ 0002:00001240       __IMPORT_DESCRIPTOR_libmwmathutil 0000000180011240     libmwmathutil:libmwmathutil.dll
+ 0002:00001254       __NULL_IMPORT_DESCRIPTOR   0000000180011254     sf_runtime:sf_runtime.dll
+ 0003:00000320       DYNAMIC_DIMENSION          0000000180013320     Ensayos_Friccion_sfun_registry.obj
+ 0003:000034b8       __security_cookie          00000001800164b8     MSVCRT:gs_cookie.obj
+ 0003:000034c0       __security_cookie_complement 00000001800164c0     MSVCRT:gs_cookie.obj
+ 0003:000034c8       _fltused                   00000001800164c8     MSVCRT:dllsupp.obj
+ 0003:000034d0       __native_dllmain_reason    00000001800164d0     MSVCRT:natstart.obj
+ 0003:000034d4       __native_vcclrit_reason    00000001800164d4     MSVCRT:natstart.obj
+ 0003:000035b8       sfGlobalDebugInstanceStruct 00000001800165b8     Ensayos_Friccion_sfun_registry.obj
+ 0003:00003b50       ?__type_info_root_node@@3U__type_info_node@@A 0000000180016b50     MSVCRT:tncleanup.obj
+ 0003:00003b60       _Ensayos_FriccionMachineNumber_ 0000000180016b60     <common>
+ 0003:00003b64       _FriccionesMachineNumber_  0000000180016b64     <common>
+ 0003:00003b68       __native_startup_state     0000000180016b68     <common>
+ 0003:00003b70       __native_startup_lock      0000000180016b70     <common>
+ 0003:00003b78       __onexitend                0000000180016b78     <common>
+ 0003:00003b80       __onexitbegin              0000000180016b80     <common>
+ 0003:00003b88       __dyn_tls_init_callback    0000000180016b88     <common>
+
+ entry point at        0001:0000dd68
+
+ Static symbols
+
+ 0001:00001590       getChartInfoFromSimStruct  0000000180002590 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00002c30       _ssFatalError              0000000180003c30 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00005ce0       ProcessMexSfunctionCmdLineCall 0000000180006ce0 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00005e10       sf_debug_api_wrapper       0000000180006e10 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00005e60       mdlStart                   0000000180006e60 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00005e90       mdl_start_processing       0000000180006e90 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00005f20       mdlTerminate               0000000180006f20 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00005f50       mdl_terminate_processing   0000000180006f50 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00005fd0       mdlInitializeSampleTimes   0000000180006fd0 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00006000       mdlZeroCrossings           0000000180007000 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00006030       mdl_zeroCrossings_processing 0000000180007030 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00006070       mdlDerivatives             0000000180007070 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:000060a0       mdl_derivatives_processing 00000001800070a0 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:000060f0       mdlInitializeConditions    00000001800070f0 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00006120       mdl_initialize_conditions_processing 0000000180007120 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00006170       mdlEnable                  0000000180007170 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:000061a0       mdl_enable_processing      00000001800071a0 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:000061e0       mdlDisable                 00000001800071e0 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00006210       mdl_disable_processing     0000000180007210 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00006250       mdlOutputs                 0000000180007250 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00006280       mdl_outputs_processing     0000000180007280 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00006360       mdl_outputs_continuous_legacy 0000000180007360 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00006450       mdlGetTimeOfNextVarHit     0000000180007450 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:000064a0       _ProcessMexSfunctionCmdLineCall 00000001800074a0 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00006bf0       mdlSetWorkWidths           0000000180007bf0 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00006c20       mdlProcessParameters       0000000180007c20 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00006c50       mdlInitializeSizes         0000000180007c50 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00006c80       mdlExtModeExec             0000000180007c80 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00006cb0       mdl_ext_mode_exec_processing 0000000180007cb0 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00006cf0       mdlRTW                     0000000180007cf0 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00006d30       _CreateSimStruct           0000000180007d30 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00006ec0       _RegNumInputPortsCB        0000000180007ec0 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00006f40       _RegNumOutputPortsCB       0000000180007f40 f   Ensayos_Friccion_sfun_registry.obj
+ 0001:00007c20       c2_info_helper             0000000180008c20 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000af40       c2_emlrt_marshallOut       000000018000bf40 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000afd0       c2_b_emlrt_marshallOut     000000018000bfd0 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000b640       get_sim_state_c2_Fricciones 000000018000c640 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000b7e0       sf_get_sim_state_info_c2_Fricciones 000000018000c7e0 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000b9b0       set_sim_state_c2_Fricciones 000000018000c9b0 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000ba90       c2_update_debugger_state_c2_Fricciones 000000018000ca90 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000baa0       c2_emlrt_marshallIn        000000018000caa0 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000bb10       c2_b_emlrt_marshallIn      000000018000cb10 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000bba0       c2_d_emlrt_marshallIn      000000018000cba0 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000bc00       c2_e_emlrt_marshallIn      000000018000cc00 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000bd00       mdlProcessParameters_c2_Fricciones 000000018000cd00 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000bde0       initialize_params_c2_Fricciones 000000018000cde0 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000bdf0       mdlSetWorkWidths_c2_Fricciones 000000018000cdf0 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000c2c0       sf_get_instance_specialization 000000018000d2c0 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000c2d0       mdlStart_c2_Fricciones     000000018000d2d0 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000c500       init_dsm_address_info      000000018000d500 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000c510       chart_debug_initialization 000000018000d510 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000cc50       init_script_number_translation 000000018000dc50 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000cc70       c2_sf_marshallOut          000000018000dc70 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000cd20       c2_sf_marshallIn           000000018000dd20 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000cdc0       sf_opaque_initialize_c2_Fricciones 000000018000ddc0 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000ce00       initialize_c2_Fricciones   000000018000de00 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000ce50       sf_opaque_enable_c2_Fricciones 000000018000de50 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000ce70       enable_c2_Fricciones       000000018000de70 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000cea0       sf_opaque_disable_c2_Fricciones 000000018000dea0 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000cec0       disable_c2_Fricciones      000000018000dec0 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000cef0       sf_opaque_gateway_c2_Fricciones 000000018000def0 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000cf10       sf_gateway_c2_Fricciones   000000018000df10 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000d5c0       c2_eml_scalar_eg           000000018000e5c0 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000d5d0       c2_eml_error               000000018000e5d0 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000d710       sf_opaque_get_sim_state_c2_Fricciones 000000018000e710 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000d730       sf_opaque_set_sim_state_c2_Fricciones 000000018000e730 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000d760       sf_opaque_terminate_c2_Fricciones 000000018000e760 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000d800       finalize_c2_Fricciones     000000018000e800 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000d810       sf_opaque_init_subchart_simstructs 000000018000e810 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000d830       initSimStructsc2_Fricciones 000000018000e830 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000d840       mdlRTW_c2_Fricciones       000000018000e840 f   Fricciones_sfun:c2_Fricciones.obj
+ 0001:0000d970       pre_c_init                 000000018000e970 f   MSVCRT:crtdll.obj
+ 0001:0000dc2c       __DllMainCRTStartup        000000018000ec2c f   MSVCRT:crtdll.obj
+ 0001:0000e3f0       __DllMainCRTStartup$filt$0 000000018000f3f0 f   MSVCRT:crtdll.obj
+ 0001:0000e420       __DllMainCRTStartup$fin$1  000000018000f420 f   MSVCRT:crtdll.obj
+ 0001:0000e43a       _onexit$fin$0              000000018000f43a f   MSVCRT:atonexit.obj
+ 0001:0000e460       _IsNonwritableInCurrentImage$filt$0 000000018000f460 f   MSVCRT:pesect.obj

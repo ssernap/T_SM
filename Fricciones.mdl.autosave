@@ -41,7 +41,7 @@ Library {
 	Dimension		2
 	Object {
 	  $ObjectID		  5
-	  IsActive		  [1]
+	  IsActive		  [0]
 	  ViewObjType		  "SimulinkSubsys"
 	  LoadSaveID		  "4"
 	  Extents		  [647.0, 575.0]
@@ -50,7 +50,7 @@ Library {
 	}
 	Object {
 	  $ObjectID		  6
-	  IsActive		  [0]
+	  IsActive		  [1]
 	  ViewObjType		  "SimulinkTopLevel"
 	  LoadSaveID		  "0"
 	  Extents		  [647.0, 575.0]
@@ -67,9 +67,9 @@ Library {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "Sebastian"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Mon Mar 28 10:41:25 2016"
-  RTWModifiedTimeStamp	  381062483
-  ModelVersionFormat	  "1.%<AutoIncrement:42>"
+  LastModifiedDate	  "Mon Mar 28 10:30:35 2016"
+  RTWModifiedTimeStamp	  381062189
+  ModelVersionFormat	  "1.%<AutoIncrement:40>"
   ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -952,7 +952,7 @@ Library {
     ShowPageBoundaries	    off
     ZoomFactor		    "80"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "347"
+    SIDHighWatermark	    "345"
     Block {
       BlockType		      SubSystem
       Name		      "Continuous\nFriction Model\nESF"
@@ -2866,6 +2866,22 @@ Library {
 	ZoomFactor		"125"
 	Block {
 	  BlockType		  Reference
+	  Name			  "Expandido"
+	  SID			  "345"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [145, 365, 185, 405]
+	  ZOrder		  342
+	  LibraryVersion	  "1.40"
+	  SourceBlock		  "Fricciones/Expandido"
+	  SourceType		  ""
+	  ShowPortLabels	  "FromPortIcon"
+	  SystemSampleTime	  "-1"
+	  FunctionWithSeparateData off
+	  GeneratePreprocessorConditionals off
+	  ContentPreviewEnabled	  off
+	}
+	Block {
+	  BlockType		  Reference
 	  Name			  "PS Subtract"
 	  SID			  "3"
 	  Ports			  [0, 0, 0, 0, 0, 2, 1]
@@ -2880,18 +2896,6 @@ Library {
 	  ComponentVariantNames	  "subtract"
 	  ClassName		  "subtract"
 	  SchemaVersion		  "1"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Simplificado"
-	  SID			  "347"
-	  Ports			  [0, 0, 0, 0, 0, 1, 1]
-	  Position		  [135, 366, 175, 404]
-	  ZOrder		  344
-	  LibraryVersion	  "1.41"
-	  SourceBlock		  "Fricciones/Simplificado"
-	  SourceType		  "SubSystem"
-	  ContentPreviewEnabled	  off
 	}
 	Block {
 	  BlockType		  PMIOPort
@@ -2945,19 +2949,19 @@ Library {
 	}
 	Line {
 	  LineType		  "Connection"
-	  ZOrder		  61
-	  SrcBlock		  "Simplificado"
+	  ZOrder		  57
+	  SrcBlock		  "Expandido"
 	  SrcPort		  RConn1
-	  Points		  [200, 0]
+	  Points		  [190, 0]
 	  DstBlock		  "w"
 	  DstPort		  RConn1
 	}
 	Line {
 	  LineType		  "Connection"
-	  ZOrder		  60
-	  SrcBlock		  "Simplificado"
+	  ZOrder		  56
+	  SrcBlock		  "Expandido"
 	  SrcPort		  LConn1
-	  Points		  [-114, 0; 0, -270]
+	  Points		  [-124, 0; 0, -270]
 	  DstBlock		  "PS Subtract"
 	  DstPort		  LConn2
 	}
