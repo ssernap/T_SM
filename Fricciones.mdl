@@ -19,7 +19,7 @@ Library {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [-7.0, 0.0, 697.0, 745.0]
+      Location		      [-8.0, -8.0, 1382.0, 754.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -41,7 +41,7 @@ Library {
 	Dimension		2
 	Object {
 	  $ObjectID		  5
-	  IsActive		  [1]
+	  IsActive		  [0]
 	  ViewObjType		  "SimulinkSubsys"
 	  LoadSaveID		  "4"
 	  Extents		  [647.0, 575.0]
@@ -50,12 +50,12 @@ Library {
 	}
 	Object {
 	  $ObjectID		  6
-	  IsActive		  [0]
-	  ViewObjType		  "SimulinkTopLevel"
-	  LoadSaveID		  "0"
-	  Extents		  [647.0, 575.0]
-	  ZoomFactor		  [0.8]
-	  Offset		  [-438.797818334382, 12.612501788139355]
+	  IsActive		  [1]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "11"
+	  Extents		  [1332.0, 584.0]
+	  ZoomFactor		  [0.6]
+	  Offset		  [-237.33333333333337, -138.77499708533287]
 	}
 	PropName		"EditorsInfo"
       }
@@ -67,9 +67,9 @@ Library {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "Sebastian"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Mon Mar 28 10:41:25 2016"
-  RTWModifiedTimeStamp	  381062483
-  ModelVersionFormat	  "1.%<AutoIncrement:42>"
+  LastModifiedDate	  "Mon Mar 28 10:49:13 2016"
+  RTWModifiedTimeStamp	  381062951
+  ModelVersionFormat	  "1.%<AutoIncrement:44>"
   ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -866,21 +866,6 @@ Library {
       SampleTime	      "-1"
     }
     Block {
-      BlockType		      Sqrt
-      Operator		      "sqrt"
-      OutputSignalType	      "auto"
-      SampleTime	      "-1"
-      OutMin		      "[]"
-      OutMax		      "[]"
-      OutDataTypeStr	      "Inherit: Same as first input"
-      LockScale		      off
-      RndMeth		      "Floor"
-      SaturateOnIntegerOverflow	on
-      IntermediateResultsDataTypeStr "Inherit: Inherit via internal rule"
-      AlgorithmType	      "Exact"
-      Iterations	      "3"
-    }
-    Block {
       BlockType		      SubSystem
       ShowPortLabels	      "FromPortIcon"
       Permissions	      "ReadWrite"
@@ -938,8 +923,8 @@ Library {
   }
   System {
     Name		    "Fricciones"
-    Location		    [-7, 0, 690, 745]
-    Open		    on
+    Location		    [-8, -8, 1374, 746]
+    Open		    off
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200
     ScreenColor		    "white"
@@ -952,7 +937,7 @@ Library {
     ShowPageBoundaries	    off
     ZoomFactor		    "80"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "347"
+    SIDHighWatermark	    "358"
     Block {
       BlockType		      SubSystem
       Name		      "Continuous\nFriction Model\nESF"
@@ -2394,24 +2379,10 @@ Library {
       Position		      [295, 124, 335, 166]
       ZOrder		      12
       RequestExecContextInheritance off
-      Object {
-	$PropName		"MaskObject"
-	$ObjectID		28
-	$ClassName		"Simulink.Mask"
-	Object {
-	  $PropName		  "Parameters"
-	  $ObjectID		  29
-	  $ClassName		  "Simulink.MaskParameter"
-	  Type			  "edit"
-	  Name			  "Friccion"
-	  Prompt		  "Friccion"
-	  Value			  "0.01"
-	}
-      }
       System {
 	Name			"Friccion \nCoulomb\nEsf"
-	Location		[-7, 0, 690, 745]
-	Open			off
+	Location		[-8, -8, 1374, 746]
+	Open			on
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -2422,15 +2393,16 @@ Library {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"100"
+	ZoomFactor		"60"
 	Block {
 	  BlockType		  Reference
-	  Name			  "PS Gain3"
-	  SID			  "193"
+	  Name			  "PS Gain"
+	  SID			  "356"
 	  Ports			  [0, 0, 0, 0, 0, 1, 1]
-	  Position		  [255, 115, 275, 145]
-	  ZOrder		  25
-	  BlockMirror		  on
+	  Position		  [205, 105, 225, 135]
+	  ZOrder		  329
+	  BlockRotation		  180
+	  NamePlacement		  "alternate"
 	  LibraryVersion	  "8.31"
 	  SourceBlock		  "fl_lib/Physical Signals/Functions/PS Gain"
 	  SourceType		  "PS Gain"
@@ -2440,17 +2412,18 @@ Library {
 	  ComponentVariantNames	  "gain"
 	  ClassName		  "gain"
 	  SchemaVersion		  "1"
-	  gain			  "-Friccion"
+	  gain			  "-1"
 	  gain_unit		  "1"
 	}
 	Block {
 	  BlockType		  Reference
-	  Name			  "PS Gain4"
-	  SID			  "197"
+	  Name			  "PS Gain1"
+	  SID			  "357"
 	  Ports			  [0, 0, 0, 0, 0, 1, 1]
-	  Position		  [140, 315, 160, 345]
-	  ZOrder		  29
-	  BlockMirror		  on
+	  Position		  [160, 295, 180, 325]
+	  ZOrder		  330
+	  BlockRotation		  180
+	  NamePlacement		  "alternate"
 	  LibraryVersion	  "8.31"
 	  SourceBlock		  "fl_lib/Physical Signals/Functions/PS Gain"
 	  SourceType		  "PS Gain"
@@ -2460,17 +2433,18 @@ Library {
 	  ComponentVariantNames	  "gain"
 	  ClassName		  "gain"
 	  SchemaVersion		  "1"
-	  gain			  "-Friccion"
+	  gain			  "-1"
 	  gain_unit		  "1"
 	}
 	Block {
 	  BlockType		  Reference
-	  Name			  "PS Gain5"
-	  SID			  "201"
+	  Name			  "PS Gain2"
+	  SID			  "358"
 	  Ports			  [0, 0, 0, 0, 0, 1, 1]
-	  Position		  [170, 520, 190, 550]
-	  ZOrder		  33
-	  BlockMirror		  on
+	  Position		  [150, 445, 170, 475]
+	  ZOrder		  331
+	  BlockRotation		  180
+	  NamePlacement		  "alternate"
 	  LibraryVersion	  "8.31"
 	  SourceBlock		  "fl_lib/Physical Signals/Functions/PS Gain"
 	  SourceType		  "PS Gain"
@@ -2480,182 +2454,56 @@ Library {
 	  ComponentVariantNames	  "gain"
 	  ClassName		  "gain"
 	  SchemaVersion		  "1"
-	  gain			  "-Friccion"
+	  gain			  "-1"
 	  gain_unit		  "1"
 	}
 	Block {
 	  BlockType		  Reference
-	  Name			  "PS-Simulink\nConverter"
-	  SID			  "194"
-	  Ports			  [0, 1, 0, 0, 0, 1]
-	  Position		  [495, 115, 525, 145]
-	  ZOrder		  23
-	  BlockMirror		  on
-	  LibraryVersion	  "1.1"
-	  SourceBlock		  "nesl_utility/PS-Simulink\nConverter"
-	  SourceType		  "PS-Simulink\nConverter"
+	  Name			  "Smooth"
+	  SID			  "348"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [330, 105, 370, 145]
+	  ZOrder		  321
+	  LibraryVersion	  "1.43"
+	  SourceBlock		  "Fricciones/Smooth"
+	  SourceType		  ""
+	  ShowPortLabels	  "FromPortIcon"
+	  SystemSampleTime	  "-1"
+	  FunctionWithSeparateData off
+	  GeneratePreprocessorConditionals off
 	  ContentPreviewEnabled	  off
-	  PhysicalDomain	  "network_engine_domain"
-	  SubClassName		  "ps_output"
-	  LeftPortType		  "input"
-	  RightPortType		  "output"
-	  PseudoPeriodic	  off
-	  Frequencies		  "[]"
-	  Unit			  "1"
-	  AffineConversion	  off
 	}
 	Block {
 	  BlockType		  Reference
-	  Name			  "PS-Simulink\nConverter1"
-	  SID			  "198"
-	  Ports			  [0, 1, 0, 0, 0, 1]
-	  Position		  [380, 315, 410, 345]
-	  ZOrder		  27
-	  BlockMirror		  on
-	  LibraryVersion	  "1.1"
-	  SourceBlock		  "nesl_utility/PS-Simulink\nConverter"
-	  SourceType		  "PS-Simulink\nConverter"
+	  Name			  "Smooth1"
+	  SID			  "349"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [305, 290, 345, 330]
+	  ZOrder		  322
+	  LibraryVersion	  "1.43"
+	  SourceBlock		  "Fricciones/Smooth"
+	  SourceType		  ""
+	  ShowPortLabels	  "FromPortIcon"
+	  SystemSampleTime	  "-1"
+	  FunctionWithSeparateData off
+	  GeneratePreprocessorConditionals off
 	  ContentPreviewEnabled	  off
-	  PhysicalDomain	  "network_engine_domain"
-	  SubClassName		  "ps_output"
-	  LeftPortType		  "input"
-	  RightPortType		  "output"
-	  PseudoPeriodic	  off
-	  Frequencies		  "[]"
-	  Unit			  "1"
-	  AffineConversion	  off
 	}
 	Block {
 	  BlockType		  Reference
-	  Name			  "PS-Simulink\nConverter2"
-	  SID			  "202"
-	  Ports			  [0, 1, 0, 0, 0, 1]
-	  Position		  [410, 520, 440, 550]
-	  ZOrder		  31
-	  BlockMirror		  on
-	  LibraryVersion	  "1.1"
-	  SourceBlock		  "nesl_utility/PS-Simulink\nConverter"
-	  SourceType		  "PS-Simulink\nConverter"
+	  Name			  "Smooth2"
+	  SID			  "350"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [230, 435, 270, 475]
+	  ZOrder		  323
+	  LibraryVersion	  "1.43"
+	  SourceBlock		  "Fricciones/Smooth"
+	  SourceType		  ""
+	  ShowPortLabels	  "FromPortIcon"
+	  SystemSampleTime	  "-1"
+	  FunctionWithSeparateData off
+	  GeneratePreprocessorConditionals off
 	  ContentPreviewEnabled	  off
-	  PhysicalDomain	  "network_engine_domain"
-	  SubClassName		  "ps_output"
-	  LeftPortType		  "input"
-	  RightPortType		  "output"
-	  PseudoPeriodic	  off
-	  Frequencies		  "[]"
-	  Unit			  "1"
-	  AffineConversion	  off
-	}
-	Block {
-	  BlockType		  Sqrt
-	  Name			  "Signed\nSqrt"
-	  SID			  "195"
-	  Position		  [430, 115, 460, 145]
-	  ZOrder		  26
-	  BlockMirror		  on
-	  NamePlacement		  "alternate"
-	  Operator		  "signedSqrt"
-	}
-	Block {
-	  BlockType		  Sqrt
-	  Name			  "Signed\nSqrt1"
-	  SID			  "199"
-	  Position		  [315, 315, 345, 345]
-	  ZOrder		  30
-	  BlockMirror		  on
-	  NamePlacement		  "alternate"
-	  Operator		  "signedSqrt"
-	}
-	Block {
-	  BlockType		  Sqrt
-	  Name			  "Signed\nSqrt2"
-	  SID			  "203"
-	  Position		  [345, 520, 375, 550]
-	  ZOrder		  34
-	  BlockMirror		  on
-	  NamePlacement		  "alternate"
-	  Operator		  "signedSqrt"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Simulink-PS\nConverter"
-	  SID			  "196"
-	  Ports			  [1, 0, 0, 0, 0, 0, 1]
-	  Position		  [310, 112, 340, 148]
-	  ZOrder		  24
-	  BlockMirror		  on
-	  LibraryVersion	  "1.1"
-	  SourceBlock		  "nesl_utility/Simulink-PS\nConverter"
-	  SourceType		  "Simulink-PS\nConverter"
-	  ContentPreviewEnabled	  off
-	  PhysicalDomain	  "network_engine_domain"
-	  SubClassName		  "ps_input"
-	  LeftPortType		  "input"
-	  RightPortType		  "output"
-	  PseudoPeriodic	  off
-	  Frequencies		  "[]"
-	  NoiseDistribution	  "none"
-	  NoiseParameters	  "[]"
-	  Unit			  "1"
-	  AffineConversion	  off
-	  InputFiltering	  "off"
-	  SimscapeFilterOrder	  "1"
-	  InputFilterTimeConstant "0.001"
-	  UdotUserProvided	  "1"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Simulink-PS\nConverter1"
-	  SID			  "200"
-	  Ports			  [1, 0, 0, 0, 0, 0, 1]
-	  Position		  [195, 312, 225, 348]
-	  ZOrder		  28
-	  BlockMirror		  on
-	  LibraryVersion	  "1.1"
-	  SourceBlock		  "nesl_utility/Simulink-PS\nConverter"
-	  SourceType		  "Simulink-PS\nConverter"
-	  ContentPreviewEnabled	  off
-	  PhysicalDomain	  "network_engine_domain"
-	  SubClassName		  "ps_input"
-	  LeftPortType		  "input"
-	  RightPortType		  "output"
-	  PseudoPeriodic	  off
-	  Frequencies		  "[]"
-	  NoiseDistribution	  "none"
-	  NoiseParameters	  "[]"
-	  Unit			  "1"
-	  AffineConversion	  off
-	  InputFiltering	  "off"
-	  SimscapeFilterOrder	  "1"
-	  InputFilterTimeConstant "0.001"
-	  UdotUserProvided	  "1"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Simulink-PS\nConverter2"
-	  SID			  "204"
-	  Ports			  [1, 0, 0, 0, 0, 0, 1]
-	  Position		  [225, 517, 255, 553]
-	  ZOrder		  32
-	  BlockMirror		  on
-	  LibraryVersion	  "1.1"
-	  SourceBlock		  "nesl_utility/Simulink-PS\nConverter"
-	  SourceType		  "Simulink-PS\nConverter"
-	  ContentPreviewEnabled	  off
-	  PhysicalDomain	  "network_engine_domain"
-	  SubClassName		  "ps_input"
-	  LeftPortType		  "input"
-	  RightPortType		  "output"
-	  PseudoPeriodic	  off
-	  Frequencies		  "[]"
-	  NoiseDistribution	  "none"
-	  NoiseParameters	  "[]"
-	  Unit			  "1"
-	  AffineConversion	  off
-	  InputFiltering	  "off"
-	  SimscapeFilterOrder	  "1"
-	  InputFilterTimeConstant "0.001"
-	  UdotUserProvided	  "1"
 	}
 	Block {
 	  BlockType		  PMIOPort
@@ -2721,121 +2569,80 @@ Library {
 	}
 	Line {
 	  LineType		  "Connection"
-	  ZOrder		  28
-	  SrcBlock		  "PS Gain3"
-	  SrcPort		  LConn1
-	  DstBlock		  "Simulink-PS\nConverter"
-	  DstPort		  RConn1
-	}
-	Line {
-	  ZOrder		  29
-	  SrcBlock		  "Signed\nSqrt"
-	  SrcPort		  1
-	  DstBlock		  "Simulink-PS\nConverter"
-	  DstPort		  1
-	}
-	Line {
-	  ZOrder		  30
-	  SrcBlock		  "PS-Simulink\nConverter"
-	  SrcPort		  1
-	  DstBlock		  "Signed\nSqrt"
-	  DstPort		  1
-	}
-	Line {
-	  LineType		  "Connection"
-	  ZOrder		  31
-	  SrcBlock		  "PS Gain4"
-	  SrcPort		  LConn1
-	  DstBlock		  "Simulink-PS\nConverter1"
-	  DstPort		  RConn1
-	}
-	Line {
-	  ZOrder		  32
-	  SrcBlock		  "Signed\nSqrt1"
-	  SrcPort		  1
-	  DstBlock		  "Simulink-PS\nConverter1"
-	  DstPort		  1
-	}
-	Line {
-	  ZOrder		  33
-	  SrcBlock		  "PS-Simulink\nConverter1"
-	  SrcPort		  1
-	  DstBlock		  "Signed\nSqrt1"
-	  DstPort		  1
-	}
-	Line {
-	  LineType		  "Connection"
-	  ZOrder		  34
-	  SrcBlock		  "PS Gain5"
-	  SrcPort		  LConn1
-	  DstBlock		  "Simulink-PS\nConverter2"
-	  DstPort		  RConn1
-	}
-	Line {
-	  ZOrder		  35
-	  SrcBlock		  "Signed\nSqrt2"
-	  SrcPort		  1
-	  DstBlock		  "Simulink-PS\nConverter2"
-	  DstPort		  1
-	}
-	Line {
-	  ZOrder		  36
-	  SrcBlock		  "PS-Simulink\nConverter2"
-	  SrcPort		  1
-	  DstBlock		  "Signed\nSqrt2"
-	  DstPort		  1
-	}
-	Line {
-	  LineType		  "Connection"
-	  ZOrder		  37
-	  SrcBlock		  "PS-Simulink\nConverter2"
-	  SrcPort		  LConn1
-	  Points		  [63, 0; 0, -80]
-	  DstBlock		  "w3"
-	  DstPort		  RConn1
-	}
-	Line {
-	  LineType		  "Connection"
-	  ZOrder		  38
-	  SrcBlock		  "PS Gain5"
+	  ZOrder		  43
+	  SrcBlock		  "w3"
 	  SrcPort		  RConn1
-	  Points		  [-17, 0; 0, -80]
+	  DstBlock		  "Smooth2"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  45
+	  SrcBlock		  "w2"
+	  SrcPort		  RConn1
+	  Points		  [-220, 0]
+	  DstBlock		  "Smooth1"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  47
+	  SrcBlock		  "w1"
+	  SrcPort		  RConn1
+	  Points		  [0, 5]
+	  DstBlock		  "Smooth"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  49
+	  SrcBlock		  "Smooth2"
+	  SrcPort		  LConn1
+	  Points		  [-15, 0; 0, 5]
+	  DstBlock		  "PS Gain2"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  50
+	  SrcBlock		  "PS Gain2"
+	  SrcPort		  RConn1
+	  Points		  [-7, 0; 0, -5]
 	  DstBlock		  "t3"
 	  DstPort		  RConn1
 	}
 	Line {
 	  LineType		  "Connection"
-	  ZOrder		  39
-	  SrcBlock		  "PS Gain4"
+	  ZOrder		  51
+	  SrcBlock		  "Smooth1"
+	  SrcPort		  LConn1
+	  DstBlock		  "PS Gain1"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  52
+	  SrcBlock		  "PS Gain1"
 	  SrcPort		  RConn1
-	  Points		  [-80, 0]
+	  Points		  [-100, 0]
 	  DstBlock		  "t2"
 	  DstPort		  RConn1
 	}
 	Line {
 	  LineType		  "Connection"
-	  ZOrder		  40
-	  SrcBlock		  "w2"
-	  SrcPort		  RConn1
-	  Points		  [-77, 0; 0, 30]
-	  DstBlock		  "PS-Simulink\nConverter1"
+	  ZOrder		  53
+	  SrcBlock		  "Smooth"
+	  SrcPort		  LConn1
+	  Points		  [-37, 0; 0, -5]
+	  DstBlock		  "PS Gain"
 	  DstPort		  LConn1
 	}
 	Line {
 	  LineType		  "Connection"
-	  ZOrder		  41
-	  SrcBlock		  "w1"
+	  ZOrder		  54
+	  SrcBlock		  "PS Gain"
 	  SrcPort		  RConn1
-	  Points		  [0, 10]
-	  DstBlock		  "PS-Simulink\nConverter"
-	  DstPort		  LConn1
-	}
-	Line {
-	  LineType		  "Connection"
-	  ZOrder		  42
-	  SrcBlock		  "PS Gain3"
-	  SrcPort		  RConn1
-	  Points		  [-205, 0]
+	  Points		  [-155, 0]
 	  DstBlock		  "t1"
 	  DstPort		  RConn1
 	}
@@ -2888,7 +2695,7 @@ Library {
 	  Ports			  [0, 0, 0, 0, 0, 1, 1]
 	  Position		  [135, 366, 175, 404]
 	  ZOrder		  344
-	  LibraryVersion	  "1.41"
+	  LibraryVersion	  "1.43"
 	  SourceBlock		  "Fricciones/Simplificado"
 	  SourceType		  "SubSystem"
 	  ContentPreviewEnabled	  off
@@ -2973,34 +2780,34 @@ Library {
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		30
+	$ObjectID		28
 	$ClassName		"Simulink.Mask"
 	Array {
 	  Type			  "Simulink.MaskParameter"
 	  Dimension		  4
 	  Object {
-	    $ObjectID		    31
+	    $ObjectID		    29
 	    Type		    "edit"
 	    Name		    "BFT"
 	    Prompt		    "Breakaway friction torque (N*m)"
 	    Value		    "0.2"
 	  }
 	  Object {
-	    $ObjectID		    32
+	    $ObjectID		    30
 	    Type		    "edit"
 	    Name		    "CFT"
 	    Prompt		    "Coulomb friction torque (N*m)"
 	    Value		    "0.15"
 	  }
 	  Object {
-	    $ObjectID		    33
+	    $ObjectID		    31
 	    Type		    "edit"
 	    Name		    "VFc"
 	    Prompt		    "Viscous friction coeff (N*m/(rad/s))"
 	    Value		    "0.001"
 	  }
 	  Object {
-	    $ObjectID		    34
+	    $ObjectID		    32
 	    Type		    "edit"
 	    Name		    "Tac"
 	    Prompt		    "Transition approximation coeff (s/rad)"
@@ -3012,11 +2819,11 @@ Library {
 	  Type			  "Simulink.dialog.Group"
 	  Dimension		  2
 	  Object {
-	    $ObjectID		    35
+	    $ObjectID		    33
 	    Prompt		    "%<MaskType>"
 	    Object {
 	      $PropName		      "DialogControls"
-	      $ObjectID		      36
+	      $ObjectID		      34
 	      $ClassName	      "Simulink.dialog.Text"
 	      Prompt		      "%<MaskDescription>"
 	      Name		      "DescTextVar"
@@ -3024,25 +2831,25 @@ Library {
 	    Name		    "DescGroupVar"
 	  }
 	  Object {
-	    $ObjectID		    37
+	    $ObjectID		    35
 	    Prompt		    "Friction"
 	    Array {
 	      Type		      "Simulink.dialog.parameter.Edit"
 	      Dimension		      4
 	      Object {
-		$ObjectID		38
+		$ObjectID		36
 		Name			"BFT"
 	      }
 	      Object {
-		$ObjectID		39
+		$ObjectID		37
 		Name			"CFT"
 	      }
 	      Object {
-		$ObjectID		40
+		$ObjectID		38
 		Name			"VFc"
 	      }
 	      Object {
-		$ObjectID		41
+		$ObjectID		39
 		Name			"Tac"
 	      }
 	      PropName		      "DialogControls"
@@ -3054,7 +2861,7 @@ Library {
       }
       System {
 	Name			"Friccion \nSM-SS\nEsf"
-	Location		[-1784, -245, -584, 407]
+	Location		[-8, -8, 1374, 746]
 	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -3689,34 +3496,34 @@ Library {
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		42
+	$ObjectID		40
 	$ClassName		"Simulink.Mask"
 	Array {
 	  Type			  "Simulink.MaskParameter"
 	  Dimension		  4
 	  Object {
-	    $ObjectID		    43
+	    $ObjectID		    41
 	    Type		    "edit"
 	    Name		    "BFT"
 	    Prompt		    "Breakaway friction torque (N*m)"
 	    Value		    "0.2"
 	  }
 	  Object {
-	    $ObjectID		    44
+	    $ObjectID		    42
 	    Type		    "edit"
 	    Name		    "CFT"
 	    Prompt		    "Coulomb friction torque (N*m)"
 	    Value		    "0.15"
 	  }
 	  Object {
-	    $ObjectID		    45
+	    $ObjectID		    43
 	    Type		    "edit"
 	    Name		    "VFc"
 	    Prompt		    "Viscous friction coeff (N*m/(rad/s))"
 	    Value		    "0.001"
 	  }
 	  Object {
-	    $ObjectID		    46
+	    $ObjectID		    44
 	    Type		    "edit"
 	    Name		    "Tac"
 	    Prompt		    "Transition approximation coeff (s/rad)"
@@ -3728,11 +3535,11 @@ Library {
 	  Type			  "Simulink.dialog.Group"
 	  Dimension		  2
 	  Object {
-	    $ObjectID		    47
+	    $ObjectID		    45
 	    Prompt		    "%<MaskType>"
 	    Object {
 	      $PropName		      "DialogControls"
-	      $ObjectID		      48
+	      $ObjectID		      46
 	      $ClassName	      "Simulink.dialog.Text"
 	      Prompt		      "%<MaskDescription>"
 	      Name		      "DescTextVar"
@@ -3740,28 +3547,28 @@ Library {
 	    Name		    "DescGroupVar"
 	  }
 	  Object {
-	    $ObjectID		    49
+	    $ObjectID		    47
 	    Prompt		    "Friction"
 	    Array {
 	      Type		      "Simulink.dialog.parameter.Edit"
 	      Dimension		      4
 	      Object {
-		$ObjectID		50
+		$ObjectID		48
 		PromptLocation		"left"
 		Name			"BFT"
 	      }
 	      Object {
-		$ObjectID		51
+		$ObjectID		49
 		PromptLocation		"left"
 		Name			"CFT"
 	      }
 	      Object {
-		$ObjectID		52
+		$ObjectID		50
 		PromptLocation		"left"
 		Name			"VFc"
 	      }
 	      Object {
-		$ObjectID		53
+		$ObjectID		51
 		PromptLocation		"left"
 		Name			"Tac"
 	      }
@@ -4289,7 +4096,7 @@ Library {
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		54
+	$ObjectID		52
 	$ClassName		"Simulink.Mask"
 	Initialization		"C1=15;\nC2=1.5;\nC3=900;"
       }
