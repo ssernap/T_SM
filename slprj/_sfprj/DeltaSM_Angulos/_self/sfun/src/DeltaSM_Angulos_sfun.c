@@ -109,10 +109,10 @@ unsigned int sf_DeltaSM_Angulos_process_check_sum_call( int nlhs, mxArray *
       return 0;
     }
   } else {
-    ((real_T *)mxGetPr((plhs[0])))[0] = (real_T)(3163271215U);
-    ((real_T *)mxGetPr((plhs[0])))[1] = (real_T)(2919508890U);
-    ((real_T *)mxGetPr((plhs[0])))[2] = (real_T)(1440580539U);
-    ((real_T *)mxGetPr((plhs[0])))[3] = (real_T)(3784747460U);
+    ((real_T *)mxGetPr((plhs[0])))[0] = (real_T)(3876662822U);
+    ((real_T *)mxGetPr((plhs[0])))[1] = (real_T)(955437318U);
+    ((real_T *)mxGetPr((plhs[0])))[2] = (real_T)(443594894U);
+    ((real_T *)mxGetPr((plhs[0])))[3] = (real_T)(1255241284U);
   }
 
   return 1;
@@ -150,7 +150,7 @@ unsigned int sf_DeltaSM_Angulos_autoinheritance_info( int nlhs, mxArray * plhs[]
     switch (chartFileNumber) {
      case 1:
       {
-        if (strcmp(aiChksum, "t00RYjlkKblaMP0J7hLSvE") == 0) {
+        if (strcmp(aiChksum, "2OCfPGj28x8fHVUkTmiZfB") == 0) {
           extern mxArray *sf_c1_DeltaSM_Angulos_get_autoinheritance_info(void);
           plhs[0] = sf_c1_DeltaSM_Angulos_get_autoinheritance_info();
           break;
@@ -162,7 +162,7 @@ unsigned int sf_DeltaSM_Angulos_autoinheritance_info( int nlhs, mxArray * plhs[]
 
      case 2:
       {
-        if (strcmp(aiChksum, "UnvfSelKWbWax2dx7ShdKB") == 0) {
+        if (strcmp(aiChksum, "amPLVxOmOKYI6YyEA90e8B") == 0) {
           extern mxArray *sf_c2_DeltaSM_Angulos_get_autoinheritance_info(void);
           plhs[0] = sf_c2_DeltaSM_Angulos_get_autoinheritance_info();
           break;
@@ -266,7 +266,7 @@ unsigned int sf_DeltaSM_Angulos_third_party_uses_info( int nlhs, mxArray * plhs[
     switch (chartFileNumber) {
      case 1:
       {
-        if (strcmp(tpChksum, "PIE86dPQbtBbmTzXDFiGYD") == 0) {
+        if (strcmp(tpChksum, "NxK7a9wuCt6PeTtaT1PdDG") == 0) {
           extern mxArray *sf_c1_DeltaSM_Angulos_third_party_uses_info(void);
           plhs[0] = sf_c1_DeltaSM_Angulos_third_party_uses_info();
           break;
@@ -275,7 +275,7 @@ unsigned int sf_DeltaSM_Angulos_third_party_uses_info( int nlhs, mxArray * plhs[
 
      case 2:
       {
-        if (strcmp(tpChksum, "a0qgjT3ksczw0VRxvvNtvE") == 0) {
+        if (strcmp(tpChksum, "SSYL297efKUU88XzBGV8IF") == 0) {
           extern mxArray *sf_c2_DeltaSM_Angulos_third_party_uses_info(void);
           plhs[0] = sf_c2_DeltaSM_Angulos_third_party_uses_info();
           break;
@@ -312,7 +312,7 @@ unsigned int sf_DeltaSM_Angulos_updateBuildInfo_args_info( int nlhs, mxArray *
     switch (chartFileNumber) {
      case 1:
       {
-        if (strcmp(tpChksum, "PIE86dPQbtBbmTzXDFiGYD") == 0) {
+        if (strcmp(tpChksum, "NxK7a9wuCt6PeTtaT1PdDG") == 0) {
           extern mxArray *sf_c1_DeltaSM_Angulos_updateBuildInfo_args_info(void);
           plhs[0] = sf_c1_DeltaSM_Angulos_updateBuildInfo_args_info();
           break;
@@ -321,7 +321,7 @@ unsigned int sf_DeltaSM_Angulos_updateBuildInfo_args_info( int nlhs, mxArray *
 
      case 2:
       {
-        if (strcmp(tpChksum, "a0qgjT3ksczw0VRxvvNtvE") == 0) {
+        if (strcmp(tpChksum, "SSYL297efKUU88XzBGV8IF") == 0) {
           extern mxArray *sf_c2_DeltaSM_Angulos_updateBuildInfo_args_info(void);
           plhs[0] = sf_c2_DeltaSM_Angulos_updateBuildInfo_args_info();
           break;
