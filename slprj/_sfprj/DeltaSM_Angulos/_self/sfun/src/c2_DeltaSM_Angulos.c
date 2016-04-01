@@ -304,114 +304,114 @@ static void sf_gateway_c2_DeltaSM_Angulos(SFc2_DeltaSM_AngulosInstanceStruct
   _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 100);
   c2_tf1 = 2.0;
   _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 101);
-  c2_tf2 = 4.0;
+  c2_tf2 = 2.0;
   _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 102);
   c2_tf3 = 2.0;
-  _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 104);
-  c2_px2i = -20.0;
-  _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 105);
-  c2_px2f = 20.0;
+  _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 106);
+  c2_px2i = -40.0;
   _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 107);
-  c2_pz1i = 170.0;
-  _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 108);
-  c2_pz1f = 200.0;
+  c2_px2f = 40.0;
   _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 110);
-  c2_pz3i = 200.0;
+  c2_pz1i = -300.0;
   _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 111);
-  c2_pz3f = 170.0;
-  _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 115);
-  c2_a10z = c2_pz1i;
-  _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 116);
-  c2_a11z = 0.0;
-  _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 117);
-  c2_a12z = 0.0;
+  c2_pz1f = -160.0;
+  _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 113);
+  c2_pz3i = -160.0;
+  _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 114);
+  c2_pz3f = -300.0;
   _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 118);
-  c2_a13z = 37.5;
+  c2_a10z = c2_pz1i;
   _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 119);
-  c2_a14z = -28.125;
+  c2_a11z = 0.0;
   _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 120);
-  c2_a15z = 5.625;
-  _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 124);
-  c2_a30z = c2_pz3i;
-  _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 125);
-  c2_a31z = 0.0;
-  _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 126);
-  c2_a32z = 0.0;
+  c2_a12z = 0.0;
+  _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 121);
+  c2_a13z = 175.0;
+  _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 122);
+  c2_a14z = -131.25;
+  _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 123);
+  c2_a15z = 26.25;
   _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, MAX_int8_T);
-  c2_a33z = -37.5;
+  c2_a30z = c2_pz3i;
   _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 128U);
-  c2_a34z = 28.125;
+  c2_a31z = 0.0;
   _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 129U);
-  c2_a35z = -5.625;
-  _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 134U);
-  c2_a10x = c2_px2i;
-  _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 135U);
-  c2_a11x = 0.0;
-  _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 136U);
-  c2_a12x = 0.0;
+  c2_a32z = 0.0;
+  _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 130U);
+  c2_a33z = -175.0;
+  _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 131U);
+  c2_a34z = 131.25;
+  _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 132U);
+  c2_a35z = -26.25;
   _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 137U);
-  c2_a13x = 6.25;
+  c2_a10x = c2_px2i;
   _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 138U);
-  c2_a14x = -2.34375;
+  c2_a11x = 0.0;
   _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 139U);
-  c2_a15x = 0.234375;
-  _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 145U);
+  c2_a12x = 0.0;
+  _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 140U);
+  c2_a13x = 100.0;
+  _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 141U);
+  c2_a14x = -75.0;
+  _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 142U);
+  c2_a15x = 15.0;
+  _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 148U);
   if (CV_EML_IF(0, 1, 0, c2_time < c2_tf1 + c2_TIni)) {
-    _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 146U);
-    c2_tiempo = c2_time - c2_TIni;
-    _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 147U);
-    c2_PosX = 0.0;
-    _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 148U);
-    c2_PosY = c2_px2i;
     _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 149U);
+    c2_tiempo = c2_time - c2_TIni;
+    _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 150U);
+    c2_PosX = 0.0;
+    _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 151U);
+    c2_PosY = c2_px2i;
+    _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 152U);
     c2_PosZ = ((((c2_a10z + 0.0 * c2_tiempo) + 0.0 * c2_d_mpower(chartInstance,
-      c2_tiempo)) + 37.5 * c2_mpower(chartInstance, c2_tiempo)) + -28.125 *
-               c2_b_mpower(chartInstance, c2_tiempo)) + 5.625 * c2_c_mpower
+      c2_tiempo)) + 175.0 * c2_mpower(chartInstance, c2_tiempo)) + -131.25 *
+               c2_b_mpower(chartInstance, c2_tiempo)) + 26.25 * c2_c_mpower
       (chartInstance, c2_tiempo);
   } else {
-    _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 150U);
+    _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 153U);
     if (CV_EML_IF(0, 1, 1, c2_time < (c2_tf2 + c2_tf1) + c2_TIni)) {
-      _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 151U);
-      c2_tiempo = (c2_time - c2_tf1) - c2_TIni;
-      _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 152U);
-      c2_PosX = 0.0;
-      _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 153U);
-      c2_PosY = ((((c2_a10x + 0.0 * c2_tiempo) + 0.0 * c2_d_mpower(chartInstance,
-        c2_tiempo)) + 6.25 * c2_mpower(chartInstance, c2_tiempo)) + -2.34375 *
-                 c2_b_mpower(chartInstance, c2_tiempo)) + 0.234375 * c2_c_mpower
-        (chartInstance, c2_tiempo);
       _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 154U);
+      c2_tiempo = (c2_time - c2_tf1) - c2_TIni;
+      _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 155U);
+      c2_PosX = 0.0;
+      _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 156U);
+      c2_PosY = ((((c2_a10x + 0.0 * c2_tiempo) + 0.0 * c2_d_mpower(chartInstance,
+        c2_tiempo)) + 100.0 * c2_mpower(chartInstance, c2_tiempo)) + -75.0 *
+                 c2_b_mpower(chartInstance, c2_tiempo)) + 15.0 * c2_c_mpower
+        (chartInstance, c2_tiempo);
+      _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 157U);
       c2_PosZ = c2_pz1f;
     } else {
-      _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 156U);
+      _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 159U);
       if (CV_EML_IF(0, 1, 2, c2_time < ((c2_tf2 + c2_tf1) + c2_tf3) + c2_TIni))
       {
-        _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 157U);
-        c2_tiempo = ((c2_time - c2_tf2) - c2_tf1) - c2_TIni;
-        _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 158U);
-        c2_PosX = 0.0;
-        _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 159U);
-        c2_PosY = c2_px2f;
         _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 160U);
+        c2_tiempo = ((c2_time - c2_tf2) - c2_tf1) - c2_TIni;
+        _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 161U);
+        c2_PosX = 0.0;
+        _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 162U);
+        c2_PosY = c2_px2f;
+        _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 163U);
         c2_PosZ = ((((c2_a30z + 0.0 * c2_tiempo) + 0.0 * c2_d_mpower
-                     (chartInstance, c2_tiempo)) + -37.5 * c2_mpower
-                    (chartInstance, c2_tiempo)) + 28.125 * c2_b_mpower
-                   (chartInstance, c2_tiempo)) + -5.625 * c2_c_mpower
+                     (chartInstance, c2_tiempo)) + -175.0 * c2_mpower
+                    (chartInstance, c2_tiempo)) + 131.25 * c2_b_mpower
+                   (chartInstance, c2_tiempo)) + -26.25 * c2_c_mpower
           (chartInstance, c2_tiempo);
       } else {
-        _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 162U);
-        c2_tiempo = 2.0;
-        _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 163U);
-        c2_PosX = 0.0;
-        _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 164U);
-        c2_PosY = c2_px2f;
         _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 165U);
-        c2_PosZ = ((c2_a30z + -300.0) + 450.0) + -180.0;
+        c2_tiempo = 2.0;
+        _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 166U);
+        c2_PosX = 0.0;
+        _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 167U);
+        c2_PosY = c2_px2f;
+        _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, 168U);
+        c2_PosZ = ((c2_a30z + -1400.0) + 2100.0) + -840.0;
       }
     }
   }
 
-  _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, -165);
+  _SFD_EML_CALL(0U, chartInstance->c2_sfEvent, -168);
   _SFD_SYMBOL_SCOPE_POP();
   *c2_b_PosX = c2_PosX;
   *c2_b_PosY = c2_PosY;
@@ -1237,10 +1237,10 @@ extern void utFree(void*);
 
 void sf_c2_DeltaSM_Angulos_get_check_sum(mxArray *plhs[])
 {
-  ((real_T *)mxGetPr((plhs[0])))[0] = (real_T)(2769520236U);
-  ((real_T *)mxGetPr((plhs[0])))[1] = (real_T)(222924622U);
-  ((real_T *)mxGetPr((plhs[0])))[2] = (real_T)(813042045U);
-  ((real_T *)mxGetPr((plhs[0])))[3] = (real_T)(2434955681U);
+  ((real_T *)mxGetPr((plhs[0])))[0] = (real_T)(3454599462U);
+  ((real_T *)mxGetPr((plhs[0])))[1] = (real_T)(3831698092U);
+  ((real_T *)mxGetPr((plhs[0])))[2] = (real_T)(2971201279U);
+  ((real_T *)mxGetPr((plhs[0])))[3] = (real_T)(4088964505U);
 }
 
 mxArray *sf_c2_DeltaSM_Angulos_get_autoinheritance_info(void)
@@ -1252,7 +1252,7 @@ mxArray *sf_c2_DeltaSM_Angulos_get_autoinheritance_info(void)
     autoinheritanceFields);
 
   {
-    mxArray *mxChecksum = mxCreateString("amPLVxOmOKYI6YyEA90e8B");
+    mxArray *mxChecksum = mxCreateString("czqR41YOUTANAfgwDOfNnF");
     mxSetField(mxAutoinheritanceInfo,0,"checksum",mxChecksum);
   }
 
@@ -1450,10 +1450,10 @@ static void chart_debug_initialization(SimStruct *S, unsigned int
 
         /* Initialization of MATLAB Function Model Coverage */
         _SFD_CV_INIT_EML(0,1,1,3,0,0,0,0,0,0,0);
-        _SFD_CV_INIT_EML_FCN(0,0,"eML_blk_kernel",2338,-1,4006);
-        _SFD_CV_INIT_EML_IF(0,1,0,3369,3386,3521,3997);
-        _SFD_CV_INIT_EML_IF(0,1,1,3521,3547,3688,3997);
-        _SFD_CV_INIT_EML_IF(0,1,2,3688,3718,3861,3997);
+        _SFD_CV_INIT_EML_FCN(0,0,"eML_blk_kernel",2338,-1,4032);
+        _SFD_CV_INIT_EML_IF(0,1,0,3395,3412,3547,4023);
+        _SFD_CV_INIT_EML_IF(0,1,1,3547,3573,3714,4023);
+        _SFD_CV_INIT_EML_IF(0,1,2,3714,3744,3887,4023);
         _SFD_SET_DATA_COMPILED_PROPS(0,SF_DOUBLE,0,NULL,0,0,0,0.0,1.0,0,0,
           (MexFcnForType)c2_sf_marshallOut,(MexInFcnForType)c2_sf_marshallIn);
         _SFD_SET_DATA_COMPILED_PROPS(1,SF_DOUBLE,0,NULL,0,0,0,0.0,1.0,0,0,
@@ -1488,7 +1488,7 @@ static void chart_debug_initialization(SimStruct *S, unsigned int
 
 static const char* sf_get_instance_specialization(void)
 {
-  return "SSYL297efKUU88XzBGV8IF";
+  return "ulyFXSphwzEiz7ShyWrMND";
 }
 
 static void sf_opaque_initialize_c2_DeltaSM_Angulos(void *chartInstanceVar)
@@ -1668,10 +1668,10 @@ static void mdlSetWorkWidths_c2_DeltaSM_Angulos(SimStruct *S)
   }
 
   ssSetOptions(S,ssGetOptions(S)|SS_OPTION_WORKS_WITH_CODE_REUSE);
-  ssSetChecksum0(S,(2699550505U));
-  ssSetChecksum1(S,(2992424029U));
-  ssSetChecksum2(S,(3616663234U));
-  ssSetChecksum3(S,(1579865538U));
+  ssSetChecksum0(S,(1656217644U));
+  ssSetChecksum1(S,(2736244851U));
+  ssSetChecksum2(S,(1738819522U));
+  ssSetChecksum3(S,(1843722084U));
   ssSetmdlDerivatives(S, NULL);
   ssSetExplicitFCSSCtrl(S,1);
   ssSupportsMultipleExecInstances(S,1);
