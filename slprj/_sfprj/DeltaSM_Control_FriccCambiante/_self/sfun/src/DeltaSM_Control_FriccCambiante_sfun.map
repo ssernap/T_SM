@@ -1,32 +1,32 @@
  DeltaSM_Control_FriccCambiante_sfun
 
- Timestamp is 56fcbf42 (Thu Mar 31 01:10:10 2016)
+ Timestamp is 57009685 (Sat Apr 02 23:05:25 2016)
 
  Preferred load address is 0000000180000000
 
  Start         Length     Name                   Class
- 0001:00000000 0001a3b4H .text                   CODE
- 0001:0001a3c0 00000092H .text$x                 CODE
- 0002:00000000 00000480H .idata$5                DATA
- 0002:00000480 00000008H .CRT$XCA                DATA
- 0002:00000488 00000008H .CRT$XCZ                DATA
- 0002:00000490 00000008H .CRT$XIA                DATA
- 0002:00000498 00000008H .CRT$XIAA               DATA
- 0002:000004a0 00000008H .CRT$XIZ                DATA
- 0002:000004b0 00000774H .rdata                  DATA
- 0002:00000c28 00000008H .rtc$IAA                DATA
- 0002:00000c30 00000008H .rtc$IZZ                DATA
- 0002:00000c38 00000008H .rtc$TAA                DATA
- 0002:00000c40 00000008H .rtc$TZZ                DATA
- 0002:00000c48 000007c8H .xdata                  DATA
- 0002:00001410 0000008cH .idata$2                DATA
- 0002:0000149c 00000014H .idata$3                DATA
- 0002:000014b0 00000480H .idata$4                DATA
- 0002:00001930 00000c6eH .idata$6                DATA
- 0002:000025a0 00000069H .edata                  DATA
- 0003:00000000 00006b58H .data                   DATA
- 0003:00006b60 000006b8H .bss                    DATA
- 0004:00000000 0000099cH .pdata                  DATA
+ 0001:00000000 0001b904H .text                   CODE
+ 0001:0001b910 00000092H .text$x                 CODE
+ 0002:00000000 00000488H .idata$5                DATA
+ 0002:00000488 00000008H .CRT$XCA                DATA
+ 0002:00000490 00000008H .CRT$XCZ                DATA
+ 0002:00000498 00000008H .CRT$XIA                DATA
+ 0002:000004a0 00000008H .CRT$XIAA               DATA
+ 0002:000004a8 00000008H .CRT$XIZ                DATA
+ 0002:000004b0 000007dcH .rdata                  DATA
+ 0002:00000c90 00000008H .rtc$IAA                DATA
+ 0002:00000c98 00000008H .rtc$IZZ                DATA
+ 0002:00000ca0 00000008H .rtc$TAA                DATA
+ 0002:00000ca8 00000008H .rtc$TZZ                DATA
+ 0002:00000cb0 000007d0H .xdata                  DATA
+ 0002:00001480 0000008cH .idata$2                DATA
+ 0002:0000150c 00000014H .idata$3                DATA
+ 0002:00001520 00000488H .idata$4                DATA
+ 0002:000019a8 00000c82H .idata$6                DATA
+ 0002:00002630 00000069H .edata                  DATA
+ 0003:00000000 000070b8H .data                   DATA
+ 0003:000070c0 000006b8H .bss                    DATA
+ 0004:00000000 000009a8H .pdata                  DATA
 
   Address         Publics by Value              Rva+Base               Lib:Object
 
@@ -46,604 +46,618 @@
  0001:00000b70       load_DeltaSM_Control_FriccCambiante_optimization_info 0000000180001b70 f   DeltaSM_Control_FriccCambiante_sfun.obj
  0001:00000bc0       unload_DeltaSM_Control_FriccCambiante_optimization_info 0000000180001bc0 f   DeltaSM_Control_FriccCambiante_sfun.obj
  0001:00000bf0       sf_c1_DeltaSM_Control_FriccCambiante_get_eml_resolved_functions_info 0000000180001bf0 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:00005900       sf_c1_DeltaSM_Control_FriccCambiante_get_check_sum 0000000180006900 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:00005980       sf_c1_DeltaSM_Control_FriccCambiante_get_autoinheritance_info 0000000180006980 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:000062d0       sf_c1_DeltaSM_Control_FriccCambiante_third_party_uses_info 00000001800072d0 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:00006300       sf_c1_DeltaSM_Control_FriccCambiante_updateBuildInfo_args_info 0000000180007300 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:00006330       sf_internal_get_sim_state_c1_DeltaSM_Control_FriccCambiante 0000000180007330 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:00006820       sf_internal_set_sim_state_c1_DeltaSM_Control_FriccCambiante 0000000180007820 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:00006ca0       c1_DeltaSM_Control_FriccCambiante_method_dispatcher 0000000180007ca0 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:0000af30       sf_c2_DeltaSM_Control_FriccCambiante_get_eml_resolved_functions_info 000000018000bf30 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:0000e150       sf_c2_DeltaSM_Control_FriccCambiante_get_check_sum 000000018000f150 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:0000e1d0       sf_c2_DeltaSM_Control_FriccCambiante_get_autoinheritance_info 000000018000f1d0 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:0000e890       sf_c2_DeltaSM_Control_FriccCambiante_third_party_uses_info 000000018000f890 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:0000e8c0       sf_c2_DeltaSM_Control_FriccCambiante_updateBuildInfo_args_info 000000018000f8c0 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:0000e8f0       sf_internal_get_sim_state_c2_DeltaSM_Control_FriccCambiante 000000018000f8f0 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:0000edf0       sf_internal_set_sim_state_c2_DeltaSM_Control_FriccCambiante 000000018000fdf0 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:0000f270       c2_DeltaSM_Control_FriccCambiante_method_dispatcher 0000000180010270 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:00013270       sf_process_check_sum_call  0000000180014270 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:000132c0       sf_process_autoinheritance_call 00000001800142c0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00013460       sf_process_get_third_party_uses_info_call 0000000180014460 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00013600       sf_process_get_updateBuildInfo_args_info_call 0000000180014600 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:000137a0       sf_process_get_eml_resolved_functions_info_call 00000001800147a0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00013920       sf_mex_unlock_call         0000000180014920 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:000139d0       sf_machine_global_initializer_called 00000001800149d0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00013a00       sf_machine_global_method_dispatcher 0000000180014a00 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00013a60       sf_machine_global_terminator 0000000180014a60 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00013ab0       sf_register_machine_exported_symbols 0000000180014ab0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00013ad0       callCustomFcn              0000000180014ad0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00013ae0       sf_machine_global_initializer 0000000180014ae0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00013b60       mdlGetSimState             0000000180014b60 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00013be0       mdlSetSimState             0000000180014be0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00013c20       _ssSetStateAbsTol          0000000180014c20 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00013d00       _ssGetAbsTol               0000000180014d00 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00013d70       _ssSetInputPortMatrixDimensions 0000000180014d70 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00013e80       _ssSetOutputPortMatrixDimensions 0000000180014e80 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00013f90       _ssSetInputPortVectorDimension 0000000180014f90 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00014060       _ssSetOutputPortVectorDimension 0000000180015060 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00014130       ssIsRunTimeParamTunable    0000000180015130 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:000141a0       ssGetSFuncBlockHandle      00000001800151a0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00014210       _ssGetCurrentInputPortWidth 0000000180015210 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00014330       _ssGetCurrentOutputPortWidth 0000000180015330 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00014450       _ssGetCallSystemNumFcnCallDestinations 0000000180015450 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:000144c0       ssWarning                  00000001800154c0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:000145d0       ssGetIsZeroCrossControlDisabled 00000001800155d0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00014640       ssSetIsInputPortUsedForContZcSignal 0000000180015640 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:000146b0       ssSetZcSignalIsZcElementDisc 00000001800156b0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00014760       ssSetZcSignalName          0000000180015760 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:000147d0       ssSetZcSignalWidth         00000001800157d0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00014840       ssSetZcSignalZcEventType   0000000180015840 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:000148b0       ssSetZcSignalType          00000001800158b0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00014920       ssSetZcSignalZcTol         0000000180015920 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00014990       ssSetZcSignalNeedsEventNotification 0000000180015990 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00014a00       ssCreateAndAddZcSignalInfo 0000000180015a00 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00014a70       ssCloneAndAddZcSignalInfo  0000000180015a70 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00014ae0       ssGetNumZcSignals          0000000180015ae0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00014b50       ssGetZcSignalVector        0000000180015b50 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00014bc0       ssGetZcSignalZcEvents      0000000180015bc0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00014c30       ssGetZcSignalName          0000000180015c30 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00014ca0       ssGetZcSignalWidth         0000000180015ca0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00014d10       ssGetZcSignalZcEventType   0000000180015d10 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00014d80       ssGetZcSignalType          0000000180015d80 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00014df0       ssGetZcSignalZcTol         0000000180015df0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00014e70       ssGetZcSignalNeedsEventNotification 0000000180015e70 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00014ee0       ssGetZcSignalIsZcElementDisc 0000000180015ee0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00014f80       ssGetIsInputPortElementContinuous 0000000180015f80 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00015020       _ssGetInputPortSignalPtrsFcn 0000000180016020 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:000152e0       _ssGetInputPortSignalFcn   00000001800162e0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00015500       _ssSetInputPortDirectFeedThroughFcn 0000000180016500 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00015660       _ssSetInputPortReusableFcn 0000000180016660 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00015750       _ssSetOutputPortReusableFcn 0000000180016750 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00015830       ssGetDTypeIdFromMxArray    0000000180016830 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00015950       ssWriteRTWStr              0000000180016950 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:000159b0       ssWriteRTWMxVectParam      00000001800169b0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00015a10       ssWriteRTWMx2dMatParam     0000000180016a10 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00015a90       ssWriteRTWNameValuePair    0000000180016a90 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00015f80       ssWriteRTWParameters       0000000180016f80 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00016580       ssWriteRTWParamSettings    0000000180017580 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00016c50       ssWriteRTWWorkVect         0000000180017c50 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00017150       mexFunction                0000000180018150 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:000195d0       ProcessMexSfunctionEveryCall 000000018001a5d0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00019752       sf_debug_set_machine_data_thresholds 000000018001a752 f   sf_runtime:sf_runtime.dll
- 0001:00019758       sf_debug_set_machine_event_thresholds 000000018001a758 f   sf_runtime:sf_runtime.dll
- 0001:0001975e       sf_debug_initialize_machine 000000018001a75e f   sf_runtime:sf_runtime.dll
- 0001:00019764       sf_load_rtw_optimization_info 000000018001a764 f   sf_runtime:sf_runtime.dll
- 0001:0001976a       sf_mex_emlrtNameCapturePostProcessR2012a 000000018001a76a f   sf_runtime:sf_runtime.dll
- 0001:00019770       sf_mex_assign              000000018001a770 f   sf_runtime:sf_runtime.dll
- 0001:00019776       sf_mex_createstruct        000000018001a776 f   sf_runtime:sf_runtime.dll
- 0001:0001977c       sf_mex_destroy             000000018001a77c f   sf_runtime:sf_runtime.dll
- 0001:00019782       sf_mex_duplicatearraysafe  000000018001a782 f   sf_runtime:sf_runtime.dll
- 0001:00019788       sf_mex_createcellmatrix    000000018001a788 f   sf_runtime:sf_runtime.dll
- 0001:0001978e       sf_mex_addfield            000000018001a78e f   sf_runtime:sf_runtime.dll
- 0001:00019794       sf_mex_create              000000018001a794 f   sf_runtime:sf_runtime.dll
- 0001:0001979a       sf_mex_error_message       000000018001a79a f   sf_runtime:sf_runtime.dll
- 0001:000197a0       sf_mex_call_matlab         000000018001a7a0 f   sf_runtime:sf_runtime.dll
- 0001:000197a6       sf_mex_setcell             000000018001a7a6 f   sf_runtime:sf_runtime.dll
- 0001:000197ac       sf_mex_decode_encoded_mx_struct_array 000000018001a7ac f   sf_runtime:sf_runtime.dll
- 0001:000197b2       sf_mex_getcell             000000018001a7b2 f   sf_runtime:sf_runtime.dll
- 0001:000197b8       sf_mex_dup                 000000018001a7b8 f   sf_runtime:sf_runtime.dll
- 0001:000197be       sf_mex_import              000000018001a7be f   sf_runtime:sf_runtime.dll
- 0001:000197c4       sf_set_rtw_dwork_info      000000018001a7c4 f   sf_runtime:sf_runtime.dll
- 0001:000197ca       sf_mark_chart_reusable_outputs 000000018001a7ca f   sf_runtime:sf_runtime.dll
- 0001:000197d0       sf_mark_chart_expressionable_inputs 000000018001a7d0 f   sf_runtime:sf_runtime.dll
- 0001:000197d6       sf_update_buildInfo        000000018001a7d6 f   sf_runtime:sf_runtime.dll
- 0001:000197dc       sf_rtw_info_uint_prop      000000018001a7dc f   sf_runtime:sf_runtime.dll
- 0001:000197e2       sf_is_chart_inlinable      000000018001a7e2 f   sf_runtime:sf_runtime.dll
- 0001:000197e8       sim_mode_is_external       000000018001a7e8 f   sf_runtime:sf_runtime.dll
- 0001:000197ee       sim_mode_is_rtw_gen        000000018001a7ee f   sf_runtime:sf_runtime.dll
- 0001:000197f4       sf_debug_reset_current_state_configuration 000000018001a7f4 f   sf_runtime:sf_runtime.dll
- 0001:000197fa       sf_debug_set_instance_data_value_ptr 000000018001a7fa f   sf_runtime:sf_runtime.dll
- 0001:00019800       sf_debug_set_chart_data_compiled_props 000000018001a800 f   sf_runtime:sf_runtime.dll
- 0001:00019806       cv_eml_init_for            000000018001a806 f   sf_runtime:sf_runtime.dll
- 0001:0001980c       cv_eml_init_fcn            000000018001a80c f   sf_runtime:sf_runtime.dll
- 0001:00019812       cv_eml_init_script         000000018001a812 f   sf_runtime:sf_runtime.dll
- 0001:00019818       sf_debug_cv_init_trans     000000018001a818 f   sf_runtime:sf_runtime.dll
- 0001:0001981e       sf_debug_cv_init_state     000000018001a81e f   sf_runtime:sf_runtime.dll
- 0001:00019824       sf_debug_cv_init_chart     000000018001a824 f   sf_runtime:sf_runtime.dll
- 0001:0001982a       sf_debug_set_chart_decomposition 000000018001a82a f   sf_runtime:sf_runtime.dll
- 0001:00019830       sf_debug_set_chart_substate_count 000000018001a830 f   sf_runtime:sf_runtime.dll
- 0001:00019836       sf_debug_set_chart_state_info 000000018001a836 f   sf_runtime:sf_runtime.dll
- 0001:0001983c       sf_debug_set_chart_data_props 000000018001a83c f   sf_runtime:sf_runtime.dll
- 0001:00019842       sf_debug_set_chart_event_thresholds 000000018001a842 f   sf_runtime:sf_runtime.dll
- 0001:00019848       sf_debug_set_chart_disable_implicit_casting 000000018001a848 f   sf_runtime:sf_runtime.dll
- 0001:0001984e       sf_debug_initialize_chart  000000018001a84e f   sf_runtime:sf_runtime.dll
- 0001:00019854       sf_get_time                000000018001a854 f   sf_runtime:sf_runtime.dll
- 0001:0001985a       sf_debug_check_for_state_inconsistency 000000018001a85a f   sf_runtime:sf_runtime.dll
- 0001:00019860       sf_debug_symbol_scope_pop  000000018001a860 f   sf_runtime:sf_runtime.dll
- 0001:00019866       sf_debug_data_range_wrapper 000000018001a866 f   sf_runtime:sf_runtime.dll
- 0001:0001986c       sf_debug_call              000000018001a86c f   sf_runtime:sf_runtime.dll
- 0001:00019872       sf_debug_symbol_scope_push 000000018001a872 f   sf_runtime:sf_runtime.dll
- 0001:00019878       sf_mex_listen_for_ctrl_c   000000018001a878 f   sf_runtime:sf_runtime.dll
- 0001:0001987e       sf_debug_eml_data_array_bounds_error_check 000000018001a87e f   sf_runtime:sf_runtime.dll
- 0001:00019884       sf_debug_integer_check     000000018001a884 f   sf_runtime:sf_runtime.dll
- 0001:0001988a       eml_debug_line_call        000000018001a88a f   sf_runtime:sf_runtime.dll
- 0001:00019890       cv_eml_eval                000000018001a890 f   sf_runtime:sf_runtime.dll
- 0001:00019896       sf_debug_symbol_scope_add_eml 000000018001a896 f   sf_runtime:sf_runtime.dll
- 0001:0001989c       sf_debug_symbol_scope_add_eml_importable 000000018001a89c f   sf_runtime:sf_runtime.dll
- 0001:000198a2       sf_debug_symbol_scope_push_eml 000000018001a8a2 f   sf_runtime:sf_runtime.dll
- 0001:000198a8       sf_mex_call_debug          000000018001a8a8 f   sf_runtime:sf_runtime.dll
- 0001:000198ae       sf_clear_rtw_identifier    000000018001a8ae f   sf_runtime:sf_runtime.dll
- 0001:000198b4       cv_eml_init_if             000000018001a8b4 f   sf_runtime:sf_runtime.dll
- 0001:000198ba       sf_debug_terminate         000000018001a8ba f   sf_runtime:sf_runtime.dll
- 0001:000198c0       sf_debug_create_debug_instance_struct 000000018001a8c0 f   sf_runtime:sf_runtime.dll
- 0001:000198c6       sf_debug_api               000000018001a8c6 f   sf_runtime:sf_runtime.dll
- 0001:000198cc       callMdlMethodAndReportError 000000018001a8cc f   sf_runtime:sf_runtime.dll
- 0001:000198d2       call_sf_machine_global_method_dispatcher 000000018001a8d2 f   sf_runtime:sf_runtime.dll
- 0001:000198d8       sf_clear_error_manager_info 000000018001a8d8 f   sf_runtime:sf_runtime.dll
- 0001:000198de       sf_mex_error_direct_call   000000018001a8de f   sf_runtime:sf_runtime.dll
- 0001:000198e4       mxGetScalar                000000018001a8e4 f   libmx:libmx.dll
- 0001:000198ea       mxGetPr                    000000018001a8ea f   libmx:libmx.dll
- 0001:000198f0       mxCreateDoubleMatrix_730   000000018001a8f0 f   libmx:libmx.dll
- 0001:000198f6       mxGetString_730            000000018001a8f6 f   libmx:libmx.dll
- 0001:000198fc       mxIsChar                   000000018001a8fc f   libmx:libmx.dll
- 0001:00019902       mxDestroyArray             000000018001a902 f   libmx:libmx.dll
- 0001:00019908       mxDuplicateArray           000000018001a908 f   libmx:libmx.dll
- 0001:0001990e       mxCreateDoubleScalar       000000018001a90e f   libmx:libmx.dll
- 0001:00019914       mxSetField_730             000000018001a914 f   libmx:libmx.dll
- 0001:0001991a       mxCreateString             000000018001a91a f   libmx:libmx.dll
- 0001:00019920       mxCreateStructMatrix_730   000000018001a920 f   libmx:libmx.dll
- 0001:00019926       mxCreateCellMatrix_730     000000018001a926 f   libmx:libmx.dll
- 0001:0001992c       mxGetClassID               000000018001a92c f   libmx:libmx.dll
- 0001:00019932       mxIsNumeric                000000018001a932 f   libmx:libmx.dll
- 0001:00019938       mxIsComplex                000000018001a938 f   libmx:libmx.dll
- 0001:0001993e       mxGetN                     000000018001a93e f   libmx:libmx.dll
- 0001:00019944       mxGetM                     000000018001a944 f   libmx:libmx.dll
- 0001:0001994a       mxCalloc                   000000018001a94a f   libmx:libmx.dll
- 0001:00019950       mexMakeArrayPersistent     000000018001a950 f   libmex:libmex.dll
- 0001:00019956       mexUnlock                  000000018001a956 f   libmex:libmex.dll
- 0001:0001995c       mexIsLocked                000000018001a95c f   libmex:libmex.dll
- 0001:00019962       mexWarnMsgTxt              000000018001a962 f   libmex:libmex.dll
- 0001:00019968       mexCallMATLAB              000000018001a968 f   libmex:libmex.dll
- 0001:0001996e       mexErrMsgTxt               000000018001a96e f   libmex:libmex.dll
- 0001:00019974       mexLock                    000000018001a974 f   libmex:libmex.dll
- 0001:0001997a       utMalloc                   000000018001a97a f   libut:libut.dll
- 0001:00019980       utFree                     000000018001a980 f   libut:libut.dll
- 0001:00019986       muDoubleScalarAtan2        000000018001a986 f   libmwmathutil:libmwmathutil.dll
- 0001:0001998c       muDoubleScalarAcos         000000018001a98c f   libmwmathutil:libmwmathutil.dll
- 0001:00019992       muDoubleScalarSin          000000018001a992 f   libmwmathutil:libmwmathutil.dll
- 0001:00019998       muDoubleScalarCos          000000018001a998 f   libmwmathutil:libmwmathutil.dll
- 0001:0001999e       muDoubleScalarPower        000000018001a99e f   libmwmathutil:libmwmathutil.dll
- 0001:000199a4       __GSHandlerCheckCommon     000000018001a9a4 f   MSVCRT:gshandler.obj
- 0001:00019a08       __GSHandlerCheck           000000018001aa08 f   MSVCRT:gshandler.obj
- 0001:00019a26       strcmp                     000000018001aa26 f   MSVCRT:MSVCR100.dll
- 0001:00019a40       __security_check_cookie    000000018001aa40 f   MSVCRT:amdsecgs.obj
- 0001:00019a60       strlen                     000000018001aa60 f   MSVCRT:MSVCR100.dll
- 0001:00019a66       memset                     000000018001aa66 f   MSVCRT:MSVCR100.dll
- 0001:00019a6c       free                       000000018001aa6c f   MSVCRT:MSVCR100.dll
- 0001:00019a72       sprintf                    000000018001aa72 f   MSVCRT:MSVCR100.dll
- 0001:00019a78       malloc                     000000018001aa78 f   MSVCRT:MSVCR100.dll
- 0001:00019a7e       strcat                     000000018001aa7e f   MSVCRT:MSVCR100.dll
- 0001:00019a84       memcpy                     000000018001aa84 f   MSVCRT:MSVCR100.dll
- 0001:00019a8c       NtCurrentTeb               000000018001aa8c f i MSVCRT:crtdll.obj
- 0001:00019af8       _CRT_INIT                  000000018001aaf8 f   MSVCRT:crtdll.obj
- 0001:00019e90       _DllMainCRTStartup         000000018001ae90 f   MSVCRT:crtdll.obj
- 0001:00019ed0       __report_gsfailure         000000018001aed0 f   MSVCRT:gs_report.obj
- 0001:0001a01c       __clean_type_info_names    000000018001b01c f   MSVCRT:tncleanup.obj
- 0001:0001a028       _onexit                    000000018001b028 f   MSVCRT:atonexit.obj
- 0001:0001a0d8       atexit                     000000018001b0d8 f   MSVCRT:atonexit.obj
- 0001:0001a0f0       _RTC_Initialize            000000018001b0f0 f   MSVCRT:_initsect_.obj
- 0001:0001a128       _RTC_Terminate             000000018001b128 f   MSVCRT:_initsect_.obj
- 0001:0001a160       _malloc_crt                000000018001b160 f   MSVCRT:MSVCR100.dll
- 0001:0001a170       _ValidateImageBase         000000018001b170 f   MSVCRT:pesect.obj
- 0001:0001a1a0       _FindPESection             000000018001b1a0 f   MSVCRT:pesect.obj
- 0001:0001a1f0       _IsNonwritableInCurrentImage 000000018001b1f0 f   MSVCRT:pesect.obj
- 0001:0001a232       _initterm                  000000018001b232 f   MSVCRT:MSVCR100.dll
- 0001:0001a238       _initterm_e                000000018001b238 f   MSVCRT:MSVCR100.dll
- 0001:0001a23e       _encoded_null              000000018001b23e f   MSVCRT:MSVCR100.dll
- 0001:0001a244       _amsg_exit                 000000018001b244 f   MSVCRT:MSVCR100.dll
- 0001:0001a24a       __C_specific_handler       000000018001b24a f   MSVCRT:MSVCR100.dll
- 0001:0001a250       __CppXcptFilter            000000018001b250 f   MSVCRT:MSVCR100.dll
- 0001:0001a258       DllMain                    000000018001b258 f   MSVCRT:dllmain.obj
- 0001:0001a27c       __security_init_cookie     000000018001b27c f   MSVCRT:gs_support.obj
- 0001:0001a330       __crt_debugger_hook        000000018001b330 f   MSVCRT:MSVCR100.dll
- 0001:0001a336       __clean_type_info_names_internal 000000018001b336 f   MSVCRT:MSVCR100.dll
- 0001:0001a33c       _unlock                    000000018001b33c f   MSVCRT:MSVCR100.dll
- 0001:0001a342       __dllonexit                000000018001b342 f   MSVCRT:MSVCR100.dll
- 0001:0001a348       _lock                      000000018001b348 f   MSVCRT:MSVCR100.dll
- 0001:0001a34e       EncodePointer              000000018001b34e f   kernel32:KERNEL32.dll
- 0001:0001a354       DecodePointer              000000018001b354 f   kernel32:KERNEL32.dll
- 0001:0001a35a       Sleep                      000000018001b35a f   kernel32:KERNEL32.dll
- 0001:0001a360       TerminateProcess           000000018001b360 f   kernel32:KERNEL32.dll
- 0001:0001a366       GetCurrentProcess          000000018001b366 f   kernel32:KERNEL32.dll
- 0001:0001a36c       UnhandledExceptionFilter   000000018001b36c f   kernel32:KERNEL32.dll
- 0001:0001a372       SetUnhandledExceptionFilter 000000018001b372 f   kernel32:KERNEL32.dll
- 0001:0001a378       IsDebuggerPresent          000000018001b378 f   kernel32:KERNEL32.dll
- 0001:0001a37e       RtlVirtualUnwind           000000018001b37e f   kernel32:KERNEL32.dll
- 0001:0001a384       RtlLookupFunctionEntry     000000018001b384 f   kernel32:KERNEL32.dll
- 0001:0001a38a       RtlCaptureContext          000000018001b38a f   kernel32:KERNEL32.dll
- 0001:0001a390       DisableThreadLibraryCalls  000000018001b390 f   kernel32:KERNEL32.dll
- 0001:0001a396       QueryPerformanceCounter    000000018001b396 f   kernel32:KERNEL32.dll
- 0001:0001a39c       GetTickCount               000000018001b39c f   kernel32:KERNEL32.dll
- 0001:0001a3a2       GetCurrentThreadId         000000018001b3a2 f   kernel32:KERNEL32.dll
- 0001:0001a3a8       GetCurrentProcessId        000000018001b3a8 f   kernel32:KERNEL32.dll
- 0001:0001a3ae       GetSystemTimeAsFileTime    000000018001b3ae f   kernel32:KERNEL32.dll
- 0002:00000000       __imp_GetSystemTimeAsFileTime 000000018001c000     kernel32:KERNEL32.dll
- 0002:00000008       __imp_GetCurrentProcessId  000000018001c008     kernel32:KERNEL32.dll
- 0002:00000010       __imp_GetCurrentThreadId   000000018001c010     kernel32:KERNEL32.dll
- 0002:00000018       __imp_GetTickCount         000000018001c018     kernel32:KERNEL32.dll
- 0002:00000020       __imp_QueryPerformanceCounter 000000018001c020     kernel32:KERNEL32.dll
- 0002:00000028       __imp_DisableThreadLibraryCalls 000000018001c028     kernel32:KERNEL32.dll
- 0002:00000030       __imp_RtlCaptureContext    000000018001c030     kernel32:KERNEL32.dll
- 0002:00000038       __imp_RtlLookupFunctionEntry 000000018001c038     kernel32:KERNEL32.dll
- 0002:00000040       __imp_RtlVirtualUnwind     000000018001c040     kernel32:KERNEL32.dll
- 0002:00000048       __imp_IsDebuggerPresent    000000018001c048     kernel32:KERNEL32.dll
- 0002:00000050       __imp_SetUnhandledExceptionFilter 000000018001c050     kernel32:KERNEL32.dll
- 0002:00000058       __imp_UnhandledExceptionFilter 000000018001c058     kernel32:KERNEL32.dll
- 0002:00000060       __imp_GetCurrentProcess    000000018001c060     kernel32:KERNEL32.dll
- 0002:00000068       __imp_TerminateProcess     000000018001c068     kernel32:KERNEL32.dll
- 0002:00000070       __imp_Sleep                000000018001c070     kernel32:KERNEL32.dll
- 0002:00000078       __imp_DecodePointer        000000018001c078     kernel32:KERNEL32.dll
- 0002:00000080       __imp_EncodePointer        000000018001c080     kernel32:KERNEL32.dll
- 0002:00000088       \177KERNEL32_NULL_THUNK_DATA 000000018001c088     kernel32:KERNEL32.dll
- 0002:00000090       __imp__onexit              000000018001c090     MSVCRT:MSVCR100.dll
- 0002:00000098       __imp__lock                000000018001c098     MSVCRT:MSVCR100.dll
- 0002:000000a0       __imp___dllonexit          000000018001c0a0     MSVCRT:MSVCR100.dll
- 0002:000000a8       __imp__unlock              000000018001c0a8     MSVCRT:MSVCR100.dll
- 0002:000000b0       __imp___clean_type_info_names_internal 000000018001c0b0     MSVCRT:MSVCR100.dll
- 0002:000000b8       __imp___crt_debugger_hook  000000018001c0b8     MSVCRT:MSVCR100.dll
- 0002:000000c0       __imp___CppXcptFilter      000000018001c0c0     MSVCRT:MSVCR100.dll
- 0002:000000c8       __imp___C_specific_handler 000000018001c0c8     MSVCRT:MSVCR100.dll
- 0002:000000d0       __imp__amsg_exit           000000018001c0d0     MSVCRT:MSVCR100.dll
- 0002:000000d8       __imp__encoded_null        000000018001c0d8     MSVCRT:MSVCR100.dll
- 0002:000000e0       __imp__initterm_e          000000018001c0e0     MSVCRT:MSVCR100.dll
- 0002:000000e8       __imp__initterm            000000018001c0e8     MSVCRT:MSVCR100.dll
- 0002:000000f0       __imp__malloc_crt          000000018001c0f0     MSVCRT:MSVCR100.dll
- 0002:000000f8       __imp_memcpy               000000018001c0f8     MSVCRT:MSVCR100.dll
- 0002:00000100       __imp_strcat               000000018001c100     MSVCRT:MSVCR100.dll
- 0002:00000108       __imp_malloc               000000018001c108     MSVCRT:MSVCR100.dll
- 0002:00000110       __imp_sprintf              000000018001c110     MSVCRT:MSVCR100.dll
- 0002:00000118       __imp_free                 000000018001c118     MSVCRT:MSVCR100.dll
- 0002:00000120       __imp_memset               000000018001c120     MSVCRT:MSVCR100.dll
- 0002:00000128       __imp_strlen               000000018001c128     MSVCRT:MSVCR100.dll
- 0002:00000130       __imp_strcmp               000000018001c130     MSVCRT:MSVCR100.dll
- 0002:00000138       \177MSVCR100_NULL_THUNK_DATA 000000018001c138     MSVCRT:MSVCR100.dll
- 0002:00000140       __imp_mexLock              000000018001c140     libmex:libmex.dll
- 0002:00000148       __imp_mexUnlock            000000018001c148     libmex:libmex.dll
- 0002:00000150       __imp_mexIsLocked          000000018001c150     libmex:libmex.dll
- 0002:00000158       __imp_mexWarnMsgTxt        000000018001c158     libmex:libmex.dll
- 0002:00000160       __imp_mexCallMATLAB        000000018001c160     libmex:libmex.dll
- 0002:00000168       __imp_mexErrMsgTxt         000000018001c168     libmex:libmex.dll
- 0002:00000170       __imp_mexMakeArrayPersistent 000000018001c170     libmex:libmex.dll
- 0002:00000178       \177libmex_NULL_THUNK_DATA 000000018001c178     libmex:libmex.dll
- 0002:00000180       __imp_muDoubleScalarAcos   000000018001c180     libmwmathutil:libmwmathutil.dll
- 0002:00000188       __imp_muDoubleScalarSin    000000018001c188     libmwmathutil:libmwmathutil.dll
- 0002:00000190       __imp_muDoubleScalarCos    000000018001c190     libmwmathutil:libmwmathutil.dll
- 0002:00000198       __imp_muDoubleScalarPower  000000018001c198     libmwmathutil:libmwmathutil.dll
- 0002:000001a0       __imp_muDoubleScalarAtan2  000000018001c1a0     libmwmathutil:libmwmathutil.dll
- 0002:000001a8       \177libmwmathutil_NULL_THUNK_DATA 000000018001c1a8     libmwmathutil:libmwmathutil.dll
- 0002:000001b0       __imp_mxCalloc             000000018001c1b0     libmx:libmx.dll
- 0002:000001b8       __imp_mxGetM               000000018001c1b8     libmx:libmx.dll
- 0002:000001c0       __imp_mxGetN               000000018001c1c0     libmx:libmx.dll
- 0002:000001c8       __imp_mxIsComplex          000000018001c1c8     libmx:libmx.dll
- 0002:000001d0       __imp_mxIsNumeric          000000018001c1d0     libmx:libmx.dll
- 0002:000001d8       __imp_mxGetClassID         000000018001c1d8     libmx:libmx.dll
- 0002:000001e0       __imp_mxCreateCellMatrix_730 000000018001c1e0     libmx:libmx.dll
- 0002:000001e8       __imp_mxCreateStructMatrix_730 000000018001c1e8     libmx:libmx.dll
- 0002:000001f0       __imp_mxCreateString       000000018001c1f0     libmx:libmx.dll
- 0002:000001f8       __imp_mxSetField_730       000000018001c1f8     libmx:libmx.dll
- 0002:00000200       __imp_mxCreateDoubleScalar 000000018001c200     libmx:libmx.dll
- 0002:00000208       __imp_mxDuplicateArray     000000018001c208     libmx:libmx.dll
- 0002:00000210       __imp_mxDestroyArray       000000018001c210     libmx:libmx.dll
- 0002:00000218       __imp_mxGetScalar          000000018001c218     libmx:libmx.dll
- 0002:00000220       __imp_mxGetPr              000000018001c220     libmx:libmx.dll
- 0002:00000228       __imp_mxCreateDoubleMatrix_730 000000018001c228     libmx:libmx.dll
- 0002:00000230       __imp_mxGetString_730      000000018001c230     libmx:libmx.dll
- 0002:00000238       __imp_mxIsChar             000000018001c238     libmx:libmx.dll
- 0002:00000240       \177libmx_NULL_THUNK_DATA  000000018001c240     libmx:libmx.dll
- 0002:00000248       __imp_utMalloc             000000018001c248     libut:libut.dll
- 0002:00000250       __imp_utFree               000000018001c250     libut:libut.dll
- 0002:00000258       \177libut_NULL_THUNK_DATA  000000018001c258     libut:libut.dll
- 0002:00000260       __imp_call_sf_machine_global_method_dispatcher 000000018001c260     sf_runtime:sf_runtime.dll
- 0002:00000268       __imp_callMdlMethodAndReportError 000000018001c268     sf_runtime:sf_runtime.dll
- 0002:00000270       __imp_sf_debug_api         000000018001c270     sf_runtime:sf_runtime.dll
- 0002:00000278       __imp_sf_debug_create_debug_instance_struct 000000018001c278     sf_runtime:sf_runtime.dll
- 0002:00000280       __imp_sf_debug_terminate   000000018001c280     sf_runtime:sf_runtime.dll
- 0002:00000288       __imp_cv_eml_init_if       000000018001c288     sf_runtime:sf_runtime.dll
- 0002:00000290       __imp_sf_clear_rtw_identifier 000000018001c290     sf_runtime:sf_runtime.dll
- 0002:00000298       __imp_sf_mex_call_debug    000000018001c298     sf_runtime:sf_runtime.dll
- 0002:000002a0       __imp_sf_debug_symbol_scope_push_eml 000000018001c2a0     sf_runtime:sf_runtime.dll
- 0002:000002a8       __imp_sf_clear_error_manager_info 000000018001c2a8     sf_runtime:sf_runtime.dll
- 0002:000002b0       __imp_sf_debug_symbol_scope_add_eml 000000018001c2b0     sf_runtime:sf_runtime.dll
- 0002:000002b8       __imp_cv_eml_eval          000000018001c2b8     sf_runtime:sf_runtime.dll
- 0002:000002c0       __imp_eml_debug_line_call  000000018001c2c0     sf_runtime:sf_runtime.dll
- 0002:000002c8       __imp_sf_debug_integer_check 000000018001c2c8     sf_runtime:sf_runtime.dll
- 0002:000002d0       __imp_sf_debug_eml_data_array_bounds_error_check 000000018001c2d0     sf_runtime:sf_runtime.dll
- 0002:000002d8       __imp_sf_mex_listen_for_ctrl_c 000000018001c2d8     sf_runtime:sf_runtime.dll
- 0002:000002e0       __imp_sf_debug_symbol_scope_push 000000018001c2e0     sf_runtime:sf_runtime.dll
- 0002:000002e8       __imp_sf_debug_call        000000018001c2e8     sf_runtime:sf_runtime.dll
- 0002:000002f0       __imp_sf_debug_data_range_wrapper 000000018001c2f0     sf_runtime:sf_runtime.dll
- 0002:000002f8       __imp_sf_mex_error_direct_call 000000018001c2f8     sf_runtime:sf_runtime.dll
- 0002:00000300       __imp_sf_debug_symbol_scope_add_eml_importable 000000018001c300     sf_runtime:sf_runtime.dll
- 0002:00000308       __imp_sf_debug_symbol_scope_pop 000000018001c308     sf_runtime:sf_runtime.dll
- 0002:00000310       __imp_sf_debug_check_for_state_inconsistency 000000018001c310     sf_runtime:sf_runtime.dll
- 0002:00000318       __imp_sf_get_time          000000018001c318     sf_runtime:sf_runtime.dll
- 0002:00000320       __imp_sf_debug_initialize_chart 000000018001c320     sf_runtime:sf_runtime.dll
- 0002:00000328       __imp_sf_debug_set_chart_disable_implicit_casting 000000018001c328     sf_runtime:sf_runtime.dll
- 0002:00000330       __imp_sf_debug_set_chart_event_thresholds 000000018001c330     sf_runtime:sf_runtime.dll
- 0002:00000338       __imp_sf_debug_set_chart_data_props 000000018001c338     sf_runtime:sf_runtime.dll
- 0002:00000340       __imp_sf_debug_set_chart_state_info 000000018001c340     sf_runtime:sf_runtime.dll
- 0002:00000348       __imp_sf_debug_set_chart_substate_count 000000018001c348     sf_runtime:sf_runtime.dll
- 0002:00000350       __imp_sf_debug_set_chart_decomposition 000000018001c350     sf_runtime:sf_runtime.dll
- 0002:00000358       __imp_sf_debug_cv_init_chart 000000018001c358     sf_runtime:sf_runtime.dll
- 0002:00000360       __imp_sf_debug_cv_init_state 000000018001c360     sf_runtime:sf_runtime.dll
- 0002:00000368       __imp_sf_debug_cv_init_trans 000000018001c368     sf_runtime:sf_runtime.dll
- 0002:00000370       __imp_cv_eml_init_script   000000018001c370     sf_runtime:sf_runtime.dll
- 0002:00000378       __imp_cv_eml_init_fcn      000000018001c378     sf_runtime:sf_runtime.dll
- 0002:00000380       __imp_cv_eml_init_for      000000018001c380     sf_runtime:sf_runtime.dll
- 0002:00000388       __imp_sf_debug_set_chart_data_compiled_props 000000018001c388     sf_runtime:sf_runtime.dll
- 0002:00000390       __imp_sf_debug_set_instance_data_value_ptr 000000018001c390     sf_runtime:sf_runtime.dll
- 0002:00000398       __imp_sf_debug_reset_current_state_configuration 000000018001c398     sf_runtime:sf_runtime.dll
- 0002:000003a0       __imp_sim_mode_is_rtw_gen  000000018001c3a0     sf_runtime:sf_runtime.dll
- 0002:000003a8       __imp_sim_mode_is_external 000000018001c3a8     sf_runtime:sf_runtime.dll
- 0002:000003b0       __imp_sf_is_chart_inlinable 000000018001c3b0     sf_runtime:sf_runtime.dll
- 0002:000003b8       __imp_sf_rtw_info_uint_prop 000000018001c3b8     sf_runtime:sf_runtime.dll
- 0002:000003c0       __imp_sf_update_buildInfo  000000018001c3c0     sf_runtime:sf_runtime.dll
- 0002:000003c8       __imp_sf_mark_chart_expressionable_inputs 000000018001c3c8     sf_runtime:sf_runtime.dll
- 0002:000003d0       __imp_sf_mark_chart_reusable_outputs 000000018001c3d0     sf_runtime:sf_runtime.dll
- 0002:000003d8       __imp_sf_set_rtw_dwork_info 000000018001c3d8     sf_runtime:sf_runtime.dll
- 0002:000003e0       __imp_sf_mex_import        000000018001c3e0     sf_runtime:sf_runtime.dll
- 0002:000003e8       __imp_sf_mex_dup           000000018001c3e8     sf_runtime:sf_runtime.dll
- 0002:000003f0       __imp_sf_mex_getcell       000000018001c3f0     sf_runtime:sf_runtime.dll
- 0002:000003f8       __imp_sf_mex_decode_encoded_mx_struct_array 000000018001c3f8     sf_runtime:sf_runtime.dll
- 0002:00000400       __imp_sf_mex_setcell       000000018001c400     sf_runtime:sf_runtime.dll
- 0002:00000408       __imp_sf_mex_call_matlab   000000018001c408     sf_runtime:sf_runtime.dll
- 0002:00000410       __imp_sf_mex_error_message 000000018001c410     sf_runtime:sf_runtime.dll
- 0002:00000418       __imp_sf_mex_create        000000018001c418     sf_runtime:sf_runtime.dll
- 0002:00000420       __imp_sf_mex_addfield      000000018001c420     sf_runtime:sf_runtime.dll
- 0002:00000428       __imp_sf_mex_createcellmatrix 000000018001c428     sf_runtime:sf_runtime.dll
- 0002:00000430       __imp_sf_mex_duplicatearraysafe 000000018001c430     sf_runtime:sf_runtime.dll
- 0002:00000438       __imp_sf_mex_destroy       000000018001c438     sf_runtime:sf_runtime.dll
- 0002:00000440       __imp_sf_mex_createstruct  000000018001c440     sf_runtime:sf_runtime.dll
- 0002:00000448       __imp_sf_mex_assign        000000018001c448     sf_runtime:sf_runtime.dll
- 0002:00000450       __imp_sf_mex_emlrtNameCapturePostProcessR2012a 000000018001c450     sf_runtime:sf_runtime.dll
- 0002:00000458       __imp_sf_load_rtw_optimization_info 000000018001c458     sf_runtime:sf_runtime.dll
- 0002:00000460       __imp_sf_debug_initialize_machine 000000018001c460     sf_runtime:sf_runtime.dll
- 0002:00000468       __imp_sf_debug_set_machine_event_thresholds 000000018001c468     sf_runtime:sf_runtime.dll
- 0002:00000470       __imp_sf_debug_set_machine_data_thresholds 000000018001c470     sf_runtime:sf_runtime.dll
- 0002:00000478       \177sf_runtime_NULL_THUNK_DATA 000000018001c478     sf_runtime:sf_runtime.dll
- 0002:00000480       __xc_a                     000000018001c480     MSVCRT:cinitexe.obj
- 0002:00000488       __xc_z                     000000018001c488     MSVCRT:cinitexe.obj
- 0002:00000490       __xi_a                     000000018001c490     MSVCRT:cinitexe.obj
- 0002:000004a0       __xi_z                     000000018001c4a0     MSVCRT:cinitexe.obj
- 0002:000004b0       __real@41e2d7f958c00000    000000018001c4b0     DeltaSM_Control_FriccCambiante_sfun.obj
- 0002:000004b8       __real@41ea4ebd1d600000    000000018001c4b8     DeltaSM_Control_FriccCambiante_sfun.obj
- 0002:000004c0       __real@41bb666466000000    000000018001c4c0     DeltaSM_Control_FriccCambiante_sfun.obj
- 0002:000004c8       __real@41a94c0ae8000000    000000018001c4c8     DeltaSM_Control_FriccCambiante_sfun.obj
- 0002:000004d0       __real@41c900e78a000000    000000018001c4d0     DeltaSM_Control_FriccCambiante_sfun.obj
- 0002:000004d8       __real@41eda5398c800000    000000018001c4d8     DeltaSM_Control_FriccCambiante_sfun.obj
- 0002:000004e0       __real@41edcf5b43c00000    000000018001c4e0     DeltaSM_Control_FriccCambiante_sfun.obj
- 0002:000004e8       __real@41e695dff8600000    000000018001c4e8     DeltaSM_Control_FriccCambiante_sfun.obj
- 0002:000004f0       __real@41e4ddf137c00000    000000018001c4f0     DeltaSM_Control_FriccCambiante_sfun.obj
- 0002:000004f8       __real@41d7b1421a000000    000000018001c4f8     DeltaSM_Control_FriccCambiante_sfun.obj
- 0002:00000500       __real@41d33a88cd400000    000000018001c500     DeltaSM_Control_FriccCambiante_sfun.obj
- 0002:00000508       __real@41dda33f61800000    000000018001c508     DeltaSM_Control_FriccCambiante_sfun.obj
- 0002:00000510       __real@41eb5cdb6fc00000    000000018001c510     DeltaSM_Control_FriccCambiante_sfun.obj
- 0002:00000518       __real@41eebc11a6400000    000000018001c518     DeltaSM_Control_FriccCambiante_sfun.obj
- 0002:00000520       __real@41d94209b8800000    000000018001c520     DeltaSM_Control_FriccCambiante_sfun.obj
- 0002:00000528       __real@41ed17712f800000    000000018001c528     DeltaSM_Control_FriccCambiante_sfun.obj
- 0002:00000530       __real@41e70e4082800000    000000018001c530     c1_DeltaSM_Control_FriccCambiante.obj
- 0002:00000538       __real@41e3fe031aa00000    000000018001c538     c1_DeltaSM_Control_FriccCambiante.obj
- 0002:00000540       __real@41daac1ae2400000    000000018001c540     c1_DeltaSM_Control_FriccCambiante.obj
- 0002:00000548       __real@41e52b8269c00000    000000018001c548     c1_DeltaSM_Control_FriccCambiante.obj
- 0002:00000550       __real@4024000000000000    000000018001c550     c1_DeltaSM_Control_FriccCambiante.obj
- 0002:00000558       __real@3ff0000000000000    000000018001c558     c1_DeltaSM_Control_FriccCambiante.obj
- 0002:00000560       __real@40f174c000000000    000000018001c560     c1_DeltaSM_Control_FriccCambiante.obj
- 0002:00000568       __real@bff0000000000000    000000018001c568     c1_DeltaSM_Control_FriccCambiante.obj
- 0002:00000570       __mask@@NegDouble@         000000018001c570     c1_DeltaSM_Control_FriccCambiante.obj
- 0002:00000580       __real@4071300000000000    000000018001c580     c1_DeltaSM_Control_FriccCambiante.obj
- 0002:00000588       __real@4060400000000000    000000018001c588     c1_DeltaSM_Control_FriccCambiante.obj
- 0002:00000590       __real@4041400000000000    000000018001c590     c1_DeltaSM_Control_FriccCambiante.obj
- 0002:00000598       __real@4050600000000000    000000018001c598     c1_DeltaSM_Control_FriccCambiante.obj
- 0002:000005a0       __real@4008000000000000    000000018001c5a0     c1_DeltaSM_Control_FriccCambiante.obj
- 0002:000005a8       __real@41e0068139000000    000000018001c5a8     c2_DeltaSM_Control_FriccCambiante.obj
- 0002:000005b0       __real@41e67ff765400000    000000018001c5b0     c2_DeltaSM_Control_FriccCambiante.obj
- 0002:000005b8       __real@41cfac171d800000    000000018001c5b8     c2_DeltaSM_Control_FriccCambiante.obj
- 0002:000005c0       __real@41ede0a798a00000    000000018001c5c0     c2_DeltaSM_Control_FriccCambiante.obj
- 0002:000005c8       __real@c066800000000000    000000018001c5c8     c2_DeltaSM_Control_FriccCambiante.obj
- 0002:000005d0       __real@407c200000000000    000000018001c5d0     c2_DeltaSM_Control_FriccCambiante.obj
- 0002:000005d8       __real@c072c00000000000    000000018001c5d8     c2_DeltaSM_Control_FriccCambiante.obj
- 0002:000005e0       __real@3fce000000000000    000000018001c5e0     c2_DeltaSM_Control_FriccCambiante.obj
- 0002:000005e8       __real@c002c00000000000    000000018001c5e8     c2_DeltaSM_Control_FriccCambiante.obj
- 0002:000005f0       __real@4019000000000000    000000018001c5f0     c2_DeltaSM_Control_FriccCambiante.obj
- 0002:000005f8       __real@c016800000000000    000000018001c5f8     c2_DeltaSM_Control_FriccCambiante.obj
- 0002:00000600       __real@403c200000000000    000000018001c600     c2_DeltaSM_Control_FriccCambiante.obj
- 0002:00000608       __real@c042c00000000000    000000018001c608     c2_DeltaSM_Control_FriccCambiante.obj
- 0002:00000610       __real@4016800000000000    000000018001c610     c2_DeltaSM_Control_FriccCambiante.obj
- 0002:00000618       __real@c03c200000000000    000000018001c618     c2_DeltaSM_Control_FriccCambiante.obj
- 0002:00000620       __real@4042c00000000000    000000018001c620     c2_DeltaSM_Control_FriccCambiante.obj
- 0002:00000628       __real@4069000000000000    000000018001c628     c2_DeltaSM_Control_FriccCambiante.obj
- 0002:00000630       __real@4065400000000000    000000018001c630     c2_DeltaSM_Control_FriccCambiante.obj
- 0002:00000638       __real@4034000000000000    000000018001c638     c2_DeltaSM_Control_FriccCambiante.obj
- 0002:00000640       __real@c034000000000000    000000018001c640     c2_DeltaSM_Control_FriccCambiante.obj
- 0002:00000648       __real@4010000000000000    000000018001c648     c2_DeltaSM_Control_FriccCambiante.obj
- 0002:00000650       __real@4000000000000000    000000018001c650     c2_DeltaSM_Control_FriccCambiante.obj
- 0002:00000658       __real@4014000000000000    000000018001c658     c2_DeltaSM_Control_FriccCambiante.obj
- 0002:00000660       DYNAMIC_DIMENSION_DEF      000000018001c660     DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0002:00000680       _ssBadLevel2InputAccessMsg 000000018001c680     DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0002:00000810       _ssBadLevel2DirectFeedMsg  000000018001c810     DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0002:00000950       _ssBadLevel2DirectFeedSolutionMsg 000000018001c950     DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0002:000009c0       _ssBadLevel2ZeroDirectFeedMsg 000000018001c9c0     DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0002:00000b00       _ssBadLevel2ZeroDirectFeedMsg2 000000018001cb00     DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0002:00000be8       __real@0000000000000000    000000018001cbe8     DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0002:00000bf0       __real@41602cbca0000000    000000018001cbf0     DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0002:00000bf8       _pDefaultRawDllMain        000000018001cbf8     MSVCRT:crtdll.obj
- 0002:00000bf8       _pRawDllMain               000000018001cbf8     MSVCRT:crtdll.obj
- 0002:00000c10       ?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB 000000018001cc10     MSVCRT:tncleanup.obj
- 0002:00000c14       ?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB 000000018001cc14     MSVCRT:tncleanup.obj
- 0002:00000c18       ?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB 000000018001cc18     MSVCRT:tncleanup.obj
- 0002:00000c1c       ?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB 000000018001cc1c     MSVCRT:tncleanup.obj
- 0002:00000c20       ?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB 000000018001cc20     MSVCRT:tncleanup.obj
- 0002:00000c28       __rtc_iaa                  000000018001cc28     MSVCRT:_initsect_.obj
- 0002:00000c30       __rtc_izz                  000000018001cc30     MSVCRT:_initsect_.obj
- 0002:00000c38       __rtc_taa                  000000018001cc38     MSVCRT:_initsect_.obj
- 0002:00000c40       __rtc_tzz                  000000018001cc40     MSVCRT:_initsect_.obj
- 0002:00001410       __IMPORT_DESCRIPTOR_sf_runtime 000000018001d410     sf_runtime:sf_runtime.dll
- 0002:00001424       __IMPORT_DESCRIPTOR_libmx  000000018001d424     libmx:libmx.dll
- 0002:00001438       __IMPORT_DESCRIPTOR_libmex 000000018001d438     libmex:libmex.dll
- 0002:0000144c       __IMPORT_DESCRIPTOR_libut  000000018001d44c     libut:libut.dll
- 0002:00001460       __IMPORT_DESCRIPTOR_libmwmathutil 000000018001d460     libmwmathutil:libmwmathutil.dll
- 0002:00001474       __IMPORT_DESCRIPTOR_MSVCR100 000000018001d474     MSVCRT:MSVCR100.dll
- 0002:00001488       __IMPORT_DESCRIPTOR_KERNEL32 000000018001d488     kernel32:KERNEL32.dll
- 0002:0000149c       __NULL_IMPORT_DESCRIPTOR   000000018001d49c     sf_runtime:sf_runtime.dll
- 0003:00005f30       DYNAMIC_DIMENSION          0000000180024f30     DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0003:00006b38       __security_cookie          0000000180025b38     MSVCRT:gs_cookie.obj
- 0003:00006b40       __security_cookie_complement 0000000180025b40     MSVCRT:gs_cookie.obj
- 0003:00006b48       _fltused                   0000000180025b48     MSVCRT:dllsupp.obj
- 0003:00006b50       __native_dllmain_reason    0000000180025b50     MSVCRT:natstart.obj
- 0003:00006b54       __native_vcclrit_reason    0000000180025b54     MSVCRT:natstart.obj
- 0003:00006c58       sfGlobalDebugInstanceStruct 0000000180025c58     DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0003:000071e0       ?__type_info_root_node@@3U__type_info_node@@A 00000001800261e0     MSVCRT:tncleanup.obj
- 0003:000071f0       _DeltaSM_Control_FriccCambianteMachineNumber_ 00000001800261f0     <common>
- 0003:000071f4       __native_startup_state     00000001800261f4     <common>
- 0003:000071f8       __native_startup_lock      00000001800261f8     <common>
- 0003:00007200       __onexitend                0000000180026200     <common>
- 0003:00007208       __onexitbegin              0000000180026208     <common>
- 0003:00007210       __dyn_tls_init_callback    0000000180026210     <common>
+ 0001:00006050       sf_c1_DeltaSM_Control_FriccCambiante_get_check_sum 0000000180007050 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:000060d0       sf_c1_DeltaSM_Control_FriccCambiante_get_autoinheritance_info 00000001800070d0 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:00006de0       sf_c1_DeltaSM_Control_FriccCambiante_third_party_uses_info 0000000180007de0 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:00006e10       sf_c1_DeltaSM_Control_FriccCambiante_updateBuildInfo_args_info 0000000180007e10 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:00006e40       sf_internal_get_sim_state_c1_DeltaSM_Control_FriccCambiante 0000000180007e40 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:00007330       sf_internal_set_sim_state_c1_DeltaSM_Control_FriccCambiante 0000000180008330 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:000077b0       c1_DeltaSM_Control_FriccCambiante_method_dispatcher 00000001800087b0 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:0000c470       sf_c2_DeltaSM_Control_FriccCambiante_get_eml_resolved_functions_info 000000018000d470 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:0000f690       sf_c2_DeltaSM_Control_FriccCambiante_get_check_sum 0000000180010690 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:0000f710       sf_c2_DeltaSM_Control_FriccCambiante_get_autoinheritance_info 0000000180010710 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:0000fdd0       sf_c2_DeltaSM_Control_FriccCambiante_third_party_uses_info 0000000180010dd0 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:0000fe00       sf_c2_DeltaSM_Control_FriccCambiante_updateBuildInfo_args_info 0000000180010e00 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:0000fe30       sf_internal_get_sim_state_c2_DeltaSM_Control_FriccCambiante 0000000180010e30 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:00010330       sf_internal_set_sim_state_c2_DeltaSM_Control_FriccCambiante 0000000180011330 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:000107b0       c2_DeltaSM_Control_FriccCambiante_method_dispatcher 00000001800117b0 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:000147b0       sf_process_check_sum_call  00000001800157b0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00014800       sf_process_autoinheritance_call 0000000180015800 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:000149a0       sf_process_get_third_party_uses_info_call 00000001800159a0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00014b40       sf_process_get_updateBuildInfo_args_info_call 0000000180015b40 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00014ce0       sf_process_get_eml_resolved_functions_info_call 0000000180015ce0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00014e60       sf_mex_unlock_call         0000000180015e60 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00014f10       sf_machine_global_initializer_called 0000000180015f10 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00014f40       sf_machine_global_method_dispatcher 0000000180015f40 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00014fa0       sf_machine_global_terminator 0000000180015fa0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00014ff0       sf_register_machine_exported_symbols 0000000180015ff0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00015010       callCustomFcn              0000000180016010 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00015020       sf_machine_global_initializer 0000000180016020 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:000150a0       mdlGetSimState             00000001800160a0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00015120       mdlSetSimState             0000000180016120 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00015160       _ssSetStateAbsTol          0000000180016160 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00015240       _ssGetAbsTol               0000000180016240 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:000152b0       _ssSetInputPortMatrixDimensions 00000001800162b0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:000153c0       _ssSetOutputPortMatrixDimensions 00000001800163c0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:000154d0       _ssSetInputPortVectorDimension 00000001800164d0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:000155a0       _ssSetOutputPortVectorDimension 00000001800165a0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00015670       ssIsRunTimeParamTunable    0000000180016670 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:000156e0       ssGetSFuncBlockHandle      00000001800166e0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00015750       _ssGetCurrentInputPortWidth 0000000180016750 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00015870       _ssGetCurrentOutputPortWidth 0000000180016870 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00015990       _ssGetCallSystemNumFcnCallDestinations 0000000180016990 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00015a00       ssWarning                  0000000180016a00 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00015b10       ssGetIsZeroCrossControlDisabled 0000000180016b10 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00015b80       ssSetIsInputPortUsedForContZcSignal 0000000180016b80 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00015bf0       ssSetZcSignalIsZcElementDisc 0000000180016bf0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00015ca0       ssSetZcSignalName          0000000180016ca0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00015d10       ssSetZcSignalWidth         0000000180016d10 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00015d80       ssSetZcSignalZcEventType   0000000180016d80 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00015df0       ssSetZcSignalType          0000000180016df0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00015e60       ssSetZcSignalZcTol         0000000180016e60 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00015ed0       ssSetZcSignalNeedsEventNotification 0000000180016ed0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00015f40       ssCreateAndAddZcSignalInfo 0000000180016f40 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00015fb0       ssCloneAndAddZcSignalInfo  0000000180016fb0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00016020       ssGetNumZcSignals          0000000180017020 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00016090       ssGetZcSignalVector        0000000180017090 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00016100       ssGetZcSignalZcEvents      0000000180017100 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00016170       ssGetZcSignalName          0000000180017170 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:000161e0       ssGetZcSignalWidth         00000001800171e0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00016250       ssGetZcSignalZcEventType   0000000180017250 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:000162c0       ssGetZcSignalType          00000001800172c0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00016330       ssGetZcSignalZcTol         0000000180017330 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:000163b0       ssGetZcSignalNeedsEventNotification 00000001800173b0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00016420       ssGetZcSignalIsZcElementDisc 0000000180017420 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:000164c0       ssGetIsInputPortElementContinuous 00000001800174c0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00016560       _ssGetInputPortSignalPtrsFcn 0000000180017560 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00016820       _ssGetInputPortSignalFcn   0000000180017820 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00016a40       _ssSetInputPortDirectFeedThroughFcn 0000000180017a40 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00016ba0       _ssSetInputPortReusableFcn 0000000180017ba0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00016c90       _ssSetOutputPortReusableFcn 0000000180017c90 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00016d70       ssGetDTypeIdFromMxArray    0000000180017d70 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00016e90       ssWriteRTWStr              0000000180017e90 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00016ef0       ssWriteRTWMxVectParam      0000000180017ef0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00016f50       ssWriteRTWMx2dMatParam     0000000180017f50 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00016fd0       ssWriteRTWNameValuePair    0000000180017fd0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:000174c0       ssWriteRTWParameters       00000001800184c0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00017ac0       ssWriteRTWParamSettings    0000000180018ac0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00018190       ssWriteRTWWorkVect         0000000180019190 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00018690       mexFunction                0000000180019690 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:0001ab10       ProcessMexSfunctionEveryCall 000000018001bb10 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:0001ac92       sf_debug_set_machine_data_thresholds 000000018001bc92 f   sf_runtime:sf_runtime.dll
+ 0001:0001ac98       sf_debug_set_machine_event_thresholds 000000018001bc98 f   sf_runtime:sf_runtime.dll
+ 0001:0001ac9e       sf_debug_initialize_machine 000000018001bc9e f   sf_runtime:sf_runtime.dll
+ 0001:0001aca4       sf_load_rtw_optimization_info 000000018001bca4 f   sf_runtime:sf_runtime.dll
+ 0001:0001acaa       sf_mex_emlrtNameCapturePostProcessR2012a 000000018001bcaa f   sf_runtime:sf_runtime.dll
+ 0001:0001acb0       sf_mex_assign              000000018001bcb0 f   sf_runtime:sf_runtime.dll
+ 0001:0001acb6       sf_mex_createstruct        000000018001bcb6 f   sf_runtime:sf_runtime.dll
+ 0001:0001acbc       sf_mex_destroy             000000018001bcbc f   sf_runtime:sf_runtime.dll
+ 0001:0001acc2       sf_mex_duplicatearraysafe  000000018001bcc2 f   sf_runtime:sf_runtime.dll
+ 0001:0001acc8       sf_mex_createcellmatrix    000000018001bcc8 f   sf_runtime:sf_runtime.dll
+ 0001:0001acce       sf_mex_addfield            000000018001bcce f   sf_runtime:sf_runtime.dll
+ 0001:0001acd4       sf_mex_create              000000018001bcd4 f   sf_runtime:sf_runtime.dll
+ 0001:0001acda       sf_mex_error_message       000000018001bcda f   sf_runtime:sf_runtime.dll
+ 0001:0001ace0       sf_mex_call_matlab         000000018001bce0 f   sf_runtime:sf_runtime.dll
+ 0001:0001ace6       sf_mex_setcell             000000018001bce6 f   sf_runtime:sf_runtime.dll
+ 0001:0001acec       sf_mex_decode_encoded_mx_struct_array 000000018001bcec f   sf_runtime:sf_runtime.dll
+ 0001:0001acf2       sf_mex_getcell             000000018001bcf2 f   sf_runtime:sf_runtime.dll
+ 0001:0001acf8       sf_mex_dup                 000000018001bcf8 f   sf_runtime:sf_runtime.dll
+ 0001:0001acfe       sf_mex_import              000000018001bcfe f   sf_runtime:sf_runtime.dll
+ 0001:0001ad04       sf_set_rtw_dwork_info      000000018001bd04 f   sf_runtime:sf_runtime.dll
+ 0001:0001ad0a       sf_mark_chart_reusable_outputs 000000018001bd0a f   sf_runtime:sf_runtime.dll
+ 0001:0001ad10       sf_mark_chart_expressionable_inputs 000000018001bd10 f   sf_runtime:sf_runtime.dll
+ 0001:0001ad16       sf_update_buildInfo        000000018001bd16 f   sf_runtime:sf_runtime.dll
+ 0001:0001ad1c       sf_rtw_info_uint_prop      000000018001bd1c f   sf_runtime:sf_runtime.dll
+ 0001:0001ad22       sf_is_chart_inlinable      000000018001bd22 f   sf_runtime:sf_runtime.dll
+ 0001:0001ad28       sim_mode_is_external       000000018001bd28 f   sf_runtime:sf_runtime.dll
+ 0001:0001ad2e       sim_mode_is_rtw_gen        000000018001bd2e f   sf_runtime:sf_runtime.dll
+ 0001:0001ad34       sf_debug_reset_current_state_configuration 000000018001bd34 f   sf_runtime:sf_runtime.dll
+ 0001:0001ad3a       sf_debug_set_instance_data_value_ptr 000000018001bd3a f   sf_runtime:sf_runtime.dll
+ 0001:0001ad40       sf_debug_set_chart_data_compiled_props 000000018001bd40 f   sf_runtime:sf_runtime.dll
+ 0001:0001ad46       cv_eml_init_for            000000018001bd46 f   sf_runtime:sf_runtime.dll
+ 0001:0001ad4c       cv_eml_init_if             000000018001bd4c f   sf_runtime:sf_runtime.dll
+ 0001:0001ad52       cv_eml_init_fcn            000000018001bd52 f   sf_runtime:sf_runtime.dll
+ 0001:0001ad58       cv_eml_init_script         000000018001bd58 f   sf_runtime:sf_runtime.dll
+ 0001:0001ad5e       sf_debug_cv_init_trans     000000018001bd5e f   sf_runtime:sf_runtime.dll
+ 0001:0001ad64       sf_debug_cv_init_state     000000018001bd64 f   sf_runtime:sf_runtime.dll
+ 0001:0001ad6a       sf_debug_cv_init_chart     000000018001bd6a f   sf_runtime:sf_runtime.dll
+ 0001:0001ad70       sf_debug_set_chart_decomposition 000000018001bd70 f   sf_runtime:sf_runtime.dll
+ 0001:0001ad76       sf_debug_set_chart_substate_count 000000018001bd76 f   sf_runtime:sf_runtime.dll
+ 0001:0001ad7c       sf_debug_set_chart_state_info 000000018001bd7c f   sf_runtime:sf_runtime.dll
+ 0001:0001ad82       sf_debug_set_chart_data_props 000000018001bd82 f   sf_runtime:sf_runtime.dll
+ 0001:0001ad88       sf_debug_set_chart_event_thresholds 000000018001bd88 f   sf_runtime:sf_runtime.dll
+ 0001:0001ad8e       sf_debug_set_chart_disable_implicit_casting 000000018001bd8e f   sf_runtime:sf_runtime.dll
+ 0001:0001ad94       sf_debug_initialize_chart  000000018001bd94 f   sf_runtime:sf_runtime.dll
+ 0001:0001ad9a       sf_get_time                000000018001bd9a f   sf_runtime:sf_runtime.dll
+ 0001:0001ada0       sf_debug_check_for_state_inconsistency 000000018001bda0 f   sf_runtime:sf_runtime.dll
+ 0001:0001ada6       sf_debug_symbol_scope_pop  000000018001bda6 f   sf_runtime:sf_runtime.dll
+ 0001:0001adac       sf_debug_data_range_wrapper 000000018001bdac f   sf_runtime:sf_runtime.dll
+ 0001:0001adb2       sf_debug_call              000000018001bdb2 f   sf_runtime:sf_runtime.dll
+ 0001:0001adb8       sf_debug_symbol_scope_push 000000018001bdb8 f   sf_runtime:sf_runtime.dll
+ 0001:0001adbe       sf_mex_listen_for_ctrl_c   000000018001bdbe f   sf_runtime:sf_runtime.dll
+ 0001:0001adc4       sf_debug_eml_data_array_bounds_error_check 000000018001bdc4 f   sf_runtime:sf_runtime.dll
+ 0001:0001adca       sf_debug_integer_check     000000018001bdca f   sf_runtime:sf_runtime.dll
+ 0001:0001add0       eml_debug_line_call        000000018001bdd0 f   sf_runtime:sf_runtime.dll
+ 0001:0001add6       cv_eml_eval                000000018001bdd6 f   sf_runtime:sf_runtime.dll
+ 0001:0001addc       sf_debug_symbol_scope_add_eml 000000018001bddc f   sf_runtime:sf_runtime.dll
+ 0001:0001ade2       sf_debug_symbol_scope_add_eml_importable 000000018001bde2 f   sf_runtime:sf_runtime.dll
+ 0001:0001ade8       sf_debug_symbol_scope_push_eml 000000018001bde8 f   sf_runtime:sf_runtime.dll
+ 0001:0001adee       sf_mex_call_debug          000000018001bdee f   sf_runtime:sf_runtime.dll
+ 0001:0001adf4       sf_clear_rtw_identifier    000000018001bdf4 f   sf_runtime:sf_runtime.dll
+ 0001:0001adfa       sf_debug_terminate         000000018001bdfa f   sf_runtime:sf_runtime.dll
+ 0001:0001ae00       sf_debug_create_debug_instance_struct 000000018001be00 f   sf_runtime:sf_runtime.dll
+ 0001:0001ae06       sf_debug_api               000000018001be06 f   sf_runtime:sf_runtime.dll
+ 0001:0001ae0c       callMdlMethodAndReportError 000000018001be0c f   sf_runtime:sf_runtime.dll
+ 0001:0001ae12       call_sf_machine_global_method_dispatcher 000000018001be12 f   sf_runtime:sf_runtime.dll
+ 0001:0001ae18       sf_clear_error_manager_info 000000018001be18 f   sf_runtime:sf_runtime.dll
+ 0001:0001ae1e       sf_mex_error_direct_call   000000018001be1e f   sf_runtime:sf_runtime.dll
+ 0001:0001ae24       mxGetScalar                000000018001be24 f   libmx:libmx.dll
+ 0001:0001ae2a       mxGetPr                    000000018001be2a f   libmx:libmx.dll
+ 0001:0001ae30       mxCreateDoubleMatrix_730   000000018001be30 f   libmx:libmx.dll
+ 0001:0001ae36       mxGetString_730            000000018001be36 f   libmx:libmx.dll
+ 0001:0001ae3c       mxIsChar                   000000018001be3c f   libmx:libmx.dll
+ 0001:0001ae42       mxDestroyArray             000000018001be42 f   libmx:libmx.dll
+ 0001:0001ae48       mxDuplicateArray           000000018001be48 f   libmx:libmx.dll
+ 0001:0001ae4e       mxCreateDoubleScalar       000000018001be4e f   libmx:libmx.dll
+ 0001:0001ae54       mxSetField_730             000000018001be54 f   libmx:libmx.dll
+ 0001:0001ae5a       mxCreateString             000000018001be5a f   libmx:libmx.dll
+ 0001:0001ae60       mxCreateStructMatrix_730   000000018001be60 f   libmx:libmx.dll
+ 0001:0001ae66       mxCreateCellMatrix_730     000000018001be66 f   libmx:libmx.dll
+ 0001:0001ae6c       mxGetClassID               000000018001be6c f   libmx:libmx.dll
+ 0001:0001ae72       mxIsNumeric                000000018001be72 f   libmx:libmx.dll
+ 0001:0001ae78       mxIsComplex                000000018001be78 f   libmx:libmx.dll
+ 0001:0001ae7e       mxGetN                     000000018001be7e f   libmx:libmx.dll
+ 0001:0001ae84       mxGetM                     000000018001be84 f   libmx:libmx.dll
+ 0001:0001ae8a       mxCalloc                   000000018001be8a f   libmx:libmx.dll
+ 0001:0001ae90       mexMakeArrayPersistent     000000018001be90 f   libmex:libmex.dll
+ 0001:0001ae96       mexUnlock                  000000018001be96 f   libmex:libmex.dll
+ 0001:0001ae9c       mexIsLocked                000000018001be9c f   libmex:libmex.dll
+ 0001:0001aea2       mexWarnMsgTxt              000000018001bea2 f   libmex:libmex.dll
+ 0001:0001aea8       mexCallMATLAB              000000018001bea8 f   libmex:libmex.dll
+ 0001:0001aeae       mexErrMsgTxt               000000018001beae f   libmex:libmex.dll
+ 0001:0001aeb4       mexLock                    000000018001beb4 f   libmex:libmex.dll
+ 0001:0001aeba       utMalloc                   000000018001beba f   libut:libut.dll
+ 0001:0001aec0       utFree                     000000018001bec0 f   libut:libut.dll
+ 0001:0001aec6       muDoubleScalarAbs          000000018001bec6 f   libmwmathutil:libmwmathutil.dll
+ 0001:0001aecc       muDoubleScalarSqrt         000000018001becc f   libmwmathutil:libmwmathutil.dll
+ 0001:0001aed2       muDoubleScalarSin          000000018001bed2 f   libmwmathutil:libmwmathutil.dll
+ 0001:0001aed8       muDoubleScalarCos          000000018001bed8 f   libmwmathutil:libmwmathutil.dll
+ 0001:0001aede       muDoubleScalarAtan2        000000018001bede f   libmwmathutil:libmwmathutil.dll
+ 0001:0001aee4       muDoubleScalarPower        000000018001bee4 f   libmwmathutil:libmwmathutil.dll
+ 0001:0001aeec       __GSHandlerCheckCommon     000000018001beec f   MSVCRT:gshandler.obj
+ 0001:0001af50       __GSHandlerCheck           000000018001bf50 f   MSVCRT:gshandler.obj
+ 0001:0001af6e       strcmp                     000000018001bf6e f   MSVCRT:MSVCR100.dll
+ 0001:0001af90       __security_check_cookie    000000018001bf90 f   MSVCRT:amdsecgs.obj
+ 0001:0001afb0       strlen                     000000018001bfb0 f   MSVCRT:MSVCR100.dll
+ 0001:0001afb6       memset                     000000018001bfb6 f   MSVCRT:MSVCR100.dll
+ 0001:0001afbc       free                       000000018001bfbc f   MSVCRT:MSVCR100.dll
+ 0001:0001afc2       sprintf                    000000018001bfc2 f   MSVCRT:MSVCR100.dll
+ 0001:0001afc8       malloc                     000000018001bfc8 f   MSVCRT:MSVCR100.dll
+ 0001:0001afce       strcat                     000000018001bfce f   MSVCRT:MSVCR100.dll
+ 0001:0001afd4       memcpy                     000000018001bfd4 f   MSVCRT:MSVCR100.dll
+ 0001:0001afdc       NtCurrentTeb               000000018001bfdc f i MSVCRT:crtdll.obj
+ 0001:0001b048       _CRT_INIT                  000000018001c048 f   MSVCRT:crtdll.obj
+ 0001:0001b3e0       _DllMainCRTStartup         000000018001c3e0 f   MSVCRT:crtdll.obj
+ 0001:0001b420       __report_gsfailure         000000018001c420 f   MSVCRT:gs_report.obj
+ 0001:0001b56c       __clean_type_info_names    000000018001c56c f   MSVCRT:tncleanup.obj
+ 0001:0001b578       _onexit                    000000018001c578 f   MSVCRT:atonexit.obj
+ 0001:0001b628       atexit                     000000018001c628 f   MSVCRT:atonexit.obj
+ 0001:0001b640       _RTC_Initialize            000000018001c640 f   MSVCRT:_initsect_.obj
+ 0001:0001b678       _RTC_Terminate             000000018001c678 f   MSVCRT:_initsect_.obj
+ 0001:0001b6b0       _malloc_crt                000000018001c6b0 f   MSVCRT:MSVCR100.dll
+ 0001:0001b6c0       _ValidateImageBase         000000018001c6c0 f   MSVCRT:pesect.obj
+ 0001:0001b6f0       _FindPESection             000000018001c6f0 f   MSVCRT:pesect.obj
+ 0001:0001b740       _IsNonwritableInCurrentImage 000000018001c740 f   MSVCRT:pesect.obj
+ 0001:0001b782       _initterm                  000000018001c782 f   MSVCRT:MSVCR100.dll
+ 0001:0001b788       _initterm_e                000000018001c788 f   MSVCRT:MSVCR100.dll
+ 0001:0001b78e       _encoded_null              000000018001c78e f   MSVCRT:MSVCR100.dll
+ 0001:0001b794       _amsg_exit                 000000018001c794 f   MSVCRT:MSVCR100.dll
+ 0001:0001b79a       __C_specific_handler       000000018001c79a f   MSVCRT:MSVCR100.dll
+ 0001:0001b7a0       __CppXcptFilter            000000018001c7a0 f   MSVCRT:MSVCR100.dll
+ 0001:0001b7a8       DllMain                    000000018001c7a8 f   MSVCRT:dllmain.obj
+ 0001:0001b7cc       __security_init_cookie     000000018001c7cc f   MSVCRT:gs_support.obj
+ 0001:0001b880       __crt_debugger_hook        000000018001c880 f   MSVCRT:MSVCR100.dll
+ 0001:0001b886       __clean_type_info_names_internal 000000018001c886 f   MSVCRT:MSVCR100.dll
+ 0001:0001b88c       _unlock                    000000018001c88c f   MSVCRT:MSVCR100.dll
+ 0001:0001b892       __dllonexit                000000018001c892 f   MSVCRT:MSVCR100.dll
+ 0001:0001b898       _lock                      000000018001c898 f   MSVCRT:MSVCR100.dll
+ 0001:0001b89e       EncodePointer              000000018001c89e f   kernel32:KERNEL32.dll
+ 0001:0001b8a4       DecodePointer              000000018001c8a4 f   kernel32:KERNEL32.dll
+ 0001:0001b8aa       Sleep                      000000018001c8aa f   kernel32:KERNEL32.dll
+ 0001:0001b8b0       TerminateProcess           000000018001c8b0 f   kernel32:KERNEL32.dll
+ 0001:0001b8b6       GetCurrentProcess          000000018001c8b6 f   kernel32:KERNEL32.dll
+ 0001:0001b8bc       UnhandledExceptionFilter   000000018001c8bc f   kernel32:KERNEL32.dll
+ 0001:0001b8c2       SetUnhandledExceptionFilter 000000018001c8c2 f   kernel32:KERNEL32.dll
+ 0001:0001b8c8       IsDebuggerPresent          000000018001c8c8 f   kernel32:KERNEL32.dll
+ 0001:0001b8ce       RtlVirtualUnwind           000000018001c8ce f   kernel32:KERNEL32.dll
+ 0001:0001b8d4       RtlLookupFunctionEntry     000000018001c8d4 f   kernel32:KERNEL32.dll
+ 0001:0001b8da       RtlCaptureContext          000000018001c8da f   kernel32:KERNEL32.dll
+ 0001:0001b8e0       DisableThreadLibraryCalls  000000018001c8e0 f   kernel32:KERNEL32.dll
+ 0001:0001b8e6       QueryPerformanceCounter    000000018001c8e6 f   kernel32:KERNEL32.dll
+ 0001:0001b8ec       GetTickCount               000000018001c8ec f   kernel32:KERNEL32.dll
+ 0001:0001b8f2       GetCurrentThreadId         000000018001c8f2 f   kernel32:KERNEL32.dll
+ 0001:0001b8f8       GetCurrentProcessId        000000018001c8f8 f   kernel32:KERNEL32.dll
+ 0001:0001b8fe       GetSystemTimeAsFileTime    000000018001c8fe f   kernel32:KERNEL32.dll
+ 0002:00000000       __imp_GetSystemTimeAsFileTime 000000018001d000     kernel32:KERNEL32.dll
+ 0002:00000008       __imp_GetCurrentProcessId  000000018001d008     kernel32:KERNEL32.dll
+ 0002:00000010       __imp_GetCurrentThreadId   000000018001d010     kernel32:KERNEL32.dll
+ 0002:00000018       __imp_GetTickCount         000000018001d018     kernel32:KERNEL32.dll
+ 0002:00000020       __imp_QueryPerformanceCounter 000000018001d020     kernel32:KERNEL32.dll
+ 0002:00000028       __imp_DisableThreadLibraryCalls 000000018001d028     kernel32:KERNEL32.dll
+ 0002:00000030       __imp_RtlCaptureContext    000000018001d030     kernel32:KERNEL32.dll
+ 0002:00000038       __imp_RtlLookupFunctionEntry 000000018001d038     kernel32:KERNEL32.dll
+ 0002:00000040       __imp_RtlVirtualUnwind     000000018001d040     kernel32:KERNEL32.dll
+ 0002:00000048       __imp_IsDebuggerPresent    000000018001d048     kernel32:KERNEL32.dll
+ 0002:00000050       __imp_SetUnhandledExceptionFilter 000000018001d050     kernel32:KERNEL32.dll
+ 0002:00000058       __imp_UnhandledExceptionFilter 000000018001d058     kernel32:KERNEL32.dll
+ 0002:00000060       __imp_GetCurrentProcess    000000018001d060     kernel32:KERNEL32.dll
+ 0002:00000068       __imp_TerminateProcess     000000018001d068     kernel32:KERNEL32.dll
+ 0002:00000070       __imp_Sleep                000000018001d070     kernel32:KERNEL32.dll
+ 0002:00000078       __imp_DecodePointer        000000018001d078     kernel32:KERNEL32.dll
+ 0002:00000080       __imp_EncodePointer        000000018001d080     kernel32:KERNEL32.dll
+ 0002:00000088       \177KERNEL32_NULL_THUNK_DATA 000000018001d088     kernel32:KERNEL32.dll
+ 0002:00000090       __imp__onexit              000000018001d090     MSVCRT:MSVCR100.dll
+ 0002:00000098       __imp__lock                000000018001d098     MSVCRT:MSVCR100.dll
+ 0002:000000a0       __imp___dllonexit          000000018001d0a0     MSVCRT:MSVCR100.dll
+ 0002:000000a8       __imp__unlock              000000018001d0a8     MSVCRT:MSVCR100.dll
+ 0002:000000b0       __imp___clean_type_info_names_internal 000000018001d0b0     MSVCRT:MSVCR100.dll
+ 0002:000000b8       __imp___crt_debugger_hook  000000018001d0b8     MSVCRT:MSVCR100.dll
+ 0002:000000c0       __imp___CppXcptFilter      000000018001d0c0     MSVCRT:MSVCR100.dll
+ 0002:000000c8       __imp___C_specific_handler 000000018001d0c8     MSVCRT:MSVCR100.dll
+ 0002:000000d0       __imp__amsg_exit           000000018001d0d0     MSVCRT:MSVCR100.dll
+ 0002:000000d8       __imp__encoded_null        000000018001d0d8     MSVCRT:MSVCR100.dll
+ 0002:000000e0       __imp__initterm_e          000000018001d0e0     MSVCRT:MSVCR100.dll
+ 0002:000000e8       __imp__initterm            000000018001d0e8     MSVCRT:MSVCR100.dll
+ 0002:000000f0       __imp__malloc_crt          000000018001d0f0     MSVCRT:MSVCR100.dll
+ 0002:000000f8       __imp_memcpy               000000018001d0f8     MSVCRT:MSVCR100.dll
+ 0002:00000100       __imp_strcat               000000018001d100     MSVCRT:MSVCR100.dll
+ 0002:00000108       __imp_malloc               000000018001d108     MSVCRT:MSVCR100.dll
+ 0002:00000110       __imp_sprintf              000000018001d110     MSVCRT:MSVCR100.dll
+ 0002:00000118       __imp_free                 000000018001d118     MSVCRT:MSVCR100.dll
+ 0002:00000120       __imp_memset               000000018001d120     MSVCRT:MSVCR100.dll
+ 0002:00000128       __imp_strlen               000000018001d128     MSVCRT:MSVCR100.dll
+ 0002:00000130       __imp_strcmp               000000018001d130     MSVCRT:MSVCR100.dll
+ 0002:00000138       \177MSVCR100_NULL_THUNK_DATA 000000018001d138     MSVCRT:MSVCR100.dll
+ 0002:00000140       __imp_mexUnlock            000000018001d140     libmex:libmex.dll
+ 0002:00000148       __imp_mexIsLocked          000000018001d148     libmex:libmex.dll
+ 0002:00000150       __imp_mexWarnMsgTxt        000000018001d150     libmex:libmex.dll
+ 0002:00000158       __imp_mexCallMATLAB        000000018001d158     libmex:libmex.dll
+ 0002:00000160       __imp_mexErrMsgTxt         000000018001d160     libmex:libmex.dll
+ 0002:00000168       __imp_mexLock              000000018001d168     libmex:libmex.dll
+ 0002:00000170       __imp_mexMakeArrayPersistent 000000018001d170     libmex:libmex.dll
+ 0002:00000178       \177libmex_NULL_THUNK_DATA 000000018001d178     libmex:libmex.dll
+ 0002:00000180       __imp_muDoubleScalarSqrt   000000018001d180     libmwmathutil:libmwmathutil.dll
+ 0002:00000188       __imp_muDoubleScalarSin    000000018001d188     libmwmathutil:libmwmathutil.dll
+ 0002:00000190       __imp_muDoubleScalarCos    000000018001d190     libmwmathutil:libmwmathutil.dll
+ 0002:00000198       __imp_muDoubleScalarAtan2  000000018001d198     libmwmathutil:libmwmathutil.dll
+ 0002:000001a0       __imp_muDoubleScalarPower  000000018001d1a0     libmwmathutil:libmwmathutil.dll
+ 0002:000001a8       __imp_muDoubleScalarAbs    000000018001d1a8     libmwmathutil:libmwmathutil.dll
+ 0002:000001b0       \177libmwmathutil_NULL_THUNK_DATA 000000018001d1b0     libmwmathutil:libmwmathutil.dll
+ 0002:000001b8       __imp_mxCalloc             000000018001d1b8     libmx:libmx.dll
+ 0002:000001c0       __imp_mxGetM               000000018001d1c0     libmx:libmx.dll
+ 0002:000001c8       __imp_mxGetN               000000018001d1c8     libmx:libmx.dll
+ 0002:000001d0       __imp_mxIsComplex          000000018001d1d0     libmx:libmx.dll
+ 0002:000001d8       __imp_mxIsNumeric          000000018001d1d8     libmx:libmx.dll
+ 0002:000001e0       __imp_mxGetClassID         000000018001d1e0     libmx:libmx.dll
+ 0002:000001e8       __imp_mxCreateCellMatrix_730 000000018001d1e8     libmx:libmx.dll
+ 0002:000001f0       __imp_mxCreateStructMatrix_730 000000018001d1f0     libmx:libmx.dll
+ 0002:000001f8       __imp_mxCreateString       000000018001d1f8     libmx:libmx.dll
+ 0002:00000200       __imp_mxSetField_730       000000018001d200     libmx:libmx.dll
+ 0002:00000208       __imp_mxCreateDoubleScalar 000000018001d208     libmx:libmx.dll
+ 0002:00000210       __imp_mxDuplicateArray     000000018001d210     libmx:libmx.dll
+ 0002:00000218       __imp_mxGetScalar          000000018001d218     libmx:libmx.dll
+ 0002:00000220       __imp_mxGetPr              000000018001d220     libmx:libmx.dll
+ 0002:00000228       __imp_mxCreateDoubleMatrix_730 000000018001d228     libmx:libmx.dll
+ 0002:00000230       __imp_mxGetString_730      000000018001d230     libmx:libmx.dll
+ 0002:00000238       __imp_mxIsChar             000000018001d238     libmx:libmx.dll
+ 0002:00000240       __imp_mxDestroyArray       000000018001d240     libmx:libmx.dll
+ 0002:00000248       \177libmx_NULL_THUNK_DATA  000000018001d248     libmx:libmx.dll
+ 0002:00000250       __imp_utMalloc             000000018001d250     libut:libut.dll
+ 0002:00000258       __imp_utFree               000000018001d258     libut:libut.dll
+ 0002:00000260       \177libut_NULL_THUNK_DATA  000000018001d260     libut:libut.dll
+ 0002:00000268       __imp_call_sf_machine_global_method_dispatcher 000000018001d268     sf_runtime:sf_runtime.dll
+ 0002:00000270       __imp_callMdlMethodAndReportError 000000018001d270     sf_runtime:sf_runtime.dll
+ 0002:00000278       __imp_sf_debug_api         000000018001d278     sf_runtime:sf_runtime.dll
+ 0002:00000280       __imp_sf_debug_create_debug_instance_struct 000000018001d280     sf_runtime:sf_runtime.dll
+ 0002:00000288       __imp_sf_debug_terminate   000000018001d288     sf_runtime:sf_runtime.dll
+ 0002:00000290       __imp_sf_clear_rtw_identifier 000000018001d290     sf_runtime:sf_runtime.dll
+ 0002:00000298       __imp_sf_mex_call_debug    000000018001d298     sf_runtime:sf_runtime.dll
+ 0002:000002a0       __imp_sf_debug_symbol_scope_push_eml 000000018001d2a0     sf_runtime:sf_runtime.dll
+ 0002:000002a8       __imp_sf_clear_error_manager_info 000000018001d2a8     sf_runtime:sf_runtime.dll
+ 0002:000002b0       __imp_sf_debug_symbol_scope_add_eml 000000018001d2b0     sf_runtime:sf_runtime.dll
+ 0002:000002b8       __imp_cv_eml_eval          000000018001d2b8     sf_runtime:sf_runtime.dll
+ 0002:000002c0       __imp_eml_debug_line_call  000000018001d2c0     sf_runtime:sf_runtime.dll
+ 0002:000002c8       __imp_sf_debug_integer_check 000000018001d2c8     sf_runtime:sf_runtime.dll
+ 0002:000002d0       __imp_sf_debug_eml_data_array_bounds_error_check 000000018001d2d0     sf_runtime:sf_runtime.dll
+ 0002:000002d8       __imp_sf_mex_listen_for_ctrl_c 000000018001d2d8     sf_runtime:sf_runtime.dll
+ 0002:000002e0       __imp_sf_debug_symbol_scope_push 000000018001d2e0     sf_runtime:sf_runtime.dll
+ 0002:000002e8       __imp_sf_debug_call        000000018001d2e8     sf_runtime:sf_runtime.dll
+ 0002:000002f0       __imp_sf_debug_data_range_wrapper 000000018001d2f0     sf_runtime:sf_runtime.dll
+ 0002:000002f8       __imp_sf_mex_error_direct_call 000000018001d2f8     sf_runtime:sf_runtime.dll
+ 0002:00000300       __imp_sf_debug_symbol_scope_add_eml_importable 000000018001d300     sf_runtime:sf_runtime.dll
+ 0002:00000308       __imp_sf_debug_symbol_scope_pop 000000018001d308     sf_runtime:sf_runtime.dll
+ 0002:00000310       __imp_sf_debug_check_for_state_inconsistency 000000018001d310     sf_runtime:sf_runtime.dll
+ 0002:00000318       __imp_sf_get_time          000000018001d318     sf_runtime:sf_runtime.dll
+ 0002:00000320       __imp_sf_debug_initialize_chart 000000018001d320     sf_runtime:sf_runtime.dll
+ 0002:00000328       __imp_sf_debug_set_chart_disable_implicit_casting 000000018001d328     sf_runtime:sf_runtime.dll
+ 0002:00000330       __imp_sf_debug_set_chart_event_thresholds 000000018001d330     sf_runtime:sf_runtime.dll
+ 0002:00000338       __imp_sf_debug_set_chart_data_props 000000018001d338     sf_runtime:sf_runtime.dll
+ 0002:00000340       __imp_sf_debug_set_chart_state_info 000000018001d340     sf_runtime:sf_runtime.dll
+ 0002:00000348       __imp_sf_debug_set_chart_substate_count 000000018001d348     sf_runtime:sf_runtime.dll
+ 0002:00000350       __imp_sf_debug_set_chart_decomposition 000000018001d350     sf_runtime:sf_runtime.dll
+ 0002:00000358       __imp_sf_debug_cv_init_chart 000000018001d358     sf_runtime:sf_runtime.dll
+ 0002:00000360       __imp_sf_debug_cv_init_state 000000018001d360     sf_runtime:sf_runtime.dll
+ 0002:00000368       __imp_sf_debug_cv_init_trans 000000018001d368     sf_runtime:sf_runtime.dll
+ 0002:00000370       __imp_cv_eml_init_script   000000018001d370     sf_runtime:sf_runtime.dll
+ 0002:00000378       __imp_cv_eml_init_fcn      000000018001d378     sf_runtime:sf_runtime.dll
+ 0002:00000380       __imp_cv_eml_init_if       000000018001d380     sf_runtime:sf_runtime.dll
+ 0002:00000388       __imp_cv_eml_init_for      000000018001d388     sf_runtime:sf_runtime.dll
+ 0002:00000390       __imp_sf_debug_set_chart_data_compiled_props 000000018001d390     sf_runtime:sf_runtime.dll
+ 0002:00000398       __imp_sf_debug_set_instance_data_value_ptr 000000018001d398     sf_runtime:sf_runtime.dll
+ 0002:000003a0       __imp_sf_debug_reset_current_state_configuration 000000018001d3a0     sf_runtime:sf_runtime.dll
+ 0002:000003a8       __imp_sim_mode_is_rtw_gen  000000018001d3a8     sf_runtime:sf_runtime.dll
+ 0002:000003b0       __imp_sim_mode_is_external 000000018001d3b0     sf_runtime:sf_runtime.dll
+ 0002:000003b8       __imp_sf_is_chart_inlinable 000000018001d3b8     sf_runtime:sf_runtime.dll
+ 0002:000003c0       __imp_sf_rtw_info_uint_prop 000000018001d3c0     sf_runtime:sf_runtime.dll
+ 0002:000003c8       __imp_sf_update_buildInfo  000000018001d3c8     sf_runtime:sf_runtime.dll
+ 0002:000003d0       __imp_sf_mark_chart_expressionable_inputs 000000018001d3d0     sf_runtime:sf_runtime.dll
+ 0002:000003d8       __imp_sf_mark_chart_reusable_outputs 000000018001d3d8     sf_runtime:sf_runtime.dll
+ 0002:000003e0       __imp_sf_set_rtw_dwork_info 000000018001d3e0     sf_runtime:sf_runtime.dll
+ 0002:000003e8       __imp_sf_mex_import        000000018001d3e8     sf_runtime:sf_runtime.dll
+ 0002:000003f0       __imp_sf_mex_dup           000000018001d3f0     sf_runtime:sf_runtime.dll
+ 0002:000003f8       __imp_sf_mex_getcell       000000018001d3f8     sf_runtime:sf_runtime.dll
+ 0002:00000400       __imp_sf_mex_decode_encoded_mx_struct_array 000000018001d400     sf_runtime:sf_runtime.dll
+ 0002:00000408       __imp_sf_mex_setcell       000000018001d408     sf_runtime:sf_runtime.dll
+ 0002:00000410       __imp_sf_mex_call_matlab   000000018001d410     sf_runtime:sf_runtime.dll
+ 0002:00000418       __imp_sf_mex_error_message 000000018001d418     sf_runtime:sf_runtime.dll
+ 0002:00000420       __imp_sf_mex_create        000000018001d420     sf_runtime:sf_runtime.dll
+ 0002:00000428       __imp_sf_mex_addfield      000000018001d428     sf_runtime:sf_runtime.dll
+ 0002:00000430       __imp_sf_mex_createcellmatrix 000000018001d430     sf_runtime:sf_runtime.dll
+ 0002:00000438       __imp_sf_mex_duplicatearraysafe 000000018001d438     sf_runtime:sf_runtime.dll
+ 0002:00000440       __imp_sf_mex_destroy       000000018001d440     sf_runtime:sf_runtime.dll
+ 0002:00000448       __imp_sf_mex_createstruct  000000018001d448     sf_runtime:sf_runtime.dll
+ 0002:00000450       __imp_sf_mex_assign        000000018001d450     sf_runtime:sf_runtime.dll
+ 0002:00000458       __imp_sf_mex_emlrtNameCapturePostProcessR2012a 000000018001d458     sf_runtime:sf_runtime.dll
+ 0002:00000460       __imp_sf_load_rtw_optimization_info 000000018001d460     sf_runtime:sf_runtime.dll
+ 0002:00000468       __imp_sf_debug_initialize_machine 000000018001d468     sf_runtime:sf_runtime.dll
+ 0002:00000470       __imp_sf_debug_set_machine_event_thresholds 000000018001d470     sf_runtime:sf_runtime.dll
+ 0002:00000478       __imp_sf_debug_set_machine_data_thresholds 000000018001d478     sf_runtime:sf_runtime.dll
+ 0002:00000480       \177sf_runtime_NULL_THUNK_DATA 000000018001d480     sf_runtime:sf_runtime.dll
+ 0002:00000488       __xc_a                     000000018001d488     MSVCRT:cinitexe.obj
+ 0002:00000490       __xc_z                     000000018001d490     MSVCRT:cinitexe.obj
+ 0002:00000498       __xi_a                     000000018001d498     MSVCRT:cinitexe.obj
+ 0002:000004a8       __xi_z                     000000018001d4a8     MSVCRT:cinitexe.obj
+ 0002:000004b0       __real@41d549e8cd400000    000000018001d4b0     DeltaSM_Control_FriccCambiante_sfun.obj
+ 0002:000004b8       __real@41b8c32833000000    000000018001d4b8     DeltaSM_Control_FriccCambiante_sfun.obj
+ 0002:000004c0       __real@41eabd0543600000    000000018001d4c0     DeltaSM_Control_FriccCambiante_sfun.obj
+ 0002:000004c8       __real@41de837722800000    000000018001d4c8     DeltaSM_Control_FriccCambiante_sfun.obj
+ 0002:000004d0       __real@41c900e78a000000    000000018001d4d0     DeltaSM_Control_FriccCambiante_sfun.obj
+ 0002:000004d8       __real@41eda5398c800000    000000018001d4d8     DeltaSM_Control_FriccCambiante_sfun.obj
+ 0002:000004e0       __real@41edcf5b43c00000    000000018001d4e0     DeltaSM_Control_FriccCambiante_sfun.obj
+ 0002:000004e8       __real@41e695dff8600000    000000018001d4e8     DeltaSM_Control_FriccCambiante_sfun.obj
+ 0002:000004f0       __real@41e4ddf137c00000    000000018001d4f0     DeltaSM_Control_FriccCambiante_sfun.obj
+ 0002:000004f8       __real@41d7b1421a000000    000000018001d4f8     DeltaSM_Control_FriccCambiante_sfun.obj
+ 0002:00000500       __real@41d33a88cd400000    000000018001d500     DeltaSM_Control_FriccCambiante_sfun.obj
+ 0002:00000508       __real@41dda33f61800000    000000018001d508     DeltaSM_Control_FriccCambiante_sfun.obj
+ 0002:00000510       __real@41eb5cdb6fc00000    000000018001d510     DeltaSM_Control_FriccCambiante_sfun.obj
+ 0002:00000518       __real@41eebc11a6400000    000000018001d518     DeltaSM_Control_FriccCambiante_sfun.obj
+ 0002:00000520       __real@41d94209b8800000    000000018001d520     DeltaSM_Control_FriccCambiante_sfun.obj
+ 0002:00000528       __real@41ed17712f800000    000000018001d528     DeltaSM_Control_FriccCambiante_sfun.obj
+ 0002:00000530       __real@41ea0a8abb600000    000000018001d530     c1_DeltaSM_Control_FriccCambiante.obj
+ 0002:00000538       __real@41ea7e13a6800000    000000018001d538     c1_DeltaSM_Control_FriccCambiante.obj
+ 0002:00000540       __real@41ec36edce000000    000000018001d540     c1_DeltaSM_Control_FriccCambiante.obj
+ 0002:00000548       __real@41ee09aa61000000    000000018001d548     c1_DeltaSM_Control_FriccCambiante.obj
+ 0002:00000550       __real@4024000000000000    000000018001d550     c1_DeltaSM_Control_FriccCambiante.obj
+ 0002:00000558       __real@3ff0000000000000    000000018001d558     c1_DeltaSM_Control_FriccCambiante.obj
+ 0002:00000560       __real@bfe86c62ef24b4da    000000018001d560     c1_DeltaSM_Control_FriccCambiante.obj
+ 0002:00000568       __real@c000000000000000    000000018001d568     c1_DeltaSM_Control_FriccCambiante.obj
+ 0002:00000570       __real@405ec7ae147ae148    000000018001d570     c1_DeltaSM_Control_FriccCambiante.obj
+ 0002:00000578       __real@3fee34c25a9242ed    000000018001d578     c1_DeltaSM_Control_FriccCambiante.obj
+ 0002:00000580       __real@40ad9b4467381d7e    000000018001d580     c1_DeltaSM_Control_FriccCambiante.obj
+ 0002:00000588       __real@4010000000000000    000000018001d588     c1_DeltaSM_Control_FriccCambiante.obj
+ 0002:00000590       __real@c04ec7ae147ae148    000000018001d590     c1_DeltaSM_Control_FriccCambiante.obj
+ 0002:00000598       __real@4000000000000000    000000018001d598     c1_DeltaSM_Control_FriccCambiante.obj
+ 0002:000005a0       __real@3f7f81f81f81f820    000000018001d5a0     c1_DeltaSM_Control_FriccCambiante.obj
+ 0002:000005b0       __mask@@NegDouble@         000000018001d5b0     c1_DeltaSM_Control_FriccCambiante.obj
+ 0002:000005c0       __real@403ec7ae147ae148    000000018001d5c0     c1_DeltaSM_Control_FriccCambiante.obj
+ 0002:000005c8       __real@4071300000000000    000000018001d5c8     c1_DeltaSM_Control_FriccCambiante.obj
+ 0002:000005d0       __real@4060400000000000    000000018001d5d0     c1_DeltaSM_Control_FriccCambiante.obj
+ 0002:000005d8       __real@40413c28f5c28f5c    000000018001d5d8     c1_DeltaSM_Control_FriccCambiante.obj
+ 0002:000005e0       __real@4050500000000000    000000018001d5e0     c1_DeltaSM_Control_FriccCambiante.obj
+ 0002:000005e8       __real@3ff921fb54442d18    000000018001d5e8     c1_DeltaSM_Control_FriccCambiante.obj
+ 0002:000005f0       __real@4000c152382d7365    000000018001d5f0     c1_DeltaSM_Control_FriccCambiante.obj
+ 0002:000005f8       __real@4008000000000000    000000018001d5f8     c1_DeltaSM_Control_FriccCambiante.obj
+ 0002:00000600       __real@4018000000000000    000000018001d600     c1_DeltaSM_Control_FriccCambiante.obj
+ 0002:00000608       __real@41e0957f92c00000    000000018001d608     c2_DeltaSM_Control_FriccCambiante.obj
+ 0002:00000610       __real@41ec7fe0c2a00000    000000018001d610     c2_DeltaSM_Control_FriccCambiante.obj
+ 0002:00000618       __real@41e40a3147400000    000000018001d618     c2_DeltaSM_Control_FriccCambiante.obj
+ 0002:00000620       __real@41d3a4a2d4000000    000000018001d620     c2_DeltaSM_Control_FriccCambiante.obj
+ 0002:00000628       __real@c06e000000000000    000000018001d628     c2_DeltaSM_Control_FriccCambiante.obj
+ 0002:00000630       __real@4082c00000000000    000000018001d630     c2_DeltaSM_Control_FriccCambiante.obj
+ 0002:00000638       __real@c079000000000000    000000018001d638     c2_DeltaSM_Control_FriccCambiante.obj
+ 0002:00000640       __real@c040e00000000000    000000018001d640     c2_DeltaSM_Control_FriccCambiante.obj
+ 0002:00000648       __real@4065180000000000    000000018001d648     c2_DeltaSM_Control_FriccCambiante.obj
+ 0002:00000650       __real@c06c200000000000    000000018001d650     c2_DeltaSM_Control_FriccCambiante.obj
+ 0002:00000658       __real@c01e000000000000    000000018001d658     c2_DeltaSM_Control_FriccCambiante.obj
+ 0002:00000660       __real@4042c00000000000    000000018001d660     c2_DeltaSM_Control_FriccCambiante.obj
+ 0002:00000668       __real@c049000000000000    000000018001d668     c2_DeltaSM_Control_FriccCambiante.obj
+ 0002:00000670       __real@403a400000000000    000000018001d670     c2_DeltaSM_Control_FriccCambiante.obj
+ 0002:00000678       __real@c060680000000000    000000018001d678     c2_DeltaSM_Control_FriccCambiante.obj
+ 0002:00000680       __real@4065e00000000000    000000018001d680     c2_DeltaSM_Control_FriccCambiante.obj
+ 0002:00000688       __real@c069000000000000    000000018001d688     c2_DeltaSM_Control_FriccCambiante.obj
+ 0002:00000690       __real@c064000000000000    000000018001d690     c2_DeltaSM_Control_FriccCambiante.obj
+ 0002:00000698       __real@c072c00000000000    000000018001d698     c2_DeltaSM_Control_FriccCambiante.obj
+ 0002:000006a0       __real@c06f400000000000    000000018001d6a0     c2_DeltaSM_Control_FriccCambiante.obj
+ 0002:000006a8       __real@c051800000000000    000000018001d6a8     c2_DeltaSM_Control_FriccCambiante.obj
+ 0002:000006b0       __real@4014000000000000    000000018001d6b0     c2_DeltaSM_Control_FriccCambiante.obj
+ 0002:000006c0       DYNAMIC_DIMENSION_DEF      000000018001d6c0     DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0002:000006e0       _ssBadLevel2InputAccessMsg 000000018001d6e0     DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0002:00000870       _ssBadLevel2DirectFeedMsg  000000018001d870     DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0002:000009b0       _ssBadLevel2DirectFeedSolutionMsg 000000018001d9b0     DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0002:00000a20       _ssBadLevel2ZeroDirectFeedMsg 000000018001da20     DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0002:00000b60       _ssBadLevel2ZeroDirectFeedMsg2 000000018001db60     DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0002:00000c48       __real@0000000000000000    000000018001dc48     DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0002:00000c50       __real@bff0000000000000    000000018001dc50     DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0002:00000c58       __real@41602cbca0000000    000000018001dc58     DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0002:00000c60       _pDefaultRawDllMain        000000018001dc60     MSVCRT:crtdll.obj
+ 0002:00000c60       _pRawDllMain               000000018001dc60     MSVCRT:crtdll.obj
+ 0002:00000c78       ?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB 000000018001dc78     MSVCRT:tncleanup.obj
+ 0002:00000c7c       ?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB 000000018001dc7c     MSVCRT:tncleanup.obj
+ 0002:00000c80       ?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB 000000018001dc80     MSVCRT:tncleanup.obj
+ 0002:00000c84       ?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB 000000018001dc84     MSVCRT:tncleanup.obj
+ 0002:00000c88       ?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB 000000018001dc88     MSVCRT:tncleanup.obj
+ 0002:00000c90       __rtc_iaa                  000000018001dc90     MSVCRT:_initsect_.obj
+ 0002:00000c98       __rtc_izz                  000000018001dc98     MSVCRT:_initsect_.obj
+ 0002:00000ca0       __rtc_taa                  000000018001dca0     MSVCRT:_initsect_.obj
+ 0002:00000ca8       __rtc_tzz                  000000018001dca8     MSVCRT:_initsect_.obj
+ 0002:00001480       __IMPORT_DESCRIPTOR_sf_runtime 000000018001e480     sf_runtime:sf_runtime.dll
+ 0002:00001494       __IMPORT_DESCRIPTOR_libmx  000000018001e494     libmx:libmx.dll
+ 0002:000014a8       __IMPORT_DESCRIPTOR_libmex 000000018001e4a8     libmex:libmex.dll
+ 0002:000014bc       __IMPORT_DESCRIPTOR_libut  000000018001e4bc     libut:libut.dll
+ 0002:000014d0       __IMPORT_DESCRIPTOR_libmwmathutil 000000018001e4d0     libmwmathutil:libmwmathutil.dll
+ 0002:000014e4       __IMPORT_DESCRIPTOR_MSVCR100 000000018001e4e4     MSVCRT:MSVCR100.dll
+ 0002:000014f8       __IMPORT_DESCRIPTOR_KERNEL32 000000018001e4f8     kernel32:KERNEL32.dll
+ 0002:0000150c       __NULL_IMPORT_DESCRIPTOR   000000018001e50c     sf_runtime:sf_runtime.dll
+ 0003:00006490       DYNAMIC_DIMENSION          0000000180026490     DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0003:00007098       __security_cookie          0000000180027098     MSVCRT:gs_cookie.obj
+ 0003:000070a0       __security_cookie_complement 00000001800270a0     MSVCRT:gs_cookie.obj
+ 0003:000070a8       _fltused                   00000001800270a8     MSVCRT:dllsupp.obj
+ 0003:000070b0       __native_dllmain_reason    00000001800270b0     MSVCRT:natstart.obj
+ 0003:000070b4       __native_vcclrit_reason    00000001800270b4     MSVCRT:natstart.obj
+ 0003:000071b8       sfGlobalDebugInstanceStruct 00000001800271b8     DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0003:00007740       ?__type_info_root_node@@3U__type_info_node@@A 0000000180027740     MSVCRT:tncleanup.obj
+ 0003:00007750       _DeltaSM_Control_FriccCambianteMachineNumber_ 0000000180027750     <common>
+ 0003:00007754       __native_startup_state     0000000180027754     <common>
+ 0003:00007758       __native_startup_lock      0000000180027758     <common>
+ 0003:00007760       __onexitend                0000000180027760     <common>
+ 0003:00007768       __onexitbegin              0000000180027768     <common>
+ 0003:00007770       __dyn_tls_init_callback    0000000180027770     <common>
 
- entry point at        0001:00019e90
+ entry point at        0001:0001b3e0
 
  Static symbols
 
  0001:00000c60       c1_info_helper             0000000180001c60 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:00005800       c1_emlrt_marshallOut       0000000180006800 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:00005890       c1_b_emlrt_marshallOut     0000000180006890 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:00006430       get_sim_state_c1_DeltaSM_Control_FriccCambiante 0000000180007430 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:00006760       sf_get_sim_state_info_c1_DeltaSM_Control_FriccCambiante 0000000180007760 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:00006930       set_sim_state_c1_DeltaSM_Control_FriccCambiante 0000000180007930 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:00006aa0       c1_update_debugger_state_c1_DeltaSM_Control_FriccCambiante 0000000180007aa0 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:00006ab0       c1_emlrt_marshallIn        0000000180007ab0 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:00006b20       c1_b_emlrt_marshallIn      0000000180007b20 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:00006bb0       c1_e_emlrt_marshallIn      0000000180007bb0 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:00006c10       c1_f_emlrt_marshallIn      0000000180007c10 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:00006d10       mdlProcessParameters_c1_DeltaSM_Control_FriccCambiante 0000000180007d10 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:00006df0       initialize_params_c1_DeltaSM_Control_FriccCambiante 0000000180007df0 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:00006e00       mdlSetWorkWidths_c1_DeltaSM_Control_FriccCambiante 0000000180007e00 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:00007330       sf_get_instance_specialization 0000000180008330 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:00007340       mdlStart_c1_DeltaSM_Control_FriccCambiante 0000000180008340 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:00007570       init_dsm_address_info      0000000180008570 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:00007580       chart_debug_initialization 0000000180008580 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:000082b0       init_script_number_translation 00000001800092b0 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:000082d0       c1_sf_marshallOut          00000001800092d0 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:00008380       c1_sf_marshallIn           0000000180009380 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:00008420       sf_opaque_initialize_c1_DeltaSM_Control_FriccCambiante 0000000180009420 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:00008460       initialize_c1_DeltaSM_Control_FriccCambiante 0000000180009460 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:000084b0       sf_opaque_enable_c1_DeltaSM_Control_FriccCambiante 00000001800094b0 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:000084d0       enable_c1_DeltaSM_Control_FriccCambiante 00000001800094d0 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:00008500       sf_opaque_disable_c1_DeltaSM_Control_FriccCambiante 0000000180009500 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:00008520       disable_c1_DeltaSM_Control_FriccCambiante 0000000180009520 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:00008550       sf_opaque_gateway_c1_DeltaSM_Control_FriccCambiante 0000000180009550 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:00008570       sf_gateway_c1_DeltaSM_Control_FriccCambiante 0000000180009570 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:00008900       c1_chartstep_c1_DeltaSM_Control_FriccCambiante 0000000180009900 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:0000a800       c1_b_sf_marshallOut        000000018000b800 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:0000a960       c1_b_sf_marshallIn         000000018000b960 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:0000aa60       c1_c_emlrt_marshallIn      000000018000ba60 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:0000ab50       c1_eml_error               000000018000bb50 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:0000ad40       c1_mpower                  000000018000bd40 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:0000adb0       c1_eml_scalar_eg           000000018000bdb0 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:0000adc0       sf_opaque_get_sim_state_c1_DeltaSM_Control_FriccCambiante 000000018000bdc0 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:0000ade0       sf_opaque_set_sim_state_c1_DeltaSM_Control_FriccCambiante 000000018000bde0 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:0000ae10       sf_opaque_terminate_c1_DeltaSM_Control_FriccCambiante 000000018000be10 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:0000aeb0       finalize_c1_DeltaSM_Control_FriccCambiante 000000018000beb0 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:0000aec0       sf_opaque_init_subchart_simstructs 000000018000bec0 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:0000aee0       initSimStructsc1_DeltaSM_Control_FriccCambiante 000000018000bee0 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:0000aef0       mdlRTW_c1_DeltaSM_Control_FriccCambiante 000000018000bef0 f   c1_DeltaSM_Control_FriccCambiante.obj
- 0001:0000afa0       c2_info_helper             000000018000bfa0 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:0000e050       c2_emlrt_marshallOut       000000018000f050 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:0000e0e0       c2_b_emlrt_marshallOut     000000018000f0e0 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:0000e9f0       get_sim_state_c2_DeltaSM_Control_FriccCambiante 000000018000f9f0 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:0000ed30       sf_get_sim_state_info_c2_DeltaSM_Control_FriccCambiante 000000018000fd30 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:0000ef00       set_sim_state_c2_DeltaSM_Control_FriccCambiante 000000018000ff00 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:0000f070       c2_update_debugger_state_c2_DeltaSM_Control_FriccCambiante 0000000180010070 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:0000f080       c2_emlrt_marshallIn        0000000180010080 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:0000f0f0       c2_b_emlrt_marshallIn      00000001800100f0 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:0000f180       c2_d_emlrt_marshallIn      0000000180010180 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:0000f1e0       c2_e_emlrt_marshallIn      00000001800101e0 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:0000f2e0       mdlProcessParameters_c2_DeltaSM_Control_FriccCambiante 00000001800102e0 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:0000f3c0       initialize_params_c2_DeltaSM_Control_FriccCambiante 00000001800103c0 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:0000f3d0       mdlSetWorkWidths_c2_DeltaSM_Control_FriccCambiante 00000001800103d0 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:0000f8a0       sf_get_instance_specialization 00000001800108a0 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:0000f8b0       mdlStart_c2_DeltaSM_Control_FriccCambiante 00000001800108b0 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:0000fae0       init_dsm_address_info      0000000180010ae0 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:0000faf0       chart_debug_initialization 0000000180010af0 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:00010630       init_script_number_translation 0000000180011630 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:00010650       c2_sf_marshallOut          0000000180011650 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:00010700       c2_sf_marshallIn           0000000180011700 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:000107a0       sf_opaque_initialize_c2_DeltaSM_Control_FriccCambiante 00000001800117a0 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:000107e0       initialize_c2_DeltaSM_Control_FriccCambiante 00000001800117e0 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:00010830       sf_opaque_enable_c2_DeltaSM_Control_FriccCambiante 0000000180011830 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:00010850       enable_c2_DeltaSM_Control_FriccCambiante 0000000180011850 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:00010880       sf_opaque_disable_c2_DeltaSM_Control_FriccCambiante 0000000180011880 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:000108a0       disable_c2_DeltaSM_Control_FriccCambiante 00000001800118a0 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:000108d0       sf_opaque_gateway_c2_DeltaSM_Control_FriccCambiante 00000001800118d0 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:000108f0       sf_gateway_c2_DeltaSM_Control_FriccCambiante 00000001800118f0 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:00012f00       c2_mpower                  0000000180013f00 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:00012f80       c2_eml_scalar_eg           0000000180013f80 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:00012f90       c2_b_mpower                0000000180013f90 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:00013010       c2_c_mpower                0000000180014010 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:00013090       c2_d_mpower                0000000180014090 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:00013100       sf_opaque_get_sim_state_c2_DeltaSM_Control_FriccCambiante 0000000180014100 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:00013120       sf_opaque_set_sim_state_c2_DeltaSM_Control_FriccCambiante 0000000180014120 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:00013150       sf_opaque_terminate_c2_DeltaSM_Control_FriccCambiante 0000000180014150 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:000131f0       finalize_c2_DeltaSM_Control_FriccCambiante 00000001800141f0 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:00013200       sf_opaque_init_subchart_simstructs 0000000180014200 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:00013220       initSimStructsc2_DeltaSM_Control_FriccCambiante 0000000180014220 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:00013230       mdlRTW_c2_DeltaSM_Control_FriccCambiante 0000000180014230 f   c2_DeltaSM_Control_FriccCambiante.obj
- 0001:00013ba0       getChartInfoFromSimStruct  0000000180014ba0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00015240       _ssFatalError              0000000180016240 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:000182f0       ProcessMexSfunctionCmdLineCall 00000001800192f0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00018420       sf_debug_api_wrapper       0000000180019420 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00018470       mdlStart                   0000000180019470 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:000184a0       mdl_start_processing       00000001800194a0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00018530       mdlTerminate               0000000180019530 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00018560       mdl_terminate_processing   0000000180019560 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:000185e0       mdlInitializeSampleTimes   00000001800195e0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00018610       mdlZeroCrossings           0000000180019610 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00018640       mdl_zeroCrossings_processing 0000000180019640 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00018680       mdlDerivatives             0000000180019680 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:000186b0       mdl_derivatives_processing 00000001800196b0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00018700       mdlInitializeConditions    0000000180019700 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00018730       mdl_initialize_conditions_processing 0000000180019730 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00018780       mdlEnable                  0000000180019780 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:000187b0       mdl_enable_processing      00000001800197b0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:000187f0       mdlDisable                 00000001800197f0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00018820       mdl_disable_processing     0000000180019820 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00018860       mdlOutputs                 0000000180019860 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00018890       mdl_outputs_processing     0000000180019890 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00018970       mdl_outputs_continuous_legacy 0000000180019970 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00018a60       mdlGetTimeOfNextVarHit     0000000180019a60 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00018ab0       _ProcessMexSfunctionCmdLineCall 0000000180019ab0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00019200       mdlSetWorkWidths           000000018001a200 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00019230       mdlProcessParameters       000000018001a230 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00019260       mdlInitializeSizes         000000018001a260 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00019290       mdlExtModeExec             000000018001a290 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:000192c0       mdl_ext_mode_exec_processing 000000018001a2c0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00019300       mdlRTW                     000000018001a300 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00019340       _CreateSimStruct           000000018001a340 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:000194d0       _RegNumInputPortsCB        000000018001a4d0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00019550       _RegNumOutputPortsCB       000000018001a550 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
- 0001:00019a98       pre_c_init                 000000018001aa98 f   MSVCRT:crtdll.obj
- 0001:00019d54       __DllMainCRTStartup        000000018001ad54 f   MSVCRT:crtdll.obj
- 0001:0001a3c0       __DllMainCRTStartup$filt$0 000000018001b3c0 f   MSVCRT:crtdll.obj
- 0001:0001a3f0       __DllMainCRTStartup$fin$1  000000018001b3f0 f   MSVCRT:crtdll.obj
- 0001:0001a40a       _onexit$fin$0              000000018001b40a f   MSVCRT:atonexit.obj
- 0001:0001a430       _IsNonwritableInCurrentImage$filt$0 000000018001b430 f   MSVCRT:pesect.obj
+ 0001:00005f50       c1_emlrt_marshallOut       0000000180006f50 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:00005fe0       c1_b_emlrt_marshallOut     0000000180006fe0 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:00006f40       get_sim_state_c1_DeltaSM_Control_FriccCambiante 0000000180007f40 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:00007270       sf_get_sim_state_info_c1_DeltaSM_Control_FriccCambiante 0000000180008270 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:00007440       set_sim_state_c1_DeltaSM_Control_FriccCambiante 0000000180008440 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:000075b0       c1_update_debugger_state_c1_DeltaSM_Control_FriccCambiante 00000001800085b0 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:000075c0       c1_emlrt_marshallIn        00000001800085c0 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:00007630       c1_b_emlrt_marshallIn      0000000180008630 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:000076c0       c1_e_emlrt_marshallIn      00000001800086c0 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:00007720       c1_f_emlrt_marshallIn      0000000180008720 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:00007820       mdlProcessParameters_c1_DeltaSM_Control_FriccCambiante 0000000180008820 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:00007900       initialize_params_c1_DeltaSM_Control_FriccCambiante 0000000180008900 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:00007910       mdlSetWorkWidths_c1_DeltaSM_Control_FriccCambiante 0000000180008910 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:00007ed0       sf_get_instance_specialization 0000000180008ed0 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:00007ee0       mdlStart_c1_DeltaSM_Control_FriccCambiante 0000000180008ee0 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:00008110       init_dsm_address_info      0000000180009110 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:00008120       chart_debug_initialization 0000000180009120 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:000093a0       init_script_number_translation 000000018000a3a0 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:000093c0       c1_sf_marshallOut          000000018000a3c0 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:00009470       c1_sf_marshallIn           000000018000a470 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:00009510       sf_opaque_initialize_c1_DeltaSM_Control_FriccCambiante 000000018000a510 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:00009550       initialize_c1_DeltaSM_Control_FriccCambiante 000000018000a550 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:000095a0       sf_opaque_enable_c1_DeltaSM_Control_FriccCambiante 000000018000a5a0 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:000095c0       enable_c1_DeltaSM_Control_FriccCambiante 000000018000a5c0 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:000095f0       sf_opaque_disable_c1_DeltaSM_Control_FriccCambiante 000000018000a5f0 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:00009610       disable_c1_DeltaSM_Control_FriccCambiante 000000018000a610 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:00009640       sf_opaque_gateway_c1_DeltaSM_Control_FriccCambiante 000000018000a640 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:00009660       sf_gateway_c1_DeltaSM_Control_FriccCambiante 000000018000a660 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:00009b20       c1_chartstep_c1_DeltaSM_Control_FriccCambiante 000000018000ab20 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:0000bce0       c1_b_sf_marshallOut        000000018000cce0 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:0000be40       c1_b_sf_marshallIn         000000018000ce40 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:0000bf40       c1_c_emlrt_marshallIn      000000018000cf40 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:0000c030       c1_mpower                  000000018000d030 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:0000c0a0       c1_eml_scalar_eg           000000018000d0a0 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:0000c0b0       c1_eml_error               000000018000d0b0 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:0000c2a0       c1_atan2                   000000018000d2a0 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:0000c300       sf_opaque_get_sim_state_c1_DeltaSM_Control_FriccCambiante 000000018000d300 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:0000c320       sf_opaque_set_sim_state_c1_DeltaSM_Control_FriccCambiante 000000018000d320 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:0000c350       sf_opaque_terminate_c1_DeltaSM_Control_FriccCambiante 000000018000d350 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:0000c3f0       finalize_c1_DeltaSM_Control_FriccCambiante 000000018000d3f0 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:0000c400       sf_opaque_init_subchart_simstructs 000000018000d400 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:0000c420       initSimStructsc1_DeltaSM_Control_FriccCambiante 000000018000d420 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:0000c430       mdlRTW_c1_DeltaSM_Control_FriccCambiante 000000018000d430 f   c1_DeltaSM_Control_FriccCambiante.obj
+ 0001:0000c4e0       c2_info_helper             000000018000d4e0 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:0000f590       c2_emlrt_marshallOut       0000000180010590 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:0000f620       c2_b_emlrt_marshallOut     0000000180010620 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:0000ff30       get_sim_state_c2_DeltaSM_Control_FriccCambiante 0000000180010f30 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:00010270       sf_get_sim_state_info_c2_DeltaSM_Control_FriccCambiante 0000000180011270 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:00010440       set_sim_state_c2_DeltaSM_Control_FriccCambiante 0000000180011440 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:000105b0       c2_update_debugger_state_c2_DeltaSM_Control_FriccCambiante 00000001800115b0 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:000105c0       c2_emlrt_marshallIn        00000001800115c0 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:00010630       c2_b_emlrt_marshallIn      0000000180011630 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:000106c0       c2_d_emlrt_marshallIn      00000001800116c0 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:00010720       c2_e_emlrt_marshallIn      0000000180011720 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:00010820       mdlProcessParameters_c2_DeltaSM_Control_FriccCambiante 0000000180011820 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:00010900       initialize_params_c2_DeltaSM_Control_FriccCambiante 0000000180011900 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:00010910       mdlSetWorkWidths_c2_DeltaSM_Control_FriccCambiante 0000000180011910 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:00010de0       sf_get_instance_specialization 0000000180011de0 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:00010df0       mdlStart_c2_DeltaSM_Control_FriccCambiante 0000000180011df0 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:00011020       init_dsm_address_info      0000000180012020 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:00011030       chart_debug_initialization 0000000180012030 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:00011b70       init_script_number_translation 0000000180012b70 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:00011b90       c2_sf_marshallOut          0000000180012b90 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:00011c40       c2_sf_marshallIn           0000000180012c40 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:00011ce0       sf_opaque_initialize_c2_DeltaSM_Control_FriccCambiante 0000000180012ce0 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:00011d20       initialize_c2_DeltaSM_Control_FriccCambiante 0000000180012d20 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:00011d70       sf_opaque_enable_c2_DeltaSM_Control_FriccCambiante 0000000180012d70 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:00011d90       enable_c2_DeltaSM_Control_FriccCambiante 0000000180012d90 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:00011dc0       sf_opaque_disable_c2_DeltaSM_Control_FriccCambiante 0000000180012dc0 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:00011de0       disable_c2_DeltaSM_Control_FriccCambiante 0000000180012de0 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:00011e10       sf_opaque_gateway_c2_DeltaSM_Control_FriccCambiante 0000000180012e10 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:00011e30       sf_gateway_c2_DeltaSM_Control_FriccCambiante 0000000180012e30 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:00014440       c2_mpower                  0000000180015440 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:000144c0       c2_eml_scalar_eg           00000001800154c0 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:000144d0       c2_b_mpower                00000001800154d0 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:00014550       c2_c_mpower                0000000180015550 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:000145d0       c2_d_mpower                00000001800155d0 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:00014640       sf_opaque_get_sim_state_c2_DeltaSM_Control_FriccCambiante 0000000180015640 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:00014660       sf_opaque_set_sim_state_c2_DeltaSM_Control_FriccCambiante 0000000180015660 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:00014690       sf_opaque_terminate_c2_DeltaSM_Control_FriccCambiante 0000000180015690 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:00014730       finalize_c2_DeltaSM_Control_FriccCambiante 0000000180015730 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:00014740       sf_opaque_init_subchart_simstructs 0000000180015740 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:00014760       initSimStructsc2_DeltaSM_Control_FriccCambiante 0000000180015760 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:00014770       mdlRTW_c2_DeltaSM_Control_FriccCambiante 0000000180015770 f   c2_DeltaSM_Control_FriccCambiante.obj
+ 0001:000150e0       getChartInfoFromSimStruct  00000001800160e0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00016780       _ssFatalError              0000000180017780 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00019830       ProcessMexSfunctionCmdLineCall 000000018001a830 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00019960       sf_debug_api_wrapper       000000018001a960 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:000199b0       mdlStart                   000000018001a9b0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:000199e0       mdl_start_processing       000000018001a9e0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00019a70       mdlTerminate               000000018001aa70 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00019aa0       mdl_terminate_processing   000000018001aaa0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00019b20       mdlInitializeSampleTimes   000000018001ab20 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00019b50       mdlZeroCrossings           000000018001ab50 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00019b80       mdl_zeroCrossings_processing 000000018001ab80 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00019bc0       mdlDerivatives             000000018001abc0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00019bf0       mdl_derivatives_processing 000000018001abf0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00019c40       mdlInitializeConditions    000000018001ac40 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00019c70       mdl_initialize_conditions_processing 000000018001ac70 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00019cc0       mdlEnable                  000000018001acc0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00019cf0       mdl_enable_processing      000000018001acf0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00019d30       mdlDisable                 000000018001ad30 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00019d60       mdl_disable_processing     000000018001ad60 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00019da0       mdlOutputs                 000000018001ada0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00019dd0       mdl_outputs_processing     000000018001add0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00019eb0       mdl_outputs_continuous_legacy 000000018001aeb0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00019fa0       mdlGetTimeOfNextVarHit     000000018001afa0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:00019ff0       _ProcessMexSfunctionCmdLineCall 000000018001aff0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:0001a740       mdlSetWorkWidths           000000018001b740 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:0001a770       mdlProcessParameters       000000018001b770 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:0001a7a0       mdlInitializeSizes         000000018001b7a0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:0001a7d0       mdlExtModeExec             000000018001b7d0 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:0001a800       mdl_ext_mode_exec_processing 000000018001b800 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:0001a840       mdlRTW                     000000018001b840 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:0001a880       _CreateSimStruct           000000018001b880 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:0001aa10       _RegNumInputPortsCB        000000018001ba10 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:0001aa90       _RegNumOutputPortsCB       000000018001ba90 f   DeltaSM_Control_FriccCambiante_sfun_registry.obj
+ 0001:0001afe8       pre_c_init                 000000018001bfe8 f   MSVCRT:crtdll.obj
+ 0001:0001b2a4       __DllMainCRTStartup        000000018001c2a4 f   MSVCRT:crtdll.obj
+ 0001:0001b910       __DllMainCRTStartup$filt$0 000000018001c910 f   MSVCRT:crtdll.obj
+ 0001:0001b940       __DllMainCRTStartup$fin$1  000000018001c940 f   MSVCRT:crtdll.obj
+ 0001:0001b95a       _onexit$fin$0              000000018001c95a f   MSVCRT:atonexit.obj
+ 0001:0001b980       _IsNonwritableInCurrentImage$filt$0 000000018001c980 f   MSVCRT:pesect.obj
