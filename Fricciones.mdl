@@ -19,7 +19,7 @@ Library {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [-8.0, -8.0, 1382.0, 754.0]
+      Location		      [-8.0, 0.0, 1382.0, 754.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -41,21 +41,21 @@ Library {
 	Dimension		2
 	Object {
 	  $ObjectID		  5
-	  IsActive		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "4"
-	  Extents		  [647.0, 575.0]
-	  ZoomFactor		  [1.25]
-	  Offset		  [-5.1999999999999886, 49.199999999999989]
+	  IsActive		  [1]
+	  ViewObjType		  "SimulinkTopLevel"
+	  LoadSaveID		  "0"
+	  Extents		  [1332.0, 584.0]
+	  ZoomFactor		  [0.8]
+	  Offset		  [0.0, 0.0]
 	}
 	Object {
 	  $ObjectID		  6
-	  IsActive		  [1]
+	  IsActive		  [0]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "11"
+	  LoadSaveID		  "60"
 	  Extents		  [1332.0, 584.0]
-	  ZoomFactor		  [0.6]
-	  Offset		  [-237.33333333333337, -138.77499708533287]
+	  ZoomFactor		  [1.0]
+	  Offset		  [0.0, 0.0]
 	}
 	PropName		"EditorsInfo"
       }
@@ -67,9 +67,9 @@ Library {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "Sebastian"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Mon Mar 28 10:49:13 2016"
-  RTWModifiedTimeStamp	  381062951
-  ModelVersionFormat	  "1.%<AutoIncrement:44>"
+  LastModifiedDate	  "Sun Apr 03 00:23:02 2016"
+  RTWModifiedTimeStamp	  381543779
+  ModelVersionFormat	  "1.%<AutoIncrement:50>"
   ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -923,8 +923,8 @@ Library {
   }
   System {
     Name		    "Fricciones"
-    Location		    [-8, -8, 1374, 746]
-    Open		    off
+    Location		    [-8, 0, 1374, 754]
+    Open		    on
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200
     ScreenColor		    "white"
@@ -1675,7 +1675,7 @@ Library {
       BlockType		      SubSystem
       Name		      "Continuous\nFriction Model\nR"
       SID		      "76"
-      Ports		      [0, 0, 0, 0, 0, 1, 2]
+      Ports		      [0, 0, 0, 0, 0, 0, 2]
       Position		      [150, 358, 190, 402]
       ZOrder		      255
       BackgroundColor	      "red"
@@ -1685,15 +1685,13 @@ Library {
 	$PropName		"MaskObject"
 	$ObjectID		23
 	$ClassName		"Simulink.Mask"
-	Description		"Continuous friction model interpolates between low-speed quasi-static friction and higher-speed kinetic"
-	" friction."
-	Initialization		"%%FRICTION CURVE\n% Velocity vs. coefficient of friction\n\n% NUMBER OF POINTS ON CURVE\nnum_fs_pts "
-	"= 101;\n\n% CURVE LIMITS\nv_lowlim = -3*vth;\nv_upplim = 3*vth;\n\n% GENERATE X-AXIS POINTS (velocity)\nv_pts = linsp"
-	"ace(v_lowlim, v_upplim, num_fs_pts);\n\n% DETERMINE Y-AXIS POINTS (coefficient of friction)\nfor i=1:num_fs_pts\n    "
-	"if(v_pts(i)<(-1.5*vth))\n        mu_pts(i) = -muk;\n    elseif(v_pts(i)>=-1.5*vth && v_pts(i)<-vth)\n        mu_pts(i"
-	") = -(muk-mus)/(0.5*vth)*(-1.5*vth-v_pts(i))-muk;\n    elseif(v_pts(i)>=-vth && v_pts(i)<vth)\n        mu_pts(i) = -("
-	"mus)/vth*(-vth-v_pts(i))-mus;\n    elseif(v_pts(i)>=vth && v_pts(i)<1.5*vth)\n        mu_pts(i) = (muk-mus)/(0.5*vth)"
-	"*(v_pts(i)-1.5*vth)+muk;\n    elseif(v_pts(i)>=(1.5*vth))\n        mu_pts(i) = muk;\n    end\nend\n"
+	Initialization		"\n\n%%FRICTION CURVE\n% Velocity vs. coefficient of friction\n\n% NUMBER OF POINTS ON CURVE\nnum_fs_"
+	"pts = 101;\n\n% CURVE LIMITS\nv_lowlim = -3*vth;\nv_upplim = 3*vth;\n\n% GENERATE X-AXIS POINTS (velocity)\nv_pts = l"
+	"inspace(v_lowlim, v_upplim, num_fs_pts);\n\n% DETERMINE Y-AXIS POINTS (coefficient of friction)\nfor i=1:num_fs_pts\n"
+	"    if(v_pts(i)<(-1.5*vth))\n        mu_pts(i) = -muk;\n    elseif(v_pts(i)>=-1.5*vth && v_pts(i)<-vth)\n        mu_p"
+	"ts(i) = -(muk-mus)/(0.5*vth)*(-1.5*vth-v_pts(i))-muk;\n    elseif(v_pts(i)>=-vth && v_pts(i)<vth)\n        mu_pts(i) "
+	"= -(mus)/vth*(-vth-v_pts(i))-mus;\n    elseif(v_pts(i)>=vth && v_pts(i)<1.5*vth)\n        mu_pts(i) = (muk-mus)/(0.5*"
+	"vth)*(v_pts(i)-1.5*vth)+muk;\n    elseif(v_pts(i)>=(1.5*vth))\n        mu_pts(i) = muk;\n    end\nend\n"
 	Array {
 	  Type			  "Simulink.MaskParameter"
 	  Dimension		  3
@@ -1701,29 +1699,29 @@ Library {
 	    $ObjectID		    24
 	    Type		    "edit"
 	    Name		    "muk"
-	    Prompt		    "Coefficient of kinetic friction"
-	    Value		    "MUK"
+	    Prompt		    "muk"
+	    Value		    "Fc"
 	  }
 	  Object {
 	    $ObjectID		    25
 	    Type		    "edit"
 	    Name		    "mus"
-	    Prompt		    "Coefficient of static friction"
-	    Value		    "MUS"
+	    Prompt		    "mus"
+	    Value		    "Fs"
 	  }
 	  Object {
 	    $ObjectID		    26
 	    Type		    "edit"
 	    Name		    "vth"
-	    Prompt		    "Velocity threshold"
-	    Value		    "VTH"
+	    Prompt		    "vth"
+	    Value		    "0"
 	  }
 	  PropName		  "Parameters"
 	}
       }
       System {
 	Name			"Continuous\nFriction Model\nR"
-	Location		[-8, -8, 1374, 746]
+	Location		[-8, 0, 1374, 754]
 	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -1809,23 +1807,6 @@ Library {
 	}
 	Block {
 	  BlockType		  Reference
-	  Name			  "PS Add"
-	  SID			  "101"
-	  Ports			  [0, 0, 0, 0, 0, 2, 1]
-	  Position		  [760, 37, 780, 68]
-	  ZOrder		  295
-	  LibraryVersion	  "8.31"
-	  SourceBlock		  "fl_lib/Physical Signals/Functions/PS Add"
-	  SourceType		  "PS Add"
-	  SourceFile		  "foundation.physical_signal.functions.add"
-	  ComponentPath		  "foundation.physical_signal.functions.add"
-	  ComponentVariants	  "foundation.physical_signal.functions.add"
-	  ComponentVariantNames	  "add"
-	  ClassName		  "add"
-	  SchemaVersion		  "1"
-	}
-	Block {
-	  BlockType		  Reference
 	  Name			  "PS-Simulink\nConverter"
 	  SID			  "102"
 	  Ports			  [0, 1, 0, 0, 0, 1]
@@ -1907,24 +1888,6 @@ Library {
 	  Port			  "2"
 	  Side			  "Right"
 	}
-	Block {
-	  BlockType		  PMIOPort
-	  Name			  "t"
-	  SID			  "111"
-	  Position		  [265, 173, 295, 187]
-	  ZOrder		  298
-	  Port			  "3"
-	  Side			  "Left"
-	}
-	Line {
-	  LineType		  "Connection"
-	  ZOrder		  47
-	  SrcBlock		  "PS Add"
-	  SrcPort		  LConn2
-	  Points		  [-10, 0; 0, 120]
-	  DstBlock		  "t"
-	  DstPort		  RConn1
-	}
 	Line {
 	  LineType		  "Connection"
 	  ZOrder		  48
@@ -1936,18 +1899,10 @@ Library {
 	}
 	Line {
 	  LineType		  "Connection"
-	  ZOrder		  49
-	  SrcBlock		  "PS Add"
+	  ZOrder		  60
+	  SrcBlock		  "T"
 	  SrcPort		  RConn1
-	  Points		  [18, 0; 0, -5]
-	  DstBlock		  "T"
-	  DstPort		  RConn1
-	}
-	Line {
-	  LineType		  "Connection"
-	  ZOrder		  50
-	  SrcBlock		  "PS Add"
-	  SrcPort		  LConn1
+	  Points		  [-45, 0; 0, -5]
 	  DstBlock		  "Simulink-PS\nConverter"
 	  DstPort		  RConn1
 	}
@@ -2381,8 +2336,8 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Friccion \nCoulomb\nEsf"
-	Location		[-8, -8, 1374, 746]
-	Open			on
+	Location		[-8, 0, 1374, 754]
+	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -2464,7 +2419,7 @@ Library {
 	  Ports			  [0, 0, 0, 0, 0, 1, 1]
 	  Position		  [330, 105, 370, 145]
 	  ZOrder		  321
-	  LibraryVersion	  "1.43"
+	  LibraryVersion	  "1.46"
 	  SourceBlock		  "Fricciones/Smooth"
 	  SourceType		  ""
 	  ShowPortLabels	  "FromPortIcon"
@@ -2480,7 +2435,7 @@ Library {
 	  Ports			  [0, 0, 0, 0, 0, 1, 1]
 	  Position		  [305, 290, 345, 330]
 	  ZOrder		  322
-	  LibraryVersion	  "1.43"
+	  LibraryVersion	  "1.46"
 	  SourceBlock		  "Fricciones/Smooth"
 	  SourceType		  ""
 	  ShowPortLabels	  "FromPortIcon"
@@ -2496,7 +2451,7 @@ Library {
 	  Ports			  [0, 0, 0, 0, 0, 1, 1]
 	  Position		  [230, 435, 270, 475]
 	  ZOrder		  323
-	  LibraryVersion	  "1.43"
+	  LibraryVersion	  "1.46"
 	  SourceBlock		  "Fricciones/Smooth"
 	  SourceType		  ""
 	  ShowPortLabels	  "FromPortIcon"
@@ -2658,8 +2613,8 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Friccion \nCoulomb\nR"
-	Location		[-7, 0, 690, 745]
-	Open			on
+	Location		[-8, 0, 1374, 754]
+	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -2695,7 +2650,7 @@ Library {
 	  Ports			  [0, 0, 0, 0, 0, 1, 1]
 	  Position		  [135, 366, 175, 404]
 	  ZOrder		  344
-	  LibraryVersion	  "1.43"
+	  LibraryVersion	  "1.49"
 	  SourceBlock		  "Fricciones/Simplificado"
 	  SourceType		  "SubSystem"
 	  ContentPreviewEnabled	  off
@@ -3490,7 +3445,7 @@ Library {
       BlockType		      SubSystem
       Name		      "Friccion \nSM-SS\nR"
       SID		      "60"
-      Ports		      [0, 0, 0, 0, 0, 1, 2]
+      Ports		      [0, 0, 0, 0, 0, 0, 2]
       Position		      [150, 239, 185, 281]
       ZOrder		      243
       RequestExecContextInheritance off
@@ -3506,21 +3461,21 @@ Library {
 	    Type		    "edit"
 	    Name		    "BFT"
 	    Prompt		    "Breakaway friction torque (N*m)"
-	    Value		    "0.2"
+	    Value		    "Fs"
 	  }
 	  Object {
 	    $ObjectID		    42
 	    Type		    "edit"
 	    Name		    "CFT"
 	    Prompt		    "Coulomb friction torque (N*m)"
-	    Value		    "0.15"
+	    Value		    "Fc"
 	  }
 	  Object {
 	    $ObjectID		    43
 	    Type		    "edit"
 	    Name		    "VFc"
 	    Prompt		    "Viscous friction coeff (N*m/(rad/s))"
-	    Value		    "0.001"
+	    Value		    "Fsc"
 	  }
 	  Object {
 	    $ObjectID		    44
@@ -3581,8 +3536,8 @@ Library {
       }
       System {
 	Name			"Friccion \nSM-SS\nR"
-	Location		[-8, -8, 1374, 746]
-	Open			off
+	Location		[-8, 0, 1374, 754]
+	Open			on
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -3615,43 +3570,6 @@ Library {
 	  ComponentVariantNames	  "reference"
 	  ClassName		  "reference_rot"
 	  SchemaVersion		  "1"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "PS Subtract"
-	  SID			  "59"
-	  Ports			  [0, 0, 0, 0, 0, 2, 1]
-	  Position		  [155, 82, 175, 113]
-	  ZOrder		  242
-	  LibraryVersion	  "8.31"
-	  SourceBlock		  "fl_lib/Physical Signals/Functions/PS Subtract"
-	  SourceType		  "PS Subtract"
-	  SourceFile		  "foundation.physical_signal.functions.subtract"
-	  ComponentPath		  "foundation.physical_signal.functions.subtract"
-	  ComponentVariants	  "foundation.physical_signal.functions.subtract"
-	  ComponentVariantNames	  "subtract"
-	  ClassName		  "subtract"
-	  SchemaVersion		  "1"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "PS-Simulink\nConverter2"
-	  SID			  "53"
-	  Ports			  [0, 1, 0, 0, 0, 1]
-	  Position		  [505, 20, 535, 50]
-	  ZOrder		  239
-	  LibraryVersion	  "1.1"
-	  SourceBlock		  "nesl_utility/PS-Simulink\nConverter"
-	  SourceType		  "PS-Simulink\nConverter"
-	  ContentPreviewEnabled	  off
-	  PhysicalDomain	  "network_engine_domain"
-	  SubClassName		  "ps_output"
-	  LeftPortType		  "input"
-	  RightPortType		  "output"
-	  PseudoPeriodic	  off
-	  Frequencies		  "[]"
-	  Unit			  "rad/s"
-	  AffineConversion	  off
 	}
 	Block {
 	  BlockType		  Reference
@@ -3705,52 +3623,13 @@ Library {
 	  t_unit		  "N*m"
 	}
 	Block {
-	  BlockType		  Scope
-	  Name			  "Scope2"
-	  SID			  "56"
-	  Ports			  [1]
-	  Position		  [575, 24, 605, 56]
-	  ZOrder		  238
-	  Floating		  off
-	  Location		  [188, 365, 512, 604]
-	  Open			  off
-	  NumInputPorts		  "1"
-	  List {
-	    ListType		    AxesTitles
-	    axes1		    "%<SignalLabel>"
-	  }
-	  List {
-	    ListType		    ScopeGraphics
-	    FigureColor		    "[0.5 0.5 0.5]"
-	    AxesColor		    "[0 0 0]"
-	    AxesTickColor	    "[1 1 1]"
-	    LineColors		    "[1 1 0;1 0 1;0 1 1;1 0 0;0 1 0;0 0 1]"
-	    LineStyles		    "-|-|-|-|-|-"
-	    LineWidths		    "[0.5 0.5 0.5 0.5 0.5 0.5]"
-	    MarkerStyles	    "none|none|none|none|none|none"
-	  }
-	  ShowLegends		  off
-	  YMin			  "1.26939e-05"
-	  YMax			  "1.26939e-05"
-	  SaveName		  "ScopeData3"
-	}
-	Block {
-	  BlockType		  PMIOPort
-	  Name			  "t"
-	  SID			  "61"
-	  Position		  [20, 83, 50, 97]
-	  ZOrder		  243
-	  Port			  "1"
-	  Side			  "Left"
-	}
-	Block {
 	  BlockType		  PMIOPort
 	  Name			  "T"
 	  SID			  "62"
 	  Position		  [220, 83, 250, 97]
 	  ZOrder		  244
 	  BlockMirror		  on
-	  Port			  "2"
+	  Port			  "1"
 	  Side			  "Right"
 	}
 	Block {
@@ -3760,7 +3639,7 @@ Library {
 	  Position		  [550, 143, 580, 157]
 	  ZOrder		  245
 	  BlockMirror		  on
-	  Port			  "3"
+	  Port			  "2"
 	  Side			  "Right"
 	}
 	Line {
@@ -3784,31 +3663,11 @@ Library {
 	}
 	Line {
 	  LineType		  "Connection"
-	  ZOrder		  219
-	  Points		  [452, 150; -107, 0]
+	  ZOrder		  220
+	  SrcBlock		  "w"
+	  SrcPort		  RConn1
 	  DstBlock		  "Rotational\nSimscape Intf"
 	  DstPort		  LConn1
-	  Branch {
-	    ConnectType		    "SRC_DEST"
-	    SrcBlock		    "w"
-	    SrcPort		    RConn1
-	    Points		    [-83, 0]
-	  }
-	  Branch {
-	    ConnectType		    "SRC_DEST"
-	    SrcBlock		    "PS-Simulink\nConverter2"
-	    SrcPort		    LConn1
-	    Points		    [-38, 0; 0, 115]
-	  }
-	}
-	Line {
-	  LineType		  "Connection"
-	  ZOrder		  36
-	  SrcBlock		  "Rotational\nSimscape Intf"
-	  SrcPort		  RConn1
-	  Points		  [-37, 0; 0, 19; -116, 0; 0, -64]
-	  DstBlock		  "PS Subtract"
-	  DstPort		  LConn2
 	}
 	Line {
 	  LineType		  "Connection"
@@ -3821,27 +3680,11 @@ Library {
 	}
 	Line {
 	  LineType		  "Connection"
-	  ZOrder		  222
-	  SrcBlock		  "T"
+	  ZOrder		  227
+	  SrcBlock		  "Rotational\nSimscape Intf"
 	  SrcPort		  RConn1
-	  Points		  [-7, 0; 0, 10]
-	  DstBlock		  "PS Subtract"
-	  DstPort		  RConn1
-	}
-	Line {
-	  ZOrder		  37
-	  SrcBlock		  "PS-Simulink\nConverter2"
-	  SrcPort		  1
-	  Points		  [15, 0; 0, 5]
-	  DstBlock		  "Scope2"
-	  DstPort		  1
-	}
-	Line {
-	  LineType		  "Connection"
-	  ZOrder		  221
-	  SrcBlock		  "PS Subtract"
-	  SrcPort		  LConn1
-	  DstBlock		  "t"
+	  Points		  [-15, 0; 0, -10; -59, 0; 0, -50]
+	  DstBlock		  "T"
 	  DstPort		  RConn1
 	}
 	Annotation {
@@ -3853,6 +3696,7 @@ Library {
 	  FixedWidth		  off
 	  HorizontalAlignment	  "left"
 	  VerticalAlignment	  "top"
+	  ZOrder		  -1
 	}
 	Annotation {
 	  SID			  "279"
@@ -3863,6 +3707,7 @@ Library {
 	  FixedWidth		  off
 	  HorizontalAlignment	  "left"
 	  VerticalAlignment	  "top"
+	  ZOrder		  -2
 	}
       }
     }
@@ -4102,7 +3947,7 @@ Library {
       }
       System {
 	Name			"Smooth"
-	Location		[-8, -8, 1374, 746]
+	Location		[-8, 0, 1374, 754]
 	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -4442,15 +4287,15 @@ Library {
     }
     Block {
       BlockType		      SubSystem
-      Name		      "Subsystem"
+      Name		      "Solo Ganancia"
       SID		      "229"
-      Ports		      [0, 0, 0, 0, 0, 3, 3]
-      Position		      [515, 219, 555, 281]
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [305, 466, 345, 514]
       ZOrder		      308
       RequestExecContextInheritance off
       System {
-	Name			"Subsystem"
-	Location		[-8, -8, 1374, 746]
+	Name			"Solo Ganancia"
+	Location		[-8, 0, 1374, 754]
 	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -4483,92 +4328,6 @@ Library {
 	  SchemaVersion		  "1"
 	  gain			  "-Friccion"
 	  gain_unit		  "1"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "PS Gain1"
-	  SID			  "206"
-	  Ports			  [0, 0, 0, 0, 0, 1, 1]
-	  Position		  [295, 230, 315, 260]
-	  ZOrder		  285
-	  BlockRotation		  180
-	  NamePlacement		  "alternate"
-	  LibraryVersion	  "8.31"
-	  SourceBlock		  "fl_lib/Physical Signals/Functions/PS Gain"
-	  SourceType		  "PS Gain"
-	  SourceFile		  "foundation.physical_signal.functions.gain"
-	  ComponentPath		  "foundation.physical_signal.functions.gain"
-	  ComponentVariants	  "foundation.physical_signal.functions.gain"
-	  ComponentVariantNames	  "gain"
-	  ClassName		  "gain"
-	  SchemaVersion		  "1"
-	  gain			  "-Friccion"
-	  gain_unit		  "1"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "PS Gain2"
-	  SID			  "207"
-	  Ports			  [0, 0, 0, 0, 0, 1, 1]
-	  Position		  [295, 415, 315, 445]
-	  ZOrder		  286
-	  BlockRotation		  180
-	  NamePlacement		  "alternate"
-	  LibraryVersion	  "8.31"
-	  SourceBlock		  "fl_lib/Physical Signals/Functions/PS Gain"
-	  SourceType		  "PS Gain"
-	  SourceFile		  "foundation.physical_signal.functions.gain"
-	  ComponentPath		  "foundation.physical_signal.functions.gain"
-	  ComponentVariants	  "foundation.physical_signal.functions.gain"
-	  ComponentVariantNames	  "gain"
-	  ClassName		  "gain"
-	  SchemaVersion		  "1"
-	  gain			  "-Friccion"
-	  gain_unit		  "1"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "PS Saturation"
-	  SID			  "211"
-	  Ports			  [0, 0, 0, 0, 0, 1, 1]
-	  Position		  [215, 215, 245, 245]
-	  ZOrder		  293
-	  BlockMirror		  on
-	  LibraryVersion	  "8.31"
-	  SourceBlock		  "fl_lib/Physical Signals/Nonlinear Operators/PS Saturation"
-	  SourceType		  "PS Saturation"
-	  SourceFile		  "foundation.physical_signal.nonlinear.saturation"
-	  ComponentPath		  "foundation.physical_signal.nonlinear.saturation"
-	  ComponentVariants	  "foundation.physical_signal.nonlinear.saturation"
-	  ComponentVariantNames	  "saturation"
-	  ClassName		  "saturation"
-	  SchemaVersion		  "1"
-	  upper_limit		  "0.1"
-	  upper_limit_unit	  "1"
-	  lower_limit		  "- 0.1"
-	  lower_limit_unit	  "1"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "PS Saturation1"
-	  SID			  "212"
-	  Ports			  [0, 0, 0, 0, 0, 1, 1]
-	  Position		  [225, 415, 255, 445]
-	  ZOrder		  294
-	  BlockMirror		  on
-	  LibraryVersion	  "8.31"
-	  SourceBlock		  "fl_lib/Physical Signals/Nonlinear Operators/PS Saturation"
-	  SourceType		  "PS Saturation"
-	  SourceFile		  "foundation.physical_signal.nonlinear.saturation"
-	  ComponentPath		  "foundation.physical_signal.nonlinear.saturation"
-	  ComponentVariants	  "foundation.physical_signal.nonlinear.saturation"
-	  ComponentVariantNames	  "saturation"
-	  ClassName		  "saturation"
-	  SchemaVersion		  "1"
-	  upper_limit		  "0.1"
-	  upper_limit_unit	  "1"
-	  lower_limit		  "- 0.1"
-	  lower_limit_unit	  "1"
 	}
 	Block {
 	  BlockType		  Reference
@@ -4611,67 +4370,12 @@ Library {
 	  Port			  "2"
 	  Side			  "Right"
 	}
-	Block {
-	  BlockType		  PMIOPort
-	  Name			  "Conn5"
-	  SID			  "234"
-	  Position		  [155, 223, 185, 237]
-	  ZOrder		  312
-	  Port			  "3"
-	  Side			  "Left"
-	}
-	Block {
-	  BlockType		  PMIOPort
-	  Name			  "Conn6"
-	  SID			  "235"
-	  Position		  [345, 238, 375, 252]
-	  ZOrder		  313
-	  BlockMirror		  on
-	  Port			  "4"
-	  Side			  "Right"
-	}
-	Block {
-	  BlockType		  PMIOPort
-	  Name			  "Conn10"
-	  SID			  "239"
-	  Position		  [165, 423, 195, 437]
-	  ZOrder		  317
-	  Port			  "5"
-	  Side			  "Left"
-	}
-	Block {
-	  BlockType		  PMIOPort
-	  Name			  "Conn11"
-	  SID			  "240"
-	  Position		  [345, 423, 375, 437]
-	  ZOrder		  318
-	  BlockMirror		  on
-	  Port			  "6"
-	  Side			  "Right"
-	}
 	Line {
 	  LineType		  "Connection"
 	  ZOrder		  7
 	  SrcBlock		  "PS Gain"
 	  SrcPort		  RConn1
 	  DstBlock		  "PS Saturation2"
-	  DstPort		  LConn1
-	}
-	Line {
-	  LineType		  "Connection"
-	  ZOrder		  12
-	  SrcBlock		  "PS Gain2"
-	  SrcPort		  RConn1
-	  DstBlock		  "PS Saturation1"
-	  DstPort		  LConn1
-	}
-	Line {
-	  LineType		  "Connection"
-	  ZOrder		  11
-	  SrcBlock		  "PS Gain1"
-	  SrcPort		  RConn1
-	  Points		  [-10, 0; 0, -15]
-	  DstBlock		  "PS Saturation"
 	  DstPort		  LConn1
 	}
 	Line {
@@ -4684,42 +4388,10 @@ Library {
 	}
 	Line {
 	  LineType		  "Connection"
-	  ZOrder		  30
-	  SrcBlock		  "PS Gain1"
-	  SrcPort		  LConn1
-	  DstBlock		  "Conn6"
-	  DstPort		  RConn1
-	}
-	Line {
-	  LineType		  "Connection"
 	  ZOrder		  26
 	  SrcBlock		  "PS Gain"
 	  SrcPort		  LConn1
 	  DstBlock		  "Conn2"
-	  DstPort		  RConn1
-	}
-	Line {
-	  LineType		  "Connection"
-	  ZOrder		  34
-	  SrcBlock		  "PS Saturation1"
-	  SrcPort		  RConn1
-	  DstBlock		  "Conn10"
-	  DstPort		  RConn1
-	}
-	Line {
-	  LineType		  "Connection"
-	  ZOrder		  35
-	  SrcBlock		  "PS Gain2"
-	  SrcPort		  LConn1
-	  DstBlock		  "Conn11"
-	  DstPort		  RConn1
-	}
-	Line {
-	  LineType		  "Connection"
-	  ZOrder		  29
-	  SrcBlock		  "PS Saturation"
-	  SrcPort		  RConn1
-	  DstBlock		  "Conn5"
 	  DstPort		  RConn1
 	}
       }
