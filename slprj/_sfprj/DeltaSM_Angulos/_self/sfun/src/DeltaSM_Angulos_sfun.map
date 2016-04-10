@@ -1,6 +1,6 @@
  DeltaSM_Angulos_sfun
 
- Timestamp is 56febe07 (Fri Apr 01 13:29:27 2016)
+ Timestamp is 5707c20d (Fri Apr 08 09:37:01 2016)
 
  Preferred load address is 0000000180000000
 
@@ -13,17 +13,17 @@
  0002:00000498 00000008H .CRT$XIA                DATA
  0002:000004a0 00000008H .CRT$XIAA               DATA
  0002:000004a8 00000008H .CRT$XIZ                DATA
- 0002:000004b0 000007dcH .rdata                  DATA
- 0002:00000c90 00000008H .rtc$IAA                DATA
- 0002:00000c98 00000008H .rtc$IZZ                DATA
- 0002:00000ca0 00000008H .rtc$TAA                DATA
- 0002:00000ca8 00000008H .rtc$TZZ                DATA
- 0002:00000cb0 000007d0H .xdata                  DATA
- 0002:00001480 0000008cH .idata$2                DATA
- 0002:0000150c 00000014H .idata$3                DATA
- 0002:00001520 00000488H .idata$4                DATA
- 0002:000019a8 00000c82H .idata$6                DATA
- 0002:00002630 0000005aH .edata                  DATA
+ 0002:000004b0 0000079cH .rdata                  DATA
+ 0002:00000c50 00000008H .rtc$IAA                DATA
+ 0002:00000c58 00000008H .rtc$IZZ                DATA
+ 0002:00000c60 00000008H .rtc$TAA                DATA
+ 0002:00000c68 00000008H .rtc$TZZ                DATA
+ 0002:00000c70 000007d0H .xdata                  DATA
+ 0002:00001440 0000008cH .idata$2                DATA
+ 0002:000014cc 00000014H .idata$3                DATA
+ 0002:000014e0 00000488H .idata$4                DATA
+ 0002:00001968 00000c82H .idata$6                DATA
+ 0002:000025f0 0000005aH .edata                  DATA
  0003:00000000 00006fb8H .data                   DATA
  0003:00006fc0 000006b8H .bss                    DATA
  0004:00000000 000009a8H .pdata                  DATA
@@ -427,10 +427,10 @@
  0002:00000490       __xc_z                     000000018001d490     MSVCRT:cinitexe.obj
  0002:00000498       __xi_a                     000000018001d498     MSVCRT:cinitexe.obj
  0002:000004a8       __xi_z                     000000018001d4a8     MSVCRT:cinitexe.obj
- 0002:000004b0       __real@41ed4528dda00000    000000018001d4b0     DeltaSM_Angulos_sfun.obj
- 0002:000004b8       __real@41ec2c06f4000000    000000018001d4b8     DeltaSM_Angulos_sfun.obj
- 0002:000004c0       __real@41ea309af0400000    000000018001d4c0     DeltaSM_Angulos_sfun.obj
- 0002:000004c8       __real@41e9531603600000    000000018001d4c8     DeltaSM_Angulos_sfun.obj
+ 0002:000004b0       __real@41eae41d2a800000    000000018001d4b0     DeltaSM_Angulos_sfun.obj
+ 0002:000004b8       __real@41d4ac9820800000    000000018001d4b8     DeltaSM_Angulos_sfun.obj
+ 0002:000004c0       __real@41d9d6740e400000    000000018001d4c0     DeltaSM_Angulos_sfun.obj
+ 0002:000004c8       __real@41e211e7a8e00000    000000018001d4c8     DeltaSM_Angulos_sfun.obj
  0002:000004d0       __real@41c900e78a000000    000000018001d4d0     DeltaSM_Angulos_sfun.obj
  0002:000004d8       __real@41eda5398c800000    000000018001d4d8     DeltaSM_Angulos_sfun.obj
  0002:000004e0       __real@41edcf5b43c00000    000000018001d4e0     DeltaSM_Angulos_sfun.obj
@@ -468,56 +468,49 @@
  0002:000005f0       __real@4000c152382d7365    000000018001d5f0     c1_DeltaSM_Angulos.obj
  0002:000005f8       __real@4008000000000000    000000018001d5f8     c1_DeltaSM_Angulos.obj
  0002:00000600       __real@4018000000000000    000000018001d600     c1_DeltaSM_Angulos.obj
- 0002:00000608       __real@41e0957f92c00000    000000018001d608     c2_DeltaSM_Angulos.obj
- 0002:00000610       __real@41ec7fe0c2a00000    000000018001d610     c2_DeltaSM_Angulos.obj
- 0002:00000618       __real@41e40a3147400000    000000018001d618     c2_DeltaSM_Angulos.obj
- 0002:00000620       __real@41d3a4a2d4000000    000000018001d620     c2_DeltaSM_Angulos.obj
- 0002:00000628       __real@c06e000000000000    000000018001d628     c2_DeltaSM_Angulos.obj
- 0002:00000630       __real@4082c00000000000    000000018001d630     c2_DeltaSM_Angulos.obj
- 0002:00000638       __real@c079000000000000    000000018001d638     c2_DeltaSM_Angulos.obj
- 0002:00000640       __real@c040e00000000000    000000018001d640     c2_DeltaSM_Angulos.obj
- 0002:00000648       __real@4065180000000000    000000018001d648     c2_DeltaSM_Angulos.obj
- 0002:00000650       __real@c06c200000000000    000000018001d650     c2_DeltaSM_Angulos.obj
- 0002:00000658       __real@c01e000000000000    000000018001d658     c2_DeltaSM_Angulos.obj
- 0002:00000660       __real@4042c00000000000    000000018001d660     c2_DeltaSM_Angulos.obj
- 0002:00000668       __real@c049000000000000    000000018001d668     c2_DeltaSM_Angulos.obj
- 0002:00000670       __real@403a400000000000    000000018001d670     c2_DeltaSM_Angulos.obj
- 0002:00000678       __real@c060680000000000    000000018001d678     c2_DeltaSM_Angulos.obj
- 0002:00000680       __real@4065e00000000000    000000018001d680     c2_DeltaSM_Angulos.obj
- 0002:00000688       __real@c069000000000000    000000018001d688     c2_DeltaSM_Angulos.obj
- 0002:00000690       __real@c064000000000000    000000018001d690     c2_DeltaSM_Angulos.obj
- 0002:00000698       __real@c072c00000000000    000000018001d698     c2_DeltaSM_Angulos.obj
- 0002:000006a0       __real@c06f400000000000    000000018001d6a0     c2_DeltaSM_Angulos.obj
- 0002:000006a8       __real@c051800000000000    000000018001d6a8     c2_DeltaSM_Angulos.obj
- 0002:000006b0       __real@4014000000000000    000000018001d6b0     c2_DeltaSM_Angulos.obj
- 0002:000006c0       DYNAMIC_DIMENSION_DEF      000000018001d6c0     DeltaSM_Angulos_sfun_registry.obj
- 0002:000006e0       _ssBadLevel2InputAccessMsg 000000018001d6e0     DeltaSM_Angulos_sfun_registry.obj
- 0002:00000870       _ssBadLevel2DirectFeedMsg  000000018001d870     DeltaSM_Angulos_sfun_registry.obj
- 0002:000009b0       _ssBadLevel2DirectFeedSolutionMsg 000000018001d9b0     DeltaSM_Angulos_sfun_registry.obj
- 0002:00000a20       _ssBadLevel2ZeroDirectFeedMsg 000000018001da20     DeltaSM_Angulos_sfun_registry.obj
- 0002:00000b60       _ssBadLevel2ZeroDirectFeedMsg2 000000018001db60     DeltaSM_Angulos_sfun_registry.obj
- 0002:00000c48       __real@0000000000000000    000000018001dc48     DeltaSM_Angulos_sfun_registry.obj
- 0002:00000c50       __real@bff0000000000000    000000018001dc50     DeltaSM_Angulos_sfun_registry.obj
- 0002:00000c58       __real@41602cbca0000000    000000018001dc58     DeltaSM_Angulos_sfun_registry.obj
- 0002:00000c60       _pDefaultRawDllMain        000000018001dc60     MSVCRT:crtdll.obj
- 0002:00000c60       _pRawDllMain               000000018001dc60     MSVCRT:crtdll.obj
- 0002:00000c78       ?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB 000000018001dc78     MSVCRT:tncleanup.obj
- 0002:00000c7c       ?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB 000000018001dc7c     MSVCRT:tncleanup.obj
- 0002:00000c80       ?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB 000000018001dc80     MSVCRT:tncleanup.obj
- 0002:00000c84       ?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB 000000018001dc84     MSVCRT:tncleanup.obj
- 0002:00000c88       ?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB 000000018001dc88     MSVCRT:tncleanup.obj
- 0002:00000c90       __rtc_iaa                  000000018001dc90     MSVCRT:_initsect_.obj
- 0002:00000c98       __rtc_izz                  000000018001dc98     MSVCRT:_initsect_.obj
- 0002:00000ca0       __rtc_taa                  000000018001dca0     MSVCRT:_initsect_.obj
- 0002:00000ca8       __rtc_tzz                  000000018001dca8     MSVCRT:_initsect_.obj
- 0002:00001480       __IMPORT_DESCRIPTOR_sf_runtime 000000018001e480     sf_runtime:sf_runtime.dll
- 0002:00001494       __IMPORT_DESCRIPTOR_libmx  000000018001e494     libmx:libmx.dll
- 0002:000014a8       __IMPORT_DESCRIPTOR_libmex 000000018001e4a8     libmex:libmex.dll
- 0002:000014bc       __IMPORT_DESCRIPTOR_libut  000000018001e4bc     libut:libut.dll
- 0002:000014d0       __IMPORT_DESCRIPTOR_libmwmathutil 000000018001e4d0     libmwmathutil:libmwmathutil.dll
- 0002:000014e4       __IMPORT_DESCRIPTOR_MSVCR100 000000018001e4e4     MSVCRT:MSVCR100.dll
- 0002:000014f8       __IMPORT_DESCRIPTOR_KERNEL32 000000018001e4f8     kernel32:KERNEL32.dll
- 0002:0000150c       __NULL_IMPORT_DESCRIPTOR   000000018001e50c     sf_runtime:sf_runtime.dll
+ 0002:00000608       __real@41e6f630b7800000    000000018001d608     c2_DeltaSM_Angulos.obj
+ 0002:00000610       __real@41ebcc5a9ee00000    000000018001d610     c2_DeltaSM_Angulos.obj
+ 0002:00000618       __real@41efaae207200000    000000018001d618     c2_DeltaSM_Angulos.obj
+ 0002:00000620       __real@41e1fa2156c00000    000000018001d620     c2_DeltaSM_Angulos.obj
+ 0002:00000628       __real@c08a400000000000    000000018001d628     c2_DeltaSM_Angulos.obj
+ 0002:00000630       __real@40a0680000000000    000000018001d630     c2_DeltaSM_Angulos.obj
+ 0002:00000638       __real@c095e00000000000    000000018001d638     c2_DeltaSM_Angulos.obj
+ 0002:00000640       __real@408a400000000000    000000018001d640     c2_DeltaSM_Angulos.obj
+ 0002:00000648       __real@c0a0680000000000    000000018001d648     c2_DeltaSM_Angulos.obj
+ 0002:00000650       __real@4095e00000000000    000000018001d650     c2_DeltaSM_Angulos.obj
+ 0002:00000658       __real@c064000000000000    000000018001d658     c2_DeltaSM_Angulos.obj
+ 0002:00000660       __real@c072c00000000000    000000018001d660     c2_DeltaSM_Angulos.obj
+ 0002:00000668       __real@4051800000000000    000000018001d668     c2_DeltaSM_Angulos.obj
+ 0002:00000670       __real@c051800000000000    000000018001d670     c2_DeltaSM_Angulos.obj
+ 0002:00000678       __real@4014000000000000    000000018001d678     c2_DeltaSM_Angulos.obj
+ 0002:00000680       DYNAMIC_DIMENSION_DEF      000000018001d680     DeltaSM_Angulos_sfun_registry.obj
+ 0002:000006a0       _ssBadLevel2InputAccessMsg 000000018001d6a0     DeltaSM_Angulos_sfun_registry.obj
+ 0002:00000830       _ssBadLevel2DirectFeedMsg  000000018001d830     DeltaSM_Angulos_sfun_registry.obj
+ 0002:00000970       _ssBadLevel2DirectFeedSolutionMsg 000000018001d970     DeltaSM_Angulos_sfun_registry.obj
+ 0002:000009e0       _ssBadLevel2ZeroDirectFeedMsg 000000018001d9e0     DeltaSM_Angulos_sfun_registry.obj
+ 0002:00000b20       _ssBadLevel2ZeroDirectFeedMsg2 000000018001db20     DeltaSM_Angulos_sfun_registry.obj
+ 0002:00000c08       __real@0000000000000000    000000018001dc08     DeltaSM_Angulos_sfun_registry.obj
+ 0002:00000c10       __real@bff0000000000000    000000018001dc10     DeltaSM_Angulos_sfun_registry.obj
+ 0002:00000c18       __real@41602cbca0000000    000000018001dc18     DeltaSM_Angulos_sfun_registry.obj
+ 0002:00000c20       _pDefaultRawDllMain        000000018001dc20     MSVCRT:crtdll.obj
+ 0002:00000c20       _pRawDllMain               000000018001dc20     MSVCRT:crtdll.obj
+ 0002:00000c38       ?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB 000000018001dc38     MSVCRT:tncleanup.obj
+ 0002:00000c3c       ?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB 000000018001dc3c     MSVCRT:tncleanup.obj
+ 0002:00000c40       ?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB 000000018001dc40     MSVCRT:tncleanup.obj
+ 0002:00000c44       ?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB 000000018001dc44     MSVCRT:tncleanup.obj
+ 0002:00000c48       ?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB 000000018001dc48     MSVCRT:tncleanup.obj
+ 0002:00000c50       __rtc_iaa                  000000018001dc50     MSVCRT:_initsect_.obj
+ 0002:00000c58       __rtc_izz                  000000018001dc58     MSVCRT:_initsect_.obj
+ 0002:00000c60       __rtc_taa                  000000018001dc60     MSVCRT:_initsect_.obj
+ 0002:00000c68       __rtc_tzz                  000000018001dc68     MSVCRT:_initsect_.obj
+ 0002:00001440       __IMPORT_DESCRIPTOR_sf_runtime 000000018001e440     sf_runtime:sf_runtime.dll
+ 0002:00001454       __IMPORT_DESCRIPTOR_libmx  000000018001e454     libmx:libmx.dll
+ 0002:00001468       __IMPORT_DESCRIPTOR_libmex 000000018001e468     libmex:libmex.dll
+ 0002:0000147c       __IMPORT_DESCRIPTOR_libut  000000018001e47c     libut:libut.dll
+ 0002:00001490       __IMPORT_DESCRIPTOR_libmwmathutil 000000018001e490     libmwmathutil:libmwmathutil.dll
+ 0002:000014a4       __IMPORT_DESCRIPTOR_MSVCR100 000000018001e4a4     MSVCRT:MSVCR100.dll
+ 0002:000014b8       __IMPORT_DESCRIPTOR_KERNEL32 000000018001e4b8     kernel32:KERNEL32.dll
+ 0002:000014cc       __NULL_IMPORT_DESCRIPTOR   000000018001e4cc     sf_runtime:sf_runtime.dll
  0003:00006390       DYNAMIC_DIMENSION          0000000180026390     DeltaSM_Angulos_sfun_registry.obj
  0003:00006f98       __security_cookie          0000000180026f98     MSVCRT:gs_cookie.obj
  0003:00006fa0       __security_cookie_complement 0000000180026fa0     MSVCRT:gs_cookie.obj

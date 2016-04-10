@@ -19,7 +19,7 @@ Library {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [-8.0, 0.0, 1382.0, 754.0]
+      Location		      [-8.0, 0.0, 1378.0, 754.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -44,7 +44,7 @@ Library {
 	  IsActive		  [1]
 	  ViewObjType		  "SimulinkTopLevel"
 	  LoadSaveID		  "0"
-	  Extents		  [1332.0, 584.0]
+	  Extents		  [1328.0, 584.0]
 	  ZoomFactor		  [0.8]
 	  Offset		  [0.0, 0.0]
 	}
@@ -67,9 +67,9 @@ Library {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "Sebastian"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Sun Apr 03 00:23:02 2016"
-  RTWModifiedTimeStamp	  381543779
-  ModelVersionFormat	  "1.%<AutoIncrement:50>"
+  LastModifiedDate	  "Fri Apr 08 10:51:31 2016"
+  RTWModifiedTimeStamp	  382013413
+  ModelVersionFormat	  "1.%<AutoIncrement:51>"
   ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -923,7 +923,7 @@ Library {
   }
   System {
     Name		    "Fricciones"
-    Location		    [-8, 0, 1374, 754]
+    Location		    [-8, 0, 1370, 754]
     Open		    on
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200
@@ -1975,7 +1975,7 @@ Library {
       }
       System {
 	Name			"Expandido"
-	Location		[-7, 0, 690, 745]
+	Location		[-8, 0, 1370, 754]
 	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -2018,7 +2018,7 @@ Library {
 	  BlockType		  Gain
 	  Name			  "Fc"
 	  SID			  "331"
-	  Position		  [280, 415, 310, 445]
+	  Position		  [280, 390, 310, 420]
 	  ZOrder		  416
 	  Gain			  "Fc"
 	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
@@ -2071,7 +2071,7 @@ Library {
 	  Name			  "PS-Simulink\nConverter"
 	  SID			  "326"
 	  Ports			  [0, 1, 0, 0, 0, 1]
-	  Position		  [110, 455, 140, 485]
+	  Position		  [105, 390, 135, 420]
 	  ZOrder		  362
 	  LibraryVersion	  "1.1"
 	  SourceBlock		  "nesl_utility/PS-Simulink\nConverter"
@@ -2143,7 +2143,7 @@ Library {
 	  Name			  "Sum1"
 	  SID			  "340"
 	  Ports			  [2, 1]
-	  Position		  [440, 490, 460, 510]
+	  Position		  [440, 485, 460, 505]
 	  ZOrder		  425
 	  ShowName		  off
 	  IconShape		  "round"
@@ -2187,7 +2187,7 @@ Library {
 	  ZOrder		  82
 	  SrcBlock		  "PS-Simulink\nConverter"
 	  SrcPort		  LConn1
-	  Points		  [-8, 0; 0, 25; 3, 0]
+	  Points		  [-3, 0; 0, 90; 3, 0]
 	  DstBlock		  "w"
 	  DstPort		  RConn1
 	}
@@ -2228,23 +2228,22 @@ Library {
 	  ZOrder		  98
 	  SrcBlock		  "PS-Simulink\nConverter"
 	  SrcPort		  1
-	  Points		  [29, 0]
+	  Points		  [34, 0]
 	  Branch {
-	    ZOrder		    110
-	    Points		    [0, 25]
+	    ZOrder		    143
+	    Points		    [0, 90]
 	    DstBlock		    "Abs"
 	    DstPort		    1
 	  }
 	  Branch {
-	    ZOrder		    100
-	    Points		    [0, -165]
-	    DstBlock		    "Gain"
+	    ZOrder		    99
+	    DstBlock		    "Fc"
 	    DstPort		    1
 	  }
 	  Branch {
-	    ZOrder		    99
-	    Points		    [36, 0; 0, -40]
-	    DstBlock		    "Fc"
+	    ZOrder		    100
+	    Points		    [0, -100]
+	    DstBlock		    "Gain"
 	    DstPort		    1
 	  }
 	}
@@ -2260,7 +2259,7 @@ Library {
 	  ZOrder		  109
 	  SrcBlock		  "Fc"
 	  SrcPort		  1
-	  Points		  [175, 0; 0, -13]
+	  Points		  [175, 0; 0, 12]
 	  DstBlock		  "Sum"
 	  DstPort		  2
 	}
@@ -2282,7 +2281,6 @@ Library {
 	  ZOrder		  114
 	  SrcBlock		  "Math\nFunction"
 	  SrcPort		  1
-	  Points		  [18, 0; 0, 5]
 	  DstBlock		  "Sum1"
 	  DstPort		  1
 	}
@@ -2298,7 +2296,6 @@ Library {
 	  ZOrder		  116
 	  SrcBlock		  "Sum1"
 	  SrcPort		  1
-	  Points		  [15, 0; 0, -5]
 	  DstBlock		  "Gain3"
 	  DstPort		  1
 	}
@@ -2419,7 +2416,7 @@ Library {
 	  Ports			  [0, 0, 0, 0, 0, 1, 1]
 	  Position		  [330, 105, 370, 145]
 	  ZOrder		  321
-	  LibraryVersion	  "1.46"
+	  LibraryVersion	  "1.50"
 	  SourceBlock		  "Fricciones/Smooth"
 	  SourceType		  ""
 	  ShowPortLabels	  "FromPortIcon"
@@ -2435,7 +2432,7 @@ Library {
 	  Ports			  [0, 0, 0, 0, 0, 1, 1]
 	  Position		  [305, 290, 345, 330]
 	  ZOrder		  322
-	  LibraryVersion	  "1.46"
+	  LibraryVersion	  "1.50"
 	  SourceBlock		  "Fricciones/Smooth"
 	  SourceType		  ""
 	  ShowPortLabels	  "FromPortIcon"
@@ -2451,7 +2448,7 @@ Library {
 	  Ports			  [0, 0, 0, 0, 0, 1, 1]
 	  Position		  [230, 435, 270, 475]
 	  ZOrder		  323
-	  LibraryVersion	  "1.46"
+	  LibraryVersion	  "1.50"
 	  SourceBlock		  "Fricciones/Smooth"
 	  SourceType		  ""
 	  ShowPortLabels	  "FromPortIcon"
@@ -2650,7 +2647,7 @@ Library {
 	  Ports			  [0, 0, 0, 0, 0, 1, 1]
 	  Position		  [135, 366, 175, 404]
 	  ZOrder		  344
-	  LibraryVersion	  "1.49"
+	  LibraryVersion	  "1.50"
 	  SourceBlock		  "Fricciones/Simplificado"
 	  SourceType		  "SubSystem"
 	  ContentPreviewEnabled	  off
@@ -3536,7 +3533,7 @@ Library {
       }
       System {
 	Name			"Friccion \nSM-SS\nR"
-	Location		[-8, 0, 1374, 754]
+	Location		[-8, 0, 1370, 754]
 	Open			on
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -3721,7 +3718,7 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Simplificado"
-	Location		[-7, 0, 690, 745]
+	Location		[-8, 0, 1370, 754]
 	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -3738,7 +3735,7 @@ Library {
 	  BlockType		  Gain
 	  Name			  "Gain"
 	  SID			  "318"
-	  Position		  [250, 180, 280, 210]
+	  Position		  [300, 180, 330, 210]
 	  ZOrder		  339
 	  Gain			  "Fs"
 	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
@@ -3749,7 +3746,7 @@ Library {
 	  BlockType		  Gain
 	  Name			  "Gain1"
 	  SID			  "319"
-	  Position		  [240, 245, 270, 275]
+	  Position		  [240, 265, 270, 295]
 	  ZOrder		  340
 	  Gain			  "Fc"
 	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
@@ -3760,7 +3757,7 @@ Library {
 	  BlockType		  Gain
 	  Name			  "Gain2"
 	  SID			  "321"
-	  Position		  [140, 170, 170, 200]
+	  Position		  [190, 180, 220, 210]
 	  ZOrder		  342
 	  Gain			  "50"
 	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
@@ -3772,7 +3769,7 @@ Library {
 	  Name			  "PS-Simulink\nConverter"
 	  SID			  "316"
 	  Ports			  [0, 1, 0, 0, 0, 1]
-	  Position		  [60, 170, 90, 200]
+	  Position		  [110, 180, 140, 210]
 	  ZOrder		  337
 	  LibraryVersion	  "1.1"
 	  SourceBlock		  "nesl_utility/PS-Simulink\nConverter"
@@ -3792,7 +3789,7 @@ Library {
 	  Name			  "Simulink-PS\nConverter"
 	  SID			  "315"
 	  Ports			  [1, 0, 0, 0, 0, 0, 1]
-	  Position		  [365, 172, 395, 208]
+	  Position		  [415, 177, 445, 213]
 	  ZOrder		  336
 	  LibraryVersion	  "1.1"
 	  SourceBlock		  "nesl_utility/Simulink-PS\nConverter"
@@ -3818,7 +3815,7 @@ Library {
 	  Name			  "Sum"
 	  SID			  "320"
 	  Ports			  [2, 1]
-	  Position		  [315, 185, 335, 205]
+	  Position		  [365, 185, 385, 205]
 	  ZOrder		  341
 	  ShowName		  off
 	  IconShape		  "round"
@@ -3832,7 +3829,7 @@ Library {
 	  Name			  "Trigonometric\nFunction"
 	  SID			  "322"
 	  Ports			  [1, 1]
-	  Position		  [190, 180, 220, 210]
+	  Position		  [240, 180, 270, 210]
 	  ZOrder		  343
 	  Operator		  "tanh"
 	}
@@ -3840,7 +3837,7 @@ Library {
 	  BlockType		  PMIOPort
 	  Name			  "T"
 	  SID			  "287"
-	  Position		  [440, 90, 470, 105]
+	  Position		  [485, 220, 515, 235]
 	  ZOrder		  327
 	  BlockRotation		  270
 	  Port			  "1"
@@ -3850,7 +3847,7 @@ Library {
 	  BlockType		  PMIOPort
 	  Name			  "w"
 	  SID			  "288"
-	  Position		  [0, 90, 30, 105]
+	  Position		  [20, 225, 50, 240]
 	  ZOrder		  328
 	  BlockRotation		  270
 	  Port			  "2"
@@ -3861,7 +3858,7 @@ Library {
 	  ZOrder		  33
 	  SrcBlock		  "w"
 	  SrcPort		  RConn1
-	  Points		  [0, -20; 33, 0; 0, 130]
+	  Points		  [0, -15]
 	  DstBlock		  "PS-Simulink\nConverter"
 	  DstPort		  LConn1
 	}
@@ -3869,7 +3866,6 @@ Library {
 	  ZOrder		  39
 	  SrcBlock		  "Sum"
 	  SrcPort		  1
-	  Points		  [10, 0]
 	  DstBlock		  "Simulink-PS\nConverter"
 	  DstPort		  1
 	}
@@ -3885,7 +3881,7 @@ Library {
 	  }
 	  Branch {
 	    ZOrder		    46
-	    Points		    [0, 91; 112, 0]
+	    Points		    [0, 85]
 	    DstBlock		    "Gain1"
 	    DstPort		    1
 	  }
@@ -3901,7 +3897,7 @@ Library {
 	  ZOrder		  47
 	  SrcBlock		  "Gain1"
 	  SrcPort		  1
-	  Points		  [50, 0]
+	  Points		  [100, 0]
 	  DstBlock		  "Sum"
 	  DstPort		  2
 	}
@@ -3910,7 +3906,7 @@ Library {
 	  ZOrder		  48
 	  SrcBlock		  "Simulink-PS\nConverter"
 	  SrcPort		  RConn1
-	  Points		  [8, 0; 0, -115]
+	  Points		  [40, 0]
 	  DstBlock		  "T"
 	  DstPort		  RConn1
 	}
@@ -3918,7 +3914,6 @@ Library {
 	  ZOrder		  51
 	  SrcBlock		  "Gain2"
 	  SrcPort		  1
-	  Points		  [5, 0; 0, 10]
 	  DstBlock		  "Trigonometric\nFunction"
 	  DstPort		  1
 	}
@@ -3947,7 +3942,7 @@ Library {
       }
       System {
 	Name			"Smooth"
-	Location		[-8, 0, 1374, 754]
+	Location		[-8, 0, 1370, 754]
 	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
