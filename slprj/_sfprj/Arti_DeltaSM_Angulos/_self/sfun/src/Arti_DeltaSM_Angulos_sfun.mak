@@ -7,7 +7,7 @@ CPU = AMD64
 
 MACHINE     = Arti_DeltaSM_Angulos
 TARGET      = sfun
-CHART_SRCS   = c1_Arti_DeltaSM_Angulos.c c2_Arti_DeltaSM_Angulos.c
+CHART_SRCS   = c1_Arti_DeltaSM_Angulos.c
 MACHINE_SRC  = Arti_DeltaSM_Angulos_sfun.c
 MACHINE_REG = Arti_DeltaSM_Angulos_sfun_registry.c
 MAKEFILE    = Arti_DeltaSM_Angulos_sfun.mak
