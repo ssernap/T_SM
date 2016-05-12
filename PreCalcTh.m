@@ -53,10 +53,10 @@ function A=PreCalcTh(Th,Tiempo)
     %calcula polinomios
     for i=1:length(Th)-1
     R=[Th(i);ThP(i);ThPP(i);Th(i+1);ThP(i+1);ThPP(i+1)]; %vector respuesta
-    %  a    b   c   d   e   f
+      %  a    b   c   d   e   f
     M=[  0,  0,  0,  0,   0,   1;
          0,  0,  0,  0,   1,   0;  
-         0,  0,  0,  1,   0,   0;
+         0,  0,  0,  2,   0,   0;
          1,  1,  1,  1,   1,   1;
          5,  4,  3,  2,   1,   0;
         20, 12,  6,  2,   0,   0;

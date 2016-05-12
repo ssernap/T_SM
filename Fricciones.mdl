@@ -41,20 +41,20 @@ Library {
 	Dimension		2
 	Object {
 	  $ObjectID		  5
-	  IsActive		  [0]
+	  IsActive		  [1]
 	  ViewObjType		  "SimulinkTopLevel"
 	  LoadSaveID		  "0"
 	  Extents		  [1326.0, 614.0]
-	  ZoomFactor		  [0.98632478632478626]
-	  Offset		  [-480.66464471403822, 45.6932372693069]
+	  ZoomFactor		  [0.98999999999999988]
+	  Offset		  [-4.1414141414141454, -5.6843418860808015e-14]
 	}
 	Object {
 	  $ObjectID		  6
-	  IsActive		  [1]
+	  IsActive		  [0]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "60"
+	  LoadSaveID		  "76"
 	  Extents		  [1326.0, 614.0]
-	  ZoomFactor		  [1.0]
+	  ZoomFactor		  [0.8]
 	  Offset		  [0.0, 0.0]
 	}
 	PropName		"EditorsInfo"
@@ -67,9 +67,9 @@ Library {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "Sebastian"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Thu Apr 14 02:51:23 2016"
-  RTWModifiedTimeStamp	  382503082
-  ModelVersionFormat	  "1.%<AutoIncrement:65>"
+  LastModifiedDate	  "Fri Apr 22 09:25:23 2016"
+  RTWModifiedTimeStamp	  383173724
+  ModelVersionFormat	  "1.%<AutoIncrement:88>"
   ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -781,6 +781,12 @@ Library {
       PreserveConstantTs      off
     }
     Block {
+      BlockType		      From
+      GotoTag		      "A"
+      IconDisplay	      "Tag"
+      TagVisibility	      "local"
+    }
+    Block {
       BlockType		      Gain
       Gain		      "1"
       Multiplication	      "Element-wise(K.*u)"
@@ -794,6 +800,12 @@ Library {
       RndMeth		      "Floor"
       SaturateOnIntegerOverflow	on
       SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Goto
+      GotoTag		      "A"
+      IconDisplay	      "Tag"
+      TagVisibility	      "local"
     }
     Block {
       BlockType		      Lookup
@@ -845,24 +857,6 @@ Library {
       LockScale		      off
       RndMeth		      "Zero"
       SaturateOnIntegerOverflow	on
-      SampleTime	      "-1"
-    }
-    Block {
-      BlockType		      Scope
-      ModelBased	      off
-      TickLabels	      "OneTimeTick"
-      ZoomMode		      "on"
-      Grid		      "on"
-      TimeRange		      "auto"
-      YMin		      "-5"
-      YMax		      "5"
-      SaveToWorkspace	      off
-      SaveName		      "ScopeData"
-      DataFormat	      "Array"
-      LimitDataPoints	      on
-      MaxDataPoints	      "5000"
-      Decimation	      "1"
-      SampleInput	      off
       SampleTime	      "-1"
     }
     Block {
@@ -937,13 +931,13 @@ Library {
     ShowPageBoundaries	    off
     ZoomFactor		    "99"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "366"
+    SIDHighWatermark	    "396"
     Block {
       BlockType		      SubSystem
       Name		      "Continuous\nFriction Model\nR"
       SID		      "76"
       Ports		      [0, 0, 0, 0, 0, 1, 1]
-      Position		      [150, 359, 190, 401]
+      Position		      [145, 359, 185, 401]
       ZOrder		      255
       BackgroundColor	      "[0.901961, 0.000000, 0.000000]"
       DropShadow	      on
@@ -988,8 +982,8 @@ Library {
       }
       System {
 	Name			"Continuous\nFriction Model\nR"
-	Location		[-8, -8, 1368, 746]
-	Open			off
+	Location		[673, 0, 1367, 745]
+	Open			on
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -1021,46 +1015,10 @@ Library {
 	  Value			  "Normal_Force_Pist_Cyl"
 	}
 	Block {
-	  BlockType		  Scope
-	  Name			  "Friction Force"
-	  SID			  "99"
-	  Ports			  [1]
-	  Position		  [515, 104, 545, 136]
-	  ZOrder		  290
-	  BlockMirror		  on
-	  Floating		  off
-	  Location		  [643, 68, 1104, 402]
-	  Open			  off
-	  NumInputPorts		  "1"
-	  ZoomMode		  "xonly"
-	  List {
-	    ListType		    AxesTitles
-	    axes1		    "Friction force (N)"
-	  }
-	  List {
-	    ListType		    ScopeGraphics
-	    FigureColor		    "[0.5 0.5 0.5]"
-	    AxesColor		    "[0 0 0]"
-	    AxesTickColor	    "[1 1 1]"
-	    LineColors		    "[1 1 0;1 0 1;0 1 1;1 0 0;0 1 0;0 0 1]"
-	    LineStyles		    "-|-|-|-|-|-"
-	    LineWidths		    "[0.5 0.5 0.5 0.5 0.5 0.5]"
-	    MarkerStyles	    "none|none|none|none|none|none"
-	  }
-	  ShowLegends		  off
-	  TimeRange		  "10"
-	  YMin			  "-10"
-	  YMax			  "10"
-	  SaveName		  "ScopeData4"
-	  DataFormat		  "StructureWithTime"
-	  LimitDataPoints	  off
-	  SampleTime		  "0"
-	}
-	Block {
 	  BlockType		  Gain
 	  Name			  "Gain2"
 	  SID			  "100"
-	  Position		  [515, 45, 545, 85]
+	  Position		  [515, 40, 545, 80]
 	  ZOrder		  289
 	  ShowName		  off
 	  Gain			  "-1"
@@ -1114,7 +1072,7 @@ Library {
 	  Name			  "Simulink-PS\nConverter"
 	  SID			  "104"
 	  Ports			  [1, 0, 0, 0, 0, 0, 1]
-	  Position		  [710, 27, 740, 63]
+	  Position		  [670, 27, 700, 63]
 	  ZOrder		  293
 	  LibraryVersion	  "1.1"
 	  SourceBlock		  "nesl_utility/Simulink-PS\nConverter"
@@ -1139,7 +1097,7 @@ Library {
 	  BlockType		  PMIOPort
 	  Name			  "fr"
 	  SID			  "109"
-	  Position		  [860, 43, 890, 57]
+	  Position		  [775, 38, 805, 52]
 	  ZOrder		  296
 	  BlockMirror		  on
 	  NamePlacement		  "alternate"
@@ -1169,7 +1127,6 @@ Library {
 	  ZOrder		  60
 	  SrcBlock		  "fr"
 	  SrcPort		  RConn1
-	  Points		  [-45, 0; 0, -5]
 	  DstBlock		  "Simulink-PS\nConverter"
 	  DstPort		  RConn1
 	}
@@ -1193,28 +1150,18 @@ Library {
 	  ZOrder		  53
 	  SrcBlock		  "Product"
 	  SrcPort		  1
-	  Points		  [5, 0; 0, 5]
 	  DstBlock		  "Gain2"
 	  DstPort		  1
 	}
 	Line {
 	  Name			  "Friction_Force"
 	  ZOrder		  56
+	  Labels		  [3, 0]
 	  SrcBlock		  "Gain2"
 	  SrcPort		  1
-	  Points		  [10, 0]
-	  Branch {
-	    ZOrder		    55
-	    Labels		    [2, 0]
-	    Points		    [0, -20]
-	    DstBlock		    "Simulink-PS\nConverter"
-	    DstPort		    1
-	  }
-	  Branch {
-	    ZOrder		    54
-	    DstBlock		    "Friction Force"
-	    DstPort		    1
-	  }
+	  Points		  [10, 0; 0, -15]
+	  DstBlock		  "Simulink-PS\nConverter"
+	  DstPort		  1
 	}
 	Line {
 	  ZOrder		  57
@@ -1231,7 +1178,7 @@ Library {
       Name		      "Expandido"
       SID		      "276"
       Ports		      [0, 0, 0, 0, 0, 1, 1]
-      Position		      [150, 480, 190, 520]
+      Position		      [145, 480, 185, 520]
       ZOrder		      338
       RequestExecContextInheritance off
       Object {
@@ -1242,7 +1189,7 @@ Library {
       }
       System {
 	Name			"Expandido"
-	Location		[-7, 0, 1365, 745]
+	Location		[-8, -8, 1368, 746]
 	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -1254,12 +1201,12 @@ Library {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"80"
+	ZoomFactor		"146"
 	Block {
 	  BlockType		  Gain
 	  Name			  "-To"
 	  SID			  "338"
-	  Position		  [295, 480, 325, 510]
+	  Position		  [265, 480, 295, 510]
 	  ZOrder		  423
 	  Gain			  "-To"
 	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
@@ -1270,7 +1217,7 @@ Library {
 	  BlockType		  Abs
 	  Name			  "Abs"
 	  SID			  "335"
-	  Position		  [230, 480, 260, 510]
+	  Position		  [205, 480, 235, 510]
 	  ZOrder		  420
 	  SaturateOnIntegerOverflow off
 	}
@@ -1278,14 +1225,14 @@ Library {
 	  BlockType		  Constant
 	  Name			  "Constant"
 	  SID			  "339"
-	  Position		  [235, 580, 265, 610]
+	  Position		  [320, 560, 350, 590]
 	  ZOrder		  424
 	}
 	Block {
 	  BlockType		  Gain
 	  Name			  "Fc"
 	  SID			  "331"
-	  Position		  [280, 390, 310, 420]
+	  Position		  [350, 400, 380, 430]
 	  ZOrder		  416
 	  Gain			  "Fc"
 	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
@@ -1293,10 +1240,18 @@ Library {
 	  SaturateOnIntegerOverflow off
 	}
 	Block {
+	  BlockType		  From
+	  Name			  "From"
+	  SID			  "390"
+	  Position		  [445, 541, 485, 569]
+	  ZOrder		  429
+	  GotoTag		  "SignW"
+	}
+	Block {
 	  BlockType		  Gain
 	  Name			  "Fs"
 	  SID			  "332"
-	  Position		  [385, 290, 415, 320]
+	  Position		  [365, 290, 395, 320]
 	  ZOrder		  417
 	  Gain			  "Fs"
 	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
@@ -1318,7 +1273,7 @@ Library {
 	  BlockType		  Gain
 	  Name			  "Gain3"
 	  SID			  "337"
-	  Position		  [500, 480, 530, 510]
+	  Position		  [450, 480, 480, 510]
 	  ZOrder		  422
 	  Gain			  "Fm"
 	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
@@ -1326,11 +1281,19 @@ Library {
 	  SaturateOnIntegerOverflow off
 	}
 	Block {
+	  BlockType		  Goto
+	  Name			  "Goto"
+	  SID			  "389"
+	  Position		  [355, 235, 395, 265]
+	  ZOrder		  428
+	  GotoTag		  "SignW"
+	}
+	Block {
 	  BlockType		  Math
 	  Name			  "Math\nFunction"
 	  SID			  "336"
 	  Ports			  [1, 1]
-	  Position		  [365, 480, 395, 510]
+	  Position		  [320, 480, 350, 510]
 	  ZOrder		  421
 	}
 	Block {
@@ -1338,7 +1301,7 @@ Library {
 	  Name			  "PS-Simulink\nConverter"
 	  SID			  "326"
 	  Ports			  [0, 1, 0, 0, 0, 1]
-	  Position		  [105, 390, 135, 420]
+	  Position		  [105, 400, 135, 430]
 	  ZOrder		  362
 	  LibraryVersion	  "1.1"
 	  SourceBlock		  "nesl_utility/PS-Simulink\nConverter"
@@ -1358,7 +1321,7 @@ Library {
 	  Name			  "Product"
 	  SID			  "334"
 	  Ports			  [2, 1]
-	  Position		  [610, 472, 640, 503]
+	  Position		  [525, 487, 555, 518]
 	  ZOrder		  419
 	  InputSameDT		  off
 	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
@@ -1370,7 +1333,7 @@ Library {
 	  Name			  "Simulink-PS\nConverter"
 	  SID			  "342"
 	  Ports			  [1, 0, 0, 0, 0, 0, 1]
-	  Position		  [725, 387, 755, 423]
+	  Position		  [625, 387, 655, 423]
 	  ZOrder		  427
 	  LibraryVersion	  "1.1"
 	  SourceBlock		  "nesl_utility/Simulink-PS\nConverter"
@@ -1396,7 +1359,7 @@ Library {
 	  Name			  "Sum"
 	  SID			  "333"
 	  Ports			  [3, 1]
-	  Position		  [670, 395, 690, 415]
+	  Position		  [570, 395, 590, 415]
 	  ZOrder		  418
 	  ShowName		  off
 	  IconShape		  "round"
@@ -1410,7 +1373,7 @@ Library {
 	  Name			  "Sum1"
 	  SID			  "340"
 	  Ports			  [2, 1]
-	  Position		  [440, 485, 460, 505]
+	  Position		  [390, 485, 410, 505]
 	  ZOrder		  425
 	  ShowName		  off
 	  IconShape		  "round"
@@ -1424,7 +1387,7 @@ Library {
 	  Name			  "Trigonometric\nFunction"
 	  SID			  "323"
 	  Ports			  [1, 1]
-	  Position		  [280, 290, 310, 320]
+	  Position		  [270, 290, 300, 320]
 	  ZOrder		  359
 	  Operator		  "tanh"
 	}
@@ -1432,7 +1395,7 @@ Library {
 	  BlockType		  PMIOPort
 	  Name			  "fr"
 	  SID			  "297"
-	  Position		  [815, 400, 845, 415]
+	  Position		  [695, 370, 725, 385]
 	  ZOrder		  341
 	  BlockRotation		  270
 	  BlockMirror		  on
@@ -1443,7 +1406,7 @@ Library {
 	  BlockType		  PMIOPort
 	  Name			  "w"
 	  SID			  "298"
-	  Position		  [75, 515, 105, 530]
+	  Position		  [35, 460, 65, 475]
 	  ZOrder		  342
 	  BlockRotation		  270
 	  Port			  "2"
@@ -1454,7 +1417,7 @@ Library {
 	  ZOrder		  82
 	  SrcBlock		  "PS-Simulink\nConverter"
 	  SrcPort		  LConn1
-	  Points		  [-3, 0; 0, 90; 3, 0]
+	  Points		  [-40, 0]
 	  DstBlock		  "w"
 	  DstPort		  RConn1
 	}
@@ -1463,7 +1426,7 @@ Library {
 	  ZOrder		  123
 	  SrcBlock		  "fr"
 	  SrcPort		  RConn1
-	  Points		  [-40, 0; 0, -25]
+	  Points		  [0, 5]
 	  DstBlock		  "Simulink-PS\nConverter"
 	  DstPort		  RConn1
 	}
@@ -1478,11 +1441,11 @@ Library {
 	  ZOrder		  102
 	  SrcBlock		  "Trigonometric\nFunction"
 	  SrcPort		  1
-	  Points		  [33, 0]
+	  Points		  [23, 0]
 	  Branch {
 	    ZOrder		    119
-	    Points		    [0, -70; -328, 0; 0, 402; 575, 0]
-	    DstBlock		    "Product"
+	    Points		    [0, -55]
+	    DstBlock		    "Goto"
 	    DstPort		    1
 	  }
 	  Branch {
@@ -1497,8 +1460,14 @@ Library {
 	  SrcPort		  1
 	  Points		  [34, 0]
 	  Branch {
-	    ZOrder		    143
-	    Points		    [0, 90]
+	    ZOrder		    164
+	    Points		    [0, -110]
+	    DstBlock		    "Gain"
+	    DstPort		    1
+	  }
+	  Branch {
+	    ZOrder		    167
+	    Points		    [0, 80]
 	    DstBlock		    "Abs"
 	    DstPort		    1
 	  }
@@ -1507,18 +1476,12 @@ Library {
 	    DstBlock		    "Fc"
 	    DstPort		    1
 	  }
-	  Branch {
-	    ZOrder		    100
-	    Points		    [0, -100]
-	    DstBlock		    "Gain"
-	    DstPort		    1
-	  }
 	}
 	Line {
 	  ZOrder		  108
 	  SrcBlock		  "Fs"
 	  SrcPort		  1
-	  Points		  [123, 0; 0, 88]
+	  Points		  [143, 0; 0, 88]
 	  DstBlock		  "Sum"
 	  DstPort		  1
 	}
@@ -1526,7 +1489,7 @@ Library {
 	  ZOrder		  109
 	  SrcBlock		  "Fc"
 	  SrcPort		  1
-	  Points		  [175, 0; 0, 12]
+	  Points		  [105, 0; 0, 2]
 	  DstBlock		  "Sum"
 	  DstPort		  2
 	}
@@ -1555,7 +1518,7 @@ Library {
 	  ZOrder		  115
 	  SrcBlock		  "Constant"
 	  SrcPort		  1
-	  Points		  [180, 0]
+	  Points		  [45, 0]
 	  DstBlock		  "Sum1"
 	  DstPort		  2
 	}
@@ -1567,17 +1530,10 @@ Library {
 	  DstPort		  1
 	}
 	Line {
-	  ZOrder		  117
-	  SrcBlock		  "Gain3"
-	  SrcPort		  1
-	  DstBlock		  "Product"
-	  DstPort		  2
-	}
-	Line {
 	  ZOrder		  120
 	  SrcBlock		  "Product"
 	  SrcPort		  1
-	  Points		  [35, 0]
+	  Points		  [20, 0]
 	  DstBlock		  "Sum"
 	  DstPort		  3
 	}
@@ -1588,6 +1544,21 @@ Library {
 	  DstBlock		  "Simulink-PS\nConverter"
 	  DstPort		  1
 	}
+	Line {
+	  ZOrder		  162
+	  SrcBlock		  "Gain3"
+	  SrcPort		  1
+	  DstBlock		  "Product"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  163
+	  SrcBlock		  "From"
+	  SrcPort		  1
+	  Points		  [12, 0; 0, -45]
+	  DstBlock		  "Product"
+	  DstPort		  2
+	}
       }
     }
     Block {
@@ -1595,12 +1566,12 @@ Library {
       Name		      "Friccion \nEsf"
       SID		      "11"
       Ports		      [0, 0, 0, 0, 0, 3, 3]
-      Position		      [295, 134, 335, 176]
+      Position		      [300, 129, 340, 171]
       ZOrder		      12
       RequestExecContextInheritance off
       System {
 	Name			"Friccion \nEsf"
-	Location		[-8, 0, 1374, 754]
+	Location		[676, 0, 1373, 745]
 	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -1612,13 +1583,13 @@ Library {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"60"
+	ZoomFactor		"122"
 	Block {
 	  BlockType		  Reference
 	  Name			  "PS Gain"
 	  SID			  "356"
 	  Ports			  [0, 0, 0, 0, 0, 1, 1]
-	  Position		  [205, 105, 225, 135]
+	  Position		  [305, 170, 325, 200]
 	  ZOrder		  329
 	  BlockRotation		  180
 	  NamePlacement		  "alternate"
@@ -1639,7 +1610,7 @@ Library {
 	  Name			  "PS Gain1"
 	  SID			  "357"
 	  Ports			  [0, 0, 0, 0, 0, 1, 1]
-	  Position		  [160, 295, 180, 325]
+	  Position		  [305, 260, 325, 290]
 	  ZOrder		  330
 	  BlockRotation		  180
 	  NamePlacement		  "alternate"
@@ -1660,7 +1631,7 @@ Library {
 	  Name			  "PS Gain2"
 	  SID			  "358"
 	  Ports			  [0, 0, 0, 0, 0, 1, 1]
-	  Position		  [150, 445, 170, 475]
+	  Position		  [305, 345, 325, 375]
 	  ZOrder		  331
 	  BlockRotation		  180
 	  NamePlacement		  "alternate"
@@ -1681,9 +1652,9 @@ Library {
 	  Name			  "Smooth"
 	  SID			  "348"
 	  Ports			  [0, 0, 0, 0, 0, 1, 1]
-	  Position		  [330, 105, 370, 145]
+	  Position		  [420, 165, 460, 205]
 	  ZOrder		  321
-	  LibraryVersion	  "1.58"
+	  LibraryVersion	  "1.85"
 	  SourceBlock		  "Fricciones/Smooth"
 	  SourceType		  ""
 	  ShowPortLabels	  "FromPortIcon"
@@ -1697,9 +1668,9 @@ Library {
 	  Name			  "Smooth1"
 	  SID			  "349"
 	  Ports			  [0, 0, 0, 0, 0, 1, 1]
-	  Position		  [305, 290, 345, 330]
+	  Position		  [420, 255, 460, 295]
 	  ZOrder		  322
-	  LibraryVersion	  "1.58"
+	  LibraryVersion	  "1.85"
 	  SourceBlock		  "Fricciones/Smooth"
 	  SourceType		  ""
 	  ShowPortLabels	  "FromPortIcon"
@@ -1713,9 +1684,9 @@ Library {
 	  Name			  "Smooth2"
 	  SID			  "350"
 	  Ports			  [0, 0, 0, 0, 0, 1, 1]
-	  Position		  [230, 435, 270, 475]
+	  Position		  [420, 340, 460, 380]
 	  ZOrder		  323
-	  LibraryVersion	  "1.58"
+	  LibraryVersion	  "1.85"
 	  SourceBlock		  "Fricciones/Smooth"
 	  SourceType		  ""
 	  ShowPortLabels	  "FromPortIcon"
@@ -1728,7 +1699,7 @@ Library {
 	  BlockType		  PMIOPort
 	  Name			  "t1"
 	  SID			  "12"
-	  Position		  [20, 65, 50, 80]
+	  Position		  [195, 150, 225, 165]
 	  ZOrder		  12
 	  BlockRotation		  270
 	  BlockMirror		  on
@@ -1738,10 +1709,9 @@ Library {
 	Block {
 	  BlockType		  PMIOPort
 	  Name			  "w1"
-	  SID			  "13"
-	  Position		  [715, 90, 745, 105]
-	  ZOrder		  13
-	  BlockRotation		  270
+	  SID			  "387"
+	  Position		  [505, 178, 535, 192]
+	  ZOrder		  342
 	  BlockMirror		  on
 	  Port			  "2"
 	  Side			  "Right"
@@ -1750,7 +1720,7 @@ Library {
 	  BlockType		  PMIOPort
 	  Name			  "t2"
 	  SID			  "14"
-	  Position		  [30, 270, 60, 285]
+	  Position		  [195, 245, 225, 260]
 	  ZOrder		  14
 	  BlockRotation		  270
 	  BlockMirror		  on
@@ -1761,7 +1731,7 @@ Library {
 	  BlockType		  PMIOPort
 	  Name			  "w2"
 	  SID			  "15"
-	  Position		  [595, 293, 625, 307]
+	  Position		  [505, 268, 535, 282]
 	  ZOrder		  15
 	  BlockMirror		  on
 	  Port			  "4"
@@ -1771,7 +1741,7 @@ Library {
 	  BlockType		  PMIOPort
 	  Name			  "t3"
 	  SID			  "16"
-	  Position		  [75, 448, 105, 462]
+	  Position		  [190, 353, 220, 367]
 	  ZOrder		  16
 	  Port			  "5"
 	  Side			  "Left"
@@ -1780,7 +1750,7 @@ Library {
 	  BlockType		  PMIOPort
 	  Name			  "w3"
 	  SID			  "17"
-	  Position		  [595, 448, 625, 462]
+	  Position		  [505, 353, 535, 367]
 	  ZOrder		  17
 	  BlockMirror		  on
 	  Port			  "6"
@@ -1799,17 +1769,7 @@ Library {
 	  ZOrder		  45
 	  SrcBlock		  "w2"
 	  SrcPort		  RConn1
-	  Points		  [-220, 0]
 	  DstBlock		  "Smooth1"
-	  DstPort		  RConn1
-	}
-	Line {
-	  LineType		  "Connection"
-	  ZOrder		  47
-	  SrcBlock		  "w1"
-	  SrcPort		  RConn1
-	  Points		  [0, 5]
-	  DstBlock		  "Smooth"
 	  DstPort		  RConn1
 	}
 	Line {
@@ -1817,18 +1777,8 @@ Library {
 	  ZOrder		  49
 	  SrcBlock		  "Smooth2"
 	  SrcPort		  LConn1
-	  Points		  [-15, 0; 0, 5]
 	  DstBlock		  "PS Gain2"
 	  DstPort		  LConn1
-	}
-	Line {
-	  LineType		  "Connection"
-	  ZOrder		  50
-	  SrcBlock		  "PS Gain2"
-	  SrcPort		  RConn1
-	  Points		  [-7, 0; 0, -5]
-	  DstBlock		  "t3"
-	  DstPort		  RConn1
 	}
 	Line {
 	  LineType		  "Connection"
@@ -1840,29 +1790,43 @@ Library {
 	}
 	Line {
 	  LineType		  "Connection"
-	  ZOrder		  52
-	  SrcBlock		  "PS Gain1"
-	  SrcPort		  RConn1
-	  Points		  [-100, 0]
-	  DstBlock		  "t2"
-	  DstPort		  RConn1
-	}
-	Line {
-	  LineType		  "Connection"
 	  ZOrder		  53
 	  SrcBlock		  "Smooth"
 	  SrcPort		  LConn1
-	  Points		  [-37, 0; 0, -5]
 	  DstBlock		  "PS Gain"
 	  DstPort		  LConn1
 	}
 	Line {
 	  LineType		  "Connection"
-	  ZOrder		  54
+	  ZOrder		  91
+	  SrcBlock		  "w1"
+	  SrcPort		  RConn1
+	  DstBlock		  "Smooth"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  125
+	  SrcBlock		  "PS Gain2"
+	  SrcPort		  RConn1
+	  DstBlock		  "t3"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  126
 	  SrcBlock		  "PS Gain"
 	  SrcPort		  RConn1
-	  Points		  [-155, 0]
+	  Points		  [-80, 0]
 	  DstBlock		  "t1"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  127
+	  SrcBlock		  "PS Gain1"
+	  SrcPort		  RConn1
+	  DstBlock		  "t2"
 	  DstPort		  RConn1
 	}
       }
@@ -1962,8 +1926,8 @@ Library {
       }
       System {
 	Name			"Friccion \nSM-SS\nR"
-	Location		[-8, -8, 1368, 746]
-	Open			on
+	Location		[673, 0, 1367, 745]
+	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -2052,9 +2016,8 @@ Library {
 	  BlockType		  PMIOPort
 	  Name			  "fr"
 	  SID			  "62"
-	  Position		  [220, 83, 250, 97]
+	  Position		  [180, 133, 210, 147]
 	  ZOrder		  244
-	  BlockMirror		  on
 	  Port			  "1"
 	  Side			  "Left"
 	}
@@ -2062,7 +2025,7 @@ Library {
 	  BlockType		  PMIOPort
 	  Name			  "w"
 	  SID			  "63"
-	  Position		  [550, 143, 580, 157]
+	  Position		  [455, 143, 485, 157]
 	  ZOrder		  245
 	  BlockMirror		  on
 	  Port			  "2"
@@ -2109,7 +2072,7 @@ Library {
 	  ZOrder		  227
 	  SrcBlock		  "Rotational\nSimscape Intf"
 	  SrcPort		  RConn1
-	  Points		  [-15, 0; 0, -10; -59, 0; 0, -50]
+	  Points		  [-15, 0; 0, -10]
 	  DstBlock		  "fr"
 	  DstPort		  RConn1
 	}
@@ -2142,12 +2105,12 @@ Library {
       Name		      "Friccion R"
       SID		      "4"
       Ports		      [0, 0, 0, 0, 0, 1, 2]
-      Position		      [150, 134, 190, 176]
+      Position		      [145, 129, 185, 171]
       ZOrder		      8
       RequestExecContextInheritance off
       System {
 	Name			"Friccion R"
-	Location		[-8, 0, 1370, 754]
+	Location		[676, 0, 1373, 745]
 	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -2159,7 +2122,7 @@ Library {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"146"
+	ZoomFactor		"103"
 	Block {
 	  BlockType		  Reference
 	  Name			  "PS Subtract"
@@ -2183,11 +2146,11 @@ Library {
 	  Name			  "Simplificado"
 	  SID			  "347"
 	  Ports			  [0, 0, 0, 0, 0, 1, 1]
-	  Position		  [91, 260, 129, 300]
+	  Position		  [111, 260, 149, 300]
 	  ZOrder		  344
 	  BlockRotation		  270
 	  BlockMirror		  on
-	  LibraryVersion	  "1.58"
+	  LibraryVersion	  "1.87"
 	  SourceBlock		  "Fricciones/Simplificado"
 	  SourceType		  "SubSystem"
 	  ContentPreviewEnabled	  off
@@ -2205,24 +2168,24 @@ Library {
 	}
 	Block {
 	  BlockType		  PMIOPort
-	  Name			  "w"
-	  SID			  "6"
-	  Position		  [95, 360, 125, 375]
-	  ZOrder		  9
+	  Name			  "t"
+	  SID			  "7"
+	  Position		  [40, 365, 70, 380]
+	  ZOrder		  10
 	  BlockRotation		  270
-	  NamePlacement		  "alternate"
 	  Port			  "2"
-	  Side			  "Right"
+	  Side			  "Left"
 	}
 	Block {
 	  BlockType		  PMIOPort
-	  Name			  "t"
-	  SID			  "7"
-	  Position		  [40, 275, 70, 290]
-	  ZOrder		  10
+	  Name			  "w"
+	  SID			  "6"
+	  Position		  [115, 365, 145, 380]
+	  ZOrder		  9
 	  BlockRotation		  270
+	  NamePlacement		  "alternate"
 	  Port			  "3"
-	  Side			  "Left"
+	  Side			  "Right"
 	}
 	Line {
 	  LineType		  "Connection"
@@ -2250,12 +2213,11 @@ Library {
 	}
 	Line {
 	  LineType		  "Connection"
-	  ZOrder		  66
-	  SrcBlock		  "Simplificado"
-	  SrcPort		  LConn1
-	  Points		  [0, -45; 20, 0]
-	  DstBlock		  "PS Subtract"
-	  DstPort		  LConn2
+	  ZOrder		  106
+	  SrcBlock		  "PS Subtract"
+	  SrcPort		  LConn2
+	  DstBlock		  "Simplificado"
+	  DstPort		  LConn1
 	}
       }
     }
@@ -2493,7 +2455,7 @@ Library {
       }
       System {
 	Name			"Smooth"
-	Location		[-7, 0, 1365, 745]
+	Location		[-8, -8, 1368, 746]
 	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -2505,7 +2467,7 @@ Library {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"80"
+	ZoomFactor		"169"
 	Block {
 	  BlockType		  Gain
 	  Name			  "C1"
@@ -2853,7 +2815,7 @@ Library {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"80"
+	ZoomFactor		"604"
 	Block {
 	  BlockType		  Reference
 	  Name			  "PS Gain"
@@ -3062,14 +3024,15 @@ Library {
       "\n</style></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n"
       "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-b"
       "lock-indent:0; text-indent:0px;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; ma"
-      "rgin-right:0px; -qt-block-indent:0; text-indent:0px;\">Friccion solo</p>\n<p style=\" margin-top:0px; margin-bot"
-      "tom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Ganancia</p>\n<p style=\" mar"
-      "gin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">      "
-      "                                                              </p>\n<p style=\"-qt-paragraph-type:empty; margin-"
-      "top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>"
+      "rgin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10px;\">Friccion solo</span></p>"
       "\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-ind"
-      "ent:0px;\"><span style=\" font-size:10px; font-weight:600; color:#0070c0;\">Fr(w)=Fs*sgn(w) + Fc*w</span></p></b"
-      "ody></html>"
+      "ent:0px;\"><span style=\" font-size:10px;\">Ganancia</span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; "
+      "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10px;\">     "
+      "                                                               </span></p>\n<p style=\"-qt-paragraph-type:empty;"
+      " margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><b"
+      "r /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
+      "text-indent:0px;\"><span style=\" font-size:10px; font-weight:600; color:#0070c0;\">Fr(w) = Fc*w</span></p></bod"
+      "y></html>"
       Position		      [256, 467, 462, 560]
       InternalMargins	      [0, 0, 0, 0]
       FixedHeight	      on

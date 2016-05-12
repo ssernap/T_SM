@@ -1,0 +1,4007 @@
+Model {
+  Name			  "Ensayos_Friccion"
+  Version		  8.3
+  MdlSubVersion		  0
+  SavedCharacterEncoding  "windows-1252"
+  GraphicalInterface {
+    NumRootInports	    0
+    NumRootOutports	    0
+    ParameterArgumentNames  ""
+    ComputedModelVersion    "1.34"
+    NumModelReferences	    0
+    NumTestPointedSignals   0
+  }
+  slprops.hdlmdlprops {
+    $PropName		    "HDLParams"
+    $ObjectID		    1
+    Array {
+      Type		      "Cell"
+      Dimension		      2
+      Cell		      "HDLSubsystem"
+      Cell		      "Ensayos_Friccion"
+      PropName		      "mdlProps"
+    }
+  }
+  SaveDefaultBlockParams  on
+  ScopeRefreshTime	  0.035000
+  OverrideScopeRefreshTime on
+  DisableAllScopes	  off
+  DataTypeOverride	  "UseLocalSettings"
+  DataTypeOverrideAppliesTo "AllNumericTypes"
+  MinMaxOverflowLogging	  "UseLocalSettings"
+  MinMaxOverflowArchiveMode "Overwrite"
+  FPTRunName		  "Run 1"
+  MaxMDLFileLineLength	  120
+  UserBdParams		  "PhysicalModelingChecksum;PhysicalModelingParameterChecksum;PhysicalModelingProducts"
+  Object {
+    $PropName		    "BdWindowsInfo"
+    $ObjectID		    2
+    $ClassName		    "Simulink.BDWindowsInfo"
+    Object {
+      $PropName		      "WindowsInfo"
+      $ObjectID		      3
+      $ClassName	      "Simulink.WindowInfo"
+      IsActive		      [1]
+      Location		      [679.0, 0.0, 697.0, 745.0]
+      Object {
+	$PropName		"ModelBrowserInfo"
+	$ObjectID		4
+	$ClassName		"Simulink.ModelBrowserInfo"
+	Visible			[0]
+	DockPosition		"Left"
+	Width			[50]
+	Height			[50]
+	Filter			[9]
+      }
+      Object {
+	$PropName		"ExplorerBarInfo"
+	$ObjectID		5
+	$ClassName		"Simulink.ExplorerBarInfo"
+	Visible			[0]
+      }
+      Array {
+	Type			"Simulink.EditorInfo"
+	Dimension		2
+	Object {
+	  $ObjectID		  6
+	  IsActive		  [1]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "2135"
+	  Extents		  [647.0, 597.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [11.0, 0.0]
+	}
+	Object {
+	  $ObjectID		  7
+	  IsActive		  [0]
+	  ViewObjType		  "SimulinkTopLevel"
+	  LoadSaveID		  "0"
+	  Extents		  [644.0, 597.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [390.10611303344871, 16.63898500576704]
+	}
+	PropName		"EditorsInfo"
+      }
+    }
+  }
+  PhysicalModelingChecksum "3167018624"
+  PhysicalModelingParameterChecksum "2678150880"
+  PhysicalModelingProducts "SimMechanics|Simscape"
+  Created		  "Mon Mar 14 09:50:17 2016"
+  Creator		  "Sebastian"
+  UpdateHistory		  "UpdateHistoryNever"
+  ModifiedByFormat	  "%<Auto>"
+  LastModifiedBy	  "Sebastian"
+  ModifiedDateFormat	  "%<Auto>"
+  LastModifiedDate	  "Fri May 06 22:05:00 2016"
+  RTWModifiedTimeStamp	  384392842
+  ModelVersionFormat	  "1.%<AutoIncrement:34>"
+  ConfigurationManager	  "none"
+  SampleTimeColors	  off
+  SampleTimeAnnotations	  off
+  LibraryLinkDisplay	  "disabled"
+  WideLines		  off
+  ShowLineDimensions	  off
+  ShowPortDataTypes	  off
+  ShowDesignRanges	  off
+  ShowLoopsOnError	  on
+  IgnoreBidirectionalLines off
+  ShowStorageClass	  off
+  ShowTestPointIcons	  on
+  ShowSignalResolutionIcons on
+  ShowViewerIcons	  on
+  SortedOrder		  off
+  ExecutionContextIcon	  off
+  ShowLinearizationAnnotations on
+  BlockNameDataTip	  off
+  BlockParametersDataTip  off
+  BlockDescriptionStringDataTip	off
+  ToolBar		  on
+  StatusBar		  on
+  BrowserShowLibraryLinks off
+  BrowserLookUnderMasks	  off
+  SimulationMode	  "normal"
+  PauseTimes		  "5"
+  NumberOfSteps		  1
+  SnapshotBufferSize	  10
+  SnapshotInterval	  10
+  NumberOfLastSnapshots	  0
+  LinearizationMsg	  "none"
+  Profile		  off
+  ParamWorkspaceSource	  "MATLABWorkspace"
+  AccelSystemTargetFile	  "accel.tlc"
+  AccelTemplateMakefile	  "accel_default_tmf"
+  AccelMakeCommand	  "make_rtw"
+  TryForcingSFcnDF	  off
+  Object {
+    $PropName		    "DataLoggingOverride"
+    $ObjectID		    8
+    $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
+    model_		    "Ensayos_Friccion"
+    overrideMode_	    [0.0]
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      "Ensayos_Friccion"
+      PropName		      "logAsSpecifiedByModels_"
+    }
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      []
+      PropName		      "logAsSpecifiedByModelsSSIDs_"
+    }
+  }
+  RecordCoverage	  off
+  CovPath		  "/"
+  CovSaveName		  "covdata"
+  CovMetricSettings	  "dw"
+  CovNameIncrementing	  off
+  CovHtmlReporting	  on
+  CovForceBlockReductionOff on
+  CovEnableCumulative	  on
+  covSaveCumulativeToWorkspaceVar on
+  CovSaveSingleToWorkspaceVar on
+  CovCumulativeVarName	  "covCumulativeData"
+  CovCumulativeReport	  off
+  CovReportOnPause	  on
+  CovModelRefEnable	  "Off"
+  CovExternalEMLEnable	  off
+  CovSFcnEnable		  off
+  CovBoundaryAbsTol	  0.000010
+  CovBoundaryRelTol	  0.010000
+  ExtModeBatchMode	  off
+  ExtModeEnableFloating	  on
+  ExtModeTrigType	  "manual"
+  ExtModeTrigMode	  "normal"
+  ExtModeTrigPort	  "1"
+  ExtModeTrigElement	  "any"
+  ExtModeTrigDuration	  1000
+  ExtModeTrigDurationFloating "auto"
+  ExtModeTrigHoldOff	  0
+  ExtModeTrigDelay	  0
+  ExtModeTrigDirection	  "rising"
+  ExtModeTrigLevel	  0
+  ExtModeArchiveMode	  "off"
+  ExtModeAutoIncOneShot	  off
+  ExtModeIncDirWhenArm	  off
+  ExtModeAddSuffixToVar	  off
+  ExtModeWriteAllDataToWs off
+  ExtModeArmWhenConnect	  on
+  ExtModeSkipDownloadWhenConnect off
+  ExtModeLogAll		  on
+  ExtModeAutoUpdateStatusClock on
+  BufferReuse		  on
+  ShowModelReferenceBlockVersion off
+  ShowModelReferenceBlockIO off
+  Array {
+    Type		    "Handle"
+    Dimension		    1
+    Simulink.ConfigSet {
+      $ObjectID		      9
+      Version		      "1.14.2"
+      Array {
+	Type			"Handle"
+	Dimension		10
+	Simulink.SolverCC {
+	  $ObjectID		  10
+	  Version		  "1.14.2"
+	  StartTime		  "0.0"
+	  StopTime		  "5"
+	  AbsTol		  "auto"
+	  FixedStep		  "auto"
+	  InitialStep		  "auto"
+	  MaxNumMinSteps	  "-1"
+	  MaxOrder		  5
+	  ZcThreshold		  "auto"
+	  ConsecutiveZCsStepRelTol "10*128*eps"
+	  MaxConsecutiveZCs	  "1000"
+	  ExtrapolationOrder	  4
+	  NumberNewtonIterations  1
+	  MaxStep		  "auto"
+	  MinStep		  "auto"
+	  MaxConsecutiveMinStep	  "1"
+	  RelTol		  "1e-3"
+	  SolverMode		  "Auto"
+	  EnableConcurrentExecution off
+	  ConcurrentTasks	  off
+	  Solver		  "ode23tb"
+	  SolverName		  "ode23tb"
+	  SolverJacobianMethodControl "auto"
+	  ShapePreserveControl	  "DisableAll"
+	  ZeroCrossControl	  "UseLocalSettings"
+	  ZeroCrossAlgorithm	  "Nonadaptive"
+	  AlgebraicLoopSolver	  "TrustRegion"
+	  SolverResetMethod	  "Fast"
+	  PositivePriorityOrder	  off
+	  AutoInsertRateTranBlk	  off
+	  SampleTimeConstraint	  "Unconstrained"
+	  InsertRTBMode		  "Whenever possible"
+	}
+	Simulink.DataIOCC {
+	  $ObjectID		  11
+	  Version		  "1.14.2"
+	  Decimation		  "1"
+	  ExternalInput		  "[t, u]"
+	  FinalStateName	  "xFinal"
+	  InitialState		  "xInitial"
+	  LimitDataPoints	  on
+	  MaxDataPoints		  "1000"
+	  LoadExternalInput	  off
+	  LoadInitialState	  off
+	  SaveFinalState	  off
+	  SaveCompleteFinalSimState off
+	  SaveFormat		  "Array"
+	  SignalLoggingSaveFormat "Dataset"
+	  SaveOutput		  on
+	  SaveState		  off
+	  SignalLogging		  on
+	  DSMLogging		  on
+	  InspectSignalLogs	  off
+	  VisualizeSimOutput	  on
+	  SaveTime		  on
+	  ReturnWorkspaceOutputs  off
+	  StateSaveName		  "xout"
+	  TimeSaveName		  "tout"
+	  OutputSaveName	  "yout"
+	  SignalLoggingName	  "logsout"
+	  DSMLoggingName	  "dsmout"
+	  OutputOption		  "RefineOutputTimes"
+	  OutputTimes		  "[]"
+	  ReturnWorkspaceOutputsName "out"
+	  Refine		  "1"
+	}
+	Simulink.OptimizationCC {
+	  $ObjectID		  12
+	  Version		  "1.14.2"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    8
+	    Cell		    "BooleansAsBitfields"
+	    Cell		    "PassReuseOutputArgsAs"
+	    Cell		    "PassReuseOutputArgsThreshold"
+	    Cell		    "ZeroExternalMemoryAtStartup"
+	    Cell		    "ZeroInternalMemoryAtStartup"
+	    Cell		    "OptimizeModelRefInitCode"
+	    Cell		    "NoFixptDivByZeroProtection"
+	    Cell		    "UseSpecifiedMinMax"
+	    PropName		    "DisabledProps"
+	  }
+	  BlockReduction	  on
+	  BooleanDataType	  on
+	  ConditionallyExecuteInputs on
+	  InlineParams		  off
+	  UseIntDivNetSlope	  off
+	  UseFloatMulNetSlope	  off
+	  DefaultUnderspecifiedDataType	"double"
+	  UseSpecifiedMinMax	  off
+	  InlineInvariantSignals  off
+	  OptimizeBlockIOStorage  on
+	  BufferReuse		  on
+	  EnhancedBackFolding	  off
+	  CachingGlobalReferences off
+	  GlobalBufferReuse	  on
+	  StrengthReduction	  off
+	  ExpressionFolding	  on
+	  BooleansAsBitfields	  off
+	  BitfieldContainerType	  "uint_T"
+	  EnableMemcpy		  on
+	  MemcpyThreshold	  64
+	  PassReuseOutputArgsAs	  "Structure reference"
+	  ExpressionDepthLimit	  128
+	  FoldNonRolledExpr	  on
+	  LocalBlockOutputs	  on
+	  RollThreshold		  5
+	  SystemCodeInlineAuto	  off
+	  StateBitsets		  off
+	  DataBitsets		  off
+	  ActiveStateOutputEnumStorageType "Native Integer"
+	  UseTempVars		  off
+	  ZeroExternalMemoryAtStartup on
+	  ZeroInternalMemoryAtStartup on
+	  InitFltsAndDblsToZero	  off
+	  NoFixptDivByZeroProtection off
+	  EfficientFloat2IntCast  off
+	  EfficientMapNaN2IntZero on
+	  OptimizeModelRefInitCode off
+	  LifeSpan		  "inf"
+	  MaxStackSize		  "Inherit from target"
+	  BufferReusableBoundary  on
+	  SimCompilerOptimization "Off"
+	  AccelVerboseBuild	  off
+	  ParallelExecutionInRapidAccelerator on
+	}
+	Simulink.DebuggingCC {
+	  $ObjectID		  13
+	  Version		  "1.14.2"
+	  RTPrefix		  "error"
+	  ConsistencyChecking	  "none"
+	  ArrayBoundsChecking	  "none"
+	  SignalInfNanChecking	  "none"
+	  SignalRangeChecking	  "none"
+	  ReadBeforeWriteMsg	  "UseLocalSettings"
+	  WriteAfterWriteMsg	  "UseLocalSettings"
+	  WriteAfterReadMsg	  "UseLocalSettings"
+	  AlgebraicLoopMsg	  "warning"
+	  ArtificialAlgebraicLoopMsg "warning"
+	  SaveWithDisabledLinksMsg "warning"
+	  SaveWithParameterizedLinksMsg	"warning"
+	  CheckSSInitialOutputMsg on
+	  UnderspecifiedInitializationDetection	"Simplified"
+	  MergeDetectMultiDrivingBlocksExec "none"
+	  CheckExecutionContextPreStartOutputMsg off
+	  CheckExecutionContextRuntimeOutputMsg	off
+	  SignalResolutionControl "UseLocalSettings"
+	  BlockPriorityViolationMsg "warning"
+	  MinStepSizeMsg	  "warning"
+	  TimeAdjustmentMsg	  "none"
+	  MaxConsecutiveZCsMsg	  "error"
+	  MaskedZcDiagnostic	  "warning"
+	  IgnoredZcDiagnostic	  "warning"
+	  SolverPrmCheckMsg	  "warning"
+	  InheritedTsInSrcMsg	  "warning"
+	  DiscreteInheritContinuousMsg "warning"
+	  MultiTaskDSMMsg	  "error"
+	  MultiTaskCondExecSysMsg "error"
+	  MultiTaskRateTransMsg	  "error"
+	  SingleTaskRateTransMsg  "none"
+	  TasksWithSamePriorityMsg "warning"
+	  SigSpecEnsureSampleTimeMsg "warning"
+	  CheckMatrixSingularityMsg "none"
+	  IntegerOverflowMsg	  "warning"
+	  Int32ToFloatConvMsg	  "warning"
+	  ParameterDowncastMsg	  "error"
+	  ParameterOverflowMsg	  "error"
+	  ParameterUnderflowMsg	  "none"
+	  ParameterPrecisionLossMsg "warning"
+	  ParameterTunabilityLossMsg "warning"
+	  FixptConstUnderflowMsg  "none"
+	  FixptConstOverflowMsg	  "none"
+	  FixptConstPrecisionLossMsg "none"
+	  UnderSpecifiedDataTypeMsg "none"
+	  UnnecessaryDatatypeConvMsg "none"
+	  VectorMatrixConversionMsg "none"
+	  InvalidFcnCallConnMsg	  "error"
+	  FcnCallInpInsideContextMsg "EnableAllAsError"
+	  SignalLabelMismatchMsg  "none"
+	  UnconnectedInputMsg	  "warning"
+	  UnconnectedOutputMsg	  "warning"
+	  UnconnectedLineMsg	  "warning"
+	  SFcnCompatibilityMsg	  "none"
+	  FrameProcessingCompatibilityMsg "warning"
+	  UniqueDataStoreMsg	  "none"
+	  BusObjectLabelMismatch  "warning"
+	  RootOutportRequireBusObject "warning"
+	  AssertControl		  "UseLocalSettings"
+	  EnableOverflowDetection off
+	  ModelReferenceIOMsg	  "none"
+	  ModelReferenceMultiInstanceNormalModeStructChecksumCheck "error"
+	  ModelReferenceVersionMismatchMessage "none"
+	  ModelReferenceIOMismatchMessage "none"
+	  ModelReferenceCSMismatchMessage "none"
+	  UnknownTsInhSupMsg	  "warning"
+	  ModelReferenceDataLoggingMessage "warning"
+	  ModelReferenceSymbolNameMessage "warning"
+	  ModelReferenceExtraNoncontSigs "error"
+	  StateNameClashWarn	  "none"
+	  SimStateInterfaceChecksumMismatchMsg "warning"
+	  SimStateOlderReleaseMsg "error"
+	  InitInArrayFormatMsg	  "warning"
+	  StrictBusMsg		  "ErrorLevel1"
+	  BusNameAdapt		  "WarnAndRepair"
+	  NonBusSignalsTreatedAsBus "none"
+	  LoggingUnavailableSignals "error"
+	  BlockIODiagnostic	  "none"
+	  SFUnusedDataAndEventsDiag "warning"
+	  SFUnexpectedBacktrackingDiag "warning"
+	  SFInvalidInputDataAccessInChartInitDiag "warning"
+	  SFNoUnconditionalDefaultTransitionDiag "warning"
+	  SFTransitionOutsideNaturalParentDiag "warning"
+	  SFUnconditionalTransitionShadowingDiag "warning"
+	  SFUndirectedBroadcastEventsDiag "warning"
+	  SFTransitionActionBeforeConditionDiag	"warning"
+	}
+	Simulink.HardwareCC {
+	  $ObjectID		  14
+	  Version		  "1.14.2"
+	  ProdBitPerChar	  8
+	  ProdBitPerShort	  16
+	  ProdBitPerInt		  32
+	  ProdBitPerLong	  32
+	  ProdBitPerLongLong	  64
+	  ProdBitPerFloat	  32
+	  ProdBitPerDouble	  64
+	  ProdBitPerPointer	  32
+	  ProdLargestAtomicInteger "Char"
+	  ProdLargestAtomicFloat  "None"
+	  ProdIntDivRoundTo	  "Undefined"
+	  ProdEndianess		  "Unspecified"
+	  ProdWordSize		  32
+	  ProdShiftRightIntArith  on
+	  ProdLongLongMode	  off
+	  ProdHWDeviceType	  "32-bit Generic"
+	  TargetBitPerChar	  8
+	  TargetBitPerShort	  16
+	  TargetBitPerInt	  32
+	  TargetBitPerLong	  32
+	  TargetBitPerLongLong	  64
+	  TargetBitPerFloat	  32
+	  TargetBitPerDouble	  64
+	  TargetBitPerPointer	  32
+	  TargetLargestAtomicInteger "Char"
+	  TargetLargestAtomicFloat "None"
+	  TargetShiftRightIntArith on
+	  TargetLongLongMode	  off
+	  TargetIntDivRoundTo	  "Undefined"
+	  TargetEndianess	  "Unspecified"
+	  TargetWordSize	  32
+	  TargetTypeEmulationWarnSuppressLevel 0
+	  TargetPreprocMaxBitsSint 32
+	  TargetPreprocMaxBitsUint 32
+	  TargetHWDeviceType	  "Specified"
+	  TargetUnknown		  off
+	  ProdEqTarget		  on
+	}
+	Simulink.ModelReferenceCC {
+	  $ObjectID		  15
+	  Version		  "1.14.2"
+	  UpdateModelReferenceTargets "IfOutOfDateOrStructuralChange"
+	  CheckModelReferenceTargetMessage "error"
+	  EnableParallelModelReferenceBuilds off
+	  ParallelModelReferenceErrorOnInvalidPool on
+	  ParallelModelReferenceMATLABWorkerInit "None"
+	  ModelReferenceNumInstancesAllowed "Multi"
+	  PropagateVarSize	  "Infer from blocks in model"
+	  ModelReferencePassRootInputsByReference on
+	  ModelReferenceMinAlgLoopOccurrences off
+	  PropagateSignalLabelsOutOfModel off
+	  SupportModelReferenceSimTargetCustomCode off
+	}
+	Simulink.SFSimCC {
+	  $ObjectID		  16
+	  Version		  "1.14.2"
+	  SFSimEnableDebug	  on
+	  SFSimOverflowDetection  on
+	  SFSimEcho		  on
+	  SimBlas		  on
+	  SimCtrlC		  on
+	  SimExtrinsic		  on
+	  SimIntegrity		  on
+	  SimUseLocalCustomCode	  off
+	  SimParseCustomCode	  on
+	  SimBuildMode		  "sf_incremental_build"
+	  SimGenImportedTypeDefs  off
+	}
+	Simulink.RTWCC {
+	  $BackupClass		  "Simulink.RTWCC"
+	  $ObjectID		  17
+	  Version		  "1.14.2"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    15
+	    Cell		    "IncludeHyperlinkInReport"
+	    Cell		    "GenerateTraceInfo"
+	    Cell		    "GenerateTraceReport"
+	    Cell		    "GenerateTraceReportSl"
+	    Cell		    "GenerateTraceReportSf"
+	    Cell		    "GenerateTraceReportEml"
+	    Cell		    "PortableWordSizes"
+	    Cell		    "GenerateWebview"
+	    Cell		    "GenerateCodeMetricsReport"
+	    Cell		    "GenerateCodeReplacementReport"
+	    Cell		    "GenerateErtSFunction"
+	    Cell		    "CreateSILPILBlock"
+	    Cell		    "CodeExecutionProfiling"
+	    Cell		    "CodeProfilingSaveOptions"
+	    Cell		    "CodeProfilingInstrumentation"
+	    PropName		    "DisabledProps"
+	  }
+	  SystemTargetFile	  "grt.tlc"
+	  TLCOptions		  ""
+	  GenCodeOnly		  off
+	  MakeCommand		  "make_rtw"
+	  GenerateMakefile	  on
+	  PackageGeneratedCodeAndArtifacts off
+	  PackageName		  ""
+	  TemplateMakefile	  "grt_default_tmf"
+	  PostCodeGenCommand	  ""
+	  Description		  ""
+	  GenerateReport	  off
+	  SaveLog		  off
+	  RTWVerbose		  on
+	  RetainRTWFile		  off
+	  ProfileTLC		  off
+	  TLCDebug		  off
+	  TLCCoverage		  off
+	  TLCAssert		  off
+	  ProcessScriptMode	  "Default"
+	  ConfigurationMode	  "Optimized"
+	  ProcessScript		  ""
+	  ConfigurationScript	  ""
+	  ConfigAtBuild		  off
+	  RTWUseLocalCustomCode	  off
+	  RTWUseSimCustomCode	  off
+	  CustomSourceCode	  ""
+	  CustomHeaderCode	  ""
+	  CustomInclude		  ""
+	  CustomSource		  ""
+	  CustomLibrary		  ""
+	  CustomInitializer	  ""
+	  CustomTerminator	  ""
+	  Toolchain		  "Automatically locate an installed toolchain"
+	  BuildConfiguration	  "Faster Builds"
+	  IncludeHyperlinkInReport off
+	  LaunchReport		  off
+	  PortableWordSizes	  off
+	  CreateSILPILBlock	  "None"
+	  CodeExecutionProfiling  off
+	  CodeExecutionProfileVariable "executionProfile"
+	  CodeProfilingSaveOptions "SummaryOnly"
+	  CodeProfilingInstrumentation off
+	  SILDebugging		  off
+	  TargetLang		  "C"
+	  IncludeBusHierarchyInRTWFileBlockHierarchyMap	off
+	  IncludeERTFirstTime	  off
+	  GenerateTraceInfo	  off
+	  GenerateTraceReport	  off
+	  GenerateTraceReportSl	  off
+	  GenerateTraceReportSf	  off
+	  GenerateTraceReportEml  off
+	  GenerateCodeInfo	  off
+	  GenerateWebview	  off
+	  GenerateCodeMetricsReport off
+	  GenerateCodeReplacementReport	off
+	  RTWCompilerOptimization "Off"
+	  RTWCustomCompilerOptimizations ""
+	  CheckMdlBeforeBuild	  "Off"
+	  CustomRebuildMode	  "OnUpdate"
+	  DataInitializer	  ""
+	  SharedConstantsCachingThreshold 1024
+	  Array {
+	    Type		    "Handle"
+	    Dimension		    2
+	    Simulink.CodeAppCC {
+	      $ObjectID		      18
+	      Version		      "1.14.2"
+	      Array {
+		Type			"Cell"
+		Dimension		23
+		Cell			"IgnoreCustomStorageClasses"
+		Cell			"IgnoreTestpoints"
+		Cell			"InsertBlockDesc"
+		Cell			"InsertPolySpaceComments"
+		Cell			"SFDataObjDesc"
+		Cell			"MATLABFcnDesc"
+		Cell			"SimulinkDataObjDesc"
+		Cell			"DefineNamingRule"
+		Cell			"SignalNamingRule"
+		Cell			"ParamNamingRule"
+		Cell			"InternalIdentifier"
+		Cell			"InlinedPrmAccess"
+		Cell			"CustomSymbolStr"
+		Cell			"CustomSymbolStrGlobalVar"
+		Cell			"CustomSymbolStrType"
+		Cell			"CustomSymbolStrField"
+		Cell			"CustomSymbolStrFcn"
+		Cell			"CustomSymbolStrFcnArg"
+		Cell			"CustomSymbolStrBlkIO"
+		Cell			"CustomSymbolStrTmpVar"
+		Cell			"CustomSymbolStrMacro"
+		Cell			"CustomSymbolStrUtil"
+		Cell			"ReqsInCode"
+		PropName		"DisabledProps"
+	      }
+	      ForceParamTrailComments off
+	      GenerateComments	      on
+	      CommentStyle	      "Auto"
+	      IgnoreCustomStorageClasses on
+	      IgnoreTestpoints	      off
+	      IncHierarchyInIds	      off
+	      MaxIdLength	      31
+	      PreserveName	      off
+	      PreserveNameWithParent  off
+	      ShowEliminatedStatement off
+	      OperatorAnnotations     off
+	      IncAutoGenComments      off
+	      SimulinkDataObjDesc     off
+	      SFDataObjDesc	      off
+	      MATLABFcnDesc	      off
+	      IncDataTypeInIds	      off
+	      MangleLength	      1
+	      CustomSymbolStrGlobalVar "$R$N$M"
+	      CustomSymbolStrType     "$N$R$M_T"
+	      CustomSymbolStrField    "$N$M"
+	      CustomSymbolStrFcn      "$R$N$M$F"
+	      CustomSymbolStrFcnArg   "rt$I$N$M"
+	      CustomSymbolStrBlkIO    "rtb_$N$M"
+	      CustomSymbolStrTmpVar   "$N$M"
+	      CustomSymbolStrMacro    "$R$N$M"
+	      CustomSymbolStrUtil     "$N$C"
+	      DefineNamingRule	      "None"
+	      ParamNamingRule	      "None"
+	      SignalNamingRule	      "None"
+	      InsertBlockDesc	      off
+	      InsertPolySpaceComments off
+	      SimulinkBlockComments   on
+	      MATLABSourceComments    off
+	      EnableCustomComments    off
+	      InternalIdentifier      "Shortened"
+	      InlinedPrmAccess	      "Literals"
+	      ReqsInCode	      off
+	      UseSimReservedNames     off
+	    }
+	    Simulink.GRTTargetCC {
+	      $BackupClass	      "Simulink.TargetCC"
+	      $ObjectID		      19
+	      Version		      "1.14.2"
+	      Array {
+		Type			"Cell"
+		Dimension		14
+		Cell			"GeneratePreprocessorConditionals"
+		Cell			"IncludeMdlTerminateFcn"
+		Cell			"CombineOutputUpdateFcns"
+		Cell			"SuppressErrorStatus"
+		Cell			"ERTCustomFileBanners"
+		Cell			"GenerateSampleERTMain"
+		Cell			"GenerateTestInterfaces"
+		Cell			"ModelStepFunctionPrototypeControlCompliant"
+		Cell			"GenerateAllocFcn"
+		Cell			"PurelyIntegerCode"
+		Cell			"SupportComplex"
+		Cell			"SupportAbsoluteTime"
+		Cell			"SupportContinuousTime"
+		Cell			"SupportNonInlinedSFcns"
+		PropName		"DisabledProps"
+	      }
+	      TargetFcnLib	      "ansi_tfl_table_tmw.mat"
+	      TargetLibSuffix	      ""
+	      TargetPreCompLibLocation ""
+	      GenFloatMathFcnCalls    "NOT IN USE"
+	      TargetLangStandard      "C89/C90 (ANSI)"
+	      CodeReplacementLibrary  "None"
+	      UtilityFuncGeneration   "Auto"
+	      ERTMultiwordTypeDef     "System defined"
+	      ERTMultiwordLength      256
+	      MultiwordLength	      2048
+	      GenerateFullHeader      on
+	      GenerateSampleERTMain   off
+	      GenerateTestInterfaces  off
+	      ModelReferenceCompliant on
+	      ParMdlRefBuildCompliant on
+	      CompOptLevelCompliant   on
+	      ConcurrentExecutionCompliant on
+	      IncludeMdlTerminateFcn  on
+	      GeneratePreprocessorConditionals "Disable all"
+	      CombineOutputUpdateFcns on
+	      CombineSignalStateStructs	off
+	      SuppressErrorStatus     off
+	      ERTFirstTimeCompliant   off
+	      IncludeFileDelimiter    "Auto"
+	      ERTCustomFileBanners    off
+	      SupportAbsoluteTime     on
+	      LogVarNameModifier      "rt_"
+	      MatFileLogging	      on
+	      MultiInstanceERTCode    off
+	      CodeInterfacePackaging  "Nonreusable function"
+	      SupportNonFinite	      on
+	      SupportComplex	      on
+	      PurelyIntegerCode	      off
+	      SupportContinuousTime   on
+	      SupportNonInlinedSFcns  on
+	      SupportVariableSizeSignals off
+	      EnableShiftOperators    on
+	      ParenthesesLevel	      "Nominal"
+	      MATLABClassNameForMDSCustomization "Simulink.SoftwareTarget.GRTCustomization"
+	      ModelStepFunctionPrototypeControlCompliant off
+	      CPPClassGenCompliant    on
+	      AutosarCompliant	      off
+	      GRTInterface	      off
+	      GenerateAllocFcn	      off
+	      UseMalloc		      off
+	      ExtMode		      off
+	      ExtModeStaticAlloc      off
+	      ExtModeTesting	      off
+	      ExtModeStaticAllocSize  1000000
+	      ExtModeTransport	      0
+	      ExtModeMexFile	      "ext_comm"
+	      ExtModeIntrfLevel	      "Level1"
+	      RTWCAPISignals	      off
+	      RTWCAPIParams	      off
+	      RTWCAPIStates	      off
+	      RTWCAPIRootIO	      off
+	      GenerateASAP2	      off
+	      MultiInstanceErrorCode  "Error"
+	    }
+	    PropName		    "Components"
+	  }
+	}
+	hdlcoderui.hdlcc {
+	  $ObjectID		  20
+	  Version		  "1.14.2"
+	  Description		  "HDL Coder custom configuration component"
+	  Name			  "HDL Coder"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    1
+	    Cell		    " "
+	    PropName		    "HDLConfigFile"
+	  }
+	  HDLCActiveTab		  "0"
+	}
+	SSC.SimscapeCC {
+	  $ObjectID		  21
+	  Version		  "1.0"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    1
+	    Cell		    "Name"
+	    PropName		    "DisabledProps"
+	  }
+	  Array {
+	    Type		    "Handle"
+	    Dimension		    2
+	    MECH.SimMechanicsCC {
+	      $ObjectID		      22
+	      Version		      "1.14.2"
+	      Name		      "SimMechanics"
+	      WarnOnRedundantConstraints on
+	      WarnOnSingularInitialAssembly off
+	      ShowCutJoints	      off
+	      VisOnUpdateDiagram      off
+	      VisDuringSimulation     off
+	      EnableVisSimulationTime on
+	      VisSampleTime	      "0"
+	      DisableBodyVisControl   off
+	      ShowCG		      on
+	      ShowCS		      on
+	      ShowOnlyPortCS	      off
+	      HighlightModel	      on
+	      FramesToBeSkipped	      "0"
+	      AnimationDelay	      "3"
+	      RecordAVI		      off
+	      CompressAVI	      on
+	      AutoFitVis	      "off"
+	      EnableSelection	      on
+	      LastVizWinPosition      "[-1 -1 -1 -1]"
+	      CamPosition	      "[0 0 0]"
+	      CamTarget		      "[0 0 -1]"
+	      CamUpVector	      "[0 1 0]"
+	      CamHeight		      "-1"
+	      CamViewAngle	      "0"
+	      VisBackgroundColor      "[0.9 0.9 0.95]"
+	      DefaultBodyColor	      "[1 0 0]"
+	      MDLBodyVisualizationType "Convex hull from body CS locations"
+	      OVRRIDBodyVisualizationType "NONE"
+	    }
+	    simmechanics.ConfigurationSet {
+	      $ObjectID		      23
+	      Version		      "1.14.2"
+	      Description	      "SimMechanics 2G"
+	      Array {
+		Type			"Handle"
+		Dimension		2
+		simmechanics.DiagnosticsConfigSet {
+		  $ObjectID		  24
+		  Version		  "1.14.2"
+		  Description		  "Diagnostics"
+		  Name			  "DiagnosticsConfigSet"
+		  SimMechanicsInvalidVisualProperty "warning"
+		  SimMechanicsCrossSectionNullEdge "warning"
+		  SimMechanicsUnconnectedFramePorts "warning"
+		  SimMechanicsRedundantBlock "warning"
+		  SimMechanicsConflictingReferenceFrames "warning"
+		  SimMechanicsRigidlyBoundBlock	"error"
+		  SimMechanicsUnsatisfiedHighPriorityTargets "warning"
+		  SimMechanicsJointTargetOverSpecification "error"
+		}
+		simmechanics.ExplorerConfigSet {
+		  $ObjectID		  25
+		  Version		  "1.14.2"
+		  Description		  "Explorer"
+		  Name			  "ExplorerConfigSet"
+		  SimMechanicsOpenEditorOnUpdate on
+		}
+		PropName		"Components"
+	      }
+	      Name		      "SimMechanics2G"
+	    }
+	    PropName		    "Components"
+	  }
+	  Name			  "Simscape"
+	  EditingMode		  "Full"
+	  ExplicitSolverDiagnosticOptions "warning"
+	  GlobalZcOffDiagnosticOptions "warning"
+	  SimscapeLogType	  "none"
+	  SimscapeLogSimulationStatistics off
+	  SimscapeLogName	  "simlog"
+	  SimscapeLogDecimation	  1
+	  SimscapeLogLimitData	  on
+	  SimscapeLogDataHistory  5000
+	}
+	PropName		"Components"
+      }
+      Name		      "Configuration"
+      CurrentDlgPage	      "Solver"
+      ConfigPrmDlgPosition     [ 212, 51, 1308, 730 ] 
+    }
+    PropName		    "ConfigurationSets"
+  }
+  Simulink.ConfigSet {
+    $PropName		    "ActiveConfigurationSet"
+    $ObjectID		    9
+  }
+  Object {
+    $PropName		    "DataTransfer"
+    $ObjectID		    26
+    $ClassName		    "Simulink.GlobalDataTransfer"
+    DefaultTransitionBetweenSyncTasks "Ensure deterministic transfer (maximum delay)"
+    DefaultTransitionBetweenAsyncTasks "Ensure data integrity only"
+    DefaultTransitionBetweenContTasks "Ensure deterministic transfer (minimum delay)"
+    DefaultExtrapolationMethodBetweenContTasks "None"
+    AutoInsertRateTranBlk   [0]
+  }
+  ExplicitPartitioning	  off
+  BlockDefaults {
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    NamePlacement	    "normal"
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    ShowName		    on
+    BlockRotation	    0
+    BlockMirror		    off
+  }
+  AnnotationDefaults {
+    HorizontalAlignment	    "center"
+    VerticalAlignment	    "middle"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    UseDisplayTextAsClickCallback off
+  }
+  LineDefaults {
+    FontName		    "Helvetica"
+    FontSize		    9
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  MaskDefaults {
+    SelfModifiable	    "off"
+    IconFrame		    "on"
+    IconOpaque		    "on"
+    RunInitForIconRedraw    "off"
+    IconRotate		    "none"
+    PortRotate		    "default"
+    IconUnits		    "autoscale"
+  }
+  MaskParameterDefaults {
+    Evaluate		    "on"
+    Tunable		    "on"
+    NeverSave		    "off"
+    Internal		    "off"
+    ReadOnly		    "off"
+    Enabled		    "on"
+    Visible		    "on"
+    ToolTip		    "on"
+  }
+  BlockParameterDefaults {
+    Block {
+      BlockType		      Demux
+      Outputs		      "4"
+      DisplayOption	      "none"
+      BusSelectionMode	      off
+    }
+    Block {
+      BlockType		      Gain
+      Gain		      "1"
+      Multiplication	      "Element-wise(K.*u)"
+      ParamMin		      "[]"
+      ParamMax		      "[]"
+      ParamDataTypeStr	      "Inherit: Same as input"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Same as input"
+      LockScale		      off
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	on
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Inport
+      Port		      "1"
+      OutputFunctionCall      off
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      BusOutputAsStruct	      off
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      LatchByDelayingOutsideSignal off
+      LatchInputForFeedbackSignals off
+      Interpolate	      on
+    }
+    Block {
+      BlockType		      Integrator
+      ExternalReset	      "none"
+      InitialConditionSource  "internal"
+      InitialCondition	      "0"
+      LimitOutput	      off
+      UpperSaturationLimit    "inf"
+      LowerSaturationLimit    "-inf"
+      ShowSaturationPort      off
+      ShowStatePort	      off
+      AbsoluteTolerance	      "auto"
+      IgnoreLimit	      off
+      ZeroCross		      on
+      ContinuousStateAttributes	"''"
+    }
+    Block {
+      BlockType		      Outport
+      Port		      "1"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      BusOutputAsStruct	      off
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      SourceOfInitialOutputValue "Dialog"
+      OutputWhenDisabled      "held"
+      InitialOutput	      "[]"
+    }
+    Block {
+      BlockType		      PMIOPort
+    }
+    Block {
+      BlockType		      Quantizer
+      QuantizationInterval    "0.5"
+      LinearizeAsGain	      on
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      S-Function
+      FunctionName	      "system"
+      SFunctionModules	      "''"
+      PortCounts	      "[]"
+      SFunctionDeploymentMode off
+    }
+    Block {
+      BlockType		      Saturate
+      UpperLimitSource	      "Dialog"
+      UpperLimit	      "0.5"
+      LowerLimitSource	      "Dialog"
+      LowerLimit	      "-0.5"
+      LinearizeAsGain	      on
+      ZeroCross		      on
+      SampleTime	      "-1"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Same as input"
+      LockScale		      off
+      RndMeth		      "Floor"
+    }
+    Block {
+      BlockType		      Scope
+      ModelBased	      off
+      TickLabels	      "OneTimeTick"
+      ZoomMode		      "on"
+      Grid		      "on"
+      TimeRange		      "auto"
+      YMin		      "-5"
+      YMax		      "5"
+      SaveToWorkspace	      off
+      SaveName		      "ScopeData"
+      DataFormat	      "Array"
+      LimitDataPoints	      on
+      MaxDataPoints	      "5000"
+      Decimation	      "1"
+      SampleInput	      off
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Step
+      Time		      "1"
+      Before		      "0"
+      After		      "1"
+      SampleTime	      "-1"
+      VectorParams1D	      on
+      ZeroCross		      on
+    }
+    Block {
+      BlockType		      SubSystem
+      ShowPortLabels	      "FromPortIcon"
+      Permissions	      "ReadWrite"
+      PermitHierarchicalResolution "All"
+      TreatAsAtomicUnit	      off
+      MinAlgLoopOccurrences   off
+      PropExecContextOutsideSubsystem off
+      CheckFcnCallInpInsideContextMsg off
+      SystemSampleTime	      "-1"
+      RTWSystemCode	      "Auto"
+      RTWFcnNameOpts	      "Auto"
+      RTWFileNameOpts	      "Auto"
+      FunctionInterfaceSpec   "void_void"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      SimViewingDevice	      off
+      DataTypeOverride	      "UseLocalSettings"
+      DataTypeOverrideAppliesTo	"AllNumericTypes"
+      MinMaxOverflowLogging   "UseLocalSettings"
+      Opaque		      off
+      MaskHideContents	      off
+      SFBlockType	      "NONE"
+      Variant		      off
+      GeneratePreprocessorConditionals off
+      ContentPreviewEnabled   off
+    }
+    Block {
+      BlockType		      Sum
+      IconShape		      "rectangular"
+      Inputs		      "++"
+      CollapseMode	      "All dimensions"
+      CollapseDim	      "1"
+      InputSameDT	      on
+      AccumDataTypeStr	      "Inherit: Inherit via internal rule"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Same as first input"
+      LockScale		      off
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	on
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Terminator
+    }
+    Block {
+      BlockType		      ZeroOrderHold
+      SampleTime	      "1"
+    }
+  }
+  System {
+    Name		    "Ensayos_Friccion"
+    Location		    [673, 0, 1367, 745]
+    Open		    on
+    ModelBrowserVisibility  off
+    ModelBrowserWidth	    200
+    ScreenColor		    "white"
+    PaperOrientation	    "landscape"
+    PaperPositionMode	    "auto"
+    PaperType		    "usletter"
+    PaperUnits		    "inches"
+    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+    TiledPageScale	    1
+    ShowPageBoundaries	    off
+    ZoomFactor		    "100"
+    ReportName		    "simulink-default.rpt"
+    SIDHighWatermark	    "2202"
+    Block {
+      BlockType		      SubSystem
+      Name		      "Control M1"
+      SID		      "2135"
+      Ports		      [2, 1]
+      Position		      [565, 266, 635, 364]
+      ZOrder		      158
+      RequestExecContextInheritance off
+      System {
+	Name			"Control M1"
+	Location		[679, 0, 1376, 745]
+	Open			on
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "Set Point"
+	  SID			  "2136"
+	  Position		  [100, 123, 130, 137]
+	  ZOrder		  -1
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "FeedBack"
+	  SID			  "2137"
+	  Position		  [20, 188, 50, 202]
+	  ZOrder		  1
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Sum
+	  Name			  "Add"
+	  SID			  "2138"
+	  Ports			  [3, 1]
+	  Position		  [555, 16, 600, 244]
+	  ZOrder		  76
+	  Inputs		  "+++"
+	  InputSameDT		  off
+	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  Integrator
+	  Name			  "Integrator\nLimited"
+	  SID			  "2140"
+	  Ports			  [1, 1]
+	  Position		  [370, 115, 400, 145]
+	  ZOrder		  72
+	  LimitOutput		  on
+	  UpperSaturationLimit	  "3"
+	  LowerSaturationLimit	  "-3"
+	}
+	Block {
+	  BlockType		  Gain
+	  Name			  "Ki"
+	  SID			  "2142"
+	  Position		  [460, 115, 490, 145]
+	  ZOrder		  74
+	  Gain			  "I"
+	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
+	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "MATLAB Function"
+	  SID			  "2200"
+	  Ports			  [1, 1]
+	  Position		  [220, 107, 290, 153]
+	  ZOrder		  458
+	  LibraryVersion	  "1.32"
+	  ErrorFcn		  "Stateflow.Translate.translate"
+	  PermitHierarchicalResolution "ExplicitOnly"
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  SFBlockType		  "MATLAB Function"
+	  System {
+	    Name		    "MATLAB Function"
+	    Location		    [219, 337, 814, 775]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    SIDHighWatermark	    "20"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "u"
+	      SID		      "2200::1"
+	      Position		      [20, 101, 40, 119]
+	      ZOrder		      -1
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Demux
+	      Name		      " Demux "
+	      SID		      "2200::19"
+	      Ports		      [1, 1]
+	      Position		      [270, 230, 320, 270]
+	      ZOrder		      5
+	      Outputs		      "1"
+	    }
+	    Block {
+	      BlockType		      S-Function
+	      Name		      " SFunction "
+	      SID		      "2200::18"
+	      Tag		      "Stateflow S-Function Ensayos_Friccion 2"
+	      Ports		      [1, 2]
+	      Position		      [180, 100, 230, 160]
+	      ZOrder		      4
+	      FunctionName	      "sf_sfun"
+	      PortCounts	      "[1 2]"
+	      EnableBusSupport	      on
+	      Port {
+		PortNumber		2
+		Name			"y"
+		RTWStorageClass		"Auto"
+		DataLoggingNameMode	"SignalName"
+	      }
+	    }
+	    Block {
+	      BlockType		      Terminator
+	      Name		      " Terminator "
+	      SID		      "2200::20"
+	      Position		      [460, 241, 480, 259]
+	      ZOrder		      6
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "y"
+	      SID		      "2200::5"
+	      Position		      [460, 101, 480, 119]
+	      ZOrder		      -5
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      ZOrder		      5
+	      SrcBlock		      "u"
+	      SrcPort		      1
+	      DstBlock		      " SFunction "
+	      DstPort		      1
+	    }
+	    Line {
+	      Name		      "y"
+	      ZOrder		      6
+	      Labels		      [0, 0]
+	      SrcBlock		      " SFunction "
+	      SrcPort		      2
+	      DstBlock		      "y"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      7
+	      SrcBlock		      " Demux "
+	      SrcPort		      1
+	      DstBlock		      " Terminator "
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      8
+	      SrcBlock		      " SFunction "
+	      SrcPort		      1
+	      DstBlock		      " Demux "
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  Gain
+	  Name			  "P"
+	  SID			  "2143"
+	  Position		  [460, 40, 490, 70]
+	  ZOrder		  71
+	  Gain			  "P"
+	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
+	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  Quantizer
+	  Name			  "Quantizer"
+	  SID			  "2195"
+	  Position		  [130, 180, 160, 210]
+	  ZOrder		  453
+	  QuantizationInterval	  "0.0014"
+	}
+	Block {
+	  BlockType		  Scope
+	  Name			  "Scope1"
+	  SID			  "2193"
+	  Ports			  [1]
+	  Position		  [360, 19, 390, 51]
+	  ZOrder		  165
+	  Floating		  off
+	  Location		  [1, 49, 1361, 737]
+	  Open			  off
+	  NumInputPorts		  "1"
+	  ZoomMode		  "xonly"
+	  List {
+	    ListType		    AxesTitles
+	    axes1		    "%<SignalLabel>"
+	  }
+	  List {
+	    ListType		    ScopeGraphics
+	    FigureColor		    "[0.5 0.5 0.5]"
+	    AxesColor		    "[0 0 0]"
+	    AxesTickColor	    "[1 1 1]"
+	    LineColors		    "[1 1 0;1 0 1;0 1 1;1 0 0;0 1 0;0 0 1]"
+	    LineStyles		    "-|-|-|-|-|-"
+	    LineWidths		    "[0.5 0.5 0.5 0.5 0.5 0.5]"
+	    MarkerStyles	    "none|none|none|none|none|none"
+	  }
+	  ShowLegends		  off
+	  SaveName		  "ScopeData4"
+	  LimitDataPoints	  off
+	}
+	Block {
+	  BlockType		  Scope
+	  Name			  "Scope2"
+	  SID			  "2198"
+	  Ports			  [1]
+	  Position		  [685, 214, 715, 246]
+	  ZOrder		  456
+	  Floating		  off
+	  Location		  [1, 49, 1361, 737]
+	  Open			  off
+	  NumInputPorts		  "1"
+	  ZoomMode		  "xonly"
+	  List {
+	    ListType		    AxesTitles
+	    axes1		    "%<SignalLabel>"
+	  }
+	  List {
+	    ListType		    ScopeGraphics
+	    FigureColor		    "[0.5 0.5 0.5]"
+	    AxesColor		    "[0 0 0]"
+	    AxesTickColor	    "[1 1 1]"
+	    LineColors		    "[1 1 0;1 0 1;0 1 1;1 0 0;0 1 0;0 0 1]"
+	    LineStyles		    "-|-|-|-|-|-"
+	    LineWidths		    "[0.5 0.5 0.5 0.5 0.5 0.5]"
+	    MarkerStyles	    "none|none|none|none|none|none"
+	  }
+	  ShowLegends		  off
+	  SaveName		  "ScopeData5"
+	  LimitDataPoints	  off
+	}
+	Block {
+	  BlockType		  Sum
+	  Name			  "Sum1"
+	  SID			  "2144"
+	  Ports			  [2, 1]
+	  Position		  [170, 120, 190, 140]
+	  ZOrder		  66
+	  ShowName		  off
+	  IconShape		  "round"
+	  Inputs		  "|+-"
+	  InputSameDT		  off
+	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  ZeroOrderHold
+	  Name			  "Zero-Order\nHold"
+	  SID			  "2194"
+	  Position		  [65, 180, 100, 210]
+	  ZOrder		  166
+	  SampleTime		  "0.0001"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "U"
+	  SID			  "2145"
+	  Position		  [675, 123, 705, 137]
+	  ZOrder		  -2
+	  IconDisplay		  "Port number"
+	}
+	Line {
+	  ZOrder		  2
+	  SrcBlock		  "Set Point"
+	  SrcPort		  1
+	  DstBlock		  "Sum1"
+	  DstPort		  1
+	}
+	Line {
+	  FontName		  "Helvetica"
+	  FontSize		  9
+	  FontWeight		  "normal"
+	  FontAngle		  "normal"
+	  ZOrder		  9
+	  SrcBlock		  "Integrator\nLimited"
+	  SrcPort		  1
+	  DstBlock		  "Ki"
+	  DstPort		  1
+	}
+	Line {
+	  FontName		  "Helvetica"
+	  FontSize		  9
+	  FontWeight		  "normal"
+	  FontAngle		  "normal"
+	  ZOrder		  11
+	  SrcBlock		  "Ki"
+	  SrcPort		  1
+	  DstBlock		  "Add"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  12
+	  SrcBlock		  "P"
+	  SrcPort		  1
+	  DstBlock		  "Add"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  23
+	  SrcBlock		  "FeedBack"
+	  SrcPort		  1
+	  DstBlock		  "Zero-Order\nHold"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  25
+	  SrcBlock		  "Zero-Order\nHold"
+	  SrcPort		  1
+	  DstBlock		  "Quantizer"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  26
+	  SrcBlock		  "Quantizer"
+	  SrcPort		  1
+	  Points		  [15, 0]
+	  DstBlock		  "Sum1"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  32
+	  SrcBlock		  "Sum1"
+	  SrcPort		  1
+	  DstBlock		  "MATLAB Function"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  33
+	  SrcBlock		  "MATLAB Function"
+	  SrcPort		  1
+	  Points		  [32, 0]
+	  Branch {
+	    ZOrder		    36
+	    Points		    [0, -29]
+	    Branch {
+	      ZOrder		      38
+	      Points		      [0, -66]
+	      DstBlock		      "Scope1"
+	      DstPort		      1
+	    }
+	    Branch {
+	      ZOrder		      37
+	      Points		      [105, 0; 0, -46]
+	      DstBlock		      "P"
+	      DstPort		      1
+	    }
+	  }
+	  Branch {
+	    ZOrder		    35
+	    DstBlock		    "Integrator\nLimited"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  ZOrder		  46
+	  SrcBlock		  "Add"
+	  SrcPort		  1
+	  Points		  [51, 0]
+	  Branch {
+	    ZOrder		    45
+	    Points		    [0, 9; 11, 0; 0, 91]
+	    DstBlock		    "Scope2"
+	    DstPort		    1
+	  }
+	  Branch {
+	    ZOrder		    44
+	    DstBlock		    "U"
+	    DstPort		    1
+	  }
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "DeltaSM"
+      SID		      "393"
+      Ports		      [1, 1]
+      Position		      [960, 294, 1110, 516]
+      ZOrder		      32
+      RequestExecContextInheritance off
+      System {
+	Name			"DeltaSM"
+	Location		[673, 0, 1367, 745]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "P M"
+	  SID			  "2154"
+	  Position		  [380, 223, 410, 237]
+	  ZOrder		  409
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "BaseCompleta_1_RIGID"
+	  SID			  "1060"
+	  Ports			  [0, 0, 0, 0, 0, 1, 3]
+	  Position		  [215, 385, 295, 465]
+	  ZOrder		  290
+	  RequestExecContextInheritance	off
+	  Object {
+	    $PropName		    "MaskObject"
+	    $ObjectID		    27
+	    $ClassName		    "Simulink.Mask"
+	  }
+	  System {
+	    Name		    "BaseCompleta_1_RIGID"
+	    Location		    [673, 0, 1367, 745]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Reference
+	      Name		      "ReferenceFrame"
+	      SID		      "1061"
+	      Ports		      [0, 0, 0, 0, 0, 0, 1]
+	      Position		      [30, 230, 70, 270]
+	      ZOrder		      2
+	      LibraryVersion	      "1"
+	      SourceBlock	      "sm_lib/Frames and\nTransforms/Reference\nFrame"
+	      SourceType	      "Reference\nFrame"
+	      ClassName		      "ReferenceFrame"
+	      BlockFunction	      "simmechanics.library.frames_transforms.reference_frame"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Solid"
+	      SID		      "1062"
+	      Ports		      [0, 0, 0, 0, 0, 0, 1]
+	      Position		      [30, 130, 70, 170]
+	      ZOrder		      4
+	      LibraryVersion	      "1"
+	      SourceBlock	      "sm_lib/Body Elements/Solid"
+	      SourceType	      "Solid"
+	      ClassName		      "Solid"
+	      InertiaType	      "Custom"
+	      Mass		      "0.13810452721903221"
+	      MassUnits		      "kg"
+	      CenterOfMass	      "[-4.5062155923240521 0 -4.277486502253776]"
+	      CenterOfMassUnits	      "mm"
+	      MomentsOfInertia	      "[258.59197461879108 258.58810647683998 484.80194129818653]"
+	      MomentsOfInertiaUnits   "kg*mm^2"
+	      ProductsOfInertia	      "[0 0.0058178041696079815 0]"
+	      ProductsOfInertiaUnits  "kg*mm^2"
+	      DensityBased	      "on"
+	      Density		      "1000"
+	      DensityUnits	      "kg/(m^3)"
+	      GraphicType	      "FromGeometry"
+	      MarkerShape	      "Sphere"
+	      MarkerSize	      "10"
+	      MarkerSizeUnits	      "m"
+	      GraphicVisPropType      "SimpleVisualProperties"
+	      GraphicDiffuseColor     "[0.792156862745098 0.81960784313725488 0.93333333333333335]"
+	      GraphicSpecularColor    "[0.5 0.5 0.5 1.0]"
+	      GraphicAmbientColor     "[0.15 0.15 0.15 1.0]"
+	      GraphicEmissiveColor    "[0.0 0.0 0.0 1.0]"
+	      GraphicShininess	      "75"
+	      GraphicOpacity	      "1"
+	      GeometryShape	      "FromFile"
+	      RectangleSize	      "[1 1]"
+	      RectangleSizeUnits      "m"
+	      BrickDimensions	      "[1 1 1]"
+	      BrickDimensionUnits     "m"
+	      CylinderRadius	      "1"
+	      CylinderRadiusUnits     "m"
+	      CylinderLength	      "1"
+	      CylinderLengthUnits     "m"
+	      SphereRadius	      "1"
+	      SphereRadiusUnits	      "m"
+	      EllipsoidRadii	      "[1 1 1]"
+	      EllipsoidRadiiUnits     "m"
+	      ExtrusionCrossSection   "[1 1; -1 1; -1 -1; 1 -1]"
+	      ExtrusionCrossSectionUnits "m"
+	      ExtrusionLength	      "1"
+	      ExtrusionLengthUnits    "m"
+	      PolygonNumSides	      "3"
+	      PolygonOuterRadius      "1"
+	      PolygonOuterRadiusUnits "m"
+	      ExtGeomFileType	      "STL"
+	      ExtGeomFileName	      "BaseCompleta_Predeterminado_sldprt.STL"
+	      ExtGeomFileUnits	      "mm"
+	      RevolutionCrossSection  "[1 1; 1 -1; 2 -1; 2 1]"
+	      RevolutionCrossSectionUnits "m"
+	      RevolutionExtent	      "Full"
+	      RevolutionAngle	      "180"
+	      RevolutionAngleUnits    "deg"
+	      BlockFunction	      "simmechanics.library.body_elements.solid"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Transform"
+	      SID		      "1063"
+	      Ports		      [0, 0, 0, 0, 0, 1, 1]
+	      Position		      [130, 330, 170, 370]
+	      ZOrder		      5
+	      LibraryVersion	      "1"
+	      SourceBlock	      "sm_lib/Frames and\nTransforms/Rigid\nTransform"
+	      SourceType	      "Rigid\nTransform"
+	      ClassName		      "RigidTransform"
+	      TranslationMethod	      "Cartesian"
+	      TranslationLengthUnit   "mm"
+	      TranslationStandardAxis "+Z"
+	      TranslationStandardOffset	"0"
+	      TranslationCartesianOffset "[0 0 0]"
+	      TranslationROffset      "0"
+	      TranslationROffsetUnits "m"
+	      TranslationZOffset      "0"
+	      TranslationZOffsetUnits "m"
+	      TranslationThetaOffset  "0"
+	      TranslationThetaOffsetUnits "deg"
+	      RotationMethod	      "ArbitraryAxis"
+	      RotationAngleUnits      "rad"
+	      RotationStandardAxis    "+Z"
+	      RotationAngle	      "0"
+	      RotationArbitraryAxis   "[0 0 0]"
+	      FollAlignAxisA	      "+X"
+	      BaseAlignAxisA	      "+Y"
+	      FollAlignAxisB	      "+Y"
+	      BaseAlignAxisB	      "+Z"
+	      BlockFunction	      "simmechanics.library.frames_transforms.rigid_transform"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Transform1"
+	      SID		      "1064"
+	      Ports		      [0, 0, 0, 0, 0, 1, 1]
+	      Position		      [130, 230, 170, 270]
+	      ZOrder		      6
+	      LibraryVersion	      "1"
+	      SourceBlock	      "sm_lib/Frames and\nTransforms/Rigid\nTransform"
+	      SourceType	      "Rigid\nTransform"
+	      ClassName		      "RigidTransform"
+	      TranslationMethod	      "Cartesian"
+	      TranslationLengthUnit   "mm"
+	      TranslationStandardAxis "+Z"
+	      TranslationStandardOffset	"0"
+	      TranslationCartesianOffset "[-44.010734985004049 49.934600438418464 -24.000000000000014]"
+	      TranslationROffset      "0"
+	      TranslationROffsetUnits "m"
+	      TranslationZOffset      "0"
+	      TranslationZOffsetUnits "m"
+	      TranslationThetaOffset  "0"
+	      TranslationThetaOffsetUnits "deg"
+	      RotationMethod	      "ArbitraryAxis"
+	      RotationAngleUnits      "rad"
+	      RotationStandardAxis    "+Z"
+	      RotationAngle	      "2.4188584057763776"
+	      RotationArbitraryAxis   "[-0.37796447300922714 -0.6546536707079772 0.6546536707079772]"
+	      FollAlignAxisA	      "+X"
+	      BaseAlignAxisA	      "+Y"
+	      FollAlignAxisB	      "+Y"
+	      BaseAlignAxisB	      "+Z"
+	      BlockFunction	      "simmechanics.library.frames_transforms.rigid_transform"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Transform2"
+	      SID		      "1065"
+	      Ports		      [0, 0, 0, 0, 0, 1, 1]
+	      Position		      [130, 130, 170, 170]
+	      ZOrder		      7
+	      LibraryVersion	      "1"
+	      SourceBlock	      "sm_lib/Frames and\nTransforms/Rigid\nTransform"
+	      SourceType	      "Rigid\nTransform"
+	      ClassName		      "RigidTransform"
+	      TranslationMethod	      "Cartesian"
+	      TranslationLengthUnit   "mm"
+	      TranslationStandardAxis "+Z"
+	      TranslationStandardOffset	"0"
+	      TranslationCartesianOffset "[58.5 9.2499999999999982 -24.000000000000004]"
+	      TranslationROffset      "0"
+	      TranslationROffsetUnits "m"
+	      TranslationZOffset      "0"
+	      TranslationZOffsetUnits "m"
+	      TranslationThetaOffset  "0"
+	      TranslationThetaOffsetUnits "deg"
+	      RotationMethod	      "ArbitraryAxis"
+	      RotationAngleUnits      "rad"
+	      RotationStandardAxis    "+Z"
+	      RotationAngle	      "2.0943951023931953"
+	      RotationArbitraryAxis   "[-0.57735026918962584 -0.57735026918962584 -0.57735026918962584]"
+	      FollAlignAxisA	      "+X"
+	      BaseAlignAxisA	      "+Y"
+	      FollAlignAxisB	      "+Y"
+	      BaseAlignAxisB	      "+Z"
+	      BlockFunction	      "simmechanics.library.frames_transforms.rigid_transform"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Transform3"
+	      SID		      "1066"
+	      Ports		      [0, 0, 0, 0, 0, 1, 1]
+	      Position		      [130, 30, 170, 70]
+	      ZOrder		      8
+	      LibraryVersion	      "1"
+	      SourceBlock	      "sm_lib/Frames and\nTransforms/Rigid\nTransform"
+	      SourceType	      "Rigid\nTransform"
+	      ClassName		      "RigidTransform"
+	      TranslationMethod	      "Cartesian"
+	      TranslationLengthUnit   "mm"
+	      TranslationStandardAxis "+Z"
+	      TranslationStandardOffset	"0"
+	      TranslationCartesianOffset "[-27.989265014991929 -59.184600438418421 -24.000000000000007]"
+	      TranslationROffset      "0"
+	      TranslationROffsetUnits "m"
+	      TranslationZOffset      "0"
+	      TranslationZOffsetUnits "m"
+	      TranslationThetaOffset  "0"
+	      TranslationThetaOffsetUnits "deg"
+	      RotationMethod	      "ArbitraryAxis"
+	      RotationAngleUnits      "rad"
+	      RotationStandardAxis    "+Z"
+	      RotationAngle	      "1.8234765819369754"
+	      RotationArbitraryAxis   "[-0.77459666924148329 -0.44721359549995809 0.44721359549995809]"
+	      FollAlignAxisA	      "+X"
+	      BaseAlignAxisA	      "+Y"
+	      FollAlignAxisB	      "+Y"
+	      BaseAlignAxisB	      "+Z"
+	      BlockFunction	      "simmechanics.library.frames_transforms.rigid_transform"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Transform4"
+	      SID		      "1170"
+	      Ports		      [0, 0, 0, 0, 0, 1, 1]
+	      Position		      [220, 30, 260, 70]
+	      ZOrder		      13
+	      LibraryVersion	      "1"
+	      SourceBlock	      "sm_lib/Frames and\nTransforms/Rigid\nTransform"
+	      SourceType	      "Rigid\nTransform"
+	      ClassName		      "RigidTransform"
+	      TranslationMethod	      "Cartesian"
+	      TranslationLengthUnit   "mm"
+	      TranslationStandardAxis "+Z"
+	      TranslationStandardOffset	"0"
+	      TranslationCartesianOffset "[0 0 0]"
+	      TranslationROffset      "0"
+	      TranslationROffsetUnits "m"
+	      TranslationZOffset      "0"
+	      TranslationZOffsetUnits "m"
+	      TranslationThetaOffset  "0"
+	      TranslationThetaOffsetUnits "deg"
+	      RotationMethod	      "ArbitraryAxis"
+	      RotationAngleUnits      "deg"
+	      RotationStandardAxis    "+Z"
+	      RotationAngle	      "-90"
+	      RotationArbitraryAxis   "[0 0 1]"
+	      FollAlignAxisA	      "+X"
+	      BaseAlignAxisA	      "+Y"
+	      FollAlignAxisB	      "+Y"
+	      BaseAlignAxisB	      "+Z"
+	      BlockFunction	      "simmechanics.library.frames_transforms.rigid_transform"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Transform5"
+	      SID		      "1171"
+	      Ports		      [0, 0, 0, 0, 0, 1, 1]
+	      Position		      [220, 230, 260, 270]
+	      ZOrder		      14
+	      LibraryVersion	      "1"
+	      SourceBlock	      "sm_lib/Frames and\nTransforms/Rigid\nTransform"
+	      SourceType	      "Rigid\nTransform"
+	      ClassName		      "RigidTransform"
+	      TranslationMethod	      "Cartesian"
+	      TranslationLengthUnit   "mm"
+	      TranslationStandardAxis "+Z"
+	      TranslationStandardOffset	"0"
+	      TranslationCartesianOffset "[0 0 0]"
+	      TranslationROffset      "0"
+	      TranslationROffsetUnits "m"
+	      TranslationZOffset      "0"
+	      TranslationZOffsetUnits "m"
+	      TranslationThetaOffset  "0"
+	      TranslationThetaOffsetUnits "deg"
+	      RotationMethod	      "ArbitraryAxis"
+	      RotationAngleUnits      "deg"
+	      RotationStandardAxis    "+Z"
+	      RotationAngle	      "0"
+	      RotationArbitraryAxis   "[0 0 0]"
+	      FollAlignAxisA	      "+X"
+	      BaseAlignAxisA	      "+Y"
+	      FollAlignAxisB	      "+Y"
+	      BaseAlignAxisB	      "+Z"
+	      BlockFunction	      "simmechanics.library.frames_transforms.rigid_transform"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Transform6"
+	      SID		      "1175"
+	      Ports		      [0, 0, 0, 0, 0, 1, 1]
+	      Position		      [220, 130, 260, 170]
+	      ZOrder		      15
+	      LibraryVersion	      "1"
+	      SourceBlock	      "sm_lib/Frames and\nTransforms/Rigid\nTransform"
+	      SourceType	      "Rigid\nTransform"
+	      ClassName		      "RigidTransform"
+	      TranslationMethod	      "Cartesian"
+	      TranslationLengthUnit   "mm"
+	      TranslationStandardAxis "+Z"
+	      TranslationStandardOffset	"0"
+	      TranslationCartesianOffset "[0 0 0]"
+	      TranslationROffset      "0"
+	      TranslationROffsetUnits "m"
+	      TranslationZOffset      "0"
+	      TranslationZOffsetUnits "m"
+	      TranslationThetaOffset  "0"
+	      TranslationThetaOffsetUnits "deg"
+	      RotationMethod	      "ArbitraryAxis"
+	      RotationAngleUnits      "deg"
+	      RotationStandardAxis    "+Z"
+	      RotationAngle	      "90"
+	      RotationArbitraryAxis   "[0 0 1]"
+	      FollAlignAxisA	      "+X"
+	      BaseAlignAxisA	      "+Y"
+	      FollAlignAxisB	      "+Y"
+	      BaseAlignAxisB	      "+Z"
+	      BlockFunction	      "simmechanics.library.frames_transforms.rigid_transform"
+	    }
+	    Block {
+	      BlockType		      PMIOPort
+	      Name		      "F3"
+	      SID		      "1067"
+	      Position		      [325, 40, 345, 60]
+	      ZOrder		      9
+	      BlockMirror	      on
+	      Port		      "1"
+	      Side		      "Right"
+	    }
+	    Block {
+	      BlockType		      PMIOPort
+	      Name		      "F1"
+	      SID		      "1068"
+	      Position		      [325, 240, 345, 260]
+	      ZOrder		      10
+	      BlockMirror	      on
+	      Port		      "2"
+	      Side		      "Right"
+	    }
+	    Block {
+	      BlockType		      PMIOPort
+	      Name		      "F2"
+	      SID		      "1069"
+	      Position		      [305, 140, 325, 160]
+	      ZOrder		      11
+	      BlockMirror	      on
+	      Port		      "3"
+	      Side		      "Right"
+	    }
+	    Block {
+	      BlockType		      PMIOPort
+	      Name		      "F"
+	      SID		      "1070"
+	      Position		      [230, 340, 250, 360]
+	      ZOrder		      12
+	      BlockMirror	      on
+	      Port		      "4"
+	      Side		      "Left"
+	    }
+	    Line {
+	      LineType		      "Connection"
+	      ZOrder		      1
+	      Points		      [100, 150; 15, 0]
+	      DstBlock		      "Transform2"
+	      DstPort		      LConn1
+	      Branch {
+		ConnectType		"SRC_SRC"
+		Points			[0, -100]
+		DstBlock		"Transform3"
+		DstPort			LConn1
+	      }
+	      Branch {
+		ConnectType		"SRC_DEST"
+		Points			[100, 250; 0, -100]
+		Branch {
+		  ConnectType		  "SRC_DEST"
+		  Points		  [95, 250; 5, 0]
+		  Branch {
+		    ConnectType		    "SRC_DEST"
+		    SrcBlock		    "ReferenceFrame"
+		    SrcPort		    RConn1
+		    Points		    [10, 0]
+		  }
+		  Branch {
+		    ConnectType		    "SRC_SRC"
+		    Points		    [0, -100]
+		    DstBlock		    "Solid"
+		    DstPort		    RConn1
+		  }
+		}
+		Branch {
+		  ConnectType		  "SRC_SRC"
+		  Points		  [0, 100]
+		  DstBlock		  "Transform"
+		  DstPort		  LConn1
+		}
+		Branch {
+		  ConnectType		  "SRC_SRC"
+		  DstBlock		  "Transform1"
+		  DstPort		  LConn1
+		}
+	      }
+	    }
+	    Line {
+	      LineType		      "Connection"
+	      ZOrder		      9
+	      SrcBlock		      "Transform"
+	      SrcPort		      RConn1
+	      DstBlock		      "F"
+	      DstPort		      RConn1
+	    }
+	    Line {
+	      LineType		      "Connection"
+	      ZOrder		      13
+	      SrcBlock		      "Transform3"
+	      SrcPort		      RConn1
+	      DstBlock		      "Transform4"
+	      DstPort		      LConn1
+	    }
+	    Line {
+	      LineType		      "Connection"
+	      FontName		      "Helvetica"
+	      FontSize		      9
+	      FontWeight	      "normal"
+	      FontAngle		      "normal"
+	      ZOrder		      14
+	      SrcBlock		      "Transform4"
+	      SrcPort		      RConn1
+	      DstBlock		      "F3"
+	      DstPort		      RConn1
+	    }
+	    Line {
+	      LineType		      "Connection"
+	      ZOrder		      15
+	      SrcBlock		      "Transform1"
+	      SrcPort		      RConn1
+	      DstBlock		      "Transform5"
+	      DstPort		      LConn1
+	    }
+	    Line {
+	      LineType		      "Connection"
+	      ZOrder		      16
+	      SrcBlock		      "Transform5"
+	      SrcPort		      RConn1
+	      DstBlock		      "F1"
+	      DstPort		      RConn1
+	    }
+	    Line {
+	      LineType		      "Connection"
+	      ZOrder		      17
+	      SrcBlock		      "Transform6"
+	      SrcPort		      LConn1
+	      DstBlock		      "Transform2"
+	      DstPort		      RConn1
+	    }
+	    Line {
+	      LineType		      "Connection"
+	      ZOrder		      18
+	      SrcBlock		      "Transform6"
+	      SrcPort		      RConn1
+	      DstBlock		      "F2"
+	      DstPort		      RConn1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Brazo_3"
+	  SID			  "2160"
+	  Ports			  [0, 0, 0, 0, 0, 1, 2]
+	  Position		  [710, 25, 750, 140]
+	  ZOrder		  451
+	  FontSize		  12
+	  RequestExecContextInheritance	off
+	  Object {
+	    $PropName		    "MaskObject"
+	    $ObjectID		    28
+	    $ClassName		    "Simulink.Mask"
+	  }
+	  System {
+	    Name		    "Brazo_3"
+	    Location		    [673, 0, 1367, 745]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      SubSystem
+	      Name		      "Acople_Brazo_RUniball_1_RIGID"
+	      SID		      "2161"
+	      Ports		      [0, 0, 0, 0, 0, 1]
+	      Position		      [315, 130, 355, 170]
+	      ZOrder		      1
+	      RequestExecContextInheritance off
+	      Object {
+		$PropName		"MaskObject"
+		$ObjectID		29
+		$ClassName		"Simulink.Mask"
+	      }
+	      System {
+		Name			"Acople_Brazo_RUniball_1_RIGID"
+		Location		[100, 100, 600, 900]
+		Open			off
+		ModelBrowserVisibility	off
+		ModelBrowserWidth	200
+		ScreenColor		"white"
+		PaperOrientation	"landscape"
+		PaperPositionMode	"auto"
+		PaperType		"usletter"
+		PaperUnits		"inches"
+		TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+		TiledPageScale		1
+		ShowPageBoundaries	off
+		ZoomFactor		"100"
+		Block {
+		  BlockType		  Reference
+		  Name			  "ReferenceFrame"
+		  SID			  "2162"
+		  Ports			  [0, 0, 0, 0, 0, 0, 1]
+		  Position		  [30, 30, 70, 70]
+		  ZOrder		  2
+		  LibraryVersion	  "1"
+		  SourceBlock		  "sm_lib/Frames and\nTransforms/Reference\nFrame"
+		  SourceType		  "Reference\nFrame"
+		  ClassName		  "ReferenceFrame"
+		  BlockFunction		  "simmechanics.library.frames_transforms.reference_frame"
+		}
+		Block {
+		  BlockType		  Reference
+		  Name			  "Solid"
+		  SID			  "2163"
+		  Ports			  [0, 0, 0, 0, 0, 0, 1]
+		  Position		  [30, 130, 70, 170]
+		  ZOrder		  4
+		  LibraryVersion	  "1"
+		  SourceBlock		  "sm_lib/Body Elements/Solid"
+		  SourceType		  "Solid"
+		  ClassName		  "Solid"
+		  InertiaType		  "Custom"
+		  Mass			  "0.017544554041200817"
+		  MassUnits		  "kg"
+		  CenterOfMass		  "[0 0 24.965115751248298]"
+		  CenterOfMassUnits	  "mm"
+		  MomentsOfInertia	  "[2.6343187710862899 2.6343187710862899 0.27673388244730435]"
+		  MomentsOfInertiaUnits	  "kg*mm^2"
+		  ProductsOfInertia	  "[0 0 0]"
+		  ProductsOfInertiaUnits  "kg*mm^2"
+		  DensityBased		  "on"
+		  Density		  "1000"
+		  DensityUnits		  "kg/(m^3)"
+		  GraphicType		  "FromGeometry"
+		  MarkerShape		  "Sphere"
+		  MarkerSize		  "10"
+		  MarkerSizeUnits	  "m"
+		  GraphicVisPropType	  "SimpleVisualProperties"
+		  GraphicDiffuseColor	  "[0.6470588235294118 0.61960784313725492 0.58823529411764708]"
+		  GraphicSpecularColor	  "[0.5 0.5 0.5 1.0]"
+		  GraphicAmbientColor	  "[0.15 0.15 0.15 1.0]"
+		  GraphicEmissiveColor	  "[0.0 0.0 0.0 1.0]"
+		  GraphicShininess	  "75"
+		  GraphicOpacity	  "1"
+		  GeometryShape		  "FromFile"
+		  RectangleSize		  "[1 1]"
+		  RectangleSizeUnits	  "m"
+		  BrickDimensions	  "[1 1 1]"
+		  BrickDimensionUnits	  "m"
+		  CylinderRadius	  "1"
+		  CylinderRadiusUnits	  "m"
+		  CylinderLength	  "1"
+		  CylinderLengthUnits	  "m"
+		  SphereRadius		  "1"
+		  SphereRadiusUnits	  "m"
+		  EllipsoidRadii	  "[1 1 1]"
+		  EllipsoidRadiiUnits	  "m"
+		  ExtrusionCrossSection	  "[1 1; -1 1; -1 -1; 1 -1]"
+		  ExtrusionCrossSectionUnits "m"
+		  ExtrusionLength	  "1"
+		  ExtrusionLengthUnits	  "m"
+		  PolygonNumSides	  "3"
+		  PolygonOuterRadius	  "1"
+		  PolygonOuterRadiusUnits "m"
+		  ExtGeomFileType	  "STL"
+		  ExtGeomFileName	  "Acople-Brazo-RUniball_Predeterminado_sldprt.STL"
+		  ExtGeomFileUnits	  "mm"
+		  RevolutionCrossSection  "[1 1; 1 -1; 2 -1; 2 1]"
+		  RevolutionCrossSectionUnits "m"
+		  RevolutionExtent	  "Full"
+		  RevolutionAngle	  "180"
+		  RevolutionAngleUnits	  "deg"
+		  BlockFunction		  "simmechanics.library.body_elements.solid"
+		}
+		Block {
+		  BlockType		  PMIOPort
+		  Name			  "F"
+		  SID			  "2164"
+		  Position		  [130, 40, 150, 60]
+		  ZOrder		  5
+		  BlockMirror		  on
+		  Port			  "1"
+		  Side			  "Left"
+		}
+		Line {
+		  LineType		  "Connection"
+		  ZOrder		  1
+		  SrcBlock		  "ReferenceFrame"
+		  SrcPort		  RConn1
+		  Points		  [0, 0]
+		  Branch {
+		    ConnectType		    "DEST_SRC"
+		    Points		    [10, 0; 0, 100]
+		    DstBlock		    "Solid"
+		    DstPort		    RConn1
+		  }
+		  Branch {
+		    ConnectType		    "DEST_SRC"
+		    DstBlock		    "F"
+		    DstPort		    RConn1
+		  }
+		}
+	      }
+	    }
+	    Block {
+	      BlockType		      SubSystem
+	      Name		      "Brazo_1_RIGID"
+	      SID		      "2165"
+	      Ports		      [0, 0, 0, 0, 0, 1]
+	      Position		      [315, 330, 355, 370]
+	      ZOrder		      2
+	      RequestExecContextInheritance off
+	      Object {
+		$PropName		"MaskObject"
+		$ObjectID		30
+		$ClassName		"Simulink.Mask"
+	      }
+	      System {
+		Name			"Brazo_1_RIGID"
+		Location		[673, 0, 1367, 745]
+		Open			off
+		ModelBrowserVisibility	off
+		ModelBrowserWidth	200
+		ScreenColor		"white"
+		PaperOrientation	"landscape"
+		PaperPositionMode	"auto"
+		PaperType		"usletter"
+		PaperUnits		"inches"
+		TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+		TiledPageScale		1
+		ShowPageBoundaries	off
+		ZoomFactor		"100"
+		Block {
+		  BlockType		  Reference
+		  Name			  "ReferenceFrame"
+		  SID			  "2166"
+		  Ports			  [0, 0, 0, 0, 0, 0, 1]
+		  Position		  [30, 30, 70, 70]
+		  ZOrder		  2
+		  LibraryVersion	  "1"
+		  SourceBlock		  "sm_lib/Frames and\nTransforms/Reference\nFrame"
+		  SourceType		  "Reference\nFrame"
+		  ClassName		  "ReferenceFrame"
+		  BlockFunction		  "simmechanics.library.frames_transforms.reference_frame"
+		}
+		Block {
+		  BlockType		  Reference
+		  Name			  "Solid"
+		  SID			  "2167"
+		  Ports			  [0, 0, 0, 0, 0, 0, 1]
+		  Position		  [30, 130, 70, 170]
+		  ZOrder		  4
+		  LibraryVersion	  "1"
+		  SourceBlock		  "sm_lib/Body Elements/Solid"
+		  SourceType		  "Solid"
+		  ClassName		  "Solid"
+		  InertiaType		  "Custom"
+		  Mass			  "0.041547055126806294"
+		  MassUnits		  "kg"
+		  CenterOfMass		  "[0 15.149188933492065 3.1999999999999993]"
+		  CenterOfMassUnits	  "mm"
+		  MomentsOfInertia	  "[103.29833751524856 1.1755842324920094 104.19029385140823]"
+		  MomentsOfInertiaUnits	  "kg*mm^2"
+		  ProductsOfInertia	  "[0 0 0]"
+		  ProductsOfInertiaUnits  "kg*mm^2"
+		  DensityBased		  "on"
+		  Density		  "1000"
+		  DensityUnits		  "kg/(m^3)"
+		  GraphicType		  "FromGeometry"
+		  MarkerShape		  "Sphere"
+		  MarkerSize		  "10"
+		  MarkerSizeUnits	  "m"
+		  GraphicVisPropType	  "SimpleVisualProperties"
+		  GraphicDiffuseColor	  "[0.89803921568627454 0.91764705882352937 0.92941176470588238]"
+		  GraphicSpecularColor	  "[0.5 0.5 0.5 1.0]"
+		  GraphicAmbientColor	  "[0.15 0.15 0.15 1.0]"
+		  GraphicEmissiveColor	  "[0.0 0.0 0.0 1.0]"
+		  GraphicShininess	  "75"
+		  GraphicOpacity	  "1"
+		  GeometryShape		  "FromFile"
+		  RectangleSize		  "[1 1]"
+		  RectangleSizeUnits	  "m"
+		  BrickDimensions	  "[1 1 1]"
+		  BrickDimensionUnits	  "m"
+		  CylinderRadius	  "1"
+		  CylinderRadiusUnits	  "m"
+		  CylinderLength	  "1"
+		  CylinderLengthUnits	  "m"
+		  SphereRadius		  "1"
+		  SphereRadiusUnits	  "m"
+		  EllipsoidRadii	  "[1 1 1]"
+		  EllipsoidRadiiUnits	  "m"
+		  ExtrusionCrossSection	  "[1 1; -1 1; -1 -1; 1 -1]"
+		  ExtrusionCrossSectionUnits "m"
+		  ExtrusionLength	  "1"
+		  ExtrusionLengthUnits	  "m"
+		  PolygonNumSides	  "3"
+		  PolygonOuterRadius	  "1"
+		  PolygonOuterRadiusUnits "m"
+		  ExtGeomFileType	  "STL"
+		  ExtGeomFileName	  "Brazo_Predeterminado_sldprt.STL"
+		  ExtGeomFileUnits	  "mm"
+		  RevolutionCrossSection  "[1 1; 1 -1; 2 -1; 2 1]"
+		  RevolutionCrossSectionUnits "m"
+		  RevolutionExtent	  "Full"
+		  RevolutionAngle	  "180"
+		  RevolutionAngleUnits	  "deg"
+		  BlockFunction		  "simmechanics.library.body_elements.solid"
+		}
+		Block {
+		  BlockType		  PMIOPort
+		  Name			  "F"
+		  SID			  "2168"
+		  Position		  [130, 40, 150, 60]
+		  ZOrder		  5
+		  BlockMirror		  on
+		  Port			  "1"
+		  Side			  "Left"
+		}
+		Line {
+		  LineType		  "Connection"
+		  ZOrder		  1
+		  SrcBlock		  "ReferenceFrame"
+		  SrcPort		  RConn1
+		  Points		  [10, 0]
+		  Branch {
+		    ConnectType		    "DEST_SRC"
+		    Points		    [0, 100]
+		    DstBlock		    "Solid"
+		    DstPort		    RConn1
+		  }
+		  Branch {
+		    ConnectType		    "DEST_SRC"
+		    DstBlock		    "F"
+		    DstPort		    RConn1
+		  }
+		}
+	      }
+	    }
+	    Block {
+	      BlockType		      SubSystem
+	      Name		      "Eje_Base_Brazo_1_RIGID"
+	      SID		      "2169"
+	      Ports		      [0, 0, 0, 0, 0, 1]
+	      Position		      [315, 230, 355, 270]
+	      ZOrder		      3
+	      RequestExecContextInheritance off
+	      Object {
+		$PropName		"MaskObject"
+		$ObjectID		31
+		$ClassName		"Simulink.Mask"
+	      }
+	      System {
+		Name			"Eje_Base_Brazo_1_RIGID"
+		Location		[100, 100, 600, 900]
+		Open			off
+		ModelBrowserVisibility	off
+		ModelBrowserWidth	200
+		ScreenColor		"white"
+		PaperOrientation	"landscape"
+		PaperPositionMode	"auto"
+		PaperType		"usletter"
+		PaperUnits		"inches"
+		TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+		TiledPageScale		1
+		ShowPageBoundaries	off
+		ZoomFactor		"100"
+		Block {
+		  BlockType		  Reference
+		  Name			  "ReferenceFrame"
+		  SID			  "2170"
+		  Ports			  [0, 0, 0, 0, 0, 0, 1]
+		  Position		  [30, 30, 70, 70]
+		  ZOrder		  2
+		  LibraryVersion	  "1"
+		  SourceBlock		  "sm_lib/Frames and\nTransforms/Reference\nFrame"
+		  SourceType		  "Reference\nFrame"
+		  ClassName		  "ReferenceFrame"
+		  BlockFunction		  "simmechanics.library.frames_transforms.reference_frame"
+		}
+		Block {
+		  BlockType		  Reference
+		  Name			  "Solid"
+		  SID			  "2171"
+		  Ports			  [0, 0, 0, 0, 0, 0, 1]
+		  Position		  [30, 130, 70, 170]
+		  ZOrder		  4
+		  LibraryVersion	  "1"
+		  SourceBlock		  "sm_lib/Body Elements/Solid"
+		  SourceType		  "Solid"
+		  ClassName		  "Solid"
+		  InertiaType		  "Custom"
+		  Mass			  "0.020144835731794566"
+		  MassUnits		  "kg"
+		  CenterOfMass		  "[0 0 33.334706918231461]"
+		  CenterOfMassUnits	  "mm"
+		  MomentsOfInertia	  "[5.86336391941924 5.86336391941924 0.27724265206973575]"
+		  MomentsOfInertiaUnits	  "kg*mm^2"
+		  ProductsOfInertia	  "[0 0 0]"
+		  ProductsOfInertiaUnits  "kg*mm^2"
+		  DensityBased		  "on"
+		  Density		  "1000"
+		  DensityUnits		  "kg/(m^3)"
+		  GraphicType		  "FromGeometry"
+		  MarkerShape		  "Sphere"
+		  MarkerSize		  "10"
+		  MarkerSizeUnits	  "m"
+		  GraphicVisPropType	  "SimpleVisualProperties"
+		  GraphicDiffuseColor	  "[0.6470588235294118 0.61960784313725492 0.58823529411764708]"
+		  GraphicSpecularColor	  "[0.5 0.5 0.5 1.0]"
+		  GraphicAmbientColor	  "[0.15 0.15 0.15 1.0]"
+		  GraphicEmissiveColor	  "[0.0 0.0 0.0 1.0]"
+		  GraphicShininess	  "75"
+		  GraphicOpacity	  "1"
+		  GeometryShape		  "FromFile"
+		  RectangleSize		  "[1 1]"
+		  RectangleSizeUnits	  "m"
+		  BrickDimensions	  "[1 1 1]"
+		  BrickDimensionUnits	  "m"
+		  CylinderRadius	  "1"
+		  CylinderRadiusUnits	  "m"
+		  CylinderLength	  "1"
+		  CylinderLengthUnits	  "m"
+		  SphereRadius		  "1"
+		  SphereRadiusUnits	  "m"
+		  EllipsoidRadii	  "[1 1 1]"
+		  EllipsoidRadiiUnits	  "m"
+		  ExtrusionCrossSection	  "[1 1; -1 1; -1 -1; 1 -1]"
+		  ExtrusionCrossSectionUnits "m"
+		  ExtrusionLength	  "1"
+		  ExtrusionLengthUnits	  "m"
+		  PolygonNumSides	  "3"
+		  PolygonOuterRadius	  "1"
+		  PolygonOuterRadiusUnits "m"
+		  ExtGeomFileType	  "STL"
+		  ExtGeomFileName	  "Eje-Base-Brazo_Predeterminado_sldprt.STL"
+		  ExtGeomFileUnits	  "mm"
+		  RevolutionCrossSection  "[1 1; 1 -1; 2 -1; 2 1]"
+		  RevolutionCrossSectionUnits "m"
+		  RevolutionExtent	  "Full"
+		  RevolutionAngle	  "180"
+		  RevolutionAngleUnits	  "deg"
+		  BlockFunction		  "simmechanics.library.body_elements.solid"
+		}
+		Block {
+		  BlockType		  PMIOPort
+		  Name			  "F"
+		  SID			  "2172"
+		  Position		  [130, 40, 150, 60]
+		  ZOrder		  5
+		  BlockMirror		  on
+		  Port			  "1"
+		  Side			  "Left"
+		}
+		Line {
+		  LineType		  "Connection"
+		  ZOrder		  1
+		  SrcBlock		  "ReferenceFrame"
+		  SrcPort		  RConn1
+		  Points		  [0, 0]
+		  Branch {
+		    ConnectType		    "DEST_SRC"
+		    Points		    [10, 0; 0, 100]
+		    DstBlock		    "Solid"
+		    DstPort		    RConn1
+		  }
+		  Branch {
+		    ConnectType		    "DEST_SRC"
+		    DstBlock		    "F"
+		    DstPort		    RConn1
+		  }
+		}
+	      }
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "ReferenceFrame"
+	      SID		      "2173"
+	      Ports		      [0, 0, 0, 0, 0, 0, 1]
+	      Position		      [30, 380, 70, 420]
+	      ZOrder		      4
+	      LibraryVersion	      "1"
+	      SourceBlock	      "sm_lib/Frames and\nTransforms/Reference\nFrame"
+	      SourceType	      "Reference\nFrame"
+	      ClassName		      "ReferenceFrame"
+	      BlockFunction	      "simmechanics.library.frames_transforms.reference_frame"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Transform"
+	      SID		      "2174"
+	      Ports		      [0, 0, 0, 0, 0, 1, 1]
+	      Position		      [130, 730, 170, 770]
+	      ZOrder		      5
+	      LibraryVersion	      "1"
+	      SourceBlock	      "sm_lib/Frames and\nTransforms/Rigid\nTransform"
+	      SourceType	      "Rigid\nTransform"
+	      ClassName		      "RigidTransform"
+	      TranslationMethod	      "Cartesian"
+	      TranslationLengthUnit   "mm"
+	      TranslationStandardAxis "+Z"
+	      TranslationStandardOffset	"0"
+	      TranslationCartesianOffset "[-6.0000000000000426 124.97640195117162 -12.449999999999967]"
+	      TranslationROffset      "0"
+	      TranslationROffsetUnits "m"
+	      TranslationZOffset      "0"
+	      TranslationZOffsetUnits "m"
+	      TranslationThetaOffset  "0"
+	      TranslationThetaOffsetUnits "deg"
+	      RotationMethod	      "ArbitraryAxis"
+	      RotationAngleUnits      "rad"
+	      RotationStandardAxis    "+Z"
+	      RotationAngle	      "4.5159153695772639e-16"
+	      RotationArbitraryAxis   "[0.54102487993210191 -0.84100658695069364 -1.0273831376344183e-16]"
+	      FollAlignAxisA	      "+X"
+	      BaseAlignAxisA	      "+Y"
+	      FollAlignAxisB	      "+Y"
+	      BaseAlignAxisB	      "+Z"
+	      BlockFunction	      "simmechanics.library.frames_transforms.rigid_transform"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Transform1"
+	      SID		      "2175"
+	      Ports		      [0, 0, 0, 0, 0, 1, 1]
+	      Position		      [130, 630, 170, 670]
+	      ZOrder		      6
+	      LibraryVersion	      "1"
+	      SourceBlock	      "sm_lib/Frames and\nTransforms/Rigid\nTransform"
+	      SourceType	      "Rigid\nTransform"
+	      ClassName		      "RigidTransform"
+	      TranslationMethod	      "Cartesian"
+	      TranslationLengthUnit   "mm"
+	      TranslationStandardAxis "+Z"
+	      TranslationStandardOffset	"0"
+	      TranslationCartesianOffset "[-5.9999999999999911 -5.0235980488284868 -27.249999999999993]"
+	      TranslationROffset      "0"
+	      TranslationROffsetUnits "m"
+	      TranslationZOffset      "0"
+	      TranslationZOffsetUnits "m"
+	      TranslationThetaOffset  "0"
+	      TranslationThetaOffsetUnits "deg"
+	      RotationMethod	      "ArbitraryAxis"
+	      RotationAngleUnits      "rad"
+	      RotationStandardAxis    "+Z"
+	      RotationAngle	      "0"
+	      RotationArbitraryAxis   "[0 0 0]"
+	      FollAlignAxisA	      "+X"
+	      BaseAlignAxisA	      "+Y"
+	      FollAlignAxisB	      "+Y"
+	      BaseAlignAxisB	      "+Z"
+	      BlockFunction	      "simmechanics.library.frames_transforms.rigid_transform"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Transform2"
+	      SID		      "2176"
+	      Ports		      [0, 0, 0, 0, 0, 1, 1]
+	      Position		      [130, 530, 170, 570]
+	      ZOrder		      7
+	      LibraryVersion	      "1"
+	      SourceBlock	      "sm_lib/Frames and\nTransforms/Rigid\nTransform"
+	      SourceType	      "Rigid\nTransform"
+	      ClassName		      "RigidTransform"
+	      TranslationMethod	      "Cartesian"
+	      TranslationLengthUnit   "mm"
+	      TranslationStandardAxis "+Z"
+	      TranslationStandardOffset	"0"
+	      TranslationCartesianOffset "[-6.0000000000000053 -5.0235980488284868 20.850000000000001]"
+	      TranslationROffset      "0"
+	      TranslationROffsetUnits "m"
+	      TranslationZOffset      "0"
+	      TranslationZOffsetUnits "m"
+	      TranslationThetaOffset  "0"
+	      TranslationThetaOffsetUnits "deg"
+	      RotationMethod	      "ArbitraryAxis"
+	      RotationAngleUnits      "rad"
+	      RotationStandardAxis    "+Z"
+	      RotationAngle	      "0"
+	      RotationArbitraryAxis   "[0 0 0]"
+	      FollAlignAxisA	      "+X"
+	      BaseAlignAxisA	      "+Y"
+	      FollAlignAxisB	      "+Y"
+	      BaseAlignAxisB	      "+Z"
+	      BlockFunction	      "simmechanics.library.frames_transforms.rigid_transform"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Transform3"
+	      SID		      "2177"
+	      Ports		      [0, 0, 0, 0, 0, 1, 1]
+	      Position		      [130, 430, 170, 470]
+	      ZOrder		      8
+	      LibraryVersion	      "1"
+	      SourceBlock	      "sm_lib/Frames and\nTransforms/Rigid\nTransform"
+	      SourceType	      "Rigid\nTransform"
+	      ClassName		      "RigidTransform"
+	      TranslationMethod	      "Cartesian"
+	      TranslationLengthUnit   "mm"
+	      TranslationStandardAxis "+Z"
+	      TranslationStandardOffset	"0"
+	      TranslationCartesianOffset "[-5.9999999999999911 -5.0235980488284868 -27.249999999999993]"
+	      TranslationROffset      "0"
+	      TranslationROffsetUnits "m"
+	      TranslationZOffset      "0"
+	      TranslationZOffsetUnits "m"
+	      TranslationThetaOffset  "0"
+	      TranslationThetaOffsetUnits "deg"
+	      RotationMethod	      "ArbitraryAxis"
+	      RotationAngleUnits      "rad"
+	      RotationStandardAxis    "+Z"
+	      RotationAngle	      "3.1415926535897931"
+	      RotationArbitraryAxis   "[8.3266726846886741e-17 1 1.040834085586084e-16]"
+	      FollAlignAxisA	      "+X"
+	      BaseAlignAxisA	      "+Y"
+	      FollAlignAxisB	      "+Y"
+	      BaseAlignAxisB	      "+Z"
+	      BlockFunction	      "simmechanics.library.frames_transforms.rigid_transform"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Transform4"
+	      SID		      "2178"
+	      Ports		      [0, 0, 0, 0, 0, 1, 1]
+	      Position		      [130, 330, 170, 370]
+	      ZOrder		      9
+	      LibraryVersion	      "1"
+	      SourceBlock	      "sm_lib/Frames and\nTransforms/Rigid\nTransform"
+	      SourceType	      "Rigid\nTransform"
+	      ClassName		      "RigidTransform"
+	      TranslationMethod	      "Cartesian"
+	      TranslationLengthUnit   "mm"
+	      TranslationStandardAxis "+Z"
+	      TranslationStandardOffset	"0"
+	      TranslationCartesianOffset "[-6.0000000000000053 44.827213017679505 0]"
+	      TranslationROffset      "0"
+	      TranslationROffsetUnits "m"
+	      TranslationZOffset      "0"
+	      TranslationZOffsetUnits "m"
+	      TranslationThetaOffset  "0"
+	      TranslationThetaOffsetUnits "deg"
+	      RotationMethod	      "ArbitraryAxis"
+	      RotationAngleUnits      "rad"
+	      RotationStandardAxis    "+Z"
+	      RotationAngle	      "3.1415926535897931"
+	      RotationArbitraryAxis   "[1.1102230246251565e-16 1 0]"
+	      FollAlignAxisA	      "+X"
+	      BaseAlignAxisA	      "+Y"
+	      FollAlignAxisB	      "+Y"
+	      BaseAlignAxisB	      "+Z"
+	      BlockFunction	      "simmechanics.library.frames_transforms.rigid_transform"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Transform5"
+	      SID		      "2179"
+	      Ports		      [0, 0, 0, 0, 0, 1, 1]
+	      Position		      [130, 230, 170, 270]
+	      ZOrder		      10
+	      LibraryVersion	      "1"
+	      SourceBlock	      "sm_lib/Frames and\nTransforms/Rigid\nTransform"
+	      SourceType	      "Rigid\nTransform"
+	      ClassName		      "RigidTransform"
+	      TranslationMethod	      "Cartesian"
+	      TranslationLengthUnit   "mm"
+	      TranslationStandardAxis "+Z"
+	      TranslationStandardOffset	"0"
+	      TranslationCartesianOffset "[-6.0000000000000329 124.97640195117161 26.049999999999997]"
+	      TranslationROffset      "0"
+	      TranslationROffsetUnits "m"
+	      TranslationZOffset      "0"
+	      TranslationZOffsetUnits "m"
+	      TranslationThetaOffset  "0"
+	      TranslationThetaOffsetUnits "deg"
+	      RotationMethod	      "ArbitraryAxis"
+	      RotationAngleUnits      "rad"
+	      RotationStandardAxis    "+Z"
+	      RotationAngle	      "3.1415926535897931"
+	      RotationArbitraryAxis   "[1.1102230246251565e-16 1 0]"
+	      FollAlignAxisA	      "+X"
+	      BaseAlignAxisA	      "+Y"
+	      FollAlignAxisB	      "+Y"
+	      BaseAlignAxisB	      "+Z"
+	      BlockFunction	      "simmechanics.library.frames_transforms.rigid_transform"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Transform6"
+	      SID		      "2180"
+	      Ports		      [0, 0, 0, 0, 0, 1, 1]
+	      Position		      [130, 130, 170, 170]
+	      ZOrder		      11
+	      LibraryVersion	      "1"
+	      SourceBlock	      "sm_lib/Frames and\nTransforms/Rigid\nTransform"
+	      SourceType	      "Rigid\nTransform"
+	      ClassName		      "RigidTransform"
+	      TranslationMethod	      "Cartesian"
+	      TranslationLengthUnit   "mm"
+	      TranslationStandardAxis "+Z"
+	      TranslationStandardOffset	"0"
+	      TranslationCartesianOffset "[-5.9999999999999911 -5.0235980488284868 20.850000000000009]"
+	      TranslationROffset      "0"
+	      TranslationROffsetUnits "m"
+	      TranslationZOffset      "0"
+	      TranslationZOffsetUnits "m"
+	      TranslationThetaOffset  "0"
+	      TranslationThetaOffsetUnits "deg"
+	      RotationMethod	      "ArbitraryAxis"
+	      RotationAngleUnits      "rad"
+	      RotationStandardAxis    "+Z"
+	      RotationAngle	      "3.1415926535897931"
+	      RotationArbitraryAxis   "[1.1102230246251565e-16 1 0]"
+	      FollAlignAxisA	      "+X"
+	      BaseAlignAxisA	      "+Y"
+	      FollAlignAxisB	      "+Y"
+	      BaseAlignAxisB	      "+Z"
+	      BlockFunction	      "simmechanics.library.frames_transforms.rigid_transform"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Transform7"
+	      SID		      "2181"
+	      Ports		      [0, 0, 0, 0, 0, 1, 1]
+	      Position		      [130, 30, 170, 70]
+	      ZOrder		      12
+	      LibraryVersion	      "1"
+	      SourceBlock	      "sm_lib/Frames and\nTransforms/Rigid\nTransform"
+	      SourceType	      "Rigid\nTransform"
+	      ClassName		      "RigidTransform"
+	      TranslationMethod	      "Cartesian"
+	      TranslationLengthUnit   "mm"
+	      TranslationStandardAxis "+Z"
+	      TranslationStandardOffset	"0"
+	      TranslationCartesianOffset "[-6.0000000000000053 -5.0235980488284868 20.850000000000001]"
+	      TranslationROffset      "0"
+	      TranslationROffsetUnits "m"
+	      TranslationZOffset      "0"
+	      TranslationZOffsetUnits "m"
+	      TranslationThetaOffset  "0"
+	      TranslationThetaOffsetUnits "deg"
+	      RotationMethod	      "ArbitraryAxis"
+	      RotationAngleUnits      "rad"
+	      RotationStandardAxis    "+Z"
+	      RotationAngle	      "0.39309481042652039"
+	      RotationArbitraryAxis   "[0 2.173787820725543e-16 -1]"
+	      FollAlignAxisA	      "+X"
+	      BaseAlignAxisA	      "+Y"
+	      FollAlignAxisB	      "+Y"
+	      BaseAlignAxisB	      "+Z"
+	      BlockFunction	      "simmechanics.library.frames_transforms.rigid_transform"
+	    }
+	    Block {
+	      BlockType		      SubSystem
+	      Name		      "ball_Uniball_1_RIGID"
+	      SID		      "2182"
+	      Ports		      [0, 0, 0, 0, 0, 1]
+	      Position		      [315, 30, 355, 70]
+	      ZOrder		      13
+	      RequestExecContextInheritance off
+	      Object {
+		$PropName		"MaskObject"
+		$ObjectID		32
+		$ClassName		"Simulink.Mask"
+	      }
+	      System {
+		Name			"ball_Uniball_1_RIGID"
+		Location		[100, 100, 600, 900]
+		Open			off
+		ModelBrowserVisibility	off
+		ModelBrowserWidth	200
+		ScreenColor		"white"
+		PaperOrientation	"landscape"
+		PaperPositionMode	"auto"
+		PaperType		"usletter"
+		PaperUnits		"inches"
+		TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+		TiledPageScale		1
+		ShowPageBoundaries	off
+		ZoomFactor		"100"
+		Block {
+		  BlockType		  Reference
+		  Name			  "ReferenceFrame"
+		  SID			  "2183"
+		  Ports			  [0, 0, 0, 0, 0, 0, 1]
+		  Position		  [30, 30, 70, 70]
+		  ZOrder		  2
+		  LibraryVersion	  "1"
+		  SourceBlock		  "sm_lib/Frames and\nTransforms/Reference\nFrame"
+		  SourceType		  "Reference\nFrame"
+		  ClassName		  "ReferenceFrame"
+		  BlockFunction		  "simmechanics.library.frames_transforms.reference_frame"
+		}
+		Block {
+		  BlockType		  Reference
+		  Name			  "Solid"
+		  SID			  "2184"
+		  Ports			  [0, 0, 0, 0, 0, 0, 1]
+		  Position		  [30, 130, 70, 170]
+		  ZOrder		  4
+		  LibraryVersion	  "1"
+		  SourceBlock		  "sm_lib/Body Elements/Solid"
+		  SourceType		  "Solid"
+		  ClassName		  "Solid"
+		  InertiaType		  "Custom"
+		  Mass			  "0.0055458151739754217"
+		  MassUnits		  "kg"
+		  CenterOfMass		  "[-2.6002689251073309e-05 0 0]"
+		  CenterOfMassUnits	  "mm"
+		  MomentsOfInertia	  "[0.091219033457233048 0.091225744336999384 0.12400458181757036]"
+		  MomentsOfInertiaUnits	  "kg*mm^2"
+		  ProductsOfInertia	  "[0 0 0]"
+		  ProductsOfInertiaUnits  "kg*mm^2"
+		  DensityBased		  "on"
+		  Density		  "1000"
+		  DensityUnits		  "kg/(m^3)"
+		  GraphicType		  "FromGeometry"
+		  MarkerShape		  "Sphere"
+		  MarkerSize		  "10"
+		  MarkerSizeUnits	  "m"
+		  GraphicVisPropType	  "SimpleVisualProperties"
+		  GraphicDiffuseColor	  "[0.89803921568627454 0.89803921568627454 0.89803921568627454]"
+		  GraphicSpecularColor	  "[0.5 0.5 0.5 1.0]"
+		  GraphicAmbientColor	  "[0.15 0.15 0.15 1.0]"
+		  GraphicEmissiveColor	  "[0.0 0.0 0.0 1.0]"
+		  GraphicShininess	  "75"
+		  GraphicOpacity	  "1"
+		  GeometryShape		  "FromFile"
+		  RectangleSize		  "[1 1]"
+		  RectangleSizeUnits	  "m"
+		  BrickDimensions	  "[1 1 1]"
+		  BrickDimensionUnits	  "m"
+		  CylinderRadius	  "1"
+		  CylinderRadiusUnits	  "m"
+		  CylinderLength	  "1"
+		  CylinderLengthUnits	  "m"
+		  SphereRadius		  "1"
+		  SphereRadiusUnits	  "m"
+		  EllipsoidRadii	  "[1 1 1]"
+		  EllipsoidRadiiUnits	  "m"
+		  ExtrusionCrossSection	  "[1 1; -1 1; -1 -1; 1 -1]"
+		  ExtrusionCrossSectionUnits "m"
+		  ExtrusionLength	  "1"
+		  ExtrusionLengthUnits	  "m"
+		  PolygonNumSides	  "3"
+		  PolygonOuterRadius	  "1"
+		  PolygonOuterRadiusUnits "m"
+		  ExtGeomFileType	  "STL"
+		  ExtGeomFileName	  "ball_Uniball_?? ?????????_sldprt.STL"
+		  ExtGeomFileUnits	  "mm"
+		  RevolutionCrossSection  "[1 1; 1 -1; 2 -1; 2 1]"
+		  RevolutionCrossSectionUnits "m"
+		  RevolutionExtent	  "Full"
+		  RevolutionAngle	  "180"
+		  RevolutionAngleUnits	  "deg"
+		  BlockFunction		  "simmechanics.library.body_elements.solid"
+		}
+		Block {
+		  BlockType		  PMIOPort
+		  Name			  "F"
+		  SID			  "2185"
+		  Position		  [130, 40, 150, 60]
+		  ZOrder		  5
+		  BlockMirror		  on
+		  Port			  "1"
+		  Side			  "Left"
+		}
+		Line {
+		  LineType		  "Connection"
+		  ZOrder		  1
+		  SrcBlock		  "ReferenceFrame"
+		  SrcPort		  RConn1
+		  Points		  [0, 0]
+		  Branch {
+		    ConnectType		    "DEST_SRC"
+		    Points		    [10, 0; 0, 100]
+		    DstBlock		    "Solid"
+		    DstPort		    RConn1
+		  }
+		  Branch {
+		    ConnectType		    "DEST_SRC"
+		    DstBlock		    "F"
+		    DstPort		    RConn1
+		  }
+		}
+	      }
+	    }
+	    Block {
+	      BlockType		      SubSystem
+	      Name		      "ball_Uniball_2_RIGID"
+	      SID		      "2186"
+	      Ports		      [0, 0, 0, 0, 0, 1]
+	      Position		      [315, 430, 355, 470]
+	      ZOrder		      14
+	      RequestExecContextInheritance off
+	      Object {
+		$PropName		"MaskObject"
+		$ObjectID		33
+		$ClassName		"Simulink.Mask"
+	      }
+	      System {
+		Name			"ball_Uniball_2_RIGID"
+		Location		[100, 100, 600, 900]
+		Open			off
+		ModelBrowserVisibility	off
+		ModelBrowserWidth	200
+		ScreenColor		"white"
+		PaperOrientation	"landscape"
+		PaperPositionMode	"auto"
+		PaperType		"usletter"
+		PaperUnits		"inches"
+		TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+		TiledPageScale		1
+		ShowPageBoundaries	off
+		ZoomFactor		"100"
+		Block {
+		  BlockType		  Reference
+		  Name			  "ReferenceFrame"
+		  SID			  "2187"
+		  Ports			  [0, 0, 0, 0, 0, 0, 1]
+		  Position		  [30, 30, 70, 70]
+		  ZOrder		  2
+		  LibraryVersion	  "1"
+		  SourceBlock		  "sm_lib/Frames and\nTransforms/Reference\nFrame"
+		  SourceType		  "Reference\nFrame"
+		  ClassName		  "ReferenceFrame"
+		  BlockFunction		  "simmechanics.library.frames_transforms.reference_frame"
+		}
+		Block {
+		  BlockType		  Reference
+		  Name			  "Solid"
+		  SID			  "2188"
+		  Ports			  [0, 0, 0, 0, 0, 0, 1]
+		  Position		  [30, 130, 70, 170]
+		  ZOrder		  4
+		  LibraryVersion	  "1"
+		  SourceBlock		  "sm_lib/Body Elements/Solid"
+		  SourceType		  "Solid"
+		  ClassName		  "Solid"
+		  InertiaType		  "Custom"
+		  Mass			  "0.0055458151739754217"
+		  MassUnits		  "kg"
+		  CenterOfMass		  "[-2.6002689251073309e-05 0 0]"
+		  CenterOfMassUnits	  "mm"
+		  MomentsOfInertia	  "[0.091219033457233048 0.091225744336999384 0.12400458181757036]"
+		  MomentsOfInertiaUnits	  "kg*mm^2"
+		  ProductsOfInertia	  "[0 0 0]"
+		  ProductsOfInertiaUnits  "kg*mm^2"
+		  DensityBased		  "on"
+		  Density		  "1000"
+		  DensityUnits		  "kg/(m^3)"
+		  GraphicType		  "FromGeometry"
+		  MarkerShape		  "Sphere"
+		  MarkerSize		  "10"
+		  MarkerSizeUnits	  "m"
+		  GraphicVisPropType	  "SimpleVisualProperties"
+		  GraphicDiffuseColor	  "[0.89803921568627454 0.89803921568627454 0.89803921568627454]"
+		  GraphicSpecularColor	  "[0.5 0.5 0.5 1.0]"
+		  GraphicAmbientColor	  "[0.15 0.15 0.15 1.0]"
+		  GraphicEmissiveColor	  "[0.0 0.0 0.0 1.0]"
+		  GraphicShininess	  "75"
+		  GraphicOpacity	  "1"
+		  GeometryShape		  "FromFile"
+		  RectangleSize		  "[1 1]"
+		  RectangleSizeUnits	  "m"
+		  BrickDimensions	  "[1 1 1]"
+		  BrickDimensionUnits	  "m"
+		  CylinderRadius	  "1"
+		  CylinderRadiusUnits	  "m"
+		  CylinderLength	  "1"
+		  CylinderLengthUnits	  "m"
+		  SphereRadius		  "1"
+		  SphereRadiusUnits	  "m"
+		  EllipsoidRadii	  "[1 1 1]"
+		  EllipsoidRadiiUnits	  "m"
+		  ExtrusionCrossSection	  "[1 1; -1 1; -1 -1; 1 -1]"
+		  ExtrusionCrossSectionUnits "m"
+		  ExtrusionLength	  "1"
+		  ExtrusionLengthUnits	  "m"
+		  PolygonNumSides	  "3"
+		  PolygonOuterRadius	  "1"
+		  PolygonOuterRadiusUnits "m"
+		  ExtGeomFileType	  "STL"
+		  ExtGeomFileName	  "ball_Uniball_?? ?????????_sldprt.STL"
+		  ExtGeomFileUnits	  "mm"
+		  RevolutionCrossSection  "[1 1; 1 -1; 2 -1; 2 1]"
+		  RevolutionCrossSectionUnits "m"
+		  RevolutionExtent	  "Full"
+		  RevolutionAngle	  "180"
+		  RevolutionAngleUnits	  "deg"
+		  BlockFunction		  "simmechanics.library.body_elements.solid"
+		}
+		Block {
+		  BlockType		  PMIOPort
+		  Name			  "F"
+		  SID			  "2189"
+		  Position		  [130, 40, 150, 60]
+		  ZOrder		  5
+		  BlockMirror		  on
+		  Port			  "1"
+		  Side			  "Left"
+		}
+		Line {
+		  LineType		  "Connection"
+		  ZOrder		  1
+		  SrcBlock		  "ReferenceFrame"
+		  SrcPort		  RConn1
+		  Points		  [0, 0]
+		  Branch {
+		    ConnectType		    "DEST_SRC"
+		    Points		    [10, 0; 0, 100]
+		    DstBlock		    "Solid"
+		    DstPort		    RConn1
+		  }
+		  Branch {
+		    ConnectType		    "DEST_SRC"
+		    DstBlock		    "F"
+		    DstPort		    RConn1
+		  }
+		}
+	      }
+	    }
+	    Block {
+	      BlockType		      PMIOPort
+	      Name		      "F"
+	      SID		      "2190"
+	      Position		      [230, 740, 250, 760]
+	      ZOrder		      15
+	      BlockMirror	      on
+	      Port		      "1"
+	      Side		      "Left"
+	    }
+	    Block {
+	      BlockType		      PMIOPort
+	      Name		      "F2"
+	      SID		      "2191"
+	      Position		      [230, 540, 250, 560]
+	      ZOrder		      16
+	      BlockMirror	      on
+	      Port		      "2"
+	      Side		      "Right"
+	    }
+	    Block {
+	      BlockType		      PMIOPort
+	      Name		      "F1"
+	      SID		      "2192"
+	      Position		      [230, 640, 250, 660]
+	      ZOrder		      17
+	      BlockMirror	      on
+	      Port		      "3"
+	      Side		      "Right"
+	    }
+	    Line {
+	      LineType		      "Connection"
+	      ZOrder		      1
+	      Points		      [100, 650; 0, 100; 15, 0]
+	      DstBlock		      "Transform"
+	      DstPort		      LConn1
+	      Branch {
+		ConnectType		"SRC_SRC"
+		DstBlock		"Transform1"
+		DstPort			LConn1
+	      }
+	      Branch {
+		ConnectType		"SRC_DEST"
+		Points			[100, 550; 0, 100]
+		Branch {
+		  ConnectType		  "SRC_DEST"
+		  Points		  [100, 450; 0, 100]
+		  Branch {
+		    ConnectType		    "SRC_DEST"
+		    Points		    [100, 400; 0, 50]
+		    Branch {
+		    ConnectType		    "SRC_DEST"
+		    SrcBlock		    "ReferenceFrame"
+		    SrcPort		    RConn1
+		    Points		    [15, 0]
+		    }
+		    Branch {
+		    ConnectType		    "SRC_SRC"
+		    Points		    [0, -50]
+		    Branch {
+		    ConnectType		    "DEST_SRC"
+		    Points		    [0, -100]
+		    Branch {
+		    ConnectType		    "DEST_SRC"
+		    Points		    [0, -100]
+		    Branch {
+		    ConnectType		    "DEST_SRC"
+		    DstBlock		    "Transform6"
+		    DstPort		    LConn1
+		    }
+		    Branch {
+		    ConnectType		    "DEST_SRC"
+		    Points		    [0, -100]
+		    DstBlock		    "Transform7"
+		    DstPort		    LConn1
+		    }
+		    }
+		    Branch {
+		    ConnectType		    "DEST_SRC"
+		    DstBlock		    "Transform5"
+		    DstPort		    LConn1
+		    }
+		    }
+		    Branch {
+		    ConnectType		    "DEST_SRC"
+		    DstBlock		    "Transform4"
+		    DstPort		    LConn1
+		    }
+		    }
+		  }
+		  Branch {
+		    ConnectType		    "SRC_SRC"
+		    DstBlock		    "Transform3"
+		    DstPort		    LConn1
+		  }
+		}
+		Branch {
+		  ConnectType		  "SRC_SRC"
+		  DstBlock		  "Transform2"
+		  DstPort		  LConn1
+		}
+	      }
+	    }
+	    Line {
+	      LineType		      "Connection"
+	      ZOrder		      16
+	      SrcBlock		      "Transform"
+	      SrcPort		      RConn1
+	      DstBlock		      "F"
+	      DstPort		      RConn1
+	    }
+	    Line {
+	      LineType		      "Connection"
+	      ZOrder		      17
+	      SrcBlock		      "Transform1"
+	      SrcPort		      RConn1
+	      DstBlock		      "F1"
+	      DstPort		      RConn1
+	    }
+	    Line {
+	      LineType		      "Connection"
+	      ZOrder		      18
+	      SrcBlock		      "Transform2"
+	      SrcPort		      RConn1
+	      DstBlock		      "F2"
+	      DstPort		      RConn1
+	    }
+	    Line {
+	      LineType		      "Connection"
+	      ZOrder		      19
+	      SrcBlock		      "Transform3"
+	      SrcPort		      RConn1
+	      DstBlock		      "ball_Uniball_2_RIGID"
+	      DstPort		      LConn1
+	    }
+	    Line {
+	      LineType		      "Connection"
+	      ZOrder		      20
+	      SrcBlock		      "Brazo_1_RIGID"
+	      SrcPort		      LConn1
+	      DstBlock		      "Transform4"
+	      DstPort		      RConn1
+	    }
+	    Line {
+	      LineType		      "Connection"
+	      ZOrder		      21
+	      SrcBlock		      "Eje_Base_Brazo_1_RIGID"
+	      SrcPort		      LConn1
+	      DstBlock		      "Transform5"
+	      DstPort		      RConn1
+	    }
+	    Line {
+	      LineType		      "Connection"
+	      ZOrder		      22
+	      SrcBlock		      "Acople_Brazo_RUniball_1_RIGID"
+	      SrcPort		      LConn1
+	      DstBlock		      "Transform6"
+	      DstPort		      RConn1
+	    }
+	    Line {
+	      LineType		      "Connection"
+	      ZOrder		      23
+	      SrcBlock		      "Transform7"
+	      SrcPort		      RConn1
+	      DstBlock		      "ball_Uniball_1_RIGID"
+	      DstPort		      LConn1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Corrdenadas Iniciales\n"
+	  SID			  "394"
+	  Ports			  [0, 0, 0, 0, 0, 0, 1]
+	  Position		  [140, 600, 180, 640]
+	  ZOrder		  140
+	  BlockMirror		  on
+	  LibraryVersion	  "1"
+	  SourceBlock		  "sm_lib/Body Elements/Graphic"
+	  SourceType		  "Graphic"
+	  ClassName		  "Graphic"
+	  GraphicType		  "Marker"
+	  MarkerShape		  "Frame"
+	  MarkerSize		  "25"
+	  MarkerSizeUnits	  "m"
+	  GraphicVisPropType	  "SimpleVisualProperties"
+	  GraphicDiffuseColor	  "[0.0 0.0 0.0]"
+	  GraphicSpecularColor	  "[0.2 0.2 0.2]"
+	  GraphicAmbientColor	  "[0.5 0.5 0.5]"
+	  GraphicEmissiveColor	  "[0.0 0.0 0.0 1.0]"
+	  GraphicShininess	  "24.0"
+	  GraphicOpacity	  "1.0"
+	  BlockFunction		  "simmechanics.library.body_elements.graphic"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Friccion \nCoulomb\nR2"
+	  SID			  "2071"
+	  Ports			  [0, 0, 0, 0, 0, 1, 2]
+	  Position		  [425, 130, 465, 170]
+	  ZOrder		  372
+	  ForegroundColor	  "red"
+	  BackgroundColor	  "yellow"
+	  LibraryVersion	  "1.88"
+	  SourceBlock		  "Fricciones/Friccion R"
+	  SourceType		  "SubSystem"
+	  ContentPreviewEnabled	  off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "MechanismConfiguration"
+	  SID			  "12"
+	  Ports			  [0, 0, 0, 0, 0, 0, 1]
+	  Position		  [30, 500, 70, 540]
+	  ZOrder		  12
+	  ShowName		  off
+	  LibraryVersion	  "1"
+	  SourceBlock		  "sm_lib/Utilities/Mechanism\nConfiguration"
+	  SourceType		  "Mechanism\nConfiguration"
+	  ClassName		  "MechanismConfiguration"
+	  UniformGravity	  "Constant"
+	  GravityVector		  "[0 0 -9.81]"
+	  GravityUnits		  "m/s^2"
+	  LinearizationDelta	  "0.001"
+	  BlockFunction		  "simmechanics.library.utilities.mechanism_configuration"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "PS-Simulink\nConverter"
+	  SID			  "2129"
+	  Ports			  [0, 1, 0, 0, 0, 1]
+	  Position		  [555, 230, 585, 260]
+	  ZOrder		  405
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "nesl_utility/PS-Simulink\nConverter"
+	  SourceType		  "PS-Simulink\nConverter"
+	  ContentPreviewEnabled	  off
+	  PhysicalDomain	  "network_engine_domain"
+	  SubClassName		  "ps_output"
+	  LeftPortType		  "input"
+	  RightPortType		  "output"
+	  PseudoPeriodic	  off
+	  Frequencies		  "[]"
+	  Unit			  "1"
+	  AffineConversion	  off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "PS-Simulink\nConverter1"
+	  SID			  "2131"
+	  Ports			  [0, 1, 0, 0, 0, 1]
+	  Position		  [775, 205, 805, 235]
+	  ZOrder		  407
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "nesl_utility/PS-Simulink\nConverter"
+	  SourceType		  "PS-Simulink\nConverter"
+	  ContentPreviewEnabled	  off
+	  PhysicalDomain	  "network_engine_domain"
+	  SubClassName		  "ps_output"
+	  LeftPortType		  "input"
+	  RightPortType		  "output"
+	  PseudoPeriodic	  off
+	  Frequencies		  "[]"
+	  Unit			  "1"
+	  AffineConversion	  off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Revolute1"
+	  SID			  "15"
+	  Ports			  [0, 0, 0, 0, 0, 2, 3]
+	  Position		  [535, 110, 575, 150]
+	  ZOrder		  15
+	  LibraryVersion	  "1"
+	  SourceBlock		  "sm_lib/Joints/Revolute Joint"
+	  SourceType		  "Revolute Joint"
+	  ClassName		  "RevoluteJoint"
+	  SenseConstraintForce	  "off"
+	  SenseConstraintForceX	  "off"
+	  SenseConstraintForceY	  "off"
+	  SenseConstraintForceZ	  "off"
+	  SenseConstraintTorque	  "off"
+	  SenseConstraintTorqueX  "off"
+	  SenseConstraintTorqueY  "off"
+	  SenseConstraintTorqueZ  "off"
+	  SenseTotalForce	  "off"
+	  SenseTotalForceX	  "off"
+	  SenseTotalForceY	  "off"
+	  SenseTotalForceZ	  "off"
+	  SenseTotalTorque	  "off"
+	  SenseTotalTorqueX	  "off"
+	  SenseTotalTorqueY	  "off"
+	  SenseTotalTorqueZ	  "off"
+	  CompositeWrenchDir	  "FollowerOnBase"
+	  CompositeWrenchFrame	  "BaseFrame"
+	  EquilibriumPosition	  "0"
+	  EquilibriumPositionUnits "rad"
+	  SpringStiffness	  "0"
+	  SpringStiffnessUnits	  "m*N/rad"
+	  DampingCoefficient	  "0"
+	  DampingCoefficientUnits "m*s*N/rad"
+	  TorqueActuationMode	  "InputTorque"
+	  MotionActuationMode	  "ComputedMotion"
+	  SensePosition		  "on"
+	  SenseVelocity		  "on"
+	  SenseAcceleration	  "off"
+	  SenseTorqueForce	  "off"
+	  PositionTargetValue	  "-53"
+	  PositionTargetValueUnits "deg"
+	  PositionTargetSpecify	  "on"
+	  PositionTargetPriority  "High"
+	  VelocityTargetValue	  "0"
+	  VelocityTargetValueUnits "deg/s"
+	  VelocityTargetSpecify	  "off"
+	  VelocityTargetPriority  "High"
+	  BlockFunction		  "simmechanics.library.joints.revolute_joint"
+	}
+	Block {
+	  BlockType		  Scope
+	  Name			  "Scope"
+	  SID			  "2130"
+	  Ports			  [1]
+	  Position		  [655, 244, 685, 276]
+	  ZOrder		  406
+	  Floating		  off
+	  Location		  [1, 49, 1361, 737]
+	  Open			  off
+	  NumInputPorts		  "1"
+	  ZoomMode		  "xonly"
+	  List {
+	    ListType		    AxesTitles
+	    axes1		    "%<SignalLabel>"
+	  }
+	  List {
+	    ListType		    ScopeGraphics
+	    FigureColor		    "[0.5 0.5 0.5]"
+	    AxesColor		    "[0 0 0]"
+	    AxesTickColor	    "[1 1 1]"
+	    LineColors		    "[1 1 0;1 0 1;0 1 1;1 0 0;0 1 0;0 0 1]"
+	    LineStyles		    "-|-|-|-|-|-"
+	    LineWidths		    "[0.5 0.5 0.5 0.5 0.5 0.5]"
+	    MarkerStyles	    "none|none|none|none|none|none"
+	  }
+	  ShowLegends		  off
+	  LimitDataPoints	  off
+	}
+	Block {
+	  BlockType		  Scope
+	  Name			  "Scope1"
+	  SID			  "2132"
+	  Ports			  [1]
+	  Position		  [875, 219, 905, 251]
+	  ZOrder		  408
+	  Floating		  off
+	  Location		  [188, 365, 512, 604]
+	  Open			  off
+	  NumInputPorts		  "1"
+	  List {
+	    ListType		    AxesTitles
+	    axes1		    "%<SignalLabel>"
+	  }
+	  List {
+	    ListType		    ScopeGraphics
+	    FigureColor		    "[0.5 0.5 0.5]"
+	    AxesColor		    "[0 0 0]"
+	    AxesTickColor	    "[1 1 1]"
+	    LineColors		    "[1 1 0;1 0 1;0 1 1;1 0 0;0 1 0;0 0 1]"
+	    LineStyles		    "-|-|-|-|-|-"
+	    LineWidths		    "[0.5 0.5 0.5 0.5 0.5 0.5]"
+	    MarkerStyles	    "none|none|none|none|none|none"
+	  }
+	  ShowLegends		  off
+	  SaveName		  "ScopeData1"
+	  LimitDataPoints	  off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Simulink-PS\nConverter"
+	  SID			  "2155"
+	  Ports			  [1, 0, 0, 0, 0, 0, 1]
+	  Position		  [445, 212, 475, 248]
+	  ZOrder		  410
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "nesl_utility/Simulink-PS\nConverter"
+	  SourceType		  "Simulink-PS\nConverter"
+	  ContentPreviewEnabled	  off
+	  PhysicalDomain	  "network_engine_domain"
+	  SubClassName		  "ps_input"
+	  LeftPortType		  "input"
+	  RightPortType		  "output"
+	  PseudoPeriodic	  off
+	  Frequencies		  "[]"
+	  NoiseDistribution	  "none"
+	  NoiseParameters	  "[]"
+	  Unit			  "N*m"
+	  AffineConversion	  off
+	  InputFiltering	  "off"
+	  SimscapeFilterOrder	  "1"
+	  InputFilterTimeConstant "0.001"
+	  UdotUserProvided	  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Solver\nConfiguration1"
+	  SID			  "433"
+	  Ports			  [0, 0, 0, 0, 0, 0, 1]
+	  Position		  [30, 430, 70, 470]
+	  ZOrder		  215
+	  ShowName		  off
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "nesl_utility/Solver\nConfiguration"
+	  SourceType		  "Solver\nConfiguration"
+	  ContentPreviewEnabled	  off
+	  PhysicalDomain	  "network_engine_domain"
+	  SubClassName		  "solver"
+	  LeftPortType		  "input"
+	  RightPortType		  "generic"
+	  Accelerate		  off
+	  Tones			  "[]"
+	  Harmonics		  "[]"
+	  SimulateNoise		  off
+	  Profile		  off
+	  UseLocalSampling	  off
+	  EnableSwitchedLinearOptims on
+	  FrequencyDomain	  off
+	  UseCCode		  off
+	  RelTol		  "0.001"
+	  AbsTol		  "1e-06"
+	  MinStep		  "1e-09"
+	  ToWorkspace		  off
+	  DoDC			  on
+	  ResidualTolerance	  "1e-09"
+	  UseLocalSolver	  off
+	  LocalSolverChoice	  "NE_BACKWARD_EULER_ADVANCER"
+	  LocalSolverSampleTime	  "0.0005"
+	  DoFixedCost		  off
+	  MaxNonlinIter		  "30"
+	  MaxModeIter		  "2"
+	  LinearAlgebra		  "Full"
+	  DelaysMemoryBudget	  "2048"
+	  AutomaticFiltering	  on
+	  FilteringTimeConstant	  "0.001"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Transform5"
+	  SID			  "1454"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [65, 685, 105, 725]
+	  ZOrder		  314
+	  LibraryVersion	  "1"
+	  SourceBlock		  "sm_lib/Frames and\nTransforms/Rigid\nTransform"
+	  SourceType		  "Rigid\nTransform"
+	  ClassName		  "RigidTransform"
+	  TranslationMethod	  "Cartesian"
+	  TranslationLengthUnit	  "mm"
+	  TranslationStandardAxis "+Z"
+	  TranslationStandardOffset "0"
+	  TranslationCartesianOffset "[0 0 0]"
+	  TranslationROffset	  "0"
+	  TranslationROffsetUnits "m"
+	  TranslationZOffset	  "0"
+	  TranslationZOffsetUnits "m"
+	  TranslationThetaOffset  "0"
+	  TranslationThetaOffsetUnits "deg"
+	  RotationMethod	  "ArbitraryAxis"
+	  RotationAngleUnits	  "deg"
+	  RotationStandardAxis	  "+Z"
+	  RotationAngle		  "120"
+	  RotationArbitraryAxis	  "[0 0 1]"
+	  FollAlignAxisA	  "+X"
+	  BaseAlignAxisA	  "+Y"
+	  FollAlignAxisB	  "+Y"
+	  BaseAlignAxisB	  "+Z"
+	  BlockFunction		  "simmechanics.library.frames_transforms.rigid_transform"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "World"
+	  SID			  "30"
+	  Ports			  [0, 0, 0, 0, 0, 0, 1]
+	  Position		  [30, 600, 70, 640]
+	  ZOrder		  30
+	  LibraryVersion	  "1"
+	  SourceBlock		  "sm_lib/Frames and\nTransforms/World Frame"
+	  SourceType		  "World Frame"
+	  ClassName		  "WorldFrame"
+	  BlockFunction		  "simmechanics.library.frames_transforms.world_frame"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "T M3"
+	  SID			  "2157"
+	  Position		  [840, 168, 870, 182]
+	  ZOrder		  412
+	  IconDisplay		  "Port number"
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  240
+	  SrcBlock		  "BaseCompleta_1_RIGID"
+	  SrcPort		  RConn1
+	  Points		  [15, 0; 0, -280]
+	  DstBlock		  "Revolute1"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  604
+	  SrcBlock		  "Brazo_3"
+	  SrcPort		  LConn1
+	  Points		  [-52, 0; 0, 30]
+	  DstBlock		  "Revolute1"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  38
+	  Points		  [95, 520; 0, 75]
+	  Branch {
+	    ConnectType		    "SRC_DEST"
+	    SrcBlock		    "MechanismConfiguration"
+	    SrcPort		    RConn1
+	    Points		    [10, 0]
+	  }
+	  Branch {
+	    ConnectType		    "SRC_SRC"
+	    Points		    [0, -70]
+	    Branch {
+	      ConnectType	      "DEST_SRC"
+	      Points		      [0, -25]
+	      DstBlock		      "BaseCompleta_1_RIGID"
+	      DstPort		      LConn1
+	    }
+	    Branch {
+	      ConnectType	      "DEST_DEST"
+	      SrcBlock		      "Solver\nConfiguration1"
+	      SrcPort		      RConn1
+	      Points		      [10, 0]
+	    }
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [0, 25]
+	    DstBlock		    "World"
+	    DstPort		    RConn1
+	  }
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Transform5"
+	    SrcPort		    LConn1
+	    Points		    [-34, 0; 0, -110; 79, 0]
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  367
+	  SrcBlock		  "Corrdenadas Iniciales\n"
+	  SrcPort		  RConn1
+	  Points		  [-15, 0; 0, 75; 17, 0; 0, 10]
+	  DstBlock		  "Transform5"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  470
+	  SrcBlock		  "Revolute1"
+	  SrcPort		  RConn3
+	  Points		  [-6, 0; 0, 22; -65, 0]
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "PS-Simulink\nConverter"
+	    SrcPort		    LConn1
+	    Points		    [-21, 0; 0, -78]
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [-19, 0; 0, -7]
+	    DstBlock		    "Friccion \nCoulomb\nR2"
+	    DstPort		    RConn2
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  468
+	  SrcBlock		  "Friccion \nCoulomb\nR2"
+	  SrcPort		  RConn1
+	  DstBlock		  "Revolute1"
+	  DstPort		  LConn2
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  600
+	  SrcBlock		  "Simulink-PS\nConverter"
+	  SrcPort		  RConn1
+	  Points		  [14, 0; 0, 63; -138, 0; 0, -143]
+	  DstBlock		  "Friccion \nCoulomb\nR2"
+	  DstPort		  LConn1
+	}
+	Line {
+	  ZOrder		  596
+	  SrcBlock		  "PS-Simulink\nConverter"
+	  SrcPort		  1
+	  Points		  [30, 0; 0, 15]
+	  DstBlock		  "Scope"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  597
+	  SrcBlock		  "PS-Simulink\nConverter1"
+	  SrcPort		  1
+	  Points		  [20, 0]
+	  Branch {
+	    ZOrder		    603
+	    Points		    [0, -45]
+	    DstBlock		    "T M3"
+	    DstPort		    1
+	  }
+	  Branch {
+	    ZOrder		    602
+	    Points		    [10, 0; 0, 15]
+	    DstBlock		    "Scope1"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  598
+	  SrcBlock		  "PS-Simulink\nConverter1"
+	  SrcPort		  LConn1
+	  Points		  [-81, 0; 0, -90]
+	  DstBlock		  "Revolute1"
+	  DstPort		  RConn2
+	}
+	Line {
+	  ZOrder		  599
+	  SrcBlock		  "P M"
+	  SrcPort		  1
+	  DstBlock		  "Simulink-PS\nConverter"
+	  DstPort		  1
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "M1"
+      SID		      "2146"
+      Ports		      [1, 1]
+      Position		      [675, 294, 720, 336]
+      ZOrder		      159
+      RequestExecContextInheritance off
+      System {
+	Name			"M1"
+	Location		[673, 0, 1367, 745]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "In1"
+	  SID			  "2147"
+	  Position		  [110, 103, 140, 117]
+	  ZOrder		  -1
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Gain
+	  Name			  "Gain"
+	  SID			  "2148"
+	  Position		  [175, 90, 225, 130]
+	  ZOrder		  3
+	  Gain			  "6.8"
+	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
+	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  Saturate
+	  Name			  "Saturation"
+	  SID			  "2149"
+	  Ports			  [1, 1]
+	  Position		  [280, 95, 310, 125]
+	  ZOrder		  2
+	  InputPortMap		  "u0"
+	  UpperLimit		  "TLimit"
+	  LowerLimit		  "-TLimit"
+	}
+	Block {
+	  BlockType		  Scope
+	  Name			  "Scope1"
+	  SID			  "2159"
+	  Ports			  [1]
+	  Position		  [410, 44, 440, 76]
+	  ZOrder		  165
+	  Floating		  off
+	  Location		  [188, 365, 512, 604]
+	  Open			  off
+	  NumInputPorts		  "1"
+	  ZoomMode		  "yonly"
+	  List {
+	    ListType		    AxesTitles
+	    axes1		    "%<SignalLabel>"
+	  }
+	  List {
+	    ListType		    ScopeGraphics
+	    FigureColor		    "[0.5 0.5 0.5]"
+	    AxesColor		    "[0 0 0]"
+	    AxesTickColor	    "[1 1 1]"
+	    LineColors		    "[1 1 0;1 0 1;0 1 1;1 0 0;0 1 0;0 0 1]"
+	    LineStyles		    "-|-|-|-|-|-"
+	    LineWidths		    "[0.5 0.5 0.5 0.5 0.5 0.5]"
+	    MarkerStyles	    "none|none|none|none|none|none"
+	  }
+	  ShowLegends		  off
+	  SaveName		  "ScopeData3"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out1"
+	  SID			  "2150"
+	  Position		  [360, 103, 390, 117]
+	  ZOrder		  -2
+	  IconDisplay		  "Port number"
+	}
+	Line {
+	  ZOrder		  1
+	  SrcBlock		  "In1"
+	  SrcPort		  1
+	  DstBlock		  "Gain"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  2
+	  SrcBlock		  "Gain"
+	  SrcPort		  1
+	  DstBlock		  "Saturation"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  3
+	  SrcBlock		  "Saturation"
+	  SrcPort		  1
+	  Points		  [24, 0]
+	  Branch {
+	    ZOrder		    6
+	    Points		    [0, -50]
+	    DstBlock		    "Scope1"
+	    DstPort		    1
+	  }
+	  Branch {
+	    ZOrder		    5
+	    DstBlock		    "Out1"
+	    DstPort		    1
+	  }
+	}
+      }
+    }
+    Block {
+      BlockType		      Scope
+      Name		      "Scope1"
+      SID		      "2151"
+      Ports		      [1]
+      Position		      [880, 254, 910, 286]
+      ZOrder		      164
+      Floating		      off
+      Location		      [1, 49, 1361, 737]
+      Open		      off
+      NumInputPorts	      "1"
+      ZoomMode		      "yonly"
+      List {
+	ListType		AxesTitles
+	axes1			"%<SignalLabel>"
+      }
+      List {
+	ListType		ScopeGraphics
+	FigureColor		"[0.5 0.5 0.5]"
+	AxesColor		"[0 0 0]"
+	AxesTickColor		"[1 1 1]"
+	LineColors		"[1 1 0;1 0 1;0 1 1;1 0 0;0 1 0;0 0 1]"
+	LineStyles		"-|-|-|-|-|-"
+	LineWidths		"[0.5 0.5 0.5 0.5 0.5 0.5]"
+	MarkerStyles		"none|none|none|none|none|none"
+      }
+      ShowLegends	      off
+      YMin		      "-0.5"
+      YMax		      "4"
+      SaveName		      "ScopeData2"
+      LimitDataPoints	      off
+    }
+    Block {
+      BlockType		      Step
+      Name		      "Step"
+      SID		      "2202"
+      Position		      [405, 275, 435, 305]
+      ZOrder		      167
+      Time		      "0.1"
+      Before		      "-51/180*pi"
+      After		      "91/180*pi"
+      SampleTime	      "0"
+    }
+    Line {
+      ZOrder		      1
+      SrcBlock		      "Control M1"
+      SrcPort		      1
+      DstBlock		      "M1"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      15
+      SrcBlock		      "Step"
+      SrcPort		      1
+      DstBlock		      "Control M1"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      8
+      SrcBlock		      "M1"
+      SrcPort		      1
+      Points		      [84, 0]
+      Branch {
+	ZOrder			11
+	Points			[0, -45]
+	DstBlock		"Scope1"
+	DstPort			1
+      }
+      Branch {
+	ZOrder			10
+	Points			[31, 0; 0, 90]
+	DstBlock		"DeltaSM"
+	DstPort			1
+      }
+    }
+    Line {
+      ZOrder		      9
+      SrcBlock		      "DeltaSM"
+      SrcPort		      1
+      Points		      [9, 0; 0, 138; -573, 0; 0, -203]
+      DstBlock		      "Control M1"
+      DstPort		      2
+    }
+  }
+}
+#Finite State Machines
+#
+#   Stateflow Version 8.1 (R2014a) dated Feb  8 2014, 02:29:12
+#
+#
+Stateflow {
+  machine {
+    id			    1
+    name		    "Ensayos_Friccion"
+    created		    "20-Mar-2016 19:56:31"
+    isLibrary		    0
+    firstTarget		    9
+    sfVersion		    76014001.002
+  }
+  chart {
+    id			    2
+    name		    "Control M1/MATLAB Function"
+    windowPosition	    [352.761 488.141 161 328]
+    viewLimits		    [0 156.75 0 153.75]
+    screen		    [1 1 1280 1024 1.000677131425054]
+    treeNode		    [0 3 0 0]
+    firstTransition	    7
+    firstJunction	    6
+    viewObj		    2
+    visible		    1
+    machine		    1
+    subviewS {
+    }
+    ssIdHighWaterMark	    5
+    decomposition	    CLUSTER_CHART
+    type		    EML_CHART
+    firstData		    4
+    chartFileNumber	    2
+    disableImplicitCasting  1
+    eml {
+      name		      "fcn"
+    }
+  }
+  state {
+    id			    3
+    labelString		    "eML_blk_kernel()"
+    position		    [18 64.5 118 66]
+    fontSize		    12
+    chart		    2
+    treeNode		    [2 0 0 0]
+    superState		    SUBCHART
+    subviewer		    2
+    ssIdNumber		    1
+    type		    FUNC_STATE
+    decomposition	    CLUSTER_STATE
+    eml {
+      isEML		      1
+      script		      "function y = fcn(u)\n%#codegen\nif (abs(u)<0.0174533)\n    y=0;\nelse\ny = u;\nend"
+      editorLayout	      "100 M4x1[10 5 700 500]"
+    }
+  }
+  data {
+    id			    4
+    ssIdNumber		    4
+    name		    "u"
+    linkNode		    [2 0 5]
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+      }
+      complexity	      SF_COMPLEX_INHERITED
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  data {
+    id			    5
+    ssIdNumber		    5
+    name		    "y"
+    linkNode		    [2 4 0]
+    scope		    OUTPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_NO
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  junction {
+    id			    6
+    position		    [23.5747 49.5747 7]
+    chart		    2
+    linkNode		    [2 0 0]
+    subviewer		    2
+    ssIdNumber		    3
+    type		    CONNECTIVE_JUNCTION
+  }
+  transition {
+    id			    7
+    labelString		    "{eML_blk_kernel();}"
+    labelPosition	    [36.125 25.875 102.544 14.964]
+    fontSize		    12
+    src {
+      intersection	      [0 0 1 0 23.5747 14.625 0 0]
+    }
+    dst {
+      id		      6
+      intersection	      [1 0 -1 0 23.5747 42.5747 0 0]
+    }
+    midPoint		    [23.5747 24.9468]
+    chart		    2
+    linkNode		    [2 0 0]
+    dataLimits		    [21.175 25.975 14.625 42.575]
+    subviewer		    2
+    drawStyle		    SMART
+    slide {
+      sticky		      BOTH_STICK
+    }
+    executionOrder	    1
+    ssIdNumber		    2
+  }
+  instance {
+    id			    8
+    name		    "Control M1/MATLAB Function"
+    machine		    1
+    chart		    2
+  }
+  target {
+    id			    9
+    name		    "sfun"
+    description		    "Default Simulink S-Function Target."
+    machine		    1
+    linkNode		    [1 0 0]
+  }
+}

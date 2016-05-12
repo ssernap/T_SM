@@ -7,7 +7,7 @@ CPU = AMD64
 
 MACHINE     = Ensayos_Friccion
 TARGET      = sfun
-CHART_SRCS   = 
+CHART_SRCS   = c2_Ensayos_Friccion.c
 MACHINE_SRC  = Ensayos_Friccion_sfun.c
 MACHINE_REG = Ensayos_Friccion_sfun_registry.c
 MAKEFILE    = Ensayos_Friccion_sfun.mak
@@ -62,7 +62,7 @@ OBJLIST_FILE = Ensayos_Friccion_sfun.mol
 SFCLIB = 
 AUX_LNK_OBJS =     
 USER_LIBS = 
-LINK_MACHINE_LIBS = "C:\Users\Sebastian\Desktop\Tesis B\T_SM\slprj\_sfprj\Ensayos_Friccion\Fricciones\sfun\src\Fricciones_sfun.lib" 
+LINK_MACHINE_LIBS = 
 BLAS_LIBS = "C:\Program Files\MATLAB\R2014a\extern\lib\win64\microsoft\libmwblas.lib" 
 THIRD_PARTY_LIBS = 
 
