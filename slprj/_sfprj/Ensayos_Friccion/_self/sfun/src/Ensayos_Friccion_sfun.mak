@@ -7,7 +7,7 @@ CPU = AMD64
 
 MACHINE     = Ensayos_Friccion
 TARGET      = sfun
-CHART_SRCS   = c2_Ensayos_Friccion.c
+CHART_SRCS   = c1_Ensayos_Friccion.c c2_Ensayos_Friccion.c c3_Ensayos_Friccion.c c4_Ensayos_Friccion.c
 MACHINE_SRC  = Ensayos_Friccion_sfun.c
 MACHINE_REG = Ensayos_Friccion_sfun_registry.c
 MAKEFILE    = Ensayos_Friccion_sfun.mak

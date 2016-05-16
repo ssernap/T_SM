@@ -2,7 +2,10 @@
 
 #include "Ensayos_Friccion_sfun.h"
 #include "Ensayos_Friccion_sfun_debug_macros.h"
+#include "c1_Ensayos_Friccion.h"
 #include "c2_Ensayos_Friccion.h"
+#include "c3_Ensayos_Friccion.h"
+#include "c4_Ensayos_Friccion.h"
 
 /* Type Definitions */
 
@@ -28,8 +31,23 @@ void Ensayos_Friccion_terminator(void)
 unsigned int sf_Ensayos_Friccion_method_dispatcher(SimStruct *simstructPtr,
   unsigned int chartFileNumber, const char* specsCksum, int_T method, void *data)
 {
+  if (chartFileNumber==1) {
+    c1_Ensayos_Friccion_method_dispatcher(simstructPtr, method, data);
+    return 1;
+  }
+
   if (chartFileNumber==2) {
     c2_Ensayos_Friccion_method_dispatcher(simstructPtr, method, data);
+    return 1;
+  }
+
+  if (chartFileNumber==3) {
+    c3_Ensayos_Friccion_method_dispatcher(simstructPtr, method, data);
+    return 1;
+  }
+
+  if (chartFileNumber==4) {
+    c4_Ensayos_Friccion_method_dispatcher(simstructPtr, method, data);
     return 1;
   }
 
@@ -66,18 +84,39 @@ unsigned int sf_Ensayos_Friccion_process_check_sum_call( int nlhs, mxArray *
       ((real_T *)mxGetPr((plhs[0])))[2] = (real_T)(0U);
       ((real_T *)mxGetPr((plhs[0])))[3] = (real_T)(0U);
     } else if (!strcmp(commandName,"makefile")) {
-      ((real_T *)mxGetPr((plhs[0])))[0] = (real_T)(707984228U);
-      ((real_T *)mxGetPr((plhs[0])))[1] = (real_T)(3503565226U);
-      ((real_T *)mxGetPr((plhs[0])))[2] = (real_T)(1389304090U);
-      ((real_T *)mxGetPr((plhs[0])))[3] = (real_T)(2204127630U);
+      ((real_T *)mxGetPr((plhs[0])))[0] = (real_T)(3840741602U);
+      ((real_T *)mxGetPr((plhs[0])))[1] = (real_T)(4227568520U);
+      ((real_T *)mxGetPr((plhs[0])))[2] = (real_T)(38423472U);
+      ((real_T *)mxGetPr((plhs[0])))[3] = (real_T)(2536291853U);
     } else if (nrhs==3 && !strcmp(commandName,"chart")) {
       unsigned int chartFileNumber;
       chartFileNumber = (unsigned int)mxGetScalar(prhs[2]);
       switch (chartFileNumber) {
+       case 1:
+        {
+          extern void sf_c1_Ensayos_Friccion_get_check_sum(mxArray *plhs[]);
+          sf_c1_Ensayos_Friccion_get_check_sum(plhs);
+          break;
+        }
+
        case 2:
         {
           extern void sf_c2_Ensayos_Friccion_get_check_sum(mxArray *plhs[]);
           sf_c2_Ensayos_Friccion_get_check_sum(plhs);
+          break;
+        }
+
+       case 3:
+        {
+          extern void sf_c3_Ensayos_Friccion_get_check_sum(mxArray *plhs[]);
+          sf_c3_Ensayos_Friccion_get_check_sum(plhs);
+          break;
+        }
+
+       case 4:
+        {
+          extern void sf_c4_Ensayos_Friccion_get_check_sum(mxArray *plhs[]);
+          sf_c4_Ensayos_Friccion_get_check_sum(plhs);
           break;
         }
 
@@ -96,10 +135,10 @@ unsigned int sf_Ensayos_Friccion_process_check_sum_call( int nlhs, mxArray *
       return 0;
     }
   } else {
-    ((real_T *)mxGetPr((plhs[0])))[0] = (real_T)(3945122255U);
-    ((real_T *)mxGetPr((plhs[0])))[1] = (real_T)(264057423U);
-    ((real_T *)mxGetPr((plhs[0])))[2] = (real_T)(4293271601U);
-    ((real_T *)mxGetPr((plhs[0])))[3] = (real_T)(3424417588U);
+    ((real_T *)mxGetPr((plhs[0])))[0] = (real_T)(3889163831U);
+    ((real_T *)mxGetPr((plhs[0])))[1] = (real_T)(2153943779U);
+    ((real_T *)mxGetPr((plhs[0])))[2] = (real_T)(2402087451U);
+    ((real_T *)mxGetPr((plhs[0])))[3] = (real_T)(2680020222U);
   }
 
   return 1;
@@ -135,11 +174,47 @@ unsigned int sf_Ensayos_Friccion_autoinheritance_info( int nlhs, mxArray * plhs[
     unsigned int chartFileNumber;
     chartFileNumber = (unsigned int)mxGetScalar(prhs[1]);
     switch (chartFileNumber) {
+     case 1:
+      {
+        if (strcmp(aiChksum, "CTHVTPDwLiARDPfYETQZHD") == 0) {
+          extern mxArray *sf_c1_Ensayos_Friccion_get_autoinheritance_info(void);
+          plhs[0] = sf_c1_Ensayos_Friccion_get_autoinheritance_info();
+          break;
+        }
+
+        plhs[0] = mxCreateDoubleMatrix(0,0,mxREAL);
+        break;
+      }
+
      case 2:
       {
-        if (strcmp(aiChksum, "1BxbMYa5He56tKrt4YyFcB") == 0) {
+        if (strcmp(aiChksum, "5H8jNJwRAISM5kNGVspQTH") == 0) {
           extern mxArray *sf_c2_Ensayos_Friccion_get_autoinheritance_info(void);
           plhs[0] = sf_c2_Ensayos_Friccion_get_autoinheritance_info();
+          break;
+        }
+
+        plhs[0] = mxCreateDoubleMatrix(0,0,mxREAL);
+        break;
+      }
+
+     case 3:
+      {
+        if (strcmp(aiChksum, "gxNh0kRYAbDto1yicDD5D") == 0) {
+          extern mxArray *sf_c3_Ensayos_Friccion_get_autoinheritance_info(void);
+          plhs[0] = sf_c3_Ensayos_Friccion_get_autoinheritance_info();
+          break;
+        }
+
+        plhs[0] = mxCreateDoubleMatrix(0,0,mxREAL);
+        break;
+      }
+
+     case 4:
+      {
+        if (strcmp(aiChksum, "8guTjrnzxZ7846waNm4VTC") == 0) {
+          extern mxArray *sf_c4_Ensayos_Friccion_get_autoinheritance_info(void);
+          plhs[0] = sf_c4_Ensayos_Friccion_get_autoinheritance_info();
           break;
         }
 
@@ -182,12 +257,45 @@ unsigned int sf_Ensayos_Friccion_get_eml_resolved_functions_info( int nlhs,
     unsigned int chartFileNumber;
     chartFileNumber = (unsigned int)mxGetScalar(prhs[1]);
     switch (chartFileNumber) {
+     case 1:
+      {
+        extern const mxArray
+          *sf_c1_Ensayos_Friccion_get_eml_resolved_functions_info(void);
+        mxArray *persistentMxArray = (mxArray *)
+          sf_c1_Ensayos_Friccion_get_eml_resolved_functions_info();
+        plhs[0] = mxDuplicateArray(persistentMxArray);
+        mxDestroyArray(persistentMxArray);
+        break;
+      }
+
      case 2:
       {
         extern const mxArray
           *sf_c2_Ensayos_Friccion_get_eml_resolved_functions_info(void);
         mxArray *persistentMxArray = (mxArray *)
           sf_c2_Ensayos_Friccion_get_eml_resolved_functions_info();
+        plhs[0] = mxDuplicateArray(persistentMxArray);
+        mxDestroyArray(persistentMxArray);
+        break;
+      }
+
+     case 3:
+      {
+        extern const mxArray
+          *sf_c3_Ensayos_Friccion_get_eml_resolved_functions_info(void);
+        mxArray *persistentMxArray = (mxArray *)
+          sf_c3_Ensayos_Friccion_get_eml_resolved_functions_info();
+        plhs[0] = mxDuplicateArray(persistentMxArray);
+        mxDestroyArray(persistentMxArray);
+        break;
+      }
+
+     case 4:
+      {
+        extern const mxArray
+          *sf_c4_Ensayos_Friccion_get_eml_resolved_functions_info(void);
+        mxArray *persistentMxArray = (mxArray *)
+          sf_c4_Ensayos_Friccion_get_eml_resolved_functions_info();
         plhs[0] = mxDuplicateArray(persistentMxArray);
         mxDestroyArray(persistentMxArray);
         break;
@@ -228,11 +336,38 @@ unsigned int sf_Ensayos_Friccion_third_party_uses_info( int nlhs, mxArray *
     unsigned int chartFileNumber;
     chartFileNumber = (unsigned int)mxGetScalar(prhs[1]);
     switch (chartFileNumber) {
+     case 1:
+      {
+        if (strcmp(tpChksum, "PPyUQ8xz8PBikM7YxSbXTH") == 0) {
+          extern mxArray *sf_c1_Ensayos_Friccion_third_party_uses_info(void);
+          plhs[0] = sf_c1_Ensayos_Friccion_third_party_uses_info();
+          break;
+        }
+      }
+
      case 2:
       {
-        if (strcmp(tpChksum, "5EicaSaHY7KyI10VuXD8MB") == 0) {
+        if (strcmp(tpChksum, "706ECNsCGAkzJYRAgcNL8E") == 0) {
           extern mxArray *sf_c2_Ensayos_Friccion_third_party_uses_info(void);
           plhs[0] = sf_c2_Ensayos_Friccion_third_party_uses_info();
+          break;
+        }
+      }
+
+     case 3:
+      {
+        if (strcmp(tpChksum, "bHkarDu0zk87XgC3wrl1BC") == 0) {
+          extern mxArray *sf_c3_Ensayos_Friccion_third_party_uses_info(void);
+          plhs[0] = sf_c3_Ensayos_Friccion_third_party_uses_info();
+          break;
+        }
+      }
+
+     case 4:
+      {
+        if (strcmp(tpChksum, "FkAWDrpncizKTe27ivlwsE") == 0) {
+          extern mxArray *sf_c4_Ensayos_Friccion_third_party_uses_info(void);
+          plhs[0] = sf_c4_Ensayos_Friccion_third_party_uses_info();
           break;
         }
       }
@@ -265,11 +400,38 @@ unsigned int sf_Ensayos_Friccion_updateBuildInfo_args_info( int nlhs, mxArray *
     unsigned int chartFileNumber;
     chartFileNumber = (unsigned int)mxGetScalar(prhs[1]);
     switch (chartFileNumber) {
+     case 1:
+      {
+        if (strcmp(tpChksum, "PPyUQ8xz8PBikM7YxSbXTH") == 0) {
+          extern mxArray *sf_c1_Ensayos_Friccion_updateBuildInfo_args_info(void);
+          plhs[0] = sf_c1_Ensayos_Friccion_updateBuildInfo_args_info();
+          break;
+        }
+      }
+
      case 2:
       {
-        if (strcmp(tpChksum, "5EicaSaHY7KyI10VuXD8MB") == 0) {
+        if (strcmp(tpChksum, "706ECNsCGAkzJYRAgcNL8E") == 0) {
           extern mxArray *sf_c2_Ensayos_Friccion_updateBuildInfo_args_info(void);
           plhs[0] = sf_c2_Ensayos_Friccion_updateBuildInfo_args_info();
+          break;
+        }
+      }
+
+     case 3:
+      {
+        if (strcmp(tpChksum, "bHkarDu0zk87XgC3wrl1BC") == 0) {
+          extern mxArray *sf_c3_Ensayos_Friccion_updateBuildInfo_args_info(void);
+          plhs[0] = sf_c3_Ensayos_Friccion_updateBuildInfo_args_info();
+          break;
+        }
+      }
+
+     case 4:
+      {
+        if (strcmp(tpChksum, "FkAWDrpncizKTe27ivlwsE") == 0) {
+          extern mxArray *sf_c4_Ensayos_Friccion_updateBuildInfo_args_info(void);
+          plhs[0] = sf_c4_Ensayos_Friccion_updateBuildInfo_args_info();
           break;
         }
       }
@@ -286,7 +448,7 @@ void Ensayos_Friccion_debug_initialize(struct SfDebugInstanceStruct*
   debugInstance)
 {
   _Ensayos_FriccionMachineNumber_ = sf_debug_initialize_machine(debugInstance,
-    "Ensayos_Friccion","sfun",0,1,0,0,0);
+    "Ensayos_Friccion","sfun",0,4,0,0,0);
   sf_debug_set_machine_event_thresholds(debugInstance,
     _Ensayos_FriccionMachineNumber_,0,0);
   sf_debug_set_machine_data_thresholds(debugInstance,
