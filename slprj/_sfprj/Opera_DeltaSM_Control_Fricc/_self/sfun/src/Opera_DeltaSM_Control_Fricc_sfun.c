@@ -4,6 +4,18 @@
 #include "Opera_DeltaSM_Control_Fricc_sfun_debug_macros.h"
 #include "c1_Opera_DeltaSM_Control_Fricc.h"
 #include "c2_Opera_DeltaSM_Control_Fricc.h"
+#include "c3_Opera_DeltaSM_Control_Fricc.h"
+#include "c4_Opera_DeltaSM_Control_Fricc.h"
+#include "c5_Opera_DeltaSM_Control_Fricc.h"
+#include "c6_Opera_DeltaSM_Control_Fricc.h"
+#include "c7_Opera_DeltaSM_Control_Fricc.h"
+#include "c8_Opera_DeltaSM_Control_Fricc.h"
+#include "c9_Opera_DeltaSM_Control_Fricc.h"
+#include "c10_Opera_DeltaSM_Control_Fricc.h"
+#include "c11_Opera_DeltaSM_Control_Fricc.h"
+#include "c12_Opera_DeltaSM_Control_Fricc.h"
+#include "c13_Opera_DeltaSM_Control_Fricc.h"
+#include "c14_Opera_DeltaSM_Control_Fricc.h"
 
 /* Type Definitions */
 
@@ -40,6 +52,66 @@ unsigned int sf_Opera_DeltaSM_Control_Fricc_method_dispatcher(SimStruct
     return 1;
   }
 
+  if (chartFileNumber==3) {
+    c3_Opera_DeltaSM_Control_Fricc_method_dispatcher(simstructPtr, method, data);
+    return 1;
+  }
+
+  if (chartFileNumber==4) {
+    c4_Opera_DeltaSM_Control_Fricc_method_dispatcher(simstructPtr, method, data);
+    return 1;
+  }
+
+  if (chartFileNumber==5) {
+    c5_Opera_DeltaSM_Control_Fricc_method_dispatcher(simstructPtr, method, data);
+    return 1;
+  }
+
+  if (chartFileNumber==6) {
+    c6_Opera_DeltaSM_Control_Fricc_method_dispatcher(simstructPtr, method, data);
+    return 1;
+  }
+
+  if (chartFileNumber==7) {
+    c7_Opera_DeltaSM_Control_Fricc_method_dispatcher(simstructPtr, method, data);
+    return 1;
+  }
+
+  if (chartFileNumber==8) {
+    c8_Opera_DeltaSM_Control_Fricc_method_dispatcher(simstructPtr, method, data);
+    return 1;
+  }
+
+  if (chartFileNumber==9) {
+    c9_Opera_DeltaSM_Control_Fricc_method_dispatcher(simstructPtr, method, data);
+    return 1;
+  }
+
+  if (chartFileNumber==10) {
+    c10_Opera_DeltaSM_Control_Fricc_method_dispatcher(simstructPtr, method, data);
+    return 1;
+  }
+
+  if (chartFileNumber==11) {
+    c11_Opera_DeltaSM_Control_Fricc_method_dispatcher(simstructPtr, method, data);
+    return 1;
+  }
+
+  if (chartFileNumber==12) {
+    c12_Opera_DeltaSM_Control_Fricc_method_dispatcher(simstructPtr, method, data);
+    return 1;
+  }
+
+  if (chartFileNumber==13) {
+    c13_Opera_DeltaSM_Control_Fricc_method_dispatcher(simstructPtr, method, data);
+    return 1;
+  }
+
+  if (chartFileNumber==14) {
+    c14_Opera_DeltaSM_Control_Fricc_method_dispatcher(simstructPtr, method, data);
+    return 1;
+  }
+
   return 0;
 }
 
@@ -73,10 +145,10 @@ unsigned int sf_Opera_DeltaSM_Control_Fricc_process_check_sum_call( int nlhs,
       ((real_T *)mxGetPr((plhs[0])))[2] = (real_T)(0U);
       ((real_T *)mxGetPr((plhs[0])))[3] = (real_T)(0U);
     } else if (!strcmp(commandName,"makefile")) {
-      ((real_T *)mxGetPr((plhs[0])))[0] = (real_T)(1988951430U);
-      ((real_T *)mxGetPr((plhs[0])))[1] = (real_T)(1290412853U);
-      ((real_T *)mxGetPr((plhs[0])))[2] = (real_T)(1589971048U);
-      ((real_T *)mxGetPr((plhs[0])))[3] = (real_T)(2800716222U);
+      ((real_T *)mxGetPr((plhs[0])))[0] = (real_T)(2918699766U);
+      ((real_T *)mxGetPr((plhs[0])))[1] = (real_T)(3731093971U);
+      ((real_T *)mxGetPr((plhs[0])))[2] = (real_T)(166651806U);
+      ((real_T *)mxGetPr((plhs[0])))[3] = (real_T)(4085355431U);
     } else if (nrhs==3 && !strcmp(commandName,"chart")) {
       unsigned int chartFileNumber;
       chartFileNumber = (unsigned int)mxGetScalar(prhs[2]);
@@ -97,6 +169,102 @@ unsigned int sf_Opera_DeltaSM_Control_Fricc_process_check_sum_call( int nlhs,
           break;
         }
 
+       case 3:
+        {
+          extern void sf_c3_Opera_DeltaSM_Control_Fricc_get_check_sum(mxArray
+            *plhs[]);
+          sf_c3_Opera_DeltaSM_Control_Fricc_get_check_sum(plhs);
+          break;
+        }
+
+       case 4:
+        {
+          extern void sf_c4_Opera_DeltaSM_Control_Fricc_get_check_sum(mxArray
+            *plhs[]);
+          sf_c4_Opera_DeltaSM_Control_Fricc_get_check_sum(plhs);
+          break;
+        }
+
+       case 5:
+        {
+          extern void sf_c5_Opera_DeltaSM_Control_Fricc_get_check_sum(mxArray
+            *plhs[]);
+          sf_c5_Opera_DeltaSM_Control_Fricc_get_check_sum(plhs);
+          break;
+        }
+
+       case 6:
+        {
+          extern void sf_c6_Opera_DeltaSM_Control_Fricc_get_check_sum(mxArray
+            *plhs[]);
+          sf_c6_Opera_DeltaSM_Control_Fricc_get_check_sum(plhs);
+          break;
+        }
+
+       case 7:
+        {
+          extern void sf_c7_Opera_DeltaSM_Control_Fricc_get_check_sum(mxArray
+            *plhs[]);
+          sf_c7_Opera_DeltaSM_Control_Fricc_get_check_sum(plhs);
+          break;
+        }
+
+       case 8:
+        {
+          extern void sf_c8_Opera_DeltaSM_Control_Fricc_get_check_sum(mxArray
+            *plhs[]);
+          sf_c8_Opera_DeltaSM_Control_Fricc_get_check_sum(plhs);
+          break;
+        }
+
+       case 9:
+        {
+          extern void sf_c9_Opera_DeltaSM_Control_Fricc_get_check_sum(mxArray
+            *plhs[]);
+          sf_c9_Opera_DeltaSM_Control_Fricc_get_check_sum(plhs);
+          break;
+        }
+
+       case 10:
+        {
+          extern void sf_c10_Opera_DeltaSM_Control_Fricc_get_check_sum(mxArray
+            *plhs[]);
+          sf_c10_Opera_DeltaSM_Control_Fricc_get_check_sum(plhs);
+          break;
+        }
+
+       case 11:
+        {
+          extern void sf_c11_Opera_DeltaSM_Control_Fricc_get_check_sum(mxArray
+            *plhs[]);
+          sf_c11_Opera_DeltaSM_Control_Fricc_get_check_sum(plhs);
+          break;
+        }
+
+       case 12:
+        {
+          extern void sf_c12_Opera_DeltaSM_Control_Fricc_get_check_sum(mxArray
+            *plhs[]);
+          sf_c12_Opera_DeltaSM_Control_Fricc_get_check_sum(plhs);
+          break;
+        }
+
+       case 13:
+        {
+          extern void sf_c13_Opera_DeltaSM_Control_Fricc_get_check_sum(mxArray
+            *plhs[]);
+          sf_c13_Opera_DeltaSM_Control_Fricc_get_check_sum(plhs);
+          break;
+        }
+
+       case 14:
+        {
+          extern void sf_c14_Opera_DeltaSM_Control_Fricc_get_check_sum(mxArray
+            *plhs[]);
+          sf_c14_Opera_DeltaSM_Control_Fricc_get_check_sum(plhs);
+          break;
+        }
+
        default:
         ((real_T *)mxGetPr((plhs[0])))[0] = (real_T)(0.0);
         ((real_T *)mxGetPr((plhs[0])))[1] = (real_T)(0.0);
@@ -112,10 +280,10 @@ unsigned int sf_Opera_DeltaSM_Control_Fricc_process_check_sum_call( int nlhs,
       return 0;
     }
   } else {
-    ((real_T *)mxGetPr((plhs[0])))[0] = (real_T)(4256233683U);
-    ((real_T *)mxGetPr((plhs[0])))[1] = (real_T)(3837844879U);
-    ((real_T *)mxGetPr((plhs[0])))[2] = (real_T)(65291950U);
-    ((real_T *)mxGetPr((plhs[0])))[3] = (real_T)(2490284232U);
+    ((real_T *)mxGetPr((plhs[0])))[0] = (real_T)(1144161309U);
+    ((real_T *)mxGetPr((plhs[0])))[1] = (real_T)(3258406257U);
+    ((real_T *)mxGetPr((plhs[0])))[2] = (real_T)(810741194U);
+    ((real_T *)mxGetPr((plhs[0])))[3] = (real_T)(660619906U);
   }
 
   return 1;
@@ -170,6 +338,162 @@ unsigned int sf_Opera_DeltaSM_Control_Fricc_autoinheritance_info( int nlhs,
           extern mxArray
             *sf_c2_Opera_DeltaSM_Control_Fricc_get_autoinheritance_info(void);
           plhs[0] = sf_c2_Opera_DeltaSM_Control_Fricc_get_autoinheritance_info();
+          break;
+        }
+
+        plhs[0] = mxCreateDoubleMatrix(0,0,mxREAL);
+        break;
+      }
+
+     case 3:
+      {
+        if (strcmp(aiChksum, "M0FfiKEOSrMGrRMtPTNoKB") == 0) {
+          extern mxArray
+            *sf_c3_Opera_DeltaSM_Control_Fricc_get_autoinheritance_info(void);
+          plhs[0] = sf_c3_Opera_DeltaSM_Control_Fricc_get_autoinheritance_info();
+          break;
+        }
+
+        plhs[0] = mxCreateDoubleMatrix(0,0,mxREAL);
+        break;
+      }
+
+     case 4:
+      {
+        if (strcmp(aiChksum, "CTHVTPDwLiARDPfYETQZHD") == 0) {
+          extern mxArray
+            *sf_c4_Opera_DeltaSM_Control_Fricc_get_autoinheritance_info(void);
+          plhs[0] = sf_c4_Opera_DeltaSM_Control_Fricc_get_autoinheritance_info();
+          break;
+        }
+
+        plhs[0] = mxCreateDoubleMatrix(0,0,mxREAL);
+        break;
+      }
+
+     case 5:
+      {
+        if (strcmp(aiChksum, "gxNh0kRYAbDto1yicDD5D") == 0) {
+          extern mxArray
+            *sf_c5_Opera_DeltaSM_Control_Fricc_get_autoinheritance_info(void);
+          plhs[0] = sf_c5_Opera_DeltaSM_Control_Fricc_get_autoinheritance_info();
+          break;
+        }
+
+        plhs[0] = mxCreateDoubleMatrix(0,0,mxREAL);
+        break;
+      }
+
+     case 6:
+      {
+        if (strcmp(aiChksum, "8guTjrnzxZ7846waNm4VTC") == 0) {
+          extern mxArray
+            *sf_c6_Opera_DeltaSM_Control_Fricc_get_autoinheritance_info(void);
+          plhs[0] = sf_c6_Opera_DeltaSM_Control_Fricc_get_autoinheritance_info();
+          break;
+        }
+
+        plhs[0] = mxCreateDoubleMatrix(0,0,mxREAL);
+        break;
+      }
+
+     case 7:
+      {
+        if (strcmp(aiChksum, "M0FfiKEOSrMGrRMtPTNoKB") == 0) {
+          extern mxArray
+            *sf_c7_Opera_DeltaSM_Control_Fricc_get_autoinheritance_info(void);
+          plhs[0] = sf_c7_Opera_DeltaSM_Control_Fricc_get_autoinheritance_info();
+          break;
+        }
+
+        plhs[0] = mxCreateDoubleMatrix(0,0,mxREAL);
+        break;
+      }
+
+     case 8:
+      {
+        if (strcmp(aiChksum, "CTHVTPDwLiARDPfYETQZHD") == 0) {
+          extern mxArray
+            *sf_c8_Opera_DeltaSM_Control_Fricc_get_autoinheritance_info(void);
+          plhs[0] = sf_c8_Opera_DeltaSM_Control_Fricc_get_autoinheritance_info();
+          break;
+        }
+
+        plhs[0] = mxCreateDoubleMatrix(0,0,mxREAL);
+        break;
+      }
+
+     case 9:
+      {
+        if (strcmp(aiChksum, "gxNh0kRYAbDto1yicDD5D") == 0) {
+          extern mxArray
+            *sf_c9_Opera_DeltaSM_Control_Fricc_get_autoinheritance_info(void);
+          plhs[0] = sf_c9_Opera_DeltaSM_Control_Fricc_get_autoinheritance_info();
+          break;
+        }
+
+        plhs[0] = mxCreateDoubleMatrix(0,0,mxREAL);
+        break;
+      }
+
+     case 10:
+      {
+        if (strcmp(aiChksum, "8guTjrnzxZ7846waNm4VTC") == 0) {
+          extern mxArray
+            *sf_c10_Opera_DeltaSM_Control_Fricc_get_autoinheritance_info(void);
+          plhs[0] = sf_c10_Opera_DeltaSM_Control_Fricc_get_autoinheritance_info();
+          break;
+        }
+
+        plhs[0] = mxCreateDoubleMatrix(0,0,mxREAL);
+        break;
+      }
+
+     case 11:
+      {
+        if (strcmp(aiChksum, "M0FfiKEOSrMGrRMtPTNoKB") == 0) {
+          extern mxArray
+            *sf_c11_Opera_DeltaSM_Control_Fricc_get_autoinheritance_info(void);
+          plhs[0] = sf_c11_Opera_DeltaSM_Control_Fricc_get_autoinheritance_info();
+          break;
+        }
+
+        plhs[0] = mxCreateDoubleMatrix(0,0,mxREAL);
+        break;
+      }
+
+     case 12:
+      {
+        if (strcmp(aiChksum, "CTHVTPDwLiARDPfYETQZHD") == 0) {
+          extern mxArray
+            *sf_c12_Opera_DeltaSM_Control_Fricc_get_autoinheritance_info(void);
+          plhs[0] = sf_c12_Opera_DeltaSM_Control_Fricc_get_autoinheritance_info();
+          break;
+        }
+
+        plhs[0] = mxCreateDoubleMatrix(0,0,mxREAL);
+        break;
+      }
+
+     case 13:
+      {
+        if (strcmp(aiChksum, "gxNh0kRYAbDto1yicDD5D") == 0) {
+          extern mxArray
+            *sf_c13_Opera_DeltaSM_Control_Fricc_get_autoinheritance_info(void);
+          plhs[0] = sf_c13_Opera_DeltaSM_Control_Fricc_get_autoinheritance_info();
+          break;
+        }
+
+        plhs[0] = mxCreateDoubleMatrix(0,0,mxREAL);
+        break;
+      }
+
+     case 14:
+      {
+        if (strcmp(aiChksum, "8guTjrnzxZ7846waNm4VTC") == 0) {
+          extern mxArray
+            *sf_c14_Opera_DeltaSM_Control_Fricc_get_autoinheritance_info(void);
+          plhs[0] = sf_c14_Opera_DeltaSM_Control_Fricc_get_autoinheritance_info();
           break;
         }
 
@@ -236,6 +560,150 @@ unsigned int sf_Opera_DeltaSM_Control_Fricc_get_eml_resolved_functions_info( int
         break;
       }
 
+     case 3:
+      {
+        extern const mxArray
+          *sf_c3_Opera_DeltaSM_Control_Fricc_get_eml_resolved_functions_info
+          (void);
+        mxArray *persistentMxArray = (mxArray *)
+          sf_c3_Opera_DeltaSM_Control_Fricc_get_eml_resolved_functions_info();
+        plhs[0] = mxDuplicateArray(persistentMxArray);
+        mxDestroyArray(persistentMxArray);
+        break;
+      }
+
+     case 4:
+      {
+        extern const mxArray
+          *sf_c4_Opera_DeltaSM_Control_Fricc_get_eml_resolved_functions_info
+          (void);
+        mxArray *persistentMxArray = (mxArray *)
+          sf_c4_Opera_DeltaSM_Control_Fricc_get_eml_resolved_functions_info();
+        plhs[0] = mxDuplicateArray(persistentMxArray);
+        mxDestroyArray(persistentMxArray);
+        break;
+      }
+
+     case 5:
+      {
+        extern const mxArray
+          *sf_c5_Opera_DeltaSM_Control_Fricc_get_eml_resolved_functions_info
+          (void);
+        mxArray *persistentMxArray = (mxArray *)
+          sf_c5_Opera_DeltaSM_Control_Fricc_get_eml_resolved_functions_info();
+        plhs[0] = mxDuplicateArray(persistentMxArray);
+        mxDestroyArray(persistentMxArray);
+        break;
+      }
+
+     case 6:
+      {
+        extern const mxArray
+          *sf_c6_Opera_DeltaSM_Control_Fricc_get_eml_resolved_functions_info
+          (void);
+        mxArray *persistentMxArray = (mxArray *)
+          sf_c6_Opera_DeltaSM_Control_Fricc_get_eml_resolved_functions_info();
+        plhs[0] = mxDuplicateArray(persistentMxArray);
+        mxDestroyArray(persistentMxArray);
+        break;
+      }
+
+     case 7:
+      {
+        extern const mxArray
+          *sf_c7_Opera_DeltaSM_Control_Fricc_get_eml_resolved_functions_info
+          (void);
+        mxArray *persistentMxArray = (mxArray *)
+          sf_c7_Opera_DeltaSM_Control_Fricc_get_eml_resolved_functions_info();
+        plhs[0] = mxDuplicateArray(persistentMxArray);
+        mxDestroyArray(persistentMxArray);
+        break;
+      }
+
+     case 8:
+      {
+        extern const mxArray
+          *sf_c8_Opera_DeltaSM_Control_Fricc_get_eml_resolved_functions_info
+          (void);
+        mxArray *persistentMxArray = (mxArray *)
+          sf_c8_Opera_DeltaSM_Control_Fricc_get_eml_resolved_functions_info();
+        plhs[0] = mxDuplicateArray(persistentMxArray);
+        mxDestroyArray(persistentMxArray);
+        break;
+      }
+
+     case 9:
+      {
+        extern const mxArray
+          *sf_c9_Opera_DeltaSM_Control_Fricc_get_eml_resolved_functions_info
+          (void);
+        mxArray *persistentMxArray = (mxArray *)
+          sf_c9_Opera_DeltaSM_Control_Fricc_get_eml_resolved_functions_info();
+        plhs[0] = mxDuplicateArray(persistentMxArray);
+        mxDestroyArray(persistentMxArray);
+        break;
+      }
+
+     case 10:
+      {
+        extern const mxArray
+          *sf_c10_Opera_DeltaSM_Control_Fricc_get_eml_resolved_functions_info
+          (void);
+        mxArray *persistentMxArray = (mxArray *)
+          sf_c10_Opera_DeltaSM_Control_Fricc_get_eml_resolved_functions_info();
+        plhs[0] = mxDuplicateArray(persistentMxArray);
+        mxDestroyArray(persistentMxArray);
+        break;
+      }
+
+     case 11:
+      {
+        extern const mxArray
+          *sf_c11_Opera_DeltaSM_Control_Fricc_get_eml_resolved_functions_info
+          (void);
+        mxArray *persistentMxArray = (mxArray *)
+          sf_c11_Opera_DeltaSM_Control_Fricc_get_eml_resolved_functions_info();
+        plhs[0] = mxDuplicateArray(persistentMxArray);
+        mxDestroyArray(persistentMxArray);
+        break;
+      }
+
+     case 12:
+      {
+        extern const mxArray
+          *sf_c12_Opera_DeltaSM_Control_Fricc_get_eml_resolved_functions_info
+          (void);
+        mxArray *persistentMxArray = (mxArray *)
+          sf_c12_Opera_DeltaSM_Control_Fricc_get_eml_resolved_functions_info();
+        plhs[0] = mxDuplicateArray(persistentMxArray);
+        mxDestroyArray(persistentMxArray);
+        break;
+      }
+
+     case 13:
+      {
+        extern const mxArray
+          *sf_c13_Opera_DeltaSM_Control_Fricc_get_eml_resolved_functions_info
+          (void);
+        mxArray *persistentMxArray = (mxArray *)
+          sf_c13_Opera_DeltaSM_Control_Fricc_get_eml_resolved_functions_info();
+        plhs[0] = mxDuplicateArray(persistentMxArray);
+        mxDestroyArray(persistentMxArray);
+        break;
+      }
+
+     case 14:
+      {
+        extern const mxArray
+          *sf_c14_Opera_DeltaSM_Control_Fricc_get_eml_resolved_functions_info
+          (void);
+        mxArray *persistentMxArray = (mxArray *)
+          sf_c14_Opera_DeltaSM_Control_Fricc_get_eml_resolved_functions_info();
+        plhs[0] = mxDuplicateArray(persistentMxArray);
+        mxDestroyArray(persistentMxArray);
+        break;
+      }
+
      default:
       plhs[0] = mxCreateDoubleMatrix(0,0,mxREAL);
     }
@@ -291,6 +759,126 @@ unsigned int sf_Opera_DeltaSM_Control_Fricc_third_party_uses_info( int nlhs,
         }
       }
 
+     case 3:
+      {
+        if (strcmp(tpChksum, "K87r30rj7zsnfY2HEJonWC") == 0) {
+          extern mxArray
+            *sf_c3_Opera_DeltaSM_Control_Fricc_third_party_uses_info(void);
+          plhs[0] = sf_c3_Opera_DeltaSM_Control_Fricc_third_party_uses_info();
+          break;
+        }
+      }
+
+     case 4:
+      {
+        if (strcmp(tpChksum, "PPyUQ8xz8PBikM7YxSbXTH") == 0) {
+          extern mxArray
+            *sf_c4_Opera_DeltaSM_Control_Fricc_third_party_uses_info(void);
+          plhs[0] = sf_c4_Opera_DeltaSM_Control_Fricc_third_party_uses_info();
+          break;
+        }
+      }
+
+     case 5:
+      {
+        if (strcmp(tpChksum, "bHkarDu0zk87XgC3wrl1BC") == 0) {
+          extern mxArray
+            *sf_c5_Opera_DeltaSM_Control_Fricc_third_party_uses_info(void);
+          plhs[0] = sf_c5_Opera_DeltaSM_Control_Fricc_third_party_uses_info();
+          break;
+        }
+      }
+
+     case 6:
+      {
+        if (strcmp(tpChksum, "FkAWDrpncizKTe27ivlwsE") == 0) {
+          extern mxArray
+            *sf_c6_Opera_DeltaSM_Control_Fricc_third_party_uses_info(void);
+          plhs[0] = sf_c6_Opera_DeltaSM_Control_Fricc_third_party_uses_info();
+          break;
+        }
+      }
+
+     case 7:
+      {
+        if (strcmp(tpChksum, "K87r30rj7zsnfY2HEJonWC") == 0) {
+          extern mxArray
+            *sf_c7_Opera_DeltaSM_Control_Fricc_third_party_uses_info(void);
+          plhs[0] = sf_c7_Opera_DeltaSM_Control_Fricc_third_party_uses_info();
+          break;
+        }
+      }
+
+     case 8:
+      {
+        if (strcmp(tpChksum, "PPyUQ8xz8PBikM7YxSbXTH") == 0) {
+          extern mxArray
+            *sf_c8_Opera_DeltaSM_Control_Fricc_third_party_uses_info(void);
+          plhs[0] = sf_c8_Opera_DeltaSM_Control_Fricc_third_party_uses_info();
+          break;
+        }
+      }
+
+     case 9:
+      {
+        if (strcmp(tpChksum, "bHkarDu0zk87XgC3wrl1BC") == 0) {
+          extern mxArray
+            *sf_c9_Opera_DeltaSM_Control_Fricc_third_party_uses_info(void);
+          plhs[0] = sf_c9_Opera_DeltaSM_Control_Fricc_third_party_uses_info();
+          break;
+        }
+      }
+
+     case 10:
+      {
+        if (strcmp(tpChksum, "FkAWDrpncizKTe27ivlwsE") == 0) {
+          extern mxArray
+            *sf_c10_Opera_DeltaSM_Control_Fricc_third_party_uses_info(void);
+          plhs[0] = sf_c10_Opera_DeltaSM_Control_Fricc_third_party_uses_info();
+          break;
+        }
+      }
+
+     case 11:
+      {
+        if (strcmp(tpChksum, "K87r30rj7zsnfY2HEJonWC") == 0) {
+          extern mxArray
+            *sf_c11_Opera_DeltaSM_Control_Fricc_third_party_uses_info(void);
+          plhs[0] = sf_c11_Opera_DeltaSM_Control_Fricc_third_party_uses_info();
+          break;
+        }
+      }
+
+     case 12:
+      {
+        if (strcmp(tpChksum, "PPyUQ8xz8PBikM7YxSbXTH") == 0) {
+          extern mxArray
+            *sf_c12_Opera_DeltaSM_Control_Fricc_third_party_uses_info(void);
+          plhs[0] = sf_c12_Opera_DeltaSM_Control_Fricc_third_party_uses_info();
+          break;
+        }
+      }
+
+     case 13:
+      {
+        if (strcmp(tpChksum, "bHkarDu0zk87XgC3wrl1BC") == 0) {
+          extern mxArray
+            *sf_c13_Opera_DeltaSM_Control_Fricc_third_party_uses_info(void);
+          plhs[0] = sf_c13_Opera_DeltaSM_Control_Fricc_third_party_uses_info();
+          break;
+        }
+      }
+
+     case 14:
+      {
+        if (strcmp(tpChksum, "FkAWDrpncizKTe27ivlwsE") == 0) {
+          extern mxArray
+            *sf_c14_Opera_DeltaSM_Control_Fricc_third_party_uses_info(void);
+          plhs[0] = sf_c14_Opera_DeltaSM_Control_Fricc_third_party_uses_info();
+          break;
+        }
+      }
+
      default:
       plhs[0] = mxCreateDoubleMatrix(0,0,mxREAL);
     }
@@ -339,6 +927,131 @@ unsigned int sf_Opera_DeltaSM_Control_Fricc_updateBuildInfo_args_info( int nlhs,
         }
       }
 
+     case 3:
+      {
+        if (strcmp(tpChksum, "K87r30rj7zsnfY2HEJonWC") == 0) {
+          extern mxArray
+            *sf_c3_Opera_DeltaSM_Control_Fricc_updateBuildInfo_args_info(void);
+          plhs[0] = sf_c3_Opera_DeltaSM_Control_Fricc_updateBuildInfo_args_info();
+          break;
+        }
+      }
+
+     case 4:
+      {
+        if (strcmp(tpChksum, "PPyUQ8xz8PBikM7YxSbXTH") == 0) {
+          extern mxArray
+            *sf_c4_Opera_DeltaSM_Control_Fricc_updateBuildInfo_args_info(void);
+          plhs[0] = sf_c4_Opera_DeltaSM_Control_Fricc_updateBuildInfo_args_info();
+          break;
+        }
+      }
+
+     case 5:
+      {
+        if (strcmp(tpChksum, "bHkarDu0zk87XgC3wrl1BC") == 0) {
+          extern mxArray
+            *sf_c5_Opera_DeltaSM_Control_Fricc_updateBuildInfo_args_info(void);
+          plhs[0] = sf_c5_Opera_DeltaSM_Control_Fricc_updateBuildInfo_args_info();
+          break;
+        }
+      }
+
+     case 6:
+      {
+        if (strcmp(tpChksum, "FkAWDrpncizKTe27ivlwsE") == 0) {
+          extern mxArray
+            *sf_c6_Opera_DeltaSM_Control_Fricc_updateBuildInfo_args_info(void);
+          plhs[0] = sf_c6_Opera_DeltaSM_Control_Fricc_updateBuildInfo_args_info();
+          break;
+        }
+      }
+
+     case 7:
+      {
+        if (strcmp(tpChksum, "K87r30rj7zsnfY2HEJonWC") == 0) {
+          extern mxArray
+            *sf_c7_Opera_DeltaSM_Control_Fricc_updateBuildInfo_args_info(void);
+          plhs[0] = sf_c7_Opera_DeltaSM_Control_Fricc_updateBuildInfo_args_info();
+          break;
+        }
+      }
+
+     case 8:
+      {
+        if (strcmp(tpChksum, "PPyUQ8xz8PBikM7YxSbXTH") == 0) {
+          extern mxArray
+            *sf_c8_Opera_DeltaSM_Control_Fricc_updateBuildInfo_args_info(void);
+          plhs[0] = sf_c8_Opera_DeltaSM_Control_Fricc_updateBuildInfo_args_info();
+          break;
+        }
+      }
+
+     case 9:
+      {
+        if (strcmp(tpChksum, "bHkarDu0zk87XgC3wrl1BC") == 0) {
+          extern mxArray
+            *sf_c9_Opera_DeltaSM_Control_Fricc_updateBuildInfo_args_info(void);
+          plhs[0] = sf_c9_Opera_DeltaSM_Control_Fricc_updateBuildInfo_args_info();
+          break;
+        }
+      }
+
+     case 10:
+      {
+        if (strcmp(tpChksum, "FkAWDrpncizKTe27ivlwsE") == 0) {
+          extern mxArray
+            *sf_c10_Opera_DeltaSM_Control_Fricc_updateBuildInfo_args_info(void);
+          plhs[0] = sf_c10_Opera_DeltaSM_Control_Fricc_updateBuildInfo_args_info
+            ();
+          break;
+        }
+      }
+
+     case 11:
+      {
+        if (strcmp(tpChksum, "K87r30rj7zsnfY2HEJonWC") == 0) {
+          extern mxArray
+            *sf_c11_Opera_DeltaSM_Control_Fricc_updateBuildInfo_args_info(void);
+          plhs[0] = sf_c11_Opera_DeltaSM_Control_Fricc_updateBuildInfo_args_info
+            ();
+          break;
+        }
+      }
+
+     case 12:
+      {
+        if (strcmp(tpChksum, "PPyUQ8xz8PBikM7YxSbXTH") == 0) {
+          extern mxArray
+            *sf_c12_Opera_DeltaSM_Control_Fricc_updateBuildInfo_args_info(void);
+          plhs[0] = sf_c12_Opera_DeltaSM_Control_Fricc_updateBuildInfo_args_info
+            ();
+          break;
+        }
+      }
+
+     case 13:
+      {
+        if (strcmp(tpChksum, "bHkarDu0zk87XgC3wrl1BC") == 0) {
+          extern mxArray
+            *sf_c13_Opera_DeltaSM_Control_Fricc_updateBuildInfo_args_info(void);
+          plhs[0] = sf_c13_Opera_DeltaSM_Control_Fricc_updateBuildInfo_args_info
+            ();
+          break;
+        }
+      }
+
+     case 14:
+      {
+        if (strcmp(tpChksum, "FkAWDrpncizKTe27ivlwsE") == 0) {
+          extern mxArray
+            *sf_c14_Opera_DeltaSM_Control_Fricc_updateBuildInfo_args_info(void);
+          plhs[0] = sf_c14_Opera_DeltaSM_Control_Fricc_updateBuildInfo_args_info
+            ();
+          break;
+        }
+      }
+
      default:
       plhs[0] = mxCreateDoubleMatrix(0,0,mxREAL);
     }
@@ -351,7 +1064,7 @@ void Opera_DeltaSM_Control_Fricc_debug_initialize(struct SfDebugInstanceStruct*
   debugInstance)
 {
   _Opera_DeltaSM_Control_FriccMachineNumber_ = sf_debug_initialize_machine
-    (debugInstance,"Opera_DeltaSM_Control_Fricc","sfun",0,2,0,0,0);
+    (debugInstance,"Opera_DeltaSM_Control_Fricc","sfun",0,14,0,0,0);
   sf_debug_set_machine_event_thresholds(debugInstance,
     _Opera_DeltaSM_Control_FriccMachineNumber_,0,0);
   sf_debug_set_machine_data_thresholds(debugInstance,

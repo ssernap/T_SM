@@ -7,7 +7,7 @@ CPU = AMD64
 
 MACHINE     = Opera_DeltaSM_Control_Fricc
 TARGET      = sfun
-CHART_SRCS   = c1_Opera_DeltaSM_Control_Fricc.c c2_Opera_DeltaSM_Control_Fricc.c
+CHART_SRCS   = c1_Opera_DeltaSM_Control_Fricc.c c2_Opera_DeltaSM_Control_Fricc.c c3_Opera_DeltaSM_Control_Fricc.c c4_Opera_DeltaSM_Control_Fricc.c c5_Opera_DeltaSM_Control_Fricc.c c6_Opera_DeltaSM_Control_Fricc.c c7_Opera_DeltaSM_Control_Fricc.c c8_Opera_DeltaSM_Control_Fricc.c c9_Opera_DeltaSM_Control_Fricc.c c10_Opera_DeltaSM_Control_Fricc.c c11_Opera_DeltaSM_Control_Fricc.c c12_Opera_DeltaSM_Control_Fricc.c c13_Opera_DeltaSM_Control_Fricc.c c14_Opera_DeltaSM_Control_Fricc.c
 MACHINE_SRC  = Opera_DeltaSM_Control_Fricc_sfun.c
 MACHINE_REG = Opera_DeltaSM_Control_Fricc_sfun_registry.c
 MAKEFILE    = Opera_DeltaSM_Control_Fricc_sfun.mak

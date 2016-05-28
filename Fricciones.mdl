@@ -19,7 +19,7 @@ Library {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [-8.0, -8.0, 1376.0, 754.0]
+      Location		      [-8.0, 0.0, 1364.0, 754.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -44,9 +44,9 @@ Library {
 	  IsActive		  [1]
 	  ViewObjType		  "SimulinkTopLevel"
 	  LoadSaveID		  "0"
-	  Extents		  [1326.0, 614.0]
-	  ZoomFactor		  [0.98999999999999988]
-	  Offset		  [-4.1414141414141454, -5.6843418860808015e-14]
+	  Extents		  [1314.0, 614.0]
+	  ZoomFactor		  [0.8]
+	  Offset		  [-7.5, 0.0]
 	}
 	Object {
 	  $ObjectID		  6
@@ -67,9 +67,9 @@ Library {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "Sebastian"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Fri Apr 22 09:25:23 2016"
-  RTWModifiedTimeStamp	  383173724
-  ModelVersionFormat	  "1.%<AutoIncrement:88>"
+  LastModifiedDate	  "Sun May 22 18:03:23 2016"
+  RTWModifiedTimeStamp	  385840998
+  ModelVersionFormat	  "1.%<AutoIncrement:93>"
   ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -917,7 +917,7 @@ Library {
   }
   System {
     Name		    "Fricciones"
-    Location		    [-8, -8, 1368, 746]
+    Location		    [-8, 0, 1356, 754]
     Open		    on
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200
@@ -929,9 +929,9 @@ Library {
     TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "99"
+    ZoomFactor		    "80"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "396"
+    SIDHighWatermark	    "415"
     Block {
       BlockType		      SubSystem
       Name		      "Continuous\nFriction Model\nR"
@@ -982,7 +982,7 @@ Library {
       }
       System {
 	Name			"Continuous\nFriction Model\nR"
-	Location		[673, 0, 1367, 745]
+	Location		[-8, 0, 1356, 754]
 	Open			on
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -1185,7 +1185,7 @@ Library {
 	$PropName		"MaskObject"
 	$ObjectID		23
 	$ClassName		"Simulink.Mask"
-	Initialization		"To=0.1\nFm=0.2"
+	Initialization		"%To=0.1\n%Fm=0.2"
       }
       System {
 	Name			"Expandido"
@@ -1571,7 +1571,7 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Friccion \nEsf"
-	Location		[676, 0, 1373, 745]
+	Location		[-8, 0, 1356, 754]
 	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -1649,50 +1649,38 @@ Library {
 	}
 	Block {
 	  BlockType		  Reference
-	  Name			  "Smooth"
-	  SID			  "348"
+	  Name			  "Simplificado1"
+	  SID			  "410"
 	  Ports			  [0, 0, 0, 0, 0, 1, 1]
-	  Position		  [420, 165, 460, 205]
-	  ZOrder		  321
-	  LibraryVersion	  "1.85"
-	  SourceBlock		  "Fricciones/Smooth"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  GeneratePreprocessorConditionals off
+	  Position		  [420, 257, 460, 293]
+	  ZOrder		  355
+	  LibraryVersion	  "1.92"
+	  SourceBlock		  "Fricciones/Simplificado2"
+	  SourceType		  "SubSystem"
 	  ContentPreviewEnabled	  off
 	}
 	Block {
 	  BlockType		  Reference
-	  Name			  "Smooth1"
-	  SID			  "349"
+	  Name			  "Simplificado2"
+	  SID			  "409"
 	  Ports			  [0, 0, 0, 0, 0, 1, 1]
-	  Position		  [420, 255, 460, 295]
-	  ZOrder		  322
-	  LibraryVersion	  "1.85"
-	  SourceBlock		  "Fricciones/Smooth"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  GeneratePreprocessorConditionals off
+	  Position		  [420, 167, 460, 203]
+	  ZOrder		  354
+	  LibraryVersion	  "1.92"
+	  SourceBlock		  "Fricciones/Simplificado2"
+	  SourceType		  "SubSystem"
 	  ContentPreviewEnabled	  off
 	}
 	Block {
 	  BlockType		  Reference
-	  Name			  "Smooth2"
-	  SID			  "350"
+	  Name			  "Simplificado3"
+	  SID			  "411"
 	  Ports			  [0, 0, 0, 0, 0, 1, 1]
-	  Position		  [420, 340, 460, 380]
-	  ZOrder		  323
-	  LibraryVersion	  "1.85"
-	  SourceBlock		  "Fricciones/Smooth"
-	  SourceType		  ""
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  FunctionWithSeparateData off
-	  GeneratePreprocessorConditionals off
+	  Position		  [420, 342, 460, 378]
+	  ZOrder		  356
+	  LibraryVersion	  "1.92"
+	  SourceBlock		  "Fricciones/Simplificado2"
+	  SourceType		  "SubSystem"
 	  ContentPreviewEnabled	  off
 	}
 	Block {
@@ -1758,50 +1746,50 @@ Library {
 	}
 	Line {
 	  LineType		  "Connection"
-	  ZOrder		  43
-	  SrcBlock		  "w3"
+	  ZOrder		  132
+	  SrcBlock		  "Simplificado3"
 	  SrcPort		  RConn1
-	  DstBlock		  "Smooth2"
+	  DstBlock		  "w3"
 	  DstPort		  RConn1
 	}
 	Line {
 	  LineType		  "Connection"
-	  ZOrder		  45
-	  SrcBlock		  "w2"
+	  ZOrder		  131
+	  SrcBlock		  "Simplificado1"
 	  SrcPort		  RConn1
-	  DstBlock		  "Smooth1"
+	  DstBlock		  "w2"
 	  DstPort		  RConn1
 	}
 	Line {
 	  LineType		  "Connection"
-	  ZOrder		  49
-	  SrcBlock		  "Smooth2"
+	  ZOrder		  133
+	  SrcBlock		  "Simplificado3"
 	  SrcPort		  LConn1
 	  DstBlock		  "PS Gain2"
 	  DstPort		  LConn1
 	}
 	Line {
 	  LineType		  "Connection"
-	  ZOrder		  51
-	  SrcBlock		  "Smooth1"
+	  ZOrder		  130
+	  SrcBlock		  "Simplificado1"
 	  SrcPort		  LConn1
 	  DstBlock		  "PS Gain1"
 	  DstPort		  LConn1
 	}
 	Line {
 	  LineType		  "Connection"
-	  ZOrder		  53
-	  SrcBlock		  "Smooth"
+	  ZOrder		  128
+	  SrcBlock		  "Simplificado2"
 	  SrcPort		  LConn1
 	  DstBlock		  "PS Gain"
 	  DstPort		  LConn1
 	}
 	Line {
 	  LineType		  "Connection"
-	  ZOrder		  91
-	  SrcBlock		  "w1"
+	  ZOrder		  129
+	  SrcBlock		  "Simplificado2"
 	  SrcPort		  RConn1
-	  DstBlock		  "Smooth"
+	  DstBlock		  "w1"
 	  DstPort		  RConn1
 	}
 	Line {
@@ -2110,7 +2098,7 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Friccion R"
-	Location		[676, 0, 1373, 745]
+	Location		[-8, 0, 1356, 754]
 	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -2143,16 +2131,21 @@ Library {
 	}
 	Block {
 	  BlockType		  Reference
-	  Name			  "Simplificado"
-	  SID			  "347"
+	  Name			  "Smooth"
+	  SID			  "414"
 	  Ports			  [0, 0, 0, 0, 0, 1, 1]
-	  Position		  [111, 260, 149, 300]
-	  ZOrder		  344
+	  Position		  [109, 265, 151, 305]
+	  ZOrder		  347
 	  BlockRotation		  270
 	  BlockMirror		  on
-	  LibraryVersion	  "1.87"
-	  SourceBlock		  "Fricciones/Simplificado"
-	  SourceType		  "SubSystem"
+	  NamePlacement		  "alternate"
+	  LibraryVersion	  "1.92"
+	  SourceBlock		  "Fricciones/Smooth"
+	  SourceType		  ""
+	  ShowPortLabels	  "FromPortIcon"
+	  SystemSampleTime	  "-1"
+	  FunctionWithSeparateData off
+	  GeneratePreprocessorConditionals off
 	  ContentPreviewEnabled	  off
 	}
 	Block {
@@ -2205,19 +2198,19 @@ Library {
 	}
 	Line {
 	  LineType		  "Connection"
-	  ZOrder		  61
-	  SrcBlock		  "Simplificado"
+	  ZOrder		  112
+	  SrcBlock		  "Smooth"
 	  SrcPort		  RConn1
 	  DstBlock		  "w"
 	  DstPort		  RConn1
 	}
 	Line {
 	  LineType		  "Connection"
-	  ZOrder		  106
-	  SrcBlock		  "PS Subtract"
-	  SrcPort		  LConn2
-	  DstBlock		  "Simplificado"
-	  DstPort		  LConn1
+	  ZOrder		  113
+	  SrcBlock		  "Smooth"
+	  SrcPort		  LConn1
+	  DstBlock		  "PS Subtract"
+	  DstPort		  LConn2
 	}
       }
     }
@@ -2231,7 +2224,7 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Simplificado"
-	Location		[-8, -8, 1368, 746]
+	Location		[-8, 0, 1356, 754]
 	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -2441,6 +2434,224 @@ Library {
     }
     Block {
       BlockType		      SubSystem
+      Name		      "Simplificado2"
+      SID		      "406"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [535, 242, 575, 278]
+      ZOrder		      353
+      RequestExecContextInheritance off
+      System {
+	Name			"Simplificado2"
+	Location		[-8, 0, 1356, 754]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"80"
+	Block {
+	  BlockType		  Gain
+	  Name			  "Gain"
+	  SID			  "397"
+	  Position		  [300, 25, 330, 55]
+	  ZOrder		  348
+	  Gain			  "Fs2"
+	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
+	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  Gain
+	  Name			  "Gain1"
+	  SID			  "398"
+	  Position		  [240, 110, 270, 140]
+	  ZOrder		  349
+	  Gain			  "Fc2"
+	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
+	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  Gain
+	  Name			  "Gain2"
+	  SID			  "399"
+	  Position		  [190, 25, 220, 55]
+	  ZOrder		  351
+	  Gain			  "50"
+	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
+	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "PS-Simulink\nConverter"
+	  SID			  "400"
+	  Ports			  [0, 1, 0, 0, 0, 1]
+	  Position		  [110, 25, 140, 55]
+	  ZOrder		  347
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "nesl_utility/PS-Simulink\nConverter"
+	  SourceType		  "PS-Simulink\nConverter"
+	  ContentPreviewEnabled	  off
+	  PhysicalDomain	  "network_engine_domain"
+	  SubClassName		  "ps_output"
+	  LeftPortType		  "input"
+	  RightPortType		  "output"
+	  PseudoPeriodic	  off
+	  Frequencies		  "[]"
+	  Unit			  "1"
+	  AffineConversion	  off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Simulink-PS\nConverter"
+	  SID			  "401"
+	  Ports			  [1, 0, 0, 0, 0, 0, 1]
+	  Position		  [415, 22, 445, 58]
+	  ZOrder		  346
+	  LibraryVersion	  "1.1"
+	  SourceBlock		  "nesl_utility/Simulink-PS\nConverter"
+	  SourceType		  "Simulink-PS\nConverter"
+	  ContentPreviewEnabled	  off
+	  PhysicalDomain	  "network_engine_domain"
+	  SubClassName		  "ps_input"
+	  LeftPortType		  "input"
+	  RightPortType		  "output"
+	  PseudoPeriodic	  off
+	  Frequencies		  "[]"
+	  NoiseDistribution	  "none"
+	  NoiseParameters	  "[]"
+	  Unit			  "1"
+	  AffineConversion	  off
+	  InputFiltering	  "off"
+	  SimscapeFilterOrder	  "1"
+	  InputFilterTimeConstant "0.001"
+	  UdotUserProvided	  "1"
+	}
+	Block {
+	  BlockType		  Sum
+	  Name			  "Sum"
+	  SID			  "402"
+	  Ports			  [2, 1]
+	  Position		  [365, 30, 385, 50]
+	  ZOrder		  350
+	  ShowName		  off
+	  IconShape		  "round"
+	  Inputs		  "|++"
+	  InputSameDT		  off
+	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  Trigonometry
+	  Name			  "Trigonometric\nFunction"
+	  SID			  "403"
+	  Ports			  [1, 1]
+	  Position		  [240, 25, 270, 55]
+	  ZOrder		  352
+	  Operator		  "tanh"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "fr"
+	  SID			  "407"
+	  Position		  [485, 80, 515, 95]
+	  ZOrder		  353
+	  BlockRotation		  270
+	  Port			  "1"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "w"
+	  SID			  "408"
+	  Position		  [20, 85, 50, 100]
+	  ZOrder		  354
+	  BlockRotation		  270
+	  Port			  "2"
+	  Side			  "Right"
+	}
+	Line {
+	  ZOrder		  8
+	  SrcBlock		  "Gain1"
+	  SrcPort		  1
+	  Points		  [100, 0]
+	  DstBlock		  "Sum"
+	  DstPort		  2
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  11
+	  SrcBlock		  "Simulink-PS\nConverter"
+	  SrcPort		  RConn1
+	  Points		  [40, 0]
+	  DstBlock		  "fr"
+	  DstPort		  RConn1
+	}
+	Line {
+	  ZOrder		  7
+	  SrcBlock		  "Gain"
+	  SrcPort		  1
+	  DstBlock		  "Sum"
+	  DstPort		  1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  12
+	  SrcBlock		  "w"
+	  SrcPort		  RConn1
+	  Points		  [0, -31]
+	  DstBlock		  "PS-Simulink\nConverter"
+	  DstPort		  LConn1
+	}
+	Line {
+	  ZOrder		  6
+	  SrcBlock		  "PS-Simulink\nConverter"
+	  SrcPort		  1
+	  Points		  [18, 0]
+	  Branch {
+	    ZOrder		    5
+	    DstBlock		    "Gain2"
+	    DstPort		    1
+	  }
+	  Branch {
+	    ZOrder		    4
+	    Points		    [0, 85]
+	    DstBlock		    "Gain1"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  ZOrder		  3
+	  SrcBlock		  "Sum"
+	  SrcPort		  1
+	  DstBlock		  "Simulink-PS\nConverter"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  9
+	  SrcBlock		  "Gain2"
+	  SrcPort		  1
+	  DstBlock		  "Trigonometric\nFunction"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  10
+	  SrcBlock		  "Trigonometric\nFunction"
+	  SrcPort		  1
+	  DstBlock		  "Gain"
+	  DstPort		  1
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
       Name		      "Smooth"
       SID		      "253"
       Ports		      [0, 0, 0, 0, 0, 1, 1]
@@ -2455,7 +2666,7 @@ Library {
       }
       System {
 	Name			"Smooth"
-	Location		[-8, -8, 1368, 746]
+	Location		[-8, 0, 1356, 754]
 	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -2467,7 +2678,7 @@ Library {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"169"
+	ZoomFactor		"150"
 	Block {
 	  BlockType		  Gain
 	  Name			  "C1"
@@ -2803,7 +3014,7 @@ Library {
       RequestExecContextInheritance off
       System {
 	Name			"Solo Ganancia"
-	Location		[-8, -8, 1368, 746]
+	Location		[-8, 0, 1356, 754]
 	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -2815,7 +3026,7 @@ Library {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"604"
+	ZoomFactor		"100"
 	Block {
 	  BlockType		  Reference
 	  Name			  "PS Gain"
